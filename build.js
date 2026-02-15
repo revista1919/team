@@ -103,17 +103,17 @@ function generateHTML(user, lang) {
   const isSpanish = lang === 'es';
   const roles = user.roles || [];
 
-const isAuthorRole = r => {
-  const x = r.toLowerCase().trim();
-  return x === 'autor' || x === 'author';
-};
+  const isAuthorRole = r => {
+    const x = r.toLowerCase().trim();
+    return x === 'autor' || x === 'author';
+  };
 
-const visibleRoles =
-  roles.length > 1
-    ? roles.filter(r => !isAuthorRole(r))
-    : roles;
+  const visibleRoles =
+    roles.length > 1
+      ? roles.filter(r => !isAuthorRole(r))
+      : roles;
 
-const rolesStr = visibleRoles.join(', ');
+  const rolesStr = visibleRoles.join(', ');
 
   const description = user.description?.[lang] || '';
   const interests = user.interests?.[lang] || [];
@@ -137,17 +137,27 @@ const rolesStr = visibleRoles.join(', ');
     </div>
   ` : '';
 
-  // Editor en Jefe: email institucional y dirección
+  // Determinar si es Editor en Jefe
   const isEditorEnJefe = roles.some(r => 
     r.toLowerCase().includes('editor en jefe') || r.toLowerCase() === 'editor-in-chief'
   );
-  const institutionalEmail = isEditorEnJefe
-    ? `${(user.firstName || '').toLowerCase()}.${(user.lastName || '').toLowerCase()}@revistacienciasestudiantes.com`.replace(/\s/g, '')
-    : '';
-  const editorExtras = isEditorEnJefe ? `
-    <div class="profile-inst"><a href="mailto:${institutionalEmail}">${institutionalEmail}</a></div>
-    <div class="profile-inst">San Felipe, Valparaíso, Chile</div>
-  ` : '';
+
+  // Solo el Editor en Jefe tiene email institucional y dirección
+  let contactInfo = '';
+  
+  if (isEditorEnJefe) {
+    // Editor en Jefe: email institucional y dirección (siempre visibles)
+    const institutionalEmail = `${(user.firstName || '').toLowerCase()}.${(user.lastName || '').toLowerCase()}@revistacienciasestudiantes.com`.replace(/\s/g, '');
+    contactInfo = `
+      <div class="profile-inst"><a href="mailto:${institutionalEmail}">${institutionalEmail}</a></div>
+      <div class="profile-inst">San Felipe, Valparaíso, Chile</div>
+    `;
+  } else if (user.publicEmail) {
+    // Otros miembros: solo muestran correo público si existe
+    contactInfo = `
+      <div class="profile-inst"><a href="mailto:${user.publicEmail}">${user.publicEmail}</a></div>
+    `;
+  }
 
   return `<!DOCTYPE html>
 <html lang="${lang}">
@@ -182,6 +192,8 @@ const rolesStr = visibleRoles.join(', ');
     .profile-info h1 { font-family: 'Playfair Display', serif; font-size: 3.8rem; margin: 0 0 10px; line-height: 1.1; font-weight: 900; letter-spacing: -1px; }
     .profile-role { font-family: 'Inter', sans-serif; color: var(--primary); text-transform: uppercase; letter-spacing: 4px; font-size: 13px; font-weight: 700; margin-bottom: 20px; display: block; }
     .profile-inst { font-family: 'Inter', sans-serif; color: var(--grey); font-size: 14px; margin-top: 5px; }
+    .profile-inst a { color: var(--grey); text-decoration: none; border-bottom: 1px dotted var(--border); }
+    .profile-inst a:hover { color: var(--primary); border-bottom-color: var(--primary); }
     .orcid-container { margin: 20px 0; }
     .orcid-link { display: inline-flex; align-items: center; text-decoration: none; color: var(--grey); font-family: 'Inter', sans-serif; font-size: 13px; padding: 6px 12px 6px 8px; background: var(--light-grey); border-radius: 4px; transition: background 0.3s; }
     .orcid-link:hover { background: #eee; }
@@ -216,7 +228,7 @@ const rolesStr = visibleRoles.join(', ');
       <h1>${user.displayName}</h1>
       <div class="profile-inst">${user.institution || ''}</div>
       ${orcidHtml}
-      ${editorExtras}
+      ${contactInfo}
     </div>
   </header>
   <main class="container">
