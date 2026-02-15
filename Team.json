@@ -266,6 +266,42 @@
     "slug": "tomas-ramirez"
   },
   {
+    "uid": "Fy2g2ipz91T2nYXmduetUF0RpvG3",
+    "displayName": "Lucas Velozo Mella",
+    "firstName": "Lucas",
+    "lastName": "Velozo Mella",
+    "roles": [
+      "Revisor",
+      "Autor"
+    ],
+    "description": {
+      "en": "Lucas Velozo Mella, a third-year high school student at Colegio Instituto Pascal, with a strong interest in mathematics, chess, and lyrical analysis. He participates in the UC Talent Academy. National mathematics finalist 2023, U18 chess champion in Providencia. Federated chess player.",
+      "es": "Lucas Velozo Mella, estudiante de tercero medio en el Colegio Instituto Pascal, con un mayor interés en las matemáticas, el ajedrez y el análisis lírico. Participa en la Academia de Talentos de la UC. Finalista nacional de matemáticas 2023, campeón sub-18 de ajedrez en Providencia. Jugador federado de ajedrez."
+    },
+    "interests": {
+      "en": [
+        "Mathematics",
+        "Chess",
+        "Astronomy",
+        "Debate",
+        "Sports"
+      ],
+      "es": [
+        "Matemáticas",
+        "Ajedrez",
+        "Astronomía",
+        "Debate",
+        "Deportes"
+      ]
+    },
+    "institution": "Colegio Instituto Pascal",
+    "orcid": "",
+    "publicEmail": "",
+    "social": {},
+    "imageUrl": "https://i.ibb.co/V0dsX4b3/Whats-App-Image-2025-09-30-at-00-27-03.jpg",
+    "slug": "lucas-velozo-mella"
+  },
+  {
     "uid": "GKTVvsA50bVp0o6UakN5xxPCdoz2",
     "displayName": "José Ignacio Carter",
     "firstName": "José",
@@ -902,41 +938,5 @@
     "social": {},
     "imageUrl": "",
     "slug": "cristobal-rojas"
-  },
-  {
-    "uid": "Fy2g2ipz91T2nYXmduetUF0RpvG3",
-    "displayName": "Lucas Velozo Mella",
-    "firstName": "Lucas",
-    "lastName": "Velozo Mella",
-    "roles": [
-      "Revisor",
-      "Autor"
-    ],
-    "description": {
-      "en": "Lucas Velozo Mella, a third-year high school student at Colegio Instituto Pascal, with a strong interest in mathematics, chess, and lyrical analysis. He participates in the UC Talent Academy. National mathematics finalist 2023, U18 chess champion in Providencia. Federated chess player.",
-      "es": "Lucas Velozo Mella, estudiante de tercero medio en el Colegio Instituto Pascal, con un mayor interés en las matemáticas, el ajedrez y el análisis lírico. Participa en la Academia de Talentos de la UC. Finalista nacional de matemáticas 2023, campeón sub-18 de ajedrez en Providencia. Jugador federado de ajedrez."
-    },
-    "interests": {
-      "en": [
-        "Mathematics",
-        "Chess",
-        "Astronomy",
-        "Debate",
-        "Sports"
-      ],
-      "es": [
-        "Matemáticas",
-        "Ajedrez",
-        "Astronomía",
-        "Debate",
-        "Deportes"
-      ]
-    },
-    "institution": "Colegio Instituto Pascal",
-    "orcid": "",
-    "publicEmail": "",
-    "social": {},
-    "imageUrl": "https://i.ibb.co/V0dsX4b3/Whats-App-Image-2025-09-30-at-00-27-03.jpg",
-    "slug": "lucas-velozo-mella"
   }
 ]
