@@ -100,38 +100,21 @@ const icons = {
 
 // ========== GENERADOR HTML ==========
 function generateHTML(user, lang) {
+  const isSpanish = lang === 'es';
   const roles = user.roles || [];
 
-// detectar si es autor (es o en)
 const isAuthorRole = r => {
   const x = r.toLowerCase().trim();
   return x === 'autor' || x === 'author';
 };
 
-// quitar autor si hay otros roles
 const visibleRoles =
   roles.length > 1
     ? roles.filter(r => !isAuthorRole(r))
     : roles;
 
-// string final
 const rolesStr = visibleRoles.join(', ');
 
-
-// detectar si es autor (es o en)
-const isAuthorRole = r => {
-  const x = r.toLowerCase().trim();
-  return x === 'autor' || x === 'author';
-};
-
-// quitar autor si hay otros roles
-const visibleRoles =
-  roles.length > 1
-    ? roles.filter(r => !isAuthorRole(r))
-    : roles;
-
-// string final
-const rolesStr = visibleRoles.join(', ');
   const description = user.description?.[lang] || '';
   const interests = user.interests?.[lang] || [];
   const interestsHtml = interests.map(i => `<span class="keyword-tag">${i}</span>`).join('');
