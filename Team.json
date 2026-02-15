@@ -380,45 +380,6 @@
     "slug": "diego-duran"
   },
   {
-    "uid": "PUfEv6PN9mZ9tEkEfn8ZRdpb5WW2",
-    "displayName": "Marina Soto",
-    "firstName": "Marina",
-    "lastName": "Soto",
-    "roles": [
-      "Revisor"
-    ],
-    "description": {
-      "es": "Marina Soto es estudiante de College de Ciencias de la Pontificia Universidad Católica de Chile y ex-alumna de la Academia de Talentos de la UC. Se interesa principalmente en las humanidades, con experiencia en debates —recientemente participó en uno competitivo organizado por la Universidad de Chile—, en poesía japonesa y latinoamericana, y en la elaboración de ensayos académicos y creativos. Complementa su formación con proyectos en artes visuales, como pintura al óleo y experimentación con recursos visuales. Domina, además de español, inglés, con certificación C1, y estudia japonés como tercer idioma.",
-      "en": "Marina Soto is a student at Science College at Pontificial Catholic University of Chile school and a former student of the UC Talent Academy. She is mainly interested in the humanities, with experience in debates —she recently participated in a competitive one organized by the University of Chile—, in Japanese and Latin American poetry, and in writing academic and creative essays. She complements her education with projects in visual arts, such as oil painting and experimentation with visual resources. In addition to Spanish, she is proficient in English, with C1 certification, and studies Japanese as a third language."
-    },
-    "interests": {
-      "es": [
-        "Ciencias políticas",
-        "Finanzas",
-        "Economía política",
-        "Poesía latinoamericana",
-        "Literatura universal",
-        "Debate",
-        "Química nuclear"
-      ],
-      "en": [
-        "Political Science",
-        "Finance",
-        "Political Economy",
-        "Latin American Poetry",
-        "World Literature",
-        "Debate",
-        "Nuclear Chemistry"
-      ]
-    },
-    "institution": " Colegio Madre de la Divina Providencia",
-    "orcid": "",
-    "publicEmail": "",
-    "social": {},
-    "imageUrl": "https://i.postimg.cc/wvyRyZPS/f1c87432-6951-497a-8c5b-cb55984d7088.jpg",
-    "slug": "marina-soto"
-  },
-  {
     "uid": "V0v60t9xDYXZlo3R8SUhddrIl7f2",
     "displayName": "Carlos Gutiérrez",
     "firstName": "Carlos",
@@ -940,5 +901,44 @@
     "social": {},
     "imageUrl": "https://i.ibb.co/SX5H7Njs/88c43826-0668-423d-be67-cbe12435e15b-jpg.jpg",
     "slug": "renato-vergara"
+  },
+  {
+    "uid": "PUfEv6PN9mZ9tEkEfn8ZRdpb5WW2",
+    "displayName": "Marina Soto",
+    "firstName": "Marina",
+    "lastName": "Soto",
+    "roles": [
+      "Revisor"
+    ],
+    "description": {
+      "es": "Marina Soto es estudiante de College de Ciencias de la Pontificia Universidad Católica de Chile y egresada de la Academia de Talentos de la UC. Se interesa principalmente en las humanidades, con experiencia en debates —recientemente participó en uno competitivo organizado por la Universidad de Chile—, en poesía japonesa y latinoamericana, y en la elaboración de ensayos académicos y creativos. Complementa su formación con proyectos en artes visuales, como pintura al óleo y experimentación con recursos visuales. Domina, además de español, inglés, con certificación C1, y estudia japonés como tercer idioma.",
+      "en": "Marina Soto is a student at Science College at Pontificial Catholic University of Chile school and a former student of the UC Talent Academy. She is mainly interested in the humanities, with experience in debates —she recently participated in a competitive one organized by the University of Chile—, in Japanese and Latin American poetry, and in writing academic and creative essays. She complements her education with projects in visual arts, such as oil painting and experimentation with visual resources. In addition to Spanish, she is proficient in English, with C1 certification, and studies Japanese as a third language."
+    },
+    "interests": {
+      "es": [
+        "Ciencias políticas",
+        "Finanzas",
+        "Economía política",
+        "Poesía latinoamericana",
+        "Literatura universal",
+        "Debate",
+        "Química nuclear"
+      ],
+      "en": [
+        "Political Science",
+        "Finance",
+        "Political Economy",
+        "Latin American Poetry",
+        "World Literature",
+        "Debate",
+        "Nuclear Chemistry"
+      ]
+    },
+    "institution": "Pontificia Universidad Católica de Chile ",
+    "orcid": "",
+    "publicEmail": "",
+    "social": {},
+    "imageUrl": "https://i.postimg.cc/wvyRyZPS/f1c87432-6951-497a-8c5b-cb55984d7088.jpg",
+    "slug": "marina-soto"
   }
 ]
