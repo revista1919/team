@@ -1,0 +1,32 @@
+name: Update single user
+
+on:
+  repository_dispatch:
+    types: [rebuild-team-user]
+
+jobs:
+  update-user:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # necesario para ver historial de cambios
+      
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      
+      - run: npm install
+      
+      - name: Run build for single user
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+        run: node build.js --user ${{ github.event.client_payload.uid }}
+      
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add .
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update user ${{ github.event.client_payload.uid }}"
+          git push

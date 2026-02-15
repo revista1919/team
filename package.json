@@ -1,0 +1,12 @@
+{
+  "name": "team",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node build.js --full",
+    "build:user": "node build.js --user"
+  },
+  "dependencies": {
+    "firebase-admin": "^11.11.0"
+  }
+}
