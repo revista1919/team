@@ -1,0 +1,929 @@
+[
+  {
+    "uid": "2QW6sOaZanej5lnhKFdnm1og7Cg1",
+    "displayName": "Xavier Alonso Hernandez",
+    "firstName": "Xavier",
+    "lastName": "Alonso Hernandez",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "Soy un académico",
+      "en": "I am an academic"
+    },
+    "interests": {
+      "es": [
+        "IA",
+        "Arte"
+      ],
+      "en": [
+        "Arte",
+        "Novicia"
+      ]
+    },
+    "institution": "La universidad de la vida",
+    "orcid": "",
+    "publicEmail": "hola@gmail.com",
+    "social": {},
+    "imageUrl": "https://i.ibb.co/hjHVQ2K/Gemini-Generated-Image-jhrog8jhrog8jhro-1-png.png",
+    "slug": "xavier-alonso-hernandez"
+  },
+  {
+    "uid": "40c3babe-9ed0-4a9f-b144-bc5a46728b12",
+    "displayName": "Roberto Díaz",
+    "firstName": "Roberto",
+    "lastName": "Díaz",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Penta UC",
+    "orcid": "",
+    "publicEmail": "",
+    "social": {},
+    "imageUrl": "",
+    "slug": "roberto-diaz"
+  },
+  {
+    "uid": "47ZgaVGBZFU9kwmJZpl8K8ujMab2",
+    "displayName": "Santiago Soto",
+    "firstName": "Santiago",
+    "lastName": "Soto",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "Santiago Soto es estudiante de Tercero Medio en el Liceo Bicentenario Simón Bolívar, además de ser miembro de la Academia de Talentos de la Universidad Católica. Ha escrito más de siete libros, actualmente en proceso de publicación, y ha obtenido diversos reconocimientos literarios, entre ellos el primer lugar del Premio Aspasia de la ALCIFFCON en 2023. Es miembro de la Academia de Talentos de la Universidad.\n\nPosee conocimientos avanzados en psicología, especialmente en el área de psicopatología, y es aficionado a las matemáticas, química y biología. Además, cuenta con formación certificada en machine learning y desarrollo web, obtenida a través de cursos especializados en programación. Ha participado en diversas olimpiadas de matemáticas, tanto de forma individual como en equipos.\n\nPractica rugby, natación y ajedrez a nivel amateur. Asimismo, posee un amplio bagaje en cine.",
+      "en": "Santiago Soto is an 11th-grade student at Simón Bolívar Bicentennial High School, and also a member of the Catholic University's Talent Academy. He has written more than seven books, currently in the process of publication, and has received various literary recognitions, including first place in the ALCIFFCON Aspasia Award in 2023. He is a member of the University's Talent Academy.\n\nHe possesses advanced knowledge in psychology, especially in the area of psychopathology, and is fond of mathematics, chemistry, and biology. Additionally, he has certified training in machine learning and web development, obtained through specialized programming courses. He has participated in various mathematics olympiads, both individually and in teams.\n\nHe practices rugby, swimming, and chess at an amateur level. Furthermore, he has an extensive background in cinema."
+    },
+    "interests": {
+      "es": [
+        "Medicina",
+        "Psicología",
+        "Psicopatología",
+        "Escritura creativa",
+        "Arte cinematográfico."
+      ],
+      "en": [
+        "Medicine",
+        "Psychology",
+        "Psychopathology",
+        "Creative writing",
+        "Cinematographic art."
+      ]
+    },
+    "institution": " Liceo Bicentenario Simón Bolívar",
+    "orcid": "",
+    "publicEmail": "",
+    "social": {},
+    "imageUrl": "",
+    "slug": "santiago-soto"
+  },
+  {
+    "uid": "5fa816eb-012a-4cd7-8fdd-5824b5b9333f",
+    "displayName": "Florencia Espinosa",
+    "firstName": "Florencia",
+    "lastName": "Espinosa",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Liceo Provincial Santa Teresa de los Andes ",
+    "orcid": "",
+    "publicEmail": "",
+    "social": {},
+    "imageUrl": "",
+    "slug": "florencia-espinosa"
+  },
+  {
+    "uid": "6c811b77-3e34-40a2-8d6a-f8cd71a07cf2",
+    "displayName": "Camilo Flores",
+    "firstName": "Camilo",
+    "lastName": "Flores",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Penta UC",
+    "orcid": "",
+    "publicEmail": "",
+    "social": {},
+    "imageUrl": "",
+    "slug": "camilo-flores"
+  },
+  {
+    "uid": "80nl6CAxqyWTHAsg4BOZTMrNRiH2",
+    "displayName": "Juan Pablo Miralles",
+    "firstName": "Juan",
+    "lastName": "Pablo Miralles",
+    "roles": [
+      "Revisor"
+    ],
+    "description": {
+      "es": "Juan Pablo Miralles es un estudiante de Tercero Medio en el Colegio Calasanz, con interes principalmente en las matemáticas y química. Participa en la Academia de Talentos de la UC. Finalista de CMAT en equipo tres veces, equipo ganador de 2025, y dos veces finalista nacional de matemáticas, medalla de bronce en las Olimpiadas Nacionales de Matemáticas 2024 nivel menor y medalla de plata ONM 2025 nivel mayor.",
+      "en": "Juan Pablo Miralles is a third-year high school student at Calasanz School, primarily interested in mathematics and chemistry. He participates in the UC Talent Academy. He is a three-time team finalist in CMAT, a member of the 2025 winning team, and a two-time national mathematics finalist, a bronze medalist in the 2024 National Mathematics Olympiad (junior level), and a silver medalist in the 2025 ONM (senior level)."
+    },
+    "interests": {
+      "es": [
+        "Estequiometría",
+        "Teoría de números",
+        "Teoría de conjuntos"
+      ],
+      "en": [
+        "Stoichiometry",
+        "Number theory",
+        "Set theory"
+      ]
+    },
+    "institution": "Colegio Calasanz",
+    "orcid": "",
+    "publicEmail": "",
+    "social": {},
+    "imageUrl": "https://i.postimg.cc/7ZtMd4C5/722c2ba2-121e-4d78-a41b-2628739ee398.jpg",
+    "slug": "juan-pablo-miralles"
+  },
+  {
+    "uid": "93tfJj8JZkYBTtLLlIezEmiOVLm2",
+    "displayName": "Mariana Moraga",
+    "firstName": "Mariana",
+    "lastName": "Moraga",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Colegio Curimón",
+    "orcid": "",
+    "publicEmail": "",
+    "social": {},
+    "imageUrl": "https://i.postimg.cc/SRzb64WM/Screenshot-20260101-030021.jpg",
+    "slug": "mariana-moraga"
+  },
+  {
+    "uid": "9b8d8351-b594-4ad2-bbeb-d7c2c9d59fce",
+    "displayName": "José Antonio Fuentes",
+    "firstName": "José",
+    "lastName": "Antonio Fuentes",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Colegio Curimón",
+    "orcid": "",
+    "publicEmail": "",
+    "social": {},
+    "imageUrl": "https://i.postimg.cc/W3vZLp1S/IMG-20260101-025208.jpg",
+    "slug": "jose-antonio-fuentes"
+  },
+  {
+    "uid": "EP2S7UL6KnRgT8UlaHpHTwxtA7g1",
+    "displayName": "Trinidad Margozzini",
+    "firstName": "Trinidad",
+    "lastName": "Margozzini",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": " ",
+      "en": " "
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Colegio Curimón",
+    "orcid": "",
+    "publicEmail": "",
+    "social": {},
+    "imageUrl": "",
+    "slug": "trinidad-margozzini"
+  },
+  {
+    "uid": "FDRMEnz5agcQnhWSHlu4Lth2mHJ3",
+    "displayName": "Tomás Ramírez",
+    "firstName": "Tomás",
+    "lastName": "Ramírez",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "Tomás Ramirez es estudiante de Tercer año medio en el Colegio Curimón de San Felipe, con un gran interés en la química y las matemáticas. Entrenó Rugby por 8 años. Pertenece al Taller de Investigación del Colegio Curimon. Ha participado en las olimpiadas de física a nivel regional. Aficionado de juegos que requieran estrategia o precisión como ajedrez o los videojuego “shooters”.",
+      "en": "Tomás Ramirez is a third-year high school student at Curimón School in San Felipe, with a strong interest in chemistry and mathematics. He played Rugby for 8 years. He belongs to the Curimon School Research Club. He has participated in regional physics olympiads. He is a fan of games that require strategy or precision, such as chess or \"shooter\" video games."
+    },
+    "interests": {
+      "es": [
+        "Química",
+        "Biología",
+        "Física",
+        "Matemáticas"
+      ],
+      "en": [
+        "Chemistry",
+        "Biology",
+        "Physics",
+        "Mathematics"
+      ]
+    },
+    "institution": "Colegio Curimón",
+    "orcid": "",
+    "publicEmail": "",
+    "social": {},
+    "imageUrl": "https://i.postimg.cc/pd8j65RD/IMG-20260101-WA0019.jpg",
+    "slug": "tomas-ramirez"
+  },
+  {
+    "uid": "Fy2g2ipz91T2nYXmduetUF0RpvG3",
+    "displayName": "Lucas Velozo",
+    "firstName": "Lucas",
+    "lastName": "Velozo",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "",
+    "orcid": "",
+    "publicEmail": "",
+    "social": {},
+    "imageUrl": "",
+    "slug": "lucas-velozo"
+  },
+  {
+    "uid": "GKTVvsA50bVp0o6UakN5xxPCdoz2",
+    "displayName": "José Ignacio Carter",
+    "firstName": "José",
+    "lastName": "Ignacio Carter",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Colegio Curimón",
+    "orcid": "",
+    "publicEmail": "",
+    "social": {},
+    "imageUrl": "https://i.postimg.cc/KvJ2S0JD/Screenshot-20260101-020809-com-android-chrome-Custom-Tab-Activity.jpg",
+    "slug": "jose-ignacio-carter"
+  },
+  {
+    "uid": "KKS3uXKY5vQnVHXuUoaQk2F1HZo1",
+    "displayName": "Jun Ho Jeon",
+    "firstName": "Jun",
+    "lastName": "Ho Jeon",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Colegio San Viator de Macul",
+    "orcid": "",
+    "publicEmail": "",
+    "social": {},
+    "imageUrl": "",
+    "slug": "jun-ho-jeon"
+  },
+  {
+    "uid": "LbeObFgrZgdyKQmUgldPmjnh8Sj1",
+    "displayName": "Pascal Cea",
+    "firstName": "Pascal",
+    "lastName": "Cea",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "Pascal Cea es un estudiante de tercer año medio del Colegio Curimón de la comuna de San Felipe, profundamente interesado en la política y la historia. Destaca por su liderazgo, preside el Centro de Alumnos de su colegio, así también es finalista regional del Torneo Delibera de la Biblioteca del Congreso Nacional, de este último torneo ha participado dos veces, así como ha participado también en el concurso de Economía más cerca del Banco Central de Chile y el torneo de cuentos sobre pesos del Banco Central de Chile. También ha sido participante del Torneo de Transparencia organizado por el CPLT. Es un aficionado por la política, un gran orador y amante de la escritura.",
+      "en": "Pascal Cea is a third-year high school student at Colegio Curimón in the San Felipe commune, deeply interested in politics and history. He stands out for his leadership, serving as president of his school's Student Council. He is also a regional finalist in the Delibera Tournament of the National Congress Library, a tournament he has participated in twice. Additionally, he has taken part in the \"Closer Economy\" competition of the Central Bank of Chile and the Central Bank of Chile's short story competition about pesos. He has also been a participant in the Transparency Tournament organized by the CPLT. He is a politics enthusiast, a great orator, and a lover of writing."
+    },
+    "interests": {
+      "es": [
+        "Política",
+        "Historia política",
+        "Historia de Chile",
+        "Regimenes autoritarios",
+        "dictaduras y totalitarismos",
+        "Historia de las grandes civilizaciones."
+      ],
+      "en": [
+        "Politics",
+        "Political history",
+        "History of Chile",
+        "Authoritarian regimes",
+        "dictatorships",
+        "and totalitarianisms",
+        "History of great civilizations."
+      ]
+    },
+    "institution": "Colegio Curimón",
+    "orcid": "",
+    "publicEmail": "",
+    "social": {},
+    "imageUrl": "https://i.postimg.cc/50gV4pbK/IMG-20260101-023114.jpg",
+    "slug": "pascal-cea"
+  },
+  {
+    "uid": "NJaiT2Zk0rhlAM2QCdayHI28RWz2",
+    "displayName": "Diego Durán",
+    "firstName": "Diego",
+    "lastName": "Durán",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "",
+    "orcid": "",
+    "publicEmail": "",
+    "social": {},
+    "imageUrl": "",
+    "slug": "diego-duran"
+  },
+  {
+    "uid": "PUfEv6PN9mZ9tEkEfn8ZRdpb5WW2",
+    "displayName": "Marina Soto",
+    "firstName": "Marina",
+    "lastName": "Soto",
+    "roles": [
+      "Revisor"
+    ],
+    "description": {
+      "es": "Marina Soto es estudiante de College de Ciencias de la Pontificia Universidad Católica de Chile y ex-alumna de la Academia de Talentos de la UC. Se interesa principalmente en las humanidades, con experiencia en debates —recientemente participó en uno competitivo organizado por la Universidad de Chile—, en poesía japonesa y latinoamericana, y en la elaboración de ensayos académicos y creativos. Complementa su formación con proyectos en artes visuales, como pintura al óleo y experimentación con recursos visuales. Domina, además de español, inglés, con certificación C1, y estudia japonés como tercer idioma.",
+      "en": "Marina Soto is a student at Science College at Pontificial Catholic University of Chile school and a former student of the UC Talent Academy. She is mainly interested in the humanities, with experience in debates —she recently participated in a competitive one organized by the University of Chile—, in Japanese and Latin American poetry, and in writing academic and creative essays. She complements her education with projects in visual arts, such as oil painting and experimentation with visual resources. In addition to Spanish, she is proficient in English, with C1 certification, and studies Japanese as a third language."
+    },
+    "interests": {
+      "es": [
+        "Ciencias políticas",
+        "Finanzas",
+        "Economía política",
+        "Poesía latinoamericana",
+        "Literatura universal",
+        "Debate",
+        "Química nuclear"
+      ],
+      "en": [
+        "Political Science",
+        "Finance",
+        "Political Economy",
+        "Latin American Poetry",
+        "World Literature",
+        "Debate",
+        "Nuclear Chemistry"
+      ]
+    },
+    "institution": " Colegio Madre de la Divina Providencia",
+    "orcid": "",
+    "publicEmail": "",
+    "social": {},
+    "imageUrl": "https://i.postimg.cc/wvyRyZPS/f1c87432-6951-497a-8c5b-cb55984d7088.jpg",
+    "slug": "marina-soto"
+  },
+  {
+    "uid": "SXT77f1iIXhPewA8Endank8YjuW2",
+    "displayName": "Renato Vergara",
+    "firstName": "Renato",
+    "lastName": "Vergara",
+    "roles": [
+      "Encargado de Redes Sociales",
+      "Autor"
+    ],
+    "description": {
+      "es": "Renato Vergara es estudiante de Segundo Medio del Colegio Curimón de San Felipe con interés en música, programación y matemáticas. Destaca por su compromiso y capacidad colaborativa. Participa activamente en actividades académicas. Es alumni de la FPP. Es un jugador de tennis de mesa aficionado.",
+      "en": "Renato Vergara is a 10th-grade student at Colegio Curimón in San Felipe, with an interest in music, programming, and mathematics. He stands out for his commitment and collaborative ability. He actively participates in academic activities. He is an alumnus of the FPP. He is an amateur table tennis player."
+    },
+    "interests": {
+      "es": [
+        "Programación",
+        "Música",
+        "Deportes"
+      ],
+      "en": [
+        "Programming",
+        "Music",
+        "Sports"
+      ]
+    },
+    "institution": "Colegio Curimón",
+    "orcid": "",
+    "publicEmail": "",
+    "social": {},
+    "imageUrl": "https://i.postimg.cc/CKDtLQ1K/88c43826-0668-423d-be67-cbe12435e15b.jpg",
+    "slug": "renato-vergara"
+  },
+  {
+    "uid": "V0v60t9xDYXZlo3R8SUhddrIl7f2",
+    "displayName": "Carlos Gutiérrez",
+    "firstName": "Carlos",
+    "lastName": "Gutiérrez",
+    "roles": [
+      "Responsable de Desarrollo Web",
+      "Revisor"
+    ],
+    "description": {
+      "es": "Carlos Gutiérrez es estudiante de Tercero Medio en el colegio New Heinrich High School, con interés en matemática, biología, química y programación. Estudiante de la Academia de Talentos de la UC.",
+      "en": "Carlos Gutiérrez is a third-year high school student at New Heinrich High School, with an interest in mathematics, biology, chemistry, and programming. He is also a student of the UC Talent Academy."
+    },
+    "interests": {
+      "es": [
+        "Matemática",
+        "Bioquímica",
+        "Programación"
+      ],
+      "en": [
+        "Mathematics",
+        "Biochemistry",
+        "Programming"
+      ]
+    },
+    "institution": "New Heinrich School",
+    "orcid": "",
+    "publicEmail": "",
+    "social": {},
+    "imageUrl": "https://i.postimg.cc/htC41hbm/unnamed.jpg",
+    "slug": "carlos-gutierrez"
+  },
+  {
+    "uid": "VXyJhZL5JcUpMRKxoSU7xi0xUX03",
+    "displayName": "Mario Ramírez",
+    "firstName": "Mario",
+    "lastName": "Ramírez",
+    "roles": [
+      "Asesor Académico"
+    ],
+    "description": {
+      "es": "Mario Ramírez es Doctor en Ciencias Biológicas con mención en Genética Molecular y Microbiología por la Pontificia Universidad Católica de Chile, donde también obtuvo el grado de Magíster en Ciencias Biológicas. Es además Profesor en Ciencias con mención en Biología por la Universidad Católica del Maule.\nDurante su formación de pregrado realizó dos pasantías de investigación, una en la Universidad Nacional Autónoma de México (UNAM) y otra en la Pontificia Universidad Católica de Chile, donde se adentró en el fascinante campo de la Inmunología.\nSus intereses se centran en la docencia de áreas vinculadas a la biomedicina y en la investigación sobre el desarrollo, caracterización y evaluación de respuestas inmunes inducidas por vacunas, con el propósito de promover, a través de la educación y la investigación científica, el diseño de estrategias de vacunación más eficaces y seguras, que contribuyan a mejorar la protección frente a enfermedades infecciosas, tanto en la población general como en grupos de alto riesgo.",
+      "en": "Mario Ramírez holds a PhD in Biological Sciences with a specialization in Molecular Genetics and Microbiology from the Pontificia Universidad Católica de Chile, where he also earned a Master's degree in Biological Sciences. He is also a Professor of Sciences with a specialization in Biology from the Universidad Católica del Maule.\nDuring his undergraduate studies, he completed two research internships, one at the National Autonomous University of Mexico (UNAM) and another at the Pontificia Universidad Católica de Chile, where he delved into the fascinating field of Immunology.\nHis interests focus on teaching areas related to biomedicine and on research into the development, characterization, and evaluation of vaccine-induced immune responses, with the aim of promoting, through education and scientific research, the design of more effective and safer vaccination strategies that contribute to improving protection against infectious diseases, both in the general population and in high-risk groups."
+    },
+    "interests": {
+      "es": [
+        "Genética molecular y microbiología",
+        "Inmunología y respuesta inmune",
+        "Desarrollo y evaluación de vacunas",
+        "Biomedicina aplicada a la salud pública",
+        "Docencia en ciencias biológicas"
+      ],
+      "en": [
+        "Molecular genetics and microbiology",
+        "Immunology and immune response",
+        "Vaccine development and evaluation",
+        "Biomedicine applied to public health",
+        "Teaching in biological sciences"
+      ]
+    },
+    "institution": "Pontificia Universidad Católica de Chile",
+    "orcid": "",
+    "publicEmail": "",
+    "social": {},
+    "imageUrl": "https://i.postimg.cc/HnwKXcPc/Foto-Investigacio-n.jpg",
+    "slug": "mario-ramirez"
+  },
+  {
+    "uid": "WB1xkKUAsnTVo4vj2CeaLUprDaB3",
+    "displayName": "Emanuel Cereceda",
+    "firstName": "Emanuel",
+    "lastName": "Cereceda",
+    "roles": [
+      "Revisor",
+      "Editor de Sección"
+    ],
+    "description": {
+      "es": "Emanuel Cereceda es estudiante de tercero medio en el Liceo Bicentenario Santa María de las Condes, con un marcado interés en las matemáticas y las ciencias. Destaca por su participación en Olimpiadas Nacionales de Matemáticas, en donde ha sido clasificado regional, y por su especialización en álgebra y análisis. Además, es nadador federado de la Federación Chilena de Deportes Acuáticos, lo que le ha permitido desarrollar disciplina, constancia y concentración.",
+      "en": "Emanuel Cereceda is a third-year high school student at Liceo Bicentenario Santa María de las Condes, with a strong interest in mathematics and sciences. He stands out for his participation in National Mathematics Olympiads, where he has qualified regionally, and for his specialization in algebra and analysis. Additionally, he is a registered swimmer with the Chilean Federation of Aquatic Sports, which has allowed him to develop discipline, perseverance, and concentration."
+    },
+    "interests": {
+      "es": [
+        "Álgebra",
+        "Análisis matemático",
+        "Física",
+        "Ciencia aplicada"
+      ],
+      "en": [
+        "Algebra",
+        "Mathematical analysis",
+        "Physics",
+        "Applied science"
+      ]
+    },
+    "institution": "Liceo Bicentenario Santa María de las Condes",
+    "orcid": "",
+    "publicEmail": "",
+    "social": {},
+    "imageUrl": "https://i.postimg.cc/VNCbG8Qy/0.jpg",
+    "slug": "emanuel-cereceda"
+  },
+  {
+    "uid": "Wis4rhCQB7MM0HxFggEjngOOnSa2",
+    "displayName": "Joel Portugal",
+    "firstName": "Joel",
+    "lastName": "Portugal",
+    "roles": [
+      "Revisor"
+    ],
+    "description": {
+      "es": "Joel Portugal es estudiante de Tercero Medio en el liceo Nacional de Maipú, Con intereses en las áreas de Matemáticas, Programación y Física. Becado por tener uno de los mejores puntajes Simce de Estación Central dentro de su generación a los 8 años,  4to lugar entre los mejores dibujantes a nivel provincial de Arequipa en Perú en la categoría de menores en 2016. Creador, desarrollador y diseñador del juego \"Young Silver Cat\" «en proceso». Participa en la Academia de Talentos de la UC y es un gran jugador profesional de Ajedrez, Damas y Go",
+      "en": "Joel Portugal is an 11th-grade student at Maipú National High School, with interests in Mathematics, Programming, and Physics. Awarded a scholarship for having one of the best Simce scores in Estación Central within his generation at 8 years old, he also achieved 4th place among the best artists at the provincial level in Arequipa, Peru, in the junior category in 2016. He is the creator, developer, and designer of the game \"Young Silver Cat\" (in progress). He participates in the UC Talent Academy and is a great professional player of Chess, Checkers, and Go."
+    },
+    "interests": {
+      "es": [
+        "Álgebra",
+        "Matrices",
+        "Bioquímica",
+        "Física",
+        "Programación"
+      ],
+      "en": [
+        "Algebra",
+        "Matrices",
+        "Biochemistry",
+        "Physics",
+        "Programming"
+      ]
+    },
+    "institution": "Liceo Nacional de Maipú",
+    "orcid": "",
+    "publicEmail": "",
+    "social": {},
+    "imageUrl": "https://i.postimg.cc/nr1zQZdK/Screenshot-20251122-120357.jpg",
+    "slug": "joel-portugal"
+  },
+  {
+    "uid": "Wp9AbMocILX4UOy6il09qluhrL23",
+    "displayName": "Javier Vergara",
+    "firstName": "Javier",
+    "lastName": "Vergara",
+    "roles": [
+      "Fundador",
+      "Director General",
+      "Editor en Jefe",
+      "Responsable de Desarrollo Web",
+      "Autor"
+    ],
+    "description": {
+      "es": "Javier Vergara es estudiante Cuarto Medio en el Colegio Curimón de San Felipe, con interés en Economía, Ciencias Políticas y Matemáticas. Es estudiante de la Academia de Talentos de la UC. Finalista del Keneth Garshina Undergraduate Students Essay Contest del Mises Institute AERC 2025, con artículo publicado en la página del Mises Institute. Shortlisted para el John Locke Institute Global Essay Prize 2025. Distinction en London School of Economics Students Union Economics Society Essay Competition 2025. Ha sido becado para asistir a los Summer Courses del John Locke Institute en Princeton, la Universidad de Verano de la Universidad de las Hespérides en España, y para seminario del Ayn Rand Center en Buenos Aires. Ha publicado una traducción con Unión Editorial y se ha certificado en el College Program de ciencias políticas de la Universidad del Desarrollo.",
+      "en": "Javier Vergara is a fourth-year high school student at Curimón School in San Felipe, with an interest in Economics, Political Science, and Mathematics. He is a student at the UC Talent Academy. Finalist of the Keneth Garshina Undergraduate Students Essay Contest of the Mises Institute AERC 2025, with an article published on the Mises Institute's website. Shortlisted for the John Locke Institute Global Essay Prize 2025. Distinction in the London School of Economics Students Union Economics Society Essay Competition 2025. He has been awarded a scholarship to attend the Summer Courses of the John Locke Institute in Princeton, the Summer University of the University of Las Hespérides in Spain, and a seminar at the Ayn Rand Center in Buenos Aires. He has published a translation with Unión Editorial and has been certified in the Political Science College Program at Universidad del Desarrollo."
+    },
+    "interests": {
+      "es": [
+        "Economía",
+        "Matemáticas",
+        "Historia",
+        "Política"
+      ],
+      "en": [
+        "Economics",
+        "Mathematics",
+        "History",
+        "Politics"
+      ]
+    },
+    "institution": "Colegio Curimón",
+    "orcid": "",
+    "publicEmail": "",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/javier-vergara-r%C3%ADos-1021b42b5?originalSubdomain=cl"
+    },
+    "imageUrl": "https://i.postimg.cc/d1MJwpbx/IMG-20231130-WA0014.jpg",
+    "slug": "javier-vergara"
+  },
+  {
+    "uid": "YC6kihySELc3l8NodUN9Ffk8eEV2",
+    "displayName": "Santiago Vargas",
+    "firstName": "Santiago",
+    "lastName": "Vargas",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Penta UC",
+    "orcid": "",
+    "publicEmail": "",
+    "social": {},
+    "imageUrl": "",
+    "slug": "santiago-vargas"
+  },
+  {
+    "uid": "bCWBGL4eJkdufLJDyKFQrgexxgy1",
+    "displayName": "Juan Vega",
+    "firstName": "Juan",
+    "lastName": "Vega",
+    "roles": [
+      "Revisor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Colegio Curimón",
+    "orcid": "",
+    "publicEmail": "",
+    "social": {},
+    "imageUrl": "",
+    "slug": "juan-vega"
+  },
+  {
+    "uid": "c9adbde3-61bd-415a-9f77-ad84ec959ce9",
+    "displayName": "Benjamín Catalán",
+    "firstName": "Benjamín",
+    "lastName": "Catalán",
+    "roles": [
+      "Revisor"
+    ],
+    "description": {
+      "es": "Benjamín Catalán, estudiante de Tercero Medio del Colegio Calasanz, con interés principalmente en matemáticas, física y pastoral juvenil. Hace clases privadas de matemáticas y participa dentro del grupo pastoral \"Movimiento Calasanz\", trabajando con niños de educación básica.\nFinalista de la Olimpiada Nacional de Matemáticas 2025.\nMedallista de la Olimpiada Escolar CMAT.\nEs jugador de ajedrez federado.",
+      "en": "Benjamín Catalán, an 11th-grade student at Colegio Calasanz, with primary interests in mathematics, physics, and youth ministry. He tutors in mathematics and participates in the pastoral group \"Movimiento Calasanz\", working with elementary school children.\nFinalist in the 2025 National Mathematics Olympiad.\nMedalist in the CMAT School Olympiad.\nHe is a federated chess player."
+    },
+    "interests": {
+      "es": [
+        "Matemática",
+        "Física",
+        "Literatura",
+        "Filosofía"
+      ],
+      "en": [
+        "Mathematics",
+        "Physics",
+        "Literature",
+        "Philosophy"
+      ]
+    },
+    "institution": "Colegio Calasanz",
+    "orcid": "",
+    "publicEmail": "",
+    "social": {},
+    "imageUrl": "https://i.postimg.cc/8jhB7Rxq/IMG-20250930-230356-656.jpg",
+    "slug": "benjamin-catalan"
+  },
+  {
+    "uid": "e9d73612-2812-45a8-8e5d-478bef5bc2ac",
+    "displayName": "Sofía Flores",
+    "firstName": "Sofía",
+    "lastName": "Flores",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Penta UC",
+    "orcid": "",
+    "publicEmail": "",
+    "social": {},
+    "imageUrl": "",
+    "slug": "sofia-flores"
+  },
+  {
+    "uid": "i8sGO7Qvx5gZ4VXjtmWUUSrWbqT2",
+    "displayName": "Sophie Quinteros",
+    "firstName": "Sophie",
+    "lastName": "Quinteros",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Lincoln International Academy",
+    "orcid": "",
+    "publicEmail": "",
+    "social": {},
+    "imageUrl": "",
+    "slug": "sophie-quinteros"
+  },
+  {
+    "uid": "j6vlqaAh9iRrL9bbwvy5eBxh55z2",
+    "displayName": "Magdalena Leal",
+    "firstName": "Magdalena",
+    "lastName": "Leal",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Penta UC",
+    "orcid": "",
+    "publicEmail": "",
+    "social": {},
+    "imageUrl": "",
+    "slug": "magdalena-leal"
+  },
+  {
+    "uid": "mfDxTTdAd9SucyFfMveGOlHZcan2",
+    "displayName": "Agustín Maturana",
+    "firstName": "Agustín",
+    "lastName": "Maturana",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Instituto Miguel León Prado",
+    "orcid": "",
+    "publicEmail": "",
+    "social": {},
+    "imageUrl": "",
+    "slug": "agustin-maturana"
+  },
+  {
+    "uid": "ofxyom4jFkbdSaNh6gTzEKy3DTK2",
+    "displayName": "Francisco Correa",
+    "firstName": "Francisco",
+    "lastName": "Correa",
+    "roles": [
+      "Revisor",
+      "Co-Fundador",
+      "Subdirector General"
+    ],
+    "description": {
+      "es": "Francisco Correa estudiante de Tercero Medio en el Colegio Calasanz, con interes principalmente en las Matemáticas, Ciencias Políticas e Historia. Participa en la Academia de Talentos de la UC. Tres veces finalista nacional de matematicas, medalla de plata en las Olimpiadas Nacionales de Matemáticas 2024 nivel menor, y medalla de bronce 2025 nivel menor. Equipo ganador del CMAT 2025. Es nadador federado de la Federación Chilena de Deportes Acuáticos y es jugador federado de Ajedrez.",
+      "en": "Francisco Correa, an 11th-grade student at Calasanz School, primarily interested in Mathematics, Political Science, and History. He participates in the UC Talent Academy. He is a three-time national mathematics finalist, a silver medalist in the 2024 National Mathematics Olympiad (junior level), and a bronze medalist in the 2025 National Mathematics Olympiad (junior level). He was also part of the winning team of the CMAT 2025. He is a federated swimmer with the Chilean Aquatics Sports Federation and a federated chess player."
+    },
+    "interests": {
+      "es": [
+        "Teoría de números",
+        "Teoría de Juegos",
+        "Política Internacional",
+        "Historia Universal"
+      ],
+      "en": [
+        "Number Theory",
+        "Game Theory",
+        "International Politics",
+        "World History"
+      ]
+    },
+    "institution": "Colegio Calasanz",
+    "orcid": "",
+    "publicEmail": "",
+    "social": {},
+    "imageUrl": "https://i.postimg.cc/mkfVpYW6/9929cd0d-c089-4776-a902-70fa30d21e00.jpg",
+    "slug": "francisco-correa"
+  },
+  {
+    "uid": "sVxFthpnosRlNBs17xfdLMO0EA23",
+    "displayName": "Amir Carbonell",
+    "firstName": "Amir",
+    "lastName": "Carbonell",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Liceo Lastarria",
+    "orcid": "",
+    "publicEmail": "",
+    "social": {},
+    "imageUrl": "",
+    "slug": "amir-carbonell"
+  },
+  {
+    "uid": "wqf9Go6qvLaUc38E1CKZvBJZOZk1",
+    "displayName": "Tomás Arancibia",
+    "firstName": "Tomás",
+    "lastName": "Arancibia",
+    "roles": [
+      "Revisor"
+    ],
+    "description": {
+      "es": "Tomás Arancibia es un estudiante de Tercero Medio en el Colegio Calasanz, con interés principalmente en las Matemáticas y Ciencias, especialmente en química. Participa en la Academia de Talentos de la UC. Participante de diversas competencias matemáticasa lo largo de los años. Es jugador federado de Ajedrez con una destacada y premiada participación en diversos torneos.",
+      "en": "Tomás Arancibia is a Third-Year High School student at Colegio Calasanz, with primary interest in Mathematics and Sciences, especially Chemistry. He participates in the UC Talent Academy. He has participated in various math competitions over the years. He is a federated Chess player with a distinguished and award-winning participation in various tournaments."
+    },
+    "interests": {
+      "es": [
+        "Álgebra",
+        "Estequiometria",
+        "Bioquímica",
+        "Geometría"
+      ],
+      "en": [
+        "Algebra",
+        "Stoichiometry",
+        "Biochemistry",
+        "Geometry"
+      ]
+    },
+    "institution": "Colegio Calasanz",
+    "orcid": "",
+    "publicEmail": "",
+    "social": {},
+    "imageUrl": "https://i.ibb.co/BKFy9Xw7/TOM-S-ARANCIBIA.jpg",
+    "slug": "tomas-arancibia"
+  },
+  {
+    "uid": "z1HHJYjxglP1rp6TQpo5aypK26N2",
+    "displayName": "Cristóbal Rojas",
+    "firstName": "Cristóbal",
+    "lastName": "Rojas",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Liceo Amanda Labarca",
+    "orcid": "",
+    "publicEmail": "",
+    "social": {},
+    "imageUrl": "",
+    "slug": "cristobal-rojas"
+  }
+]
