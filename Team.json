@@ -936,7 +936,9 @@
     "institution": "La universidad de la vida",
     "orcid": "",
     "publicEmail": "hola@gmail.com",
-    "social": {},
+    "social": {
+      "website": "https://colegiosanmarcos.cl/"
+    },
     "imageUrl": "https://i.ibb.co/hjHVQ2K/Gemini-Generated-Image-jhrog8jhrog8jhro-1-png.png",
     "slug": "xavier-alonso-hernandez"
   }
