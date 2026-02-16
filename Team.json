@@ -940,5 +940,26 @@
     },
     "imageUrl": "https://i.postimg.cc/d1MJwpbx/IMG-20231130-WA0014.jpg",
     "slug": "javier-vergara"
+  },
+  {
+    "uid": "3bd0d937-03fb-4129-9df9-f14029c5cbee",
+    "displayName": "Amir Carbonell",
+    "firstName": "Amir",
+    "lastName": "Carbonell",
+    "roles": [],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Penta UC",
+    "orcid": "",
+    "publicEmail": "",
+    "social": {},
+    "imageUrl": "",
+    "slug": "amir-carbonell1"
   }
 ]
