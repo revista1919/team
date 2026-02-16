@@ -1025,7 +1025,9 @@
     "displayName": "Magdalena Leal",
     "firstName": "Magdalena",
     "lastName": "",
-    "roles": [],
+    "roles": [
+      "Autor"
+    ],
     "description": {
       "es": "",
       "en": ""
