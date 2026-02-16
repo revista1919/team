@@ -309,44 +309,6 @@
     "claimHash": null
   },
   {
-    "uid": "LbeObFgrZgdyKQmUgldPmjnh8Sj1",
-    "displayName": "Pascal Cea",
-    "firstName": "pascalcea08",
-    "lastName": "Principal",
-    "roles": [],
-    "description": {
-      "es": "Pascal Cea es un estudiante de tercer año medio del Colegio Curimón de la comuna de San Felipe, profundamente interesado en la política y la historia. Destaca por su liderazgo, preside el Centro de Alumnos de su colegio, así también es finalista regional del Torneo Delibera de la Biblioteca del Congreso Nacional, de este último torneo ha participado dos veces, así como ha participado también en el concurso de Economía más cerca del Banco Central de Chile y el torneo de cuentos sobre pesos del Banco Central de Chile. También ha sido participante del Torneo de Transparencia organizado por el CPLT. Es un aficionado por la política, un gran orador y amante de la escritura.",
-      "en": "Pascal Cea is a third-year high school student at Colegio Curimón in the San Felipe commune, deeply interested in politics and history. He stands out for his leadership, serving as president of his school's Student Council. He is also a regional finalist in the Delibera Tournament of the National Congress Library, a tournament he has participated in twice. Additionally, he has taken part in the \"Closer Economy\" competition of the Central Bank of Chile and the Central Bank of Chile's short story competition about pesos. He has also been a participant in the Transparency Tournament organized by the CPLT. He is a politics enthusiast, a great orator, and a lover of writing."
-    },
-    "interests": {
-      "es": [
-        "Política",
-        "Historia política",
-        "Historia de Chile",
-        "Regimenes autoritarios",
-        "dictaduras y totalitarismos",
-        "Historia de las grandes civilizaciones."
-      ],
-      "en": [
-        "Politics",
-        "Political history",
-        "History of Chile",
-        "Authoritarian regimes",
-        "dictatorships",
-        "and totalitarianisms",
-        "History of great civilizations."
-      ]
-    },
-    "institution": "Colegio Curimon de San Felipe",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "https://i.postimg.cc/50gV4pbK/IMG-20260101-023114.jpg",
-    "slug": "pascal-cea",
-    "isAnonymous": false,
-    "claimHash": null
-  },
-  {
     "uid": "NJaiT2Zk0rhlAM2QCdayHI28RWz2",
     "displayName": "Diego Durán ",
     "firstName": "diego.duran.t92",
@@ -1033,6 +995,46 @@
     "social": {},
     "imageUrl": "",
     "slug": "jun-ho-jeon",
+    "isAnonymous": false,
+    "claimHash": null
+  },
+  {
+    "uid": "LbeObFgrZgdyKQmUgldPmjnh8Sj1",
+    "displayName": "Pascal Cea",
+    "firstName": "pascalcea08",
+    "lastName": "",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "Pascal Cea es un estudiante de tercer año medio del Colegio Curimón de la comuna de San Felipe, profundamente interesado en la política y la historia. Destaca por su liderazgo, preside el Centro de Alumnos de su colegio, así también es finalista regional del Torneo Delibera de la Biblioteca del Congreso Nacional, de este último torneo ha participado dos veces, así como ha participado también en el concurso de Economía más cerca del Banco Central de Chile y el torneo de cuentos sobre pesos del Banco Central de Chile. También ha sido participante del Torneo de Transparencia organizado por el CPLT. Es un aficionado por la política, un gran orador y amante de la escritura.",
+      "en": "Pascal Cea is a third-year high school student at Colegio Curimón in the San Felipe commune, deeply interested in politics and history. He stands out for his leadership, serving as president of his school's Student Council. He is also a regional finalist in the Delibera Tournament of the National Congress Library, a tournament he has participated in twice. Additionally, he has taken part in the \"Closer Economy\" competition of the Central Bank of Chile and the Central Bank of Chile's short story competition about pesos. He has also been a participant in the Transparency Tournament organized by the CPLT. He is a politics enthusiast, a great orator, and a lover of writing."
+    },
+    "interests": {
+      "es": [
+        "Política",
+        "Historia política",
+        "Historia de Chile",
+        "Regimenes autoritarios",
+        "dictaduras y totalitarismos",
+        "Historia de las grandes civilizaciones."
+      ],
+      "en": [
+        "Politics",
+        "Political history",
+        "History of Chile",
+        "Authoritarian regimes",
+        "dictatorships",
+        "and totalitarianisms",
+        "History of great civilizations."
+      ]
+    },
+    "institution": "Colegio Curimon de San Felipe",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "https://i.postimg.cc/50gV4pbK/IMG-20260101-023114.jpg",
+    "slug": "pascal-cea",
     "isAnonymous": false,
     "claimHash": null
   }
