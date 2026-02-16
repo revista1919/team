@@ -555,45 +555,6 @@
     "slug": "joel-portugal"
   },
   {
-    "uid": "Wp9AbMocILX4UOy6il09qluhrL23",
-    "displayName": "Javier Vergara",
-    "firstName": "Javier",
-    "lastName": "Vergara",
-    "roles": [
-      "Fundador",
-      "Director General",
-      "Editor en Jefe",
-      "Responsable de Desarrollo Web",
-      "Autor"
-    ],
-    "description": {
-      "es": "Javier Vergara es estudiante Cuarto Medio en el Colegio Curimón de San Felipe, con interés en Economía, Ciencias Políticas y Matemáticas. Es estudiante de la Academia de Talentos de la UC. Finalista del Keneth Garshina Undergraduate Students Essay Contest del Mises Institute AERC 2025, con artículo publicado en la página del Mises Institute. Shortlisted para el John Locke Institute Global Essay Prize 2025. Distinction en London School of Economics Students Union Economics Society Essay Competition 2025. Ha sido becado para asistir a los Summer Courses del John Locke Institute en Princeton, la Universidad de Verano de la Universidad de las Hespérides en España, y para seminario del Ayn Rand Center en Buenos Aires. Ha publicado una traducción con Unión Editorial y se ha certificado en el College Program de ciencias políticas de la Universidad del Desarrollo.",
-      "en": "Javier Vergara is a fourth-year high school student at Curimón School in San Felipe, with an interest in Economics, Political Science, and Mathematics. He is a student at the UC Talent Academy. Finalist of the Keneth Garshina Undergraduate Students Essay Contest of the Mises Institute AERC 2025, with an article published on the Mises Institute's website. Shortlisted for the John Locke Institute Global Essay Prize 2025. Distinction in the London School of Economics Students Union Economics Society Essay Competition 2025. He has been awarded a scholarship to attend the Summer Courses of the John Locke Institute in Princeton, the Summer University of the University of Las Hespérides in Spain, and a seminar at the Ayn Rand Center in Buenos Aires. He has published a translation with Unión Editorial and has been certified in the Political Science College Program at Universidad del Desarrollo."
-    },
-    "interests": {
-      "es": [
-        "Economía",
-        "Matemáticas",
-        "Historia",
-        "Política"
-      ],
-      "en": [
-        "Economics",
-        "Mathematics",
-        "History",
-        "Politics"
-      ]
-    },
-    "institution": "Colegio Curimón",
-    "orcid": "0009-0005-5326-0177",
-    "publicEmail": "",
-    "social": {
-      "linkedin": "https://www.linkedin.com/in/javier-vergara-r%C3%ADos-1021b42b5?originalSubdomain=cl"
-    },
-    "imageUrl": "https://i.postimg.cc/d1MJwpbx/IMG-20231130-WA0014.jpg",
-    "slug": "javier-vergara"
-  },
-  {
     "uid": "YC6kihySELc3l8NodUN9Ffk8eEV2",
     "displayName": "Santiago Vargas",
     "firstName": "Santiago",
@@ -940,5 +901,44 @@
     },
     "imageUrl": "https://i.ibb.co/hjHVQ2K/Gemini-Generated-Image-jhrog8jhrog8jhro-1-png.png",
     "slug": "xavier-alonso-hernandez"
+  },
+  {
+    "uid": "Wp9AbMocILX4UOy6il09qluhrL23",
+    "displayName": "Javier Vergara",
+    "firstName": "Javier",
+    "lastName": "Vergara",
+    "roles": [
+      "Fundador",
+      "Director General",
+      "Editor en Jefe",
+      "Responsable de Desarrollo Web",
+      "Autor"
+    ],
+    "description": {
+      "es": "Javier Vergara es estudiante Cuarto Medio en el Colegio Curimón de San Felipe, con interés en Economía, Ciencias Políticas y Matemáticas. Es estudiante de la Academia de Talentos de la UC. Finalista del Keneth Garshina Undergraduate Students Essay Contest del Mises Institute AERC 2025, con artículo publicado en la página del Mises Institute. Shortlisted para el John Locke Institute Global Essay Prize 2025. Distinction en London School of Economics Students Union Economics Society Essay Competition 2025. Ha sido becado para asistir a los Summer Courses del John Locke Institute en Princeton, la Universidad de Verano de la Universidad de las Hespérides en España, y para seminario del Ayn Rand Center en Buenos Aires. Ha publicado una traducción con Unión Editorial y se ha certificado en el College Program de ciencias políticas de la Universidad del Desarrollo.",
+      "en": "Javier Vergara is a fourth-year high school student at Curimón School in San Felipe, with an interest in Economics, Political Science, and Mathematics. He is a student at the UC Talent Academy. Finalist of the Keneth Garshina Undergraduate Students Essay Contest of the Mises Institute AERC 2025, with an article published on the Mises Institute's website. Shortlisted for the John Locke Institute Global Essay Prize 2025. Distinction in the London School of Economics Students Union Economics Society Essay Competition 2025. He has been awarded a scholarship to attend the Summer Courses of the John Locke Institute in Princeton, the Summer University of the University of Las Hespérides in Spain, and a seminar at the Ayn Rand Center in Buenos Aires. He has published a translation with Unión Editorial and has been certified in the Political Science College Program at Universidad del Desarrollo."
+    },
+    "interests": {
+      "es": [
+        "Economía",
+        "Matemáticas",
+        "Historia",
+        "Política"
+      ],
+      "en": [
+        "Economics",
+        "Mathematics",
+        "History",
+        "Politics"
+      ]
+    },
+    "institution": "Colegio Curimón",
+    "orcid": "0009-0005-5326-0177",
+    "publicEmail": "",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/javier-vergara-r%C3%ADos-1021b42b5?originalSubdomain=cl"
+    },
+    "imageUrl": "https://i.postimg.cc/d1MJwpbx/IMG-20231130-WA0014.jpg",
+    "slug": "javier-vergara"
   }
 ]
