@@ -3,23 +3,22 @@ import admin from 'firebase-admin';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import crypto from 'crypto';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // ========== CONFIGURACIÓN ==========
 const TEAM_JSON_PATH = path.join(__dirname, 'Team.json');
-const PUBLIC_DIR = __dirname; // Los HTMLs se guardan en la raíz del repo
+const PUBLIC_DIR = __dirname;
 const DOMAIN = 'https://www.revistacienciasestudiantes.com';
 
 // ========== INICIALIZAR FIREBASE ==========
 let serviceAccount;
 try {
-  // Intentar leer desde variable de entorno (GitHub Actions)
   if (process.env.FIREBASE_SERVICE_ACCOUNT) {
     serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT);
   } else {
-    // Modo desarrollo local: leer archivo
     const saPath = path.join(__dirname, 'serviceAccountKey.json');
     serviceAccount = JSON.parse(fs.readFileSync(saPath, 'utf8'));
   }
@@ -40,7 +39,16 @@ function generateSlug(text) {
     .replace(/^-+|-+$/g, '');
 }
 
-// Leer JSON existente (si existe)
+// NUEVO: Generar ID único para autores sin cuenta
+function generateAnonymousId(name) {
+  const hash = crypto.createHash('sha256')
+    .update(name + '-' + Date.now().toString())
+    .digest('hex')
+    .substring(0, 12);
+  return `anon-${hash}`;
+}
+
+// Leer JSON existente
 function readExistingTeamJson() {
   try {
     if (fs.existsSync(TEAM_JSON_PATH)) {
@@ -64,10 +72,14 @@ function saveTeamJson(users) {
     interests: u.interests,
     institution: u.institution,
     orcid: u.orcid,
-    publicEmail: u.publicEmail,
+    // NUNCA guardar email privado en público
+    publicEmail: u.publicEmail || null,
     social: u.social,
     imageUrl: u.imageUrl,
-    slug: u.slug
+    slug: u.slug,
+    isAnonymous: u.isAnonymous || false,
+    // Para anónimos, guardamos un hash para futura reclamación
+    claimHash: u.claimHash || null
   }));
   fs.writeFileSync(TEAM_JSON_PATH, JSON.stringify(teamJson, null, 2));
 }
@@ -142,11 +154,18 @@ function generateHTML(user, lang) {
     r.toLowerCase().includes('editor en jefe') || r.toLowerCase() === 'editor-in-chief'
   );
 
-  // Solo el Editor en Jefe tiene email institucional y dirección
+  // NUEVO: Sistema de contacto - NUNCA exponer emails privados
   let contactInfo = '';
   
-  if (isEditorEnJefe) {
-    // Editor en Jefe: email institucional y dirección (siempre visibles)
+  if (user.isAnonymous) {
+    // Autores anónimos: no muestran email, solo un mensaje
+    contactInfo = `
+      <div class="profile-inst">
+        <span class="italic text-gray-500">Autor colaborador</span>
+      </div>
+    `;
+  } else if (isEditorEnJefe) {
+    // Editor en Jefe: email institucional y dirección
     const institutionalEmail = `${(user.firstName || '').toLowerCase()}.${(user.lastName || '').toLowerCase()}@revistacienciasestudiantes.com`.replace(/\s/g, '');
     contactInfo = `
       <div class="profile-inst"><a href="mailto:${institutionalEmail}">${institutionalEmail}</a></div>
@@ -267,7 +286,8 @@ async function fetchAllUsers() {
       orcid: data.orcid || '',
       publicEmail: data.publicEmail || '',
       social: data.social || {},
-      imageUrl: data.imageUrl || ''
+      imageUrl: data.imageUrl || '',
+      isAnonymous: false
     });
   });
   return users;
@@ -289,41 +309,128 @@ async function fetchUser(uid) {
     orcid: data.orcid || '',
     publicEmail: data.publicEmail || '',
     social: data.social || {},
-    imageUrl: data.imageUrl || ''
+    imageUrl: data.imageUrl || '',
+    isAnonymous: false
   };
 }
 
-// Asignar slugs respetando los existentes para evitar cambios innecesarios
+// NUEVO: Obtener coautores anónimos de submissions
+async function fetchAnonymousAuthors() {
+  console.log('📥 Buscando coautores anónimos en submissions...');
+  const snapshot = await db.collection('submissions')
+    .where('status', 'in', ['published', 'accepted'])
+    .get();
+  
+  const anonymousAuthorsMap = new Map(); // nombre -> datos agregados
+
+  snapshot.forEach(doc => {
+    const data = doc.data();
+    if (data.authors && Array.isArray(data.authors)) {
+      data.authors.forEach(author => {
+        // Si el autor tiene UID, ya es usuario registrado - lo ignoramos aquí
+        if (author.uid) return;
+        
+        const name = `${author.firstName || ''} ${author.lastName || ''}`.trim();
+        if (!name) return;
+        
+        if (!anonymousAuthorsMap.has(name)) {
+          anonymousAuthorsMap.set(name, {
+            name,
+            firstName: author.firstName || '',
+            lastName: author.lastName || '',
+            institution: author.institution || '',
+            orcid: author.orcid || '',
+            articles: [],
+            email: author.email // Guardamos interno pero no se publicará
+          });
+        }
+        
+        // Agregar artículo a la lista
+        const entry = anonymousAuthorsMap.get(name);
+        entry.articles.push({
+          title: data.title,
+          submissionId: data.submissionId
+        });
+      });
+    }
+  });
+
+  console.log(`✅ Encontrados ${anonymousAuthorsMap.size} coautores anónimos`);
+  return Array.from(anonymousAuthorsMap.values());
+}
+
+// NUEVO: Crear usuario anónimo en el mapa de equipo
+function createAnonymousUser(authorData) {
+  const name = authorData.name;
+  const slug = generateSlug(name);
+  
+  // Crear un hash para futura reclamación (basado en email pero sin exponerlo)
+  const claimHash = crypto.createHash('sha256')
+    .update(authorData.email + '-revista-secret')
+    .digest('hex')
+    .substring(0, 16);
+  
+  return {
+    uid: `anon-${slug}-${Date.now().toString(36)}`,
+    displayName: name,
+    firstName: authorData.firstName,
+    lastName: authorData.lastName,
+    roles: ['Autor'],
+    description: { 
+      es: `Autor colaborador que ha publicado en nuestra revista.`, 
+      en: `Contributing author who has published in our journal.` 
+    },
+    interests: { es: [], en: [] },
+    institution: authorData.institution || '',
+    orcid: authorData.orcid || '',
+    // NO guardamos publicEmail para anónimos
+    publicEmail: null,
+    social: {},
+    imageUrl: '',
+    slug: slug,
+    isAnonymous: true,
+    claimHash: claimHash,
+    // Metadatos para reclamación
+    claimable: true,
+    articles: authorData.articles || []
+  };
+}
+
+// Asignar slugs respetando los existentes
 function assignSlugsPreserving(users, existingUsers) {
   const existingMap = new Map(existingUsers.map(u => [u.uid, u]));
-  const usedSlugs = new Map(existingUsers.map(u => [u.slug, u.uid]));
+  const usedSlugs = new Map();
+  
+  // Primero, poblar slugs existentes
+  existingUsers.forEach(u => {
+    if (u.slug) usedSlugs.set(u.slug, u.uid);
+  });
   
   return users.map(user => {
-    // Si el usuario ya existía, mantener su slug si es posible
     const existing = existingMap.get(user.uid);
     const base = generateSlug(user.displayName || `${user.firstName} ${user.lastName}`);
     
     if (existing && existing.slug === base) {
-      // Mismo slug, perfecto
+      // Mismo slug, mantener
       return { ...user, slug: existing.slug };
     }
     
-    // Slug cambió o usuario nuevo
+    if (existing && existing.slug && existing.slug !== base) {
+      // Slug diferente pero usuario existente - mantener el antiguo
+      console.log(`ℹ️ Manteniendo slug antiguo para ${user.displayName}: ${existing.slug} (nuevo sería ${base})`);
+      return { ...user, slug: existing.slug };
+    }
+    
+    // Usuario nuevo o anónimo - generar slug único
     let slug = base;
     let count = 1;
     
-    // Si el slug base ya está usado por OTRO usuario, añadir número
     while (usedSlugs.has(slug) && usedSlugs.get(slug) !== user.uid) {
       slug = `${base}${count}`;
       count++;
     }
     
-    // Actualizar mapa de slugs usados
-    if (existing && existing.slug !== slug) {
-      usedSlugs.delete(existing.slug); // liberar slug antiguo
-    }
     usedSlugs.set(slug, user.uid);
-    
     return { ...user, slug };
   });
 }
@@ -337,7 +444,6 @@ function generateRedirects(oldUsers, newUsers) {
     if (oldUser && oldUser.slug !== newUser.slug) {
       console.log(`🔄 Slug cambiado: ${oldUser.slug} → ${newUser.slug}`);
       
-      // Crear redirecciones para ambos idiomas
       const redirectEs = createRedirectHtml(oldUser.slug, newUser.slug, 'es');
       const redirectEn = createRedirectHtml(oldUser.slug, newUser.slug, 'en');
       
@@ -347,14 +453,14 @@ function generateRedirects(oldUsers, newUsers) {
   }
 }
 
-// Generar HTMLs para una lista de usuarios
+// Generar HTMLs
 function generateHtmls(users) {
   for (const user of users) {
     const htmlEs = generateHTML(user, 'es');
     const htmlEn = generateHTML(user, 'en');
     fs.writeFileSync(path.join(PUBLIC_DIR, `${user.slug}.html`), htmlEs);
     fs.writeFileSync(path.join(PUBLIC_DIR, `${user.slug}.EN.html`), htmlEn);
-    console.log(`✅ Generado: ${user.slug}.html`);
+    console.log(`✅ Generado: ${user.slug}.html para ${user.displayName}${user.isAnonymous ? ' (anónimo)' : ''}`);
   }
 }
 
@@ -368,21 +474,30 @@ async function main() {
   const existingUsers = readExistingTeamJson();
   
   if (mode === 'full' || mode === '--full') {
-    // Reconstrucción completa
-    console.log('📥 Obteniendo todos los usuarios de Firebase...');
-    const freshUsers = await fetchAllUsers();
-    const usersWithSlug = assignSlugsPreserving(freshUsers, existingUsers);
+    // 1. Obtener usuarios registrados
+    console.log('📥 Obteniendo usuarios registrados de Firebase...');
+    const registeredUsers = await fetchAllUsers();
     
-    // Generar redirecciones para slugs que cambiaron
+    // 2. Obtener autores anónimos de submissions publicadas
+    const anonymousAuthors = await fetchAnonymousAuthors();
+    const anonymousUsers = anonymousAuthors.map(author => createAnonymousUser(author));
+    
+    // 3. Combinar
+    const allUsers = [...registeredUsers, ...anonymousUsers];
+    
+    // 4. Asignar slugs preservando existentes
+    const usersWithSlug = assignSlugsPreserving(allUsers, existingUsers);
+    
+    // 5. Generar redirecciones
     generateRedirects(existingUsers, usersWithSlug);
     
-    // Guardar JSON
+    // 6. Guardar JSON
     saveTeamJson(usersWithSlug);
     
-    // Generar HTMLs
+    // 7. Generar HTMLs
     generateHtmls(usersWithSlug);
     
-    console.log(`🎉 Build completo finalizado. Total: ${usersWithSlug.length} usuarios.`);
+    console.log(`🎉 Build completo finalizado. Total: ${usersWithSlug.length} usuarios (${registeredUsers.length} registrados, ${anonymousUsers.length} anónimos).`);
     
   } else if (mode === '--user') {
     // Actualizar un solo usuario
@@ -403,15 +518,12 @@ async function main() {
     const otherUsers = existingUsers.filter(u => u.uid !== uid);
     const allUsers = [...otherUsers, user];
     
-    // Reasignar slugs (puede afectar a otros si hay duplicados)
     const usersWithSlug = assignSlugsPreserving(allUsers, existingUsers);
     
-    // Encontrar el usuario actualizado para ver si cambió slug
     const updatedUser = usersWithSlug.find(u => u.uid === uid);
     const oldUser = existingUsers.find(u => u.uid === uid);
     
     if (oldUser && oldUser.slug !== updatedUser.slug) {
-      // Crear redirección desde slug antiguo
       console.log(`🔄 Slug cambiado: ${oldUser.slug} → ${updatedUser.slug}`);
       const redirectEs = createRedirectHtml(oldUser.slug, updatedUser.slug, 'es');
       const redirectEn = createRedirectHtml(oldUser.slug, updatedUser.slug, 'en');
@@ -419,19 +531,41 @@ async function main() {
       fs.writeFileSync(path.join(PUBLIC_DIR, `${oldUser.slug}.EN.html`), redirectEn);
     }
     
-    // Guardar JSON
     saveTeamJson(usersWithSlug);
-    
-    // Regenerar HTML del usuario actualizado (y opcionalmente de otros si sus slugs cambiaron)
-    // Por simplicidad, regeneramos solo el usuario actualizado. Si otro usuario tuvo que cambiar slug
-    // por duplicado con el nuevo, también habría que regenerarlo. Para mantenerlo simple, en modo --user
-    // solo regeneramos el usuario objetivo y confiamos en que los slugs de otros no cambian.
     generateHtmls([updatedUser]);
     
     console.log(`✅ Usuario ${uid} actualizado.`);
     
+  } else if (mode === '--claim') {
+    // Modo especial para reclamar perfil anónimo
+    const uid = args[1];
+    const claimHash = args[2];
+    
+    if (!uid || !claimHash) {
+      console.error('❌ Uso: build.js --claim <uid> <claimHash>');
+      process.exit(1);
+    }
+    
+    // Buscar usuario anónimo en existingUsers
+    const anonUser = existingUsers.find(u => u.uid === uid && u.isAnonymous);
+    if (!anonUser) {
+      console.error('❌ Usuario anónimo no encontrado');
+      process.exit(1);
+    }
+    
+    if (anonUser.claimHash !== claimHash) {
+      console.error('❌ Hash de reclamación inválido');
+      process.exit(1);
+    }
+    
+    // Marcar como reclamado (se reemplazará cuando el usuario registrado haga build)
+    console.log(`✅ Hash válido. El perfil ${anonUser.displayName} puede ser reclamado.`);
+    console.log(`Instrucciones para el usuario:`);
+    console.log(`1. Crear cuenta con email: ${anonUser.email}`);
+    console.log(`2. El equipo editorial asociará su UID con este perfil.`);
+    
   } else {
-    console.error('❌ Modo no reconocido. Usa: build.js [--full|--user <uid>]');
+    console.error('❌ Modo no reconocido. Usa: build.js [--full|--user <uid>|--claim <uid> <hash>]');
     process.exit(1);
   }
 }
