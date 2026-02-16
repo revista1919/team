@@ -1,5 +1,36 @@
 [
   {
+    "uid": "2QW6sOaZanej5lnhKFdnm1og7Cg1",
+    "displayName": "Xavier Alonso Hernandez",
+    "firstName": "Xavier",
+    "lastName": "Alonso Hernandez",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "Soy un académico",
+      "en": "I am an academic"
+    },
+    "interests": {
+      "es": [
+        "IA",
+        "Arte"
+      ],
+      "en": [
+        "Arte",
+        "Novicia"
+      ]
+    },
+    "institution": "La universidad de la vida",
+    "orcid": "",
+    "publicEmail": "hola@gmail.com",
+    "social": {
+      "website": "https://colegiosanmarcos.cl/"
+    },
+    "imageUrl": "https://i.ibb.co/hjHVQ2K/Gemini-Generated-Image-jhrog8jhrog8jhro-1-png.png",
+    "slug": "xavier-alonso-hernandez"
+  },
+  {
     "uid": "40c3babe-9ed0-4a9f-b144-bc5a46728b12",
     "displayName": "Roberto Díaz",
     "firstName": "Roberto",
@@ -380,6 +411,77 @@
     "slug": "diego-duran"
   },
   {
+    "uid": "PUfEv6PN9mZ9tEkEfn8ZRdpb5WW2",
+    "displayName": "Marina Soto",
+    "firstName": "Marina",
+    "lastName": "Soto",
+    "roles": [
+      "Revisor"
+    ],
+    "description": {
+      "es": "Marina Soto es estudiante de College de Ciencias de la Pontificia Universidad Católica de Chile y egresada de la Academia de Talentos de la UC. Se interesa principalmente en las humanidades, con experiencia en debates —recientemente participó en uno competitivo organizado por la Universidad de Chile—, en poesía japonesa y latinoamericana, y en la elaboración de ensayos académicos y creativos. Complementa su formación con proyectos en artes visuales, como pintura al óleo y experimentación con recursos visuales. Domina, además de español, inglés, con certificación C1, y estudia japonés como tercer idioma.",
+      "en": "Marina Soto is a student at Science College at Pontificial Catholic University of Chile school and a former student of the UC Talent Academy. She is mainly interested in the humanities, with experience in debates —she recently participated in a competitive one organized by the University of Chile—, in Japanese and Latin American poetry, and in writing academic and creative essays. She complements her education with projects in visual arts, such as oil painting and experimentation with visual resources. In addition to Spanish, she is proficient in English, with C1 certification, and studies Japanese as a third language."
+    },
+    "interests": {
+      "es": [
+        "Ciencias políticas",
+        "Finanzas",
+        "Economía política",
+        "Poesía latinoamericana",
+        "Literatura universal",
+        "Debate",
+        "Química nuclear"
+      ],
+      "en": [
+        "Political Science",
+        "Finance",
+        "Political Economy",
+        "Latin American Poetry",
+        "World Literature",
+        "Debate",
+        "Nuclear Chemistry"
+      ]
+    },
+    "institution": "Pontificia Universidad Católica de Chile ",
+    "orcid": "",
+    "publicEmail": "",
+    "social": {},
+    "imageUrl": "https://i.postimg.cc/wvyRyZPS/f1c87432-6951-497a-8c5b-cb55984d7088.jpg",
+    "slug": "marina-soto"
+  },
+  {
+    "uid": "SXT77f1iIXhPewA8Endank8YjuW2",
+    "displayName": "Renato Vergara",
+    "firstName": "Renato",
+    "lastName": "Vergara",
+    "roles": [
+      "Encargado de Redes Sociales",
+      "Autor"
+    ],
+    "description": {
+      "es": "Renato Vergara es estudiante de Segundo Medio del Colegio Curimón de San Felipe con interés en música, programación y matemáticas. Destaca por su compromiso y capacidad colaborativa. Participa activamente en actividades académicas. Es alumni de la FPP. Es un jugador de tennis de mesa aficionado.",
+      "en": "Renato Vergara is a 10th-grade student at Colegio Curimón in San Felipe, with an interest in music, programming, and mathematics. He stands out for his commitment and collaborative ability. He actively participates in academic activities. He is an alumnus of the FPP. He is an amateur table tennis player."
+    },
+    "interests": {
+      "es": [
+        "Programación",
+        "Música",
+        "Deportes"
+      ],
+      "en": [
+        "Programming",
+        "Music",
+        "Sports"
+      ]
+    },
+    "institution": "Colegio Curimón",
+    "orcid": "",
+    "publicEmail": "elmarcianoet2@gmail.com",
+    "social": {},
+    "imageUrl": "https://i.ibb.co/SX5H7Njs/88c43826-0668-423d-be67-cbe12435e15b-jpg.jpg",
+    "slug": "renato-vergara"
+  },
+  {
     "uid": "V0v60t9xDYXZlo3R8SUhddrIl7f2",
     "displayName": "Carlos Gutiérrez",
     "firstName": "Carlos",
@@ -514,6 +616,45 @@
     "social": {},
     "imageUrl": "https://i.postimg.cc/nr1zQZdK/Screenshot-20251122-120357.jpg",
     "slug": "joel-portugal"
+  },
+  {
+    "uid": "Wp9AbMocILX4UOy6il09qluhrL23",
+    "displayName": "Javier Vergara",
+    "firstName": "Javier",
+    "lastName": "Vergara",
+    "roles": [
+      "Fundador",
+      "Director General",
+      "Editor en Jefe",
+      "Responsable de Desarrollo Web",
+      "Autor"
+    ],
+    "description": {
+      "es": "Javier Vergara es estudiante Cuarto Medio en el Colegio Curimón de San Felipe, con interés en Economía, Ciencias Políticas y Matemáticas. Es estudiante de la Academia de Talentos de la UC. Finalista del Keneth Garshina Undergraduate Students Essay Contest del Mises Institute AERC 2025, con artículo publicado en la página del Mises Institute. Shortlisted para el John Locke Institute Global Essay Prize 2025. Distinction en London School of Economics Students Union Economics Society Essay Competition 2025. Ha sido becado para asistir a los Summer Courses del John Locke Institute en Princeton, la Universidad de Verano de la Universidad de las Hespérides en España, y para seminario del Ayn Rand Center en Buenos Aires. Ha publicado una traducción con Unión Editorial y se ha certificado en el College Program de ciencias políticas de la Universidad del Desarrollo.",
+      "en": "Javier Vergara is a fourth-year high school student at Curimón School in San Felipe, with an interest in Economics, Political Science, and Mathematics. He is a student at the UC Talent Academy. Finalist of the Keneth Garshina Undergraduate Students Essay Contest of the Mises Institute AERC 2025, with an article published on the Mises Institute's website. Shortlisted for the John Locke Institute Global Essay Prize 2025. Distinction in the London School of Economics Students Union Economics Society Essay Competition 2025. He has been awarded a scholarship to attend the Summer Courses of the John Locke Institute in Princeton, the Summer University of the University of Las Hespérides in Spain, and a seminar at the Ayn Rand Center in Buenos Aires. He has published a translation with Unión Editorial and has been certified in the Political Science College Program at Universidad del Desarrollo."
+    },
+    "interests": {
+      "es": [
+        "Economía",
+        "Matemáticas",
+        "Historia",
+        "Política"
+      ],
+      "en": [
+        "Economics",
+        "Mathematics",
+        "History",
+        "Politics"
+      ]
+    },
+    "institution": "Colegio Curimón",
+    "orcid": "0009-0005-5326-0177",
+    "publicEmail": "",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/javier-vergara-r%C3%ADos-1021b42b5?originalSubdomain=cl"
+    },
+    "imageUrl": "https://i.postimg.cc/d1MJwpbx/IMG-20231130-WA0014.jpg",
+    "slug": "javier-vergara"
   },
   {
     "uid": "YC6kihySELc3l8NodUN9Ffk8eEV2",
@@ -799,146 +940,5 @@
     "social": {},
     "imageUrl": "",
     "slug": "cristobal-rojas"
-  },
-  {
-    "uid": "Wp9AbMocILX4UOy6il09qluhrL23",
-    "displayName": "Javier Vergara",
-    "firstName": "Javier",
-    "lastName": "Vergara",
-    "roles": [
-      "Fundador",
-      "Director General",
-      "Editor en Jefe",
-      "Responsable de Desarrollo Web",
-      "Autor"
-    ],
-    "description": {
-      "es": "Javier Vergara es estudiante Cuarto Medio en el Colegio Curimón de San Felipe, con interés en Economía, Ciencias Políticas y Matemáticas. Es estudiante de la Academia de Talentos de la UC. Finalista del Keneth Garshina Undergraduate Students Essay Contest del Mises Institute AERC 2025, con artículo publicado en la página del Mises Institute. Shortlisted para el John Locke Institute Global Essay Prize 2025. Distinction en London School of Economics Students Union Economics Society Essay Competition 2025. Ha sido becado para asistir a los Summer Courses del John Locke Institute en Princeton, la Universidad de Verano de la Universidad de las Hespérides en España, y para seminario del Ayn Rand Center en Buenos Aires. Ha publicado una traducción con Unión Editorial y se ha certificado en el College Program de ciencias políticas de la Universidad del Desarrollo.",
-      "en": "Javier Vergara is a fourth-year high school student at Curimón School in San Felipe, with an interest in Economics, Political Science, and Mathematics. He is a student at the UC Talent Academy. Finalist of the Keneth Garshina Undergraduate Students Essay Contest of the Mises Institute AERC 2025, with an article published on the Mises Institute's website. Shortlisted for the John Locke Institute Global Essay Prize 2025. Distinction in the London School of Economics Students Union Economics Society Essay Competition 2025. He has been awarded a scholarship to attend the Summer Courses of the John Locke Institute in Princeton, the Summer University of the University of Las Hespérides in Spain, and a seminar at the Ayn Rand Center in Buenos Aires. He has published a translation with Unión Editorial and has been certified in the Political Science College Program at Universidad del Desarrollo."
-    },
-    "interests": {
-      "es": [
-        "Economía",
-        "Matemáticas",
-        "Historia",
-        "Política"
-      ],
-      "en": [
-        "Economics",
-        "Mathematics",
-        "History",
-        "Politics"
-      ]
-    },
-    "institution": "Colegio Curimón",
-    "orcid": "0009-0005-5326-0177",
-    "publicEmail": "",
-    "social": {
-      "linkedin": "https://www.linkedin.com/in/javier-vergara-r%C3%ADos-1021b42b5?originalSubdomain=cl"
-    },
-    "imageUrl": "https://i.postimg.cc/d1MJwpbx/IMG-20231130-WA0014.jpg",
-    "slug": "javier-vergara"
-  },
-  {
-    "uid": "2QW6sOaZanej5lnhKFdnm1og7Cg1",
-    "displayName": "Xavier Alonso Hernandez",
-    "firstName": "Xavier",
-    "lastName": "Alonso Hernandez",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "Soy un académico",
-      "en": "I am an academic"
-    },
-    "interests": {
-      "es": [
-        "IA",
-        "Arte"
-      ],
-      "en": [
-        "Arte",
-        "Novicia"
-      ]
-    },
-    "institution": "La universidad de la vida",
-    "orcid": "",
-    "publicEmail": "hola@gmail.com",
-    "social": {
-      "website": "https://colegiosanmarcos.cl/"
-    },
-    "imageUrl": "https://i.ibb.co/hjHVQ2K/Gemini-Generated-Image-jhrog8jhrog8jhro-1-png.png",
-    "slug": "xavier-alonso-hernandez"
-  },
-  {
-    "uid": "SXT77f1iIXhPewA8Endank8YjuW2",
-    "displayName": "Renato Vergara",
-    "firstName": "Renato",
-    "lastName": "Vergara",
-    "roles": [
-      "Encargado de Redes Sociales",
-      "Autor"
-    ],
-    "description": {
-      "es": "Renato Vergara es estudiante de Segundo Medio del Colegio Curimón de San Felipe con interés en música, programación y matemáticas. Destaca por su compromiso y capacidad colaborativa. Participa activamente en actividades académicas. Es alumni de la FPP. Es un jugador de tennis de mesa aficionado.",
-      "en": "Renato Vergara is a 10th-grade student at Colegio Curimón in San Felipe, with an interest in music, programming, and mathematics. He stands out for his commitment and collaborative ability. He actively participates in academic activities. He is an alumnus of the FPP. He is an amateur table tennis player."
-    },
-    "interests": {
-      "es": [
-        "Programación",
-        "Música",
-        "Deportes"
-      ],
-      "en": [
-        "Programming",
-        "Music",
-        "Sports"
-      ]
-    },
-    "institution": "Colegio Curimón",
-    "orcid": "",
-    "publicEmail": "elmarcianoet2@gmail.com",
-    "social": {},
-    "imageUrl": "https://i.ibb.co/SX5H7Njs/88c43826-0668-423d-be67-cbe12435e15b-jpg.jpg",
-    "slug": "renato-vergara"
-  },
-  {
-    "uid": "PUfEv6PN9mZ9tEkEfn8ZRdpb5WW2",
-    "displayName": "Marina Soto",
-    "firstName": "Marina",
-    "lastName": "Soto",
-    "roles": [
-      "Revisor"
-    ],
-    "description": {
-      "es": "Marina Soto es estudiante de College de Ciencias de la Pontificia Universidad Católica de Chile y egresada de la Academia de Talentos de la UC. Se interesa principalmente en las humanidades, con experiencia en debates —recientemente participó en uno competitivo organizado por la Universidad de Chile—, en poesía japonesa y latinoamericana, y en la elaboración de ensayos académicos y creativos. Complementa su formación con proyectos en artes visuales, como pintura al óleo y experimentación con recursos visuales. Domina, además de español, inglés, con certificación C1, y estudia japonés como tercer idioma.",
-      "en": "Marina Soto is a student at Science College at Pontificial Catholic University of Chile school and a former student of the UC Talent Academy. She is mainly interested in the humanities, with experience in debates —she recently participated in a competitive one organized by the University of Chile—, in Japanese and Latin American poetry, and in writing academic and creative essays. She complements her education with projects in visual arts, such as oil painting and experimentation with visual resources. In addition to Spanish, she is proficient in English, with C1 certification, and studies Japanese as a third language."
-    },
-    "interests": {
-      "es": [
-        "Ciencias políticas",
-        "Finanzas",
-        "Economía política",
-        "Poesía latinoamericana",
-        "Literatura universal",
-        "Debate",
-        "Química nuclear"
-      ],
-      "en": [
-        "Political Science",
-        "Finance",
-        "Political Economy",
-        "Latin American Poetry",
-        "World Literature",
-        "Debate",
-        "Nuclear Chemistry"
-      ]
-    },
-    "institution": "Pontificia Universidad Católica de Chile ",
-    "orcid": "",
-    "publicEmail": "",
-    "social": {},
-    "imageUrl": "https://i.postimg.cc/wvyRyZPS/f1c87432-6951-497a-8c5b-cb55984d7088.jpg",
-    "slug": "marina-soto"
   }
 ]
