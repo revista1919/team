@@ -1028,8 +1028,10 @@
     "uid": "z1HHJYjxglP1rp6TQpo5aypK26N2",
     "displayName": "Cristóbal Rojas",
     "firstName": "Cristobal",
-    "lastName": "Principal",
-    "roles": [],
+    "lastName": "Rojas",
+    "roles": [
+      "Autor"
+    ],
     "description": {
       "es": "",
       "en": ""
