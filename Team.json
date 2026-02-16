@@ -961,5 +961,26 @@
     "social": {},
     "imageUrl": "",
     "slug": "amir-carbonell1"
+  },
+  {
+    "uid": "394a30e4-62d7-451e-b27f-9fe4495db55c",
+    "displayName": "Amir Carbonell",
+    "firstName": "amir.carbonell.soto",
+    "lastName": "Principal",
+    "roles": [],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Penta UC",
+    "orcid": "",
+    "publicEmail": "",
+    "social": {},
+    "imageUrl": "",
+    "slug": "amir-carbonell2"
   }
 ]
