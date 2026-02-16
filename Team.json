@@ -676,29 +676,6 @@
     "claimHash": null
   },
   {
-    "uid": "z1HHJYjxglP1rp6TQpo5aypK26N2",
-    "displayName": "Cristóbal Rojas ; Sofia Flores",
-    "firstName": "cristobal.rojas.m",
-    "lastName": "Principal",
-    "roles": [],
-    "description": {
-      "es": "",
-      "en": ""
-    },
-    "interests": {
-      "es": [],
-      "en": []
-    },
-    "institution": "Liceo Amanda Labarca",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "cristobal-rojas",
-    "isAnonymous": false,
-    "claimHash": null
-  },
-  {
     "uid": "EP2S7UL6KnRgT8UlaHpHTwxtA7g1",
     "displayName": "Trinidad Margozzini",
     "firstName": "Trinidad",
@@ -1044,6 +1021,29 @@
     "social": {},
     "imageUrl": "",
     "slug": "agustin-maturana",
+    "isAnonymous": false,
+    "claimHash": null
+  },
+  {
+    "uid": "z1HHJYjxglP1rp6TQpo5aypK26N2",
+    "displayName": "Cristóbal Rojas",
+    "firstName": "Cristobal",
+    "lastName": "Principal",
+    "roles": [],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Liceo Amanda Labarca",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "cristobal-rojas",
     "isAnonymous": false,
     "claimHash": null
   }
