@@ -676,29 +676,6 @@
     "claimHash": null
   },
   {
-    "uid": "EP2S7UL6KnRgT8UlaHpHTwxtA7g1",
-    "displayName": "Trinidad Margozzini",
-    "firstName": "Trinidad",
-    "lastName": "Margonzzini",
-    "roles": [],
-    "description": {
-      "es": " ",
-      "en": " "
-    },
-    "interests": {
-      "es": [],
-      "en": []
-    },
-    "institution": "Colegio Curimón",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "trinidad-margozzini",
-    "isAnonymous": false,
-    "claimHash": null
-  },
-  {
     "uid": "Fy2g2ipz91T2nYXmduetUF0RpvG3",
     "displayName": "Lucas Velozo ",
     "firstName": "lgvm3011",
@@ -1046,6 +1023,29 @@
     "social": {},
     "imageUrl": "https://i.postimg.cc/KvJ2S0JD/Screenshot-20260101-020809-com-android-chrome-Custom-Tab-Activity.jpg",
     "slug": "jose-ignacio-carter",
+    "isAnonymous": false,
+    "claimHash": null
+  },
+  {
+    "uid": "EP2S7UL6KnRgT8UlaHpHTwxtA7g1",
+    "displayName": "Trinidad Margozzini",
+    "firstName": "Trinidad",
+    "lastName": "Margonzzini",
+    "roles": [],
+    "description": {
+      "es": " ",
+      "en": " "
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Colegio Curimón",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "trinidad-margozzini",
     "isAnonymous": false,
     "claimHash": null
   }
