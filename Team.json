@@ -309,29 +309,6 @@
     "claimHash": null
   },
   {
-    "uid": "KKS3uXKY5vQnVHXuUoaQk2F1HZo1",
-    "displayName": "Jun Ho Jeon; Camilo flores",
-    "firstName": "jun.ho.jeon.acevedo",
-    "lastName": "Principal",
-    "roles": [],
-    "description": {
-      "es": "",
-      "en": ""
-    },
-    "interests": {
-      "es": [],
-      "en": []
-    },
-    "institution": "Colegio San Viator de Macul",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "jun-ho-jeon",
-    "isAnonymous": false,
-    "claimHash": null
-  },
-  {
     "uid": "LbeObFgrZgdyKQmUgldPmjnh8Sj1",
     "displayName": "Pascal Cea",
     "firstName": "pascalcea08",
@@ -1031,6 +1008,31 @@
     "social": {},
     "imageUrl": "https://i.postimg.cc/KvJ2S0JD/Screenshot-20260101-020809-com-android-chrome-Custom-Tab-Activity.jpg",
     "slug": "jose-ignacio-carter",
+    "isAnonymous": false,
+    "claimHash": null
+  },
+  {
+    "uid": "KKS3uXKY5vQnVHXuUoaQk2F1HZo1",
+    "displayName": "Jun Ho Jeon",
+    "firstName": "Jun Ho Jeon",
+    "lastName": "",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Colegio San Viator de Macul",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "jun-ho-jeon",
     "isAnonymous": false,
     "claimHash": null
   }
