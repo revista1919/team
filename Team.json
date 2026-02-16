@@ -1,5 +1,84 @@
 [
   {
+    "uid": "2QW6sOaZanej5lnhKFdnm1og7Cg1",
+    "displayName": "Xavier Alonso Hernandez",
+    "firstName": "Xavier",
+    "lastName": "Alonso Hernandez",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "Soy un académico",
+      "en": "I am an academic"
+    },
+    "interests": {
+      "es": [
+        "IA",
+        "Arte"
+      ],
+      "en": [
+        "Arte",
+        "Novicia"
+      ]
+    },
+    "institution": "La universidad de la vida",
+    "orcid": "",
+    "publicEmail": "hola@gmail.com",
+    "social": {
+      "website": ""
+    },
+    "imageUrl": "https://i.ibb.co/hjHVQ2K/Gemini-Generated-Image-jhrog8jhrog8jhro-1-png.png",
+    "slug": "xavier-alonso-hernandez",
+    "isAnonymous": false,
+    "claimHash": null
+  },
+  {
+    "uid": "394a30e4-62d7-451e-b27f-9fe4495db55c",
+    "displayName": "Amir Carbonell",
+    "firstName": "amir.carbonell.soto",
+    "lastName": "Principal",
+    "roles": [],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Penta UC",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "amir-carbonell2",
+    "isAnonymous": false,
+    "claimHash": null
+  },
+  {
+    "uid": "3bd0d937-03fb-4129-9df9-f14029c5cbee",
+    "displayName": "Amir Carbonell",
+    "firstName": "Amir",
+    "lastName": "Carbonell",
+    "roles": [],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Penta UC",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "amir-carbonell1",
+    "isAnonymous": false,
+    "claimHash": null
+  },
+  {
     "uid": "40c3babe-9ed0-4a9f-b144-bc5a46728b12",
     "displayName": "Roberto Díaz",
     "firstName": "Roberto",
@@ -17,10 +96,12 @@
     },
     "institution": "Penta UC",
     "orcid": "",
-    "publicEmail": "",
+    "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "roberto-diaz"
+    "slug": "roberto-diaz",
+    "isAnonymous": false,
+    "claimHash": null
   },
   {
     "uid": "47ZgaVGBZFU9kwmJZpl8K8ujMab2",
@@ -52,10 +133,12 @@
     },
     "institution": " Liceo Bicentenario Simón Bolívar",
     "orcid": "",
-    "publicEmail": "",
+    "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "santiago-soto"
+    "slug": "santiago-soto",
+    "isAnonymous": false,
+    "claimHash": null
   },
   {
     "uid": "5fa816eb-012a-4cd7-8fdd-5824b5b9333f",
@@ -75,10 +158,12 @@
     },
     "institution": "Liceo Provincial Santa Teresa de los Andes ",
     "orcid": "",
-    "publicEmail": "",
+    "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "florencia-espinosa"
+    "slug": "florencia-espinosa",
+    "isAnonymous": false,
+    "claimHash": null
   },
   {
     "uid": "6c811b77-3e34-40a2-8d6a-f8cd71a07cf2",
@@ -98,10 +183,12 @@
     },
     "institution": "Penta UC",
     "orcid": "",
-    "publicEmail": "",
+    "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "camilo-flores"
+    "slug": "camilo-flores",
+    "isAnonymous": false,
+    "claimHash": null
   },
   {
     "uid": "80nl6CAxqyWTHAsg4BOZTMrNRiH2",
@@ -129,10 +216,12 @@
     },
     "institution": "Colegio Calasanz",
     "orcid": "",
-    "publicEmail": "",
+    "publicEmail": null,
     "social": {},
     "imageUrl": "https://i.postimg.cc/7ZtMd4C5/722c2ba2-121e-4d78-a41b-2628739ee398.jpg",
-    "slug": "juan-pablo-miralles"
+    "slug": "juan-pablo-miralles",
+    "isAnonymous": false,
+    "claimHash": null
   },
   {
     "uid": "93tfJj8JZkYBTtLLlIezEmiOVLm2",
@@ -152,10 +241,12 @@
     },
     "institution": "Colegio Curimón",
     "orcid": "",
-    "publicEmail": "",
+    "publicEmail": null,
     "social": {},
     "imageUrl": "https://i.postimg.cc/SRzb64WM/Screenshot-20260101-030021.jpg",
-    "slug": "mariana-moraga"
+    "slug": "mariana-moraga",
+    "isAnonymous": false,
+    "claimHash": null
   },
   {
     "uid": "9b8d8351-b594-4ad2-bbeb-d7c2c9d59fce",
@@ -175,19 +266,19 @@
     },
     "institution": "Colegio Curimón",
     "orcid": "",
-    "publicEmail": "",
+    "publicEmail": null,
     "social": {},
     "imageUrl": "https://i.postimg.cc/W3vZLp1S/IMG-20260101-025208.jpg",
-    "slug": "jose-antonio-fuentes"
+    "slug": "jose-antonio-fuentes",
+    "isAnonymous": false,
+    "claimHash": null
   },
   {
     "uid": "EP2S7UL6KnRgT8UlaHpHTwxtA7g1",
     "displayName": "Trinidad Margozzini",
-    "firstName": "Trinidad",
-    "lastName": "Margozzini",
-    "roles": [
-      "Autor"
-    ],
+    "firstName": "trini.margozzini",
+    "lastName": "Principal",
+    "roles": [],
     "description": {
       "es": " ",
       "en": " "
@@ -196,12 +287,14 @@
       "es": [],
       "en": []
     },
-    "institution": "Colegio Curimón",
+    "institution": "Colegio Curimon de San Felipe",
     "orcid": "",
-    "publicEmail": "",
+    "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "trinidad-margozzini"
+    "slug": "trinidad-margozzini",
+    "isAnonymous": false,
+    "claimHash": null
   },
   {
     "uid": "FDRMEnz5agcQnhWSHlu4Lth2mHJ3",
@@ -231,20 +324,19 @@
     },
     "institution": "Colegio Curimón",
     "orcid": "",
-    "publicEmail": "",
+    "publicEmail": null,
     "social": {},
     "imageUrl": "https://i.postimg.cc/pd8j65RD/IMG-20260101-WA0019.jpg",
-    "slug": "tomas-ramirez"
+    "slug": "tomas-ramirez",
+    "isAnonymous": false,
+    "claimHash": null
   },
   {
     "uid": "Fy2g2ipz91T2nYXmduetUF0RpvG3",
-    "displayName": "Lucas Velozo Mella",
-    "firstName": "Lucas",
-    "lastName": "Velozo Mella",
-    "roles": [
-      "Revisor",
-      "Autor"
-    ],
+    "displayName": "Lucas Velozo ",
+    "firstName": "lgvm3011",
+    "lastName": "Principal",
+    "roles": [],
     "description": {
       "en": "Lucas Velozo Mella, a third-year high school student at Colegio Instituto Pascal, with a strong interest in mathematics, chess, and lyrical analysis. He participates in the UC Talent Academy. National mathematics finalist 2023, U18 chess champion in Providencia. Federated chess player.",
       "es": "Lucas Velozo Mella, estudiante de tercero medio en el Colegio Instituto Pascal, con un mayor interés en las matemáticas, el ajedrez y el análisis lírico. Participa en la Academia de Talentos de la UC. Finalista nacional de matemáticas 2023, campeón sub-18 de ajedrez en Providencia. Jugador federado de ajedrez."
@@ -267,19 +359,19 @@
     },
     "institution": "Colegio Instituto Pascal",
     "orcid": "",
-    "publicEmail": "",
+    "publicEmail": null,
     "social": {},
     "imageUrl": "https://i.ibb.co/V0dsX4b3/Whats-App-Image-2025-09-30-at-00-27-03.jpg",
-    "slug": "lucas-velozo-mella"
+    "slug": "lucas-velozo-mella",
+    "isAnonymous": false,
+    "claimHash": null
   },
   {
     "uid": "GKTVvsA50bVp0o6UakN5xxPCdoz2",
-    "displayName": "José Ignacio Carter",
-    "firstName": "José",
-    "lastName": "Ignacio Carter",
-    "roles": [
-      "Autor"
-    ],
+    "displayName": "Jose Ignacio Carter",
+    "firstName": "joseignaciocarterpalma",
+    "lastName": "Principal",
+    "roles": [],
     "description": {
       "es": "",
       "en": ""
@@ -288,21 +380,21 @@
       "es": [],
       "en": []
     },
-    "institution": "Colegio Curimón",
+    "institution": "Colegio Curimon",
     "orcid": "",
-    "publicEmail": "",
+    "publicEmail": null,
     "social": {},
     "imageUrl": "https://i.postimg.cc/KvJ2S0JD/Screenshot-20260101-020809-com-android-chrome-Custom-Tab-Activity.jpg",
-    "slug": "jose-ignacio-carter"
+    "slug": "jose-ignacio-carter",
+    "isAnonymous": false,
+    "claimHash": null
   },
   {
     "uid": "KKS3uXKY5vQnVHXuUoaQk2F1HZo1",
-    "displayName": "Jun Ho Jeon",
-    "firstName": "Jun",
-    "lastName": "Ho Jeon",
-    "roles": [
-      "Autor"
-    ],
+    "displayName": "Jun Ho Jeon; Camilo flores",
+    "firstName": "jun.ho.jeon.acevedo",
+    "lastName": "Principal",
+    "roles": [],
     "description": {
       "es": "",
       "en": ""
@@ -313,19 +405,19 @@
     },
     "institution": "Colegio San Viator de Macul",
     "orcid": "",
-    "publicEmail": "",
+    "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "jun-ho-jeon"
+    "slug": "jun-ho-jeon",
+    "isAnonymous": false,
+    "claimHash": null
   },
   {
     "uid": "LbeObFgrZgdyKQmUgldPmjnh8Sj1",
     "displayName": "Pascal Cea",
-    "firstName": "Pascal",
-    "lastName": "Cea",
-    "roles": [
-      "Autor"
-    ],
+    "firstName": "pascalcea08",
+    "lastName": "Principal",
+    "roles": [],
     "description": {
       "es": "Pascal Cea es un estudiante de tercer año medio del Colegio Curimón de la comuna de San Felipe, profundamente interesado en la política y la historia. Destaca por su liderazgo, preside el Centro de Alumnos de su colegio, así también es finalista regional del Torneo Delibera de la Biblioteca del Congreso Nacional, de este último torneo ha participado dos veces, así como ha participado también en el concurso de Economía más cerca del Banco Central de Chile y el torneo de cuentos sobre pesos del Banco Central de Chile. También ha sido participante del Torneo de Transparencia organizado por el CPLT. Es un aficionado por la política, un gran orador y amante de la escritura.",
       "en": "Pascal Cea is a third-year high school student at Colegio Curimón in the San Felipe commune, deeply interested in politics and history. He stands out for his leadership, serving as president of his school's Student Council. He is also a regional finalist in the Delibera Tournament of the National Congress Library, a tournament he has participated in twice. Additionally, he has taken part in the \"Closer Economy\" competition of the Central Bank of Chile and the Central Bank of Chile's short story competition about pesos. He has also been a participant in the Transparency Tournament organized by the CPLT. He is a politics enthusiast, a great orator, and a lover of writing."
@@ -349,21 +441,21 @@
         "History of great civilizations."
       ]
     },
-    "institution": "Colegio Curimón",
+    "institution": "Colegio Curimon de San Felipe",
     "orcid": "",
-    "publicEmail": "",
+    "publicEmail": null,
     "social": {},
     "imageUrl": "https://i.postimg.cc/50gV4pbK/IMG-20260101-023114.jpg",
-    "slug": "pascal-cea"
+    "slug": "pascal-cea",
+    "isAnonymous": false,
+    "claimHash": null
   },
   {
     "uid": "NJaiT2Zk0rhlAM2QCdayHI28RWz2",
-    "displayName": "Diego Durán",
-    "firstName": "Diego",
-    "lastName": "Durán",
-    "roles": [
-      "Autor"
-    ],
+    "displayName": "Diego Durán ",
+    "firstName": "diego.duran.t92",
+    "lastName": "Principal",
+    "roles": [],
     "description": {
       "es": "",
       "en": ""
@@ -372,12 +464,14 @@
       "es": [],
       "en": []
     },
-    "institution": "",
+    "institution": "Broward International University",
     "orcid": "",
-    "publicEmail": "",
+    "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "diego-duran"
+    "slug": "diego-duran",
+    "isAnonymous": false,
+    "claimHash": null
   },
   {
     "uid": "PUfEv6PN9mZ9tEkEfn8ZRdpb5WW2",
@@ -413,10 +507,43 @@
     },
     "institution": "Pontificia Universidad Católica de Chile ",
     "orcid": "",
-    "publicEmail": "",
+    "publicEmail": null,
     "social": {},
     "imageUrl": "https://i.postimg.cc/wvyRyZPS/f1c87432-6951-497a-8c5b-cb55984d7088.jpg",
-    "slug": "marina-soto"
+    "slug": "marina-soto",
+    "isAnonymous": false,
+    "claimHash": null
+  },
+  {
+    "uid": "SXT77f1iIXhPewA8Endank8YjuW2",
+    "displayName": "Renato vergara",
+    "firstName": "renatitoandres.vergara",
+    "lastName": "Principal",
+    "roles": [],
+    "description": {
+      "es": "Renato Vergara es estudiante de Segundo Medio del Colegio Curimón de San Felipe con interés en música, programación y matemáticas. Destaca por su compromiso y capacidad colaborativa. Participa activamente en actividades académicas. Es alumni de la FPP. Es un jugador de tennis de mesa aficionado.",
+      "en": "Renato Vergara is a 10th-grade student at Colegio Curimón in San Felipe, with an interest in music, programming, and mathematics. He stands out for his commitment and collaborative ability. He actively participates in academic activities. He is an alumnus of the FPP. He is an amateur table tennis player."
+    },
+    "interests": {
+      "es": [
+        "Programación",
+        "Música",
+        "Deportes"
+      ],
+      "en": [
+        "Programming",
+        "Music",
+        "Sports"
+      ]
+    },
+    "institution": "Colegio curimon",
+    "orcid": "",
+    "publicEmail": "renato.vergara@revistacienciasestudiantes.com",
+    "social": {},
+    "imageUrl": "https://i.ibb.co/SX5H7Njs/88c43826-0668-423d-be67-cbe12435e15b-jpg.jpg",
+    "slug": "renato-vergara",
+    "isAnonymous": false,
+    "claimHash": null
   },
   {
     "uid": "V0v60t9xDYXZlo3R8SUhddrIl7f2",
@@ -445,10 +572,12 @@
     },
     "institution": "New Heinrich School",
     "orcid": "",
-    "publicEmail": "",
+    "publicEmail": null,
     "social": {},
     "imageUrl": "https://i.postimg.cc/htC41hbm/unnamed.jpg",
-    "slug": "carlos-gutierrez"
+    "slug": "carlos-gutierrez",
+    "isAnonymous": false,
+    "claimHash": null
   },
   {
     "uid": "VXyJhZL5JcUpMRKxoSU7xi0xUX03",
@@ -480,10 +609,12 @@
     },
     "institution": "Pontificia Universidad Católica de Chile",
     "orcid": "",
-    "publicEmail": "",
+    "publicEmail": null,
     "social": {},
     "imageUrl": "https://i.postimg.cc/HnwKXcPc/Foto-Investigacio-n.jpg",
-    "slug": "mario-ramirez"
+    "slug": "mario-ramirez",
+    "isAnonymous": false,
+    "claimHash": null
   },
   {
     "uid": "WB1xkKUAsnTVo4vj2CeaLUprDaB3",
@@ -514,10 +645,12 @@
     },
     "institution": "Liceo Bicentenario Santa María de las Condes",
     "orcid": "",
-    "publicEmail": "",
+    "publicEmail": null,
     "social": {},
     "imageUrl": "https://i.postimg.cc/VNCbG8Qy/0.jpg",
-    "slug": "emanuel-cereceda"
+    "slug": "emanuel-cereceda",
+    "isAnonymous": false,
+    "claimHash": null
   },
   {
     "uid": "Wis4rhCQB7MM0HxFggEjngOOnSa2",
@@ -549,19 +682,54 @@
     },
     "institution": "Liceo Nacional de Maipú",
     "orcid": "",
-    "publicEmail": "",
+    "publicEmail": null,
     "social": {},
     "imageUrl": "https://i.postimg.cc/nr1zQZdK/Screenshot-20251122-120357.jpg",
-    "slug": "joel-portugal"
+    "slug": "joel-portugal",
+    "isAnonymous": false,
+    "claimHash": null
+  },
+  {
+    "uid": "Wp9AbMocILX4UOy6il09qluhrL23",
+    "displayName": "Javier Vergara; Santiago Soto",
+    "firstName": "javieritoalonso.vergara",
+    "lastName": "Principal",
+    "roles": [],
+    "description": {
+      "es": "Javier Vergara es estudiante Cuarto Medio en el Colegio Curimón de San Felipe, con interés en Economía, Ciencias Políticas y Matemáticas. Es estudiante de la Academia de Talentos de la UC. Finalista del Keneth Garshina Undergraduate Students Essay Contest del Mises Institute AERC 2025, con artículo publicado en la página del Mises Institute. Shortlisted para el John Locke Institute Global Essay Prize 2025. Distinction en London School of Economics Students Union Economics Society Essay Competition 2025. Ha sido becado para asistir a los Summer Courses del John Locke Institute en Princeton, la Universidad de Verano de la Universidad de las Hespérides en España, y para seminario del Ayn Rand Center en Buenos Aires. Ha publicado una traducción con Unión Editorial y se ha certificado en el College Program de ciencias políticas de la Universidad del Desarrollo.",
+      "en": "Javier Vergara is a fourth-year high school student at Curimón School in San Felipe, with an interest in Economics, Political Science, and Mathematics. He is a student at the UC Talent Academy. Finalist of the Keneth Garshina Undergraduate Students Essay Contest of the Mises Institute AERC 2025, with an article published on the Mises Institute's website. Shortlisted for the John Locke Institute Global Essay Prize 2025. Distinction in the London School of Economics Students Union Economics Society Essay Competition 2025. He has been awarded a scholarship to attend the Summer Courses of the John Locke Institute in Princeton, the Summer University of the University of Las Hespérides in Spain, and a seminar at the Ayn Rand Center in Buenos Aires. He has published a translation with Unión Editorial and has been certified in the Political Science College Program at Universidad del Desarrollo."
+    },
+    "interests": {
+      "es": [
+        "Economía",
+        "Matemáticas",
+        "Historia",
+        "Política"
+      ],
+      "en": [
+        "Economics",
+        "Mathematics",
+        "History",
+        "Politics"
+      ]
+    },
+    "institution": "Academia de Talentos UC",
+    "orcid": "0009-0005-5326-0177",
+    "publicEmail": null,
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/javier-vergara-r%C3%ADos-1021b42b5?originalSubdomain=cl"
+    },
+    "imageUrl": "https://i.postimg.cc/d1MJwpbx/IMG-20231130-WA0014.jpg",
+    "slug": "javier-vergara",
+    "isAnonymous": false,
+    "claimHash": null
   },
   {
     "uid": "YC6kihySELc3l8NodUN9Ffk8eEV2",
     "displayName": "Santiago Vargas",
-    "firstName": "Santiago",
-    "lastName": "Vargas",
-    "roles": [
-      "Autor"
-    ],
+    "firstName": "santiago.vargas.espinoza",
+    "lastName": "Principal",
+    "roles": [],
     "description": {
       "es": "",
       "en": ""
@@ -572,10 +740,12 @@
     },
     "institution": "Penta UC",
     "orcid": "",
-    "publicEmail": "",
+    "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "santiago-vargas"
+    "slug": "santiago-vargas",
+    "isAnonymous": false,
+    "claimHash": null
   },
   {
     "uid": "bCWBGL4eJkdufLJDyKFQrgexxgy1",
@@ -595,10 +765,12 @@
     },
     "institution": "Colegio Curimón",
     "orcid": "",
-    "publicEmail": "",
+    "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "juan-vega"
+    "slug": "juan-vega",
+    "isAnonymous": false,
+    "claimHash": null
   },
   {
     "uid": "c9adbde3-61bd-415a-9f77-ad84ec959ce9",
@@ -628,10 +800,12 @@
     },
     "institution": "Colegio Calasanz",
     "orcid": "",
-    "publicEmail": "",
+    "publicEmail": null,
     "social": {},
     "imageUrl": "https://i.postimg.cc/8jhB7Rxq/IMG-20250930-230356-656.jpg",
-    "slug": "benjamin-catalan"
+    "slug": "benjamin-catalan",
+    "isAnonymous": false,
+    "claimHash": null
   },
   {
     "uid": "e9d73612-2812-45a8-8e5d-478bef5bc2ac",
@@ -651,19 +825,19 @@
     },
     "institution": "Penta UC",
     "orcid": "",
-    "publicEmail": "",
+    "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "sofia-flores"
+    "slug": "sofia-flores",
+    "isAnonymous": false,
+    "claimHash": null
   },
   {
     "uid": "i8sGO7Qvx5gZ4VXjtmWUUSrWbqT2",
-    "displayName": "Sophie Quinteros",
-    "firstName": "Sophie",
-    "lastName": "Quinteros",
-    "roles": [
-      "Autor"
-    ],
+    "displayName": "Sophie Quinteros; Florencia Espinosa",
+    "firstName": "phie.bravo",
+    "lastName": "Principal",
+    "roles": [],
     "description": {
       "es": "",
       "en": ""
@@ -672,21 +846,21 @@
       "es": [],
       "en": []
     },
-    "institution": "Lincoln International Academy",
+    "institution": "Lincoln International Academy; Liceo provincial santa teresa de los andes",
     "orcid": "",
-    "publicEmail": "",
+    "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "sophie-quinteros"
+    "slug": "sophie-quinteros",
+    "isAnonymous": false,
+    "claimHash": null
   },
   {
     "uid": "j6vlqaAh9iRrL9bbwvy5eBxh55z2",
-    "displayName": "Magdalena Leal",
-    "firstName": "Magdalena",
-    "lastName": "Leal",
-    "roles": [
-      "Autor"
-    ],
+    "displayName": "Magdalena Leal; Roberto Díaz",
+    "firstName": "magdalena.leal.ocares",
+    "lastName": "Principal",
+    "roles": [],
     "description": {
       "es": "",
       "en": ""
@@ -695,21 +869,21 @@
       "es": [],
       "en": []
     },
-    "institution": "Penta UC",
+    "institution": "PENTA UC",
     "orcid": "",
-    "publicEmail": "",
+    "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "magdalena-leal"
+    "slug": "magdalena-leal",
+    "isAnonymous": false,
+    "claimHash": null
   },
   {
     "uid": "mfDxTTdAd9SucyFfMveGOlHZcan2",
-    "displayName": "Agustín Maturana",
-    "firstName": "Agustín",
-    "lastName": "Maturana",
-    "roles": [
-      "Autor"
-    ],
+    "displayName": "Agustín Maturana; Santiago Vargas",
+    "firstName": "aster.maturana",
+    "lastName": "Principal",
+    "roles": [],
     "description": {
       "es": "",
       "en": ""
@@ -718,12 +892,14 @@
       "es": [],
       "en": []
     },
-    "institution": "Instituto Miguel León Prado",
+    "institution": "Instituto Miguel León Prado; jaja no sé dónde estudia el Santiago",
     "orcid": "",
-    "publicEmail": "",
+    "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "agustin-maturana"
+    "slug": "agustin-maturana",
+    "isAnonymous": false,
+    "claimHash": null
   },
   {
     "uid": "ofxyom4jFkbdSaNh6gTzEKy3DTK2",
@@ -755,10 +931,12 @@
     },
     "institution": "Colegio Calasanz",
     "orcid": "",
-    "publicEmail": "",
+    "publicEmail": null,
     "social": {},
     "imageUrl": "https://i.postimg.cc/mkfVpYW6/9929cd0d-c089-4776-a902-70fa30d21e00.jpg",
-    "slug": "francisco-correa"
+    "slug": "francisco-correa",
+    "isAnonymous": false,
+    "claimHash": null
   },
   {
     "uid": "sVxFthpnosRlNBs17xfdLMO0EA23",
@@ -778,10 +956,12 @@
     },
     "institution": "Liceo Lastarria",
     "orcid": "",
-    "publicEmail": "",
+    "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "amir-carbonell"
+    "slug": "amir-carbonell",
+    "isAnonymous": false,
+    "claimHash": null
   },
   {
     "uid": "wqf9Go6qvLaUc38E1CKZvBJZOZk1",
@@ -811,161 +991,17 @@
     },
     "institution": "Colegio Calasanz",
     "orcid": "",
-    "publicEmail": "",
+    "publicEmail": null,
     "social": {},
     "imageUrl": "https://i.ibb.co/BKFy9Xw7/TOM-S-ARANCIBIA.jpg",
-    "slug": "tomas-arancibia"
+    "slug": "tomas-arancibia",
+    "isAnonymous": false,
+    "claimHash": null
   },
   {
     "uid": "z1HHJYjxglP1rp6TQpo5aypK26N2",
-    "displayName": "Cristóbal Rojas",
-    "firstName": "Cristóbal",
-    "lastName": "Rojas",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "",
-      "en": ""
-    },
-    "interests": {
-      "es": [],
-      "en": []
-    },
-    "institution": "Liceo Amanda Labarca",
-    "orcid": "",
-    "publicEmail": "",
-    "social": {},
-    "imageUrl": "",
-    "slug": "cristobal-rojas"
-  },
-  {
-    "uid": "SXT77f1iIXhPewA8Endank8YjuW2",
-    "displayName": "Renato Vergara",
-    "firstName": "Renato",
-    "lastName": "Vergara",
-    "roles": [
-      "Encargado de Redes Sociales",
-      "Autor"
-    ],
-    "description": {
-      "es": "Renato Vergara es estudiante de Segundo Medio del Colegio Curimón de San Felipe con interés en música, programación y matemáticas. Destaca por su compromiso y capacidad colaborativa. Participa activamente en actividades académicas. Es alumni de la FPP. Es un jugador de tennis de mesa aficionado.",
-      "en": "Renato Vergara is a 10th-grade student at Colegio Curimón in San Felipe, with an interest in music, programming, and mathematics. He stands out for his commitment and collaborative ability. He actively participates in academic activities. He is an alumnus of the FPP. He is an amateur table tennis player."
-    },
-    "interests": {
-      "es": [
-        "Programación",
-        "Música",
-        "Deportes"
-      ],
-      "en": [
-        "Programming",
-        "Music",
-        "Sports"
-      ]
-    },
-    "institution": "Colegio Curimón",
-    "orcid": "",
-    "publicEmail": "renato.vergara@revistacienciasestudiantes.com",
-    "social": {},
-    "imageUrl": "https://i.ibb.co/SX5H7Njs/88c43826-0668-423d-be67-cbe12435e15b-jpg.jpg",
-    "slug": "renato-vergara"
-  },
-  {
-    "uid": "2QW6sOaZanej5lnhKFdnm1og7Cg1",
-    "displayName": "Xavier Alonso Hernandez",
-    "firstName": "Xavier",
-    "lastName": "Alonso Hernandez",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "Soy un académico",
-      "en": "I am an academic"
-    },
-    "interests": {
-      "es": [
-        "IA",
-        "Arte"
-      ],
-      "en": [
-        "Arte",
-        "Novicia"
-      ]
-    },
-    "institution": "La universidad de la vida",
-    "orcid": "",
-    "publicEmail": "hola@gmail.com",
-    "social": {
-      "website": ""
-    },
-    "imageUrl": "https://i.ibb.co/hjHVQ2K/Gemini-Generated-Image-jhrog8jhrog8jhro-1-png.png",
-    "slug": "xavier-alonso-hernandez"
-  },
-  {
-    "uid": "Wp9AbMocILX4UOy6il09qluhrL23",
-    "displayName": "Javier Vergara",
-    "firstName": "Javier",
-    "lastName": "Vergara",
-    "roles": [
-      "Fundador",
-      "Director General",
-      "Editor en Jefe",
-      "Responsable de Desarrollo Web",
-      "Autor"
-    ],
-    "description": {
-      "es": "Javier Vergara es estudiante Cuarto Medio en el Colegio Curimón de San Felipe, con interés en Economía, Ciencias Políticas y Matemáticas. Es estudiante de la Academia de Talentos de la UC. Finalista del Keneth Garshina Undergraduate Students Essay Contest del Mises Institute AERC 2025, con artículo publicado en la página del Mises Institute. Shortlisted para el John Locke Institute Global Essay Prize 2025. Distinction en London School of Economics Students Union Economics Society Essay Competition 2025. Ha sido becado para asistir a los Summer Courses del John Locke Institute en Princeton, la Universidad de Verano de la Universidad de las Hespérides en España, y para seminario del Ayn Rand Center en Buenos Aires. Ha publicado una traducción con Unión Editorial y se ha certificado en el College Program de ciencias políticas de la Universidad del Desarrollo.",
-      "en": "Javier Vergara is a fourth-year high school student at Curimón School in San Felipe, with an interest in Economics, Political Science, and Mathematics. He is a student at the UC Talent Academy. Finalist of the Keneth Garshina Undergraduate Students Essay Contest of the Mises Institute AERC 2025, with an article published on the Mises Institute's website. Shortlisted for the John Locke Institute Global Essay Prize 2025. Distinction in the London School of Economics Students Union Economics Society Essay Competition 2025. He has been awarded a scholarship to attend the Summer Courses of the John Locke Institute in Princeton, the Summer University of the University of Las Hespérides in Spain, and a seminar at the Ayn Rand Center in Buenos Aires. He has published a translation with Unión Editorial and has been certified in the Political Science College Program at Universidad del Desarrollo."
-    },
-    "interests": {
-      "es": [
-        "Economía",
-        "Matemáticas",
-        "Historia",
-        "Política"
-      ],
-      "en": [
-        "Economics",
-        "Mathematics",
-        "History",
-        "Politics"
-      ]
-    },
-    "institution": "Colegio Curimón",
-    "orcid": "0009-0005-5326-0177",
-    "publicEmail": "",
-    "social": {
-      "linkedin": "https://www.linkedin.com/in/javier-vergara-r%C3%ADos-1021b42b5?originalSubdomain=cl"
-    },
-    "imageUrl": "https://i.postimg.cc/d1MJwpbx/IMG-20231130-WA0014.jpg",
-    "slug": "javier-vergara"
-  },
-  {
-    "uid": "3bd0d937-03fb-4129-9df9-f14029c5cbee",
-    "displayName": "Amir Carbonell",
-    "firstName": "Amir",
-    "lastName": "Carbonell",
-    "roles": [],
-    "description": {
-      "es": "",
-      "en": ""
-    },
-    "interests": {
-      "es": [],
-      "en": []
-    },
-    "institution": "Penta UC",
-    "orcid": "",
-    "publicEmail": "",
-    "social": {},
-    "imageUrl": "",
-    "slug": "amir-carbonell1"
-  },
-  {
-    "uid": "394a30e4-62d7-451e-b27f-9fe4495db55c",
-    "displayName": "Amir Carbonell",
-    "firstName": "amir.carbonell.soto",
+    "displayName": "Cristóbal Rojas ; Sofia Flores",
+    "firstName": "cristobal.rojas.m",
     "lastName": "Principal",
     "roles": [],
     "description": {
@@ -976,11 +1012,13 @@
       "es": [],
       "en": []
     },
-    "institution": "Penta UC",
+    "institution": "Liceo Amanda Labarca",
     "orcid": "",
-    "publicEmail": "",
+    "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "amir-carbonell2"
+    "slug": "cristobal-rojas",
+    "isAnonymous": false,
+    "claimHash": null
   }
 ]
