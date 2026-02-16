@@ -1026,8 +1026,10 @@
     "uid": "mfDxTTdAd9SucyFfMveGOlHZcan2",
     "displayName": "Agustín Maturana",
     "firstName": "Agustín",
-    "lastName": "Principal",
-    "roles": [],
+    "lastName": "",
+    "roles": [
+      "Autor"
+    ],
     "description": {
       "es": "",
       "en": ""
@@ -1036,7 +1038,7 @@
       "es": [],
       "en": []
     },
-    "institution": "Instituto Miguel León Prado; jaja no sé dónde estudia el Santiago",
+    "institution": "Instituto Miguel León Prado",
     "orcid": "",
     "publicEmail": null,
     "social": {},
