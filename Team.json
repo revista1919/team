@@ -228,29 +228,6 @@
     "claimHash": null
   },
   {
-    "uid": "EP2S7UL6KnRgT8UlaHpHTwxtA7g1",
-    "displayName": "Trinidad Margozzini",
-    "firstName": "Trinidad",
-    "lastName": "Margonzzini",
-    "roles": [],
-    "description": {
-      "es": " ",
-      "en": " "
-    },
-    "interests": {
-      "es": [],
-      "en": []
-    },
-    "institution": "Colegio Curimón",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "trinidad-margozzini",
-    "isAnonymous": false,
-    "claimHash": null
-  },
-  {
     "uid": "FDRMEnz5agcQnhWSHlu4Lth2mHJ3",
     "displayName": "Tomás Ramírez",
     "firstName": "Tomás",
@@ -1002,6 +979,31 @@
     },
     "imageUrl": "https://i.postimg.cc/d1MJwpbx/IMG-20231130-WA0014.jpg",
     "slug": "javier-vergara",
+    "isAnonymous": false,
+    "claimHash": null
+  },
+  {
+    "uid": "EP2S7UL6KnRgT8UlaHpHTwxtA7g1",
+    "displayName": "Trinidad Margozzini",
+    "firstName": "Trinidad",
+    "lastName": "Margonzzini",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": " ",
+      "en": " "
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Colegio Curimón",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "trinidad-margozzini",
     "isAnonymous": false,
     "claimHash": null
   }
