@@ -964,31 +964,6 @@
     "claimHash": null
   },
   {
-    "uid": "GKTVvsA50bVp0o6UakN5xxPCdoz2",
-    "displayName": "Jose Ignacio Carter",
-    "firstName": "joseignaciocarterpalma",
-    "lastName": "Principal",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "",
-      "en": ""
-    },
-    "interests": {
-      "es": [],
-      "en": []
-    },
-    "institution": "Colegio Curimon",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "https://i.postimg.cc/KvJ2S0JD/Screenshot-20260101-020809-com-android-chrome-Custom-Tab-Activity.jpg",
-    "slug": "jose-ignacio-carter",
-    "isAnonymous": false,
-    "claimHash": null
-  },
-  {
     "uid": "EP2S7UL6KnRgT8UlaHpHTwxtA7g1",
     "displayName": "Trinidad Margozzini",
     "firstName": "Trinidad",
@@ -1046,6 +1021,31 @@
     "social": {},
     "imageUrl": "https://i.ibb.co/V0dsX4b3/Whats-App-Image-2025-09-30-at-00-27-03.jpg",
     "slug": "lucas-velozo-mella",
+    "isAnonymous": false,
+    "claimHash": null
+  },
+  {
+    "uid": "GKTVvsA50bVp0o6UakN5xxPCdoz2",
+    "displayName": "Jose Ignacio Carter",
+    "firstName": "José",
+    "lastName": "Principal",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Colegio Curimon",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "https://i.postimg.cc/KvJ2S0JD/Screenshot-20260101-020809-com-android-chrome-Custom-Tab-Activity.jpg",
+    "slug": "jose-ignacio-carter",
     "isAnonymous": false,
     "claimHash": null
   }
