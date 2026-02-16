@@ -809,29 +809,6 @@
     "claimHash": null
   },
   {
-    "uid": "i8sGO7Qvx5gZ4VXjtmWUUSrWbqT2",
-    "displayName": "Sophie Quinteros",
-    "firstName": "Sophie",
-    "lastName": "",
-    "roles": [],
-    "description": {
-      "es": "",
-      "en": ""
-    },
-    "interests": {
-      "es": [],
-      "en": []
-    },
-    "institution": "Lincoln International Academy; Liceo provincial santa teresa de los andes",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "sophie-quinteros",
-    "isAnonymous": false,
-    "claimHash": null
-  },
-  {
     "uid": "j6vlqaAh9iRrL9bbwvy5eBxh55z2",
     "displayName": "Magdalena Leal",
     "firstName": "Magdalena",
@@ -1000,6 +977,31 @@
     "social": {},
     "imageUrl": "",
     "slug": "cristobal-rojas",
+    "isAnonymous": false,
+    "claimHash": null
+  },
+  {
+    "uid": "i8sGO7Qvx5gZ4VXjtmWUUSrWbqT2",
+    "displayName": "Sophie Quinteros",
+    "firstName": "Sophie",
+    "lastName": "",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Lincoln International Academy; Liceo provincial santa teresa de los andes",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "sophie-quinteros",
     "isAnonymous": false,
     "claimHash": null
   }
