@@ -872,37 +872,6 @@
     "slug": "renato-vergara"
   },
   {
-    "uid": "2QW6sOaZanej5lnhKFdnm1og7Cg1",
-    "displayName": "Xavier Alonso Hernandez",
-    "firstName": "Xavier",
-    "lastName": "Alonso Hernandez",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "Soy un académico",
-      "en": "I am an academic"
-    },
-    "interests": {
-      "es": [
-        "IA",
-        "Arte"
-      ],
-      "en": [
-        "Arte",
-        "Novicia"
-      ]
-    },
-    "institution": "La universidad de la vida",
-    "orcid": "",
-    "publicEmail": "hola@gmail.com",
-    "social": {
-      "website": "https://colegiosanmarcos.cl/"
-    },
-    "imageUrl": "https://i.ibb.co/hjHVQ2K/Gemini-Generated-Image-jhrog8jhrog8jhro-1-png.png",
-    "slug": "xavier-alonso-hernandez"
-  },
-  {
     "uid": "Wp9AbMocILX4UOy6il09qluhrL23",
     "displayName": "Javier Vergara",
     "firstName": "Javier",
@@ -940,5 +909,36 @@
     },
     "imageUrl": "https://i.postimg.cc/d1MJwpbx/IMG-20231130-WA0014.jpg",
     "slug": "javier-vergara"
+  },
+  {
+    "uid": "2QW6sOaZanej5lnhKFdnm1og7Cg1",
+    "displayName": "Xavier Alonso Hernandez",
+    "firstName": "Xavier",
+    "lastName": "Alonso Hernandez",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "Soy un académico",
+      "en": "I am an academic"
+    },
+    "interests": {
+      "es": [
+        "IA",
+        "Arte"
+      ],
+      "en": [
+        "Arte",
+        "Novicia"
+      ]
+    },
+    "institution": "La universidad de la vida",
+    "orcid": "",
+    "publicEmail": "hola@gmail.com",
+    "social": {
+      "website": ""
+    },
+    "imageUrl": "https://i.ibb.co/hjHVQ2K/Gemini-Generated-Image-jhrog8jhrog8jhro-1-png.png",
+    "slug": "xavier-alonso-hernandez"
   }
 ]
