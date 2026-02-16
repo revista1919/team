@@ -579,29 +579,6 @@
     "claimHash": null
   },
   {
-    "uid": "j6vlqaAh9iRrL9bbwvy5eBxh55z2",
-    "displayName": "Magdalena Leal; Roberto Díaz",
-    "firstName": "magdalena.leal.ocares",
-    "lastName": "Principal",
-    "roles": [],
-    "description": {
-      "es": "",
-      "en": ""
-    },
-    "interests": {
-      "es": [],
-      "en": []
-    },
-    "institution": "PENTA UC",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "magdalena-leal",
-    "isAnonymous": false,
-    "claimHash": null
-  },
-  {
     "uid": "mfDxTTdAd9SucyFfMveGOlHZcan2",
     "displayName": "Agustín Maturana; Santiago Vargas",
     "firstName": "aster.maturana",
@@ -1040,6 +1017,29 @@
     "social": {},
     "imageUrl": "",
     "slug": "sophie-quinteros",
+    "isAnonymous": false,
+    "claimHash": null
+  },
+  {
+    "uid": "j6vlqaAh9iRrL9bbwvy5eBxh55z2",
+    "displayName": "Magdalena Leal",
+    "firstName": "Magdalena",
+    "lastName": "Principal",
+    "roles": [],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "PENTA UC",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "magdalena-leal",
     "isAnonymous": false,
     "claimHash": null
   }
