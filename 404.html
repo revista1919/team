@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 - Página no encontrada | Revista Nacional de las Ciencias para Estudiantes</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Lora:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --deep-navy: #001f3f;
+      --rich-black: #121212;
+      --soft-white: #fdfdfd;
+      --accent-gold: #c5a059;
+      --border-color: #e0e0e0;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: var(--soft-white);
+      color: var(--rich-black);
+      font-family: 'Lora', serif;
+      line-height: 1.8;
+      -webkit-font-smoothing: antialiased;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .legal-nav {
+      padding: 30px 50px;
+      display: flex;
+      justify-content: center;
+      border-bottom: 1px solid var(--border-color);
+      background: white;
+      flex-wrap: wrap;
+    }
+
+    .legal-nav a {
+      font-family: 'Inter', sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      font-size: 12px;
+      font-weight: 700;
+      text-decoration: none;
+      color: var(--deep-navy);
+      transition: opacity 0.3s;
+    }
+
+    .legal-nav a:hover {
+      opacity: 0.7;
+    }
+
+    .language-selector {
+      margin-left: 20px;
+      font-family: 'Inter', sans-serif;
+      font-size: 11px;
+    }
+
+    .language-selector a {
+      letter-spacing: 1px;
+      margin: 0 5px;
+    }
+
+    .language-selector span {
+      color: #ccc;
+    }
+
+    .document-wrapper {
+      max-width: 850px;
+      margin: 60px auto;
+      padding: 0 40px;
+      flex: 1;
+      width: 100%;
+    }
+
+    .editorial-header {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    .error-code {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(6rem, 15vw, 10rem);
+      font-weight: 900;
+      line-height: 1;
+      margin: 0;
+      color: var(--deep-navy);
+      opacity: 0.15;
+      user-select: none;
+    }
+
+    .kicker {
+      display: block;
+      font-family: 'Inter', sans-serif;
+      font-variant: all-small-caps;
+      letter-spacing: 4px;
+      color: var(--deep-navy);
+      font-size: 14px;
+      font-weight: 700;
+      margin: 20px 0 10px;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      font-weight: 900;
+      line-height: 1.2;
+      margin: 0 0 20px;
+      color: var(--rich-black);
+    }
+
+    .meta-line {
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      font-family: 'Inter', sans-serif;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: #888;
+    }
+
+    .meta-line::before, .meta-line::after {
+      content: "";
+      height: 1px;
+      width: 50px;
+      background-color: var(--border-color);
+    }
+
+    .legal-content {
+      font-size: 1.15rem;
+      color: #333;
+      text-align: center;
+    }
+
+    .error-description {
+      max-width: 600px;
+      margin: 0 auto 40px;
+    }
+
+    .error-actions {
+      margin: 50px 0;
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      font-family: 'Inter', sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      text-decoration: none;
+      padding: 15px 30px;
+      border: 2px solid var(--deep-navy);
+      color: var(--deep-navy);
+      transition: all 0.3s;
+      display: inline-block;
+      background: transparent;
+      cursor: pointer;
+      min-width: 200px;
+    }
+
+    .btn:hover {
+      background-color: var(--deep-navy);
+      color: white;
+    }
+
+    .btn-light {
+      border-color: var(--border-color);
+      color: var(--rich-black);
+    }
+
+    .btn-light:hover {
+      background-color: var(--rich-black);
+      border-color: var(--rich-black);
+      color: white;
+    }
+
+    .suggestions {
+      margin: 60px 0;
+      padding: 40px 0;
+      border-top: 1px solid var(--border-color);
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .suggestions h2 {
+      font-family: 'Inter', sans-serif;
+      font-size: 11px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      margin-bottom: 30px;
+      color: var(--deep-navy);
+    }
+
+    .suggestions-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .suggestion-link {
+      font-family: 'Inter', sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      text-decoration: none;
+      color: var(--rich-black);
+      padding: 20px;
+      background: white;
+      border: 1px solid var(--border-color);
+      transition: all 0.3s;
+      display: block;
+      text-align: left;
+    }
+
+    .suggestion-link:hover {
+      border-color: var(--deep-navy);
+      transform: translateY(-3px);
+      box-shadow: 0 10px 25px rgba(0,31,63,0.1);
+    }
+
+    .suggestion-link small {
+      display: block;
+      font-size: 10px;
+      text-transform: uppercase;
+      color: #999;
+      margin-top: 8px;
+      letter-spacing: 0.5px;
+    }
+
+    a.legal-link {
+      color: var(--deep-navy);
+      text-decoration: none;
+      border-bottom: 1px solid var(--deep-navy);
+      padding-bottom: 2px;
+      transition: all 0.2s;
+    }
+
+    a.legal-link:hover {
+      background-color: var(--deep-navy);
+      color: white;
+    }
+
+    .contact-info {
+      margin: 40px 0;
+      font-size: 1rem;
+    }
+
+    .editorial-footer {
+      margin-top: 80px;
+      padding: 60px 20px;
+      border-top: 3px double var(--rich-black);
+      text-align: center;
+      background: white;
+    }
+
+    .footer-logo {
+      font-family: 'Playfair Display', serif;
+      font-weight: 900;
+      font-size: 1.2rem;
+      letter-spacing: -0.5px;
+      color: var(--rich-black);
+      text-decoration: none;
+    }
+
+    .footer-creds {
+      font-family: 'Inter', sans-serif;
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: #999;
+      margin-top: 20px;
+    }
+
+    /* Buscador simple */
+    .search-box {
+      margin: 40px 0;
+    }
+
+    .search-input {
+      font-family: 'Inter', sans-serif;
+      padding: 12px 20px;
+      width: 300px;
+      max-width: 100%;
+      border: 1px solid var(--border-color);
+      font-size: 14px;
+    }
+
+    .search-input:focus {
+      outline: none;
+      border-color: var(--deep-navy);
+    }
+
+    @media print {
+      body { background: white; }
+      .legal-nav, .error-actions, .suggestions, .language-selector { display: none; }
+    }
+
+    @media (max-width: 600px) {
+      .legal-nav { padding: 20px; flex-direction: column; align-items: center; gap: 10px; }
+      .language-selector { margin-left: 0; }
+      .document-wrapper { padding: 0 20px; }
+      .error-actions { flex-direction: column; }
+      .btn { display: block; text-align: center; width: 100%; }
+      .suggestions-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="legal-nav">
+    <a href="/" id="nav-home">The National Review of Sciences for Students</a>
+    <div class="language-selector">
+      <a href="#" onclick="setLanguage('es'); return false;" id="lang-es">ES</a>
+      <span>|</span>
+      <a href="#" onclick="setLanguage('en'); return false;" id="lang-en">EN</a>
+    </div>
+  </nav>
+
+  <main class="document-wrapper">
+    
+    <header class="editorial-header">
+      <div class="error-code">404</div>
+      <span class="kicker es">Página no encontrada</span>
+      <span class="kicker en" style="display: none;">Page not found</span>
+      
+      <h1 class="es">Esta página no existe en nuestros archivos</h1>
+      <h1 class="en" style="display: none;">This page does not exist in our archives</h1>
+      
+      <div class="meta-line es">San Felipe, Chile • Error de navegación</div>
+      <div class="meta-line en" style="display: none;">San Felipe, Chile • Navigation error</div>
+    </header>
+
+    <article class="legal-content">
+      <div class="error-description es">
+        <p>La página que buscas podría haber sido movida, renombrada o no existir. Nuestro archivo editorial es dinámico y está en constante evolución.</p>
+      </div>
+      <div class="error-description en" style="display: none;">
+        <p>The page you're looking for might have been moved, renamed, or doesn't exist. Our editorial archive is dynamic and constantly evolving.</p>
+      </div>
+
+      <!-- Botones de acción principales -->
+      <div class="error-actions">
+        <a href="/" class="btn es">Volver al inicio</a>
+        <a href="/" class="btn en" style="display: none;">Back to home</a>
+        
+        <a href="/team/" class="btn btn-light es">Conocer al equipo</a>
+        <a href="/team/" class="btn btn-light en" style="display: none;">Meet the team</a>
+        
+        <a href="/creditos.html" class="btn btn-light es">Créditos</a>
+        <a href="/creditos.EN.html" class="btn btn-light en" style="display: none;">Credits</a>
+      </div>
+
+      <!-- Sección de sugerencias -->
+      <div class="suggestions">
+        <h2 class="es">También te puede interesar</h2>
+        <h2 class="en" style="display: none;">You might also be interested in</h2>
+        
+        <div class="suggestions-grid">
+          <a href="/es/team/" class="suggestion-link es">
+            Nuestro equipo editorial
+            <small>Conoce a los editores y autores</small>
+          </a>
+          <a href="/en/team/" class="suggestion-link en" style="display: none;">
+            Our editorial team
+            <small>Meet the editors and authors</small>
+          </a>
+          
+          <a href="/creditos.html" class="suggestion-link es">
+            Créditos y atribuciones
+            <small>Sobre este proyecto académico</small>
+          </a>
+          <a href="/creditos.EN.html" class="suggestion-link en" style="display: none;">
+            Credits & attributions
+            <small>About this academic project</small>
+          </a>
+          
+          <a href="/privacidad.html" class="suggestion-link es">
+            Política de privacidad
+            <small>Protección de datos personales</small>
+          </a>
+          <a href="/privacidad.EN.html" class="suggestion-link en" style="display: none;">
+            Privacy policy
+            <small>Personal data protection</small>
+          </a>
+          
+          <a href="/issues/" class="suggestion-link es">
+            Últimos números
+            <small>Publicaciones recientes</small>
+          </a>
+          <a href="/en/issues/" class="suggestion-link en" style="display: none;">
+            Latest issues
+            <small>Recent publications</small>
+          </a>
+        </div>
+      </div>
+
+      <!-- Información de contacto -->
+      <div class="contact-info es">
+        <p>¿Crees que esto es un error? Contacta a nuestro equipo editorial:<br>
+        <a href="mailto:contact@revistacienciasestudiantes.com" class="legal-link">contact@revistacienciasestudiantes.com</a></p>
+      </div>
+      <div class="contact-info en" style="display: none;">
+        <p>Do you think this is an error? Contact our editorial team:<br>
+        <a href="mailto:contact@revistacienciasestudiantes.com" class="legal-link">contact@revistacienciasestudiantes.com</a></p>
+      </div>
+
+      <!-- URL solicitada (para debugging, se muestra solo si hay) -->
+      <div id="requested-url" style="font-size: 11px; color: #ccc; margin-top: 30px; font-family: monospace;"></div>
+    </article>
+
+    <footer class="editorial-footer">
+      <a href="/" class="footer-logo">R.N.C.E.</a>
+      <div class="footer-creds es">
+        ISSN 3087-2839 • San Felipe, Chile<br>
+        Una revista por y para estudiantes
+      </div>
+      <div class="footer-creds en" style="display: none;">
+        ISSN 3087-2839 • San Felipe, Chile<br>
+        A journal by and for students
+      </div>
+    </footer>
+
+  </main>
+
+  <script>
+    // Detectar idioma del navegador
+    function getBrowserLanguage() {
+      const lang = navigator.language || navigator.userLanguage;
+      return lang.startsWith('es') ? 'es' : 'en';
+    }
+
+    // Sistema de cambio de idioma
+    let currentLang = 'es';
+
+    function setLanguage(lang) {
+      currentLang = lang;
+      
+      // Elementos en español e inglés
+      const esElements = document.querySelectorAll('.es');
+      const enElements = document.querySelectorAll('.en');
+      
+      if (lang === 'es') {
+        esElements.forEach(el => el.style.display = 'block');
+        enElements.forEach(el => el.style.display = 'none');
+        document.title = '404 - Página no encontrada | Revista Nacional de las Ciencias para Estudiantes';
+        document.getElementById('nav-home').textContent = 'Revista Nacional de las Ciencias para Estudiantes';
+      } else {
+        esElements.forEach(el => el.style.display = 'none');
+        enElements.forEach(el => el.style.display = 'block');
+        document.title = '404 - Page not found | National Review of Sciences for Students';
+        document.getElementById('nav-home').textContent = 'The National Review of Sciences for Students';
+      }
+      
+      // Guardar preferencia
+      localStorage.setItem('preferred-language', lang);
+    }
+
+    // Detectar si es una página de perfil de equipo antigua y redirigir
+    function redirectOldTeamPages() {
+      const path = window.location.pathname;
+      const filename = path.split('/').pop();
+      
+      // Patrones de páginas de equipo antiguas (sin sufijo de idioma)
+      const isOldTeamPage = filename.match(/^[a-z0-9-]+\.html$/) && 
+                           !filename.includes('index') && 
+                           !filename.includes('creditos') && 
+                           !filename.includes('privacidad') &&
+                           !filename.includes('404');
+      
+      if (isOldTeamPage) {
+        const lang = getBrowserLanguage();
+        const newPath = lang === 'es' 
+          ? `/team/${filename}` 
+          : `/team/${filename.replace('.html', '.EN.html')}`;
+        
+        console.log('Redirigiendo perfil antiguo a:', newPath);
+        window.location.replace(newPath);
+        return true;
+      }
+      
+      // Redirigir index a team
+      if (path === '/' || path === '/index.html') {
+        const lang = getBrowserLanguage();
+        window.location.replace(`/${lang}/team/`);
+        return true;
+      }
+      
+      return false;
+    }
+
+    // Inicialización
+    window.onload = function() {
+      // Intentar redireccionar primero
+      if (redirectOldTeamPages()) {
+        return;
+      }
+      
+      // Mostrar la URL que causó el 404 (si está disponible)
+      const requestedUrl = document.getElementById('requested-url');
+      if (requestedUrl) {
+        requestedUrl.textContent = 'URL solicitada: ' + window.location.pathname;
+      }
+      
+      // Cargar idioma preferido
+      const savedLang = localStorage.getItem('preferred-language');
+      if (savedLang) {
+        setLanguage(savedLang);
+      } else {
+        setLanguage(getBrowserLanguage());
+      }
+    };
+
+    // Manejar parámetros de búsqueda (para redirecciones específicas)
+    (function() {
+      // Si hay un parámetro 'from' en la URL, intentar redirigir inteligentemente
+      const urlParams = new URLSearchParams(window.location.search);
+      const from = urlParams.get('from');
+      
+      if (from) {
+        console.log('Redirigiendo desde:', from);
+        // Aquí puedes agregar lógica específica para ciertas redirecciones
+      }
+    })();
+  </script>
+
+  <!-- Script para manejar redirecciones de perfiles específicos -->
+  <script>
+    // Lista de slugs antiguos que han cambiado (se puede generar dinámicamente)
+    const redirectMap = {
+      // Ejemplo: 'antiguo-autor': 'nuevo-autor'
+      // Esta parte se puede actualizar automáticamente desde el build
+    };
+
+    (function() {
+      const path = window.location.pathname;
+      const filename = path.split('/').pop().replace('.html', '');
+      
+      if (redirectMap[filename]) {
+        const lang = getBrowserLanguage();
+        const newPath = lang === 'es' 
+          ? `/team/${redirectMap[filename]}.html` 
+          : `/team/${redirectMap[filename]}.EN.html`;
+        
+        console.log('Redirigiendo slug mapeado a:', newPath);
+        window.location.replace(newPath);
+      }
+    })();
+  </script>
+
+</body>
+</html>
