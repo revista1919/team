@@ -2,19 +2,490 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Redirigiendo...</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Revista Nacional de las Ciencias para Estudiantes</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Lora:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
 
-  <!-- Redirección inmediata -->
-  <meta http-equiv="refresh" content="0; url=https://www.revistacienciasestudiantes.com/es/team/">
+  <style>
+    :root {
+      --deep-navy: #001f3f;
+      --rich-black: #121212;
+      --soft-white: #fdfdfd;
+      --accent-gold: #c5a059;
+      --border-color: #e0e0e0;
+    }
 
-  <!-- Redirección moderna -->
-  <script>
-    window.location.replace("https://www.revistacienciasestudiantes.com/es/team/");
-  </script>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: var(--soft-white);
+      color: var(--rich-black);
+      font-family: 'Lora', serif;
+      line-height: 1.8;
+      -webkit-font-smoothing: antialiased;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .legal-nav {
+      padding: 30px 50px;
+      display: flex;
+      justify-content: center;
+      border-bottom: 1px solid var(--border-color);
+      background: white;
+    }
+
+    .legal-nav a {
+      font-family: 'Inter', sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      font-size: 12px;
+      font-weight: 700;
+      text-decoration: none;
+      color: var(--deep-navy);
+      transition: opacity 0.3s;
+    }
+
+    .legal-nav a:hover {
+      opacity: 0.7;
+    }
+
+    .document-wrapper {
+      max-width: 850px;
+      margin: 80px auto;
+      padding: 0 40px;
+      flex: 1;
+    }
+
+    .editorial-header {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+
+    .kicker {
+      display: block;
+      font-family: 'Inter', sans-serif;
+      font-variant: all-small-caps;
+      letter-spacing: 4px;
+      color: var(--deep-navy);
+      font-size: 14px;
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2.5rem, 5vw, 3.8rem);
+      font-weight: 900;
+      line-height: 1.1;
+      margin: 0;
+      color: var(--rich-black);
+    }
+
+    .error-code {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(4rem, 10vw, 8rem);
+      font-weight: 900;
+      line-height: 1;
+      margin: 0;
+      color: var(--deep-navy);
+      opacity: 0.3;
+    }
+
+    .meta-line {
+      margin-top: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      font-family: 'Inter', sans-serif;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: #888;
+    }
+
+    .meta-line::before, .meta-line::after {
+      content: "";
+      height: 1px;
+      width: 50px;
+      background-color: var(--border-color);
+    }
+
+    .legal-content {
+      font-size: 1.15rem;
+      color: #333;
+      text-align: center;
+    }
+
+    .error-actions {
+      margin: 50px 0;
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      font-family: 'Inter', sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      text-decoration: none;
+      padding: 15px 30px;
+      border: 2px solid var(--deep-navy);
+      color: var(--deep-navy);
+      transition: all 0.3s;
+      display: inline-block;
+    }
+
+    .btn:hover {
+      background-color: var(--deep-navy);
+      color: white;
+    }
+
+    .btn-light {
+      border-color: var(--border-color);
+      color: var(--rich-black);
+    }
+
+    .btn-light:hover {
+      background-color: var(--rich-black);
+      border-color: var(--rich-black);
+      color: white;
+    }
+
+    .suggestions {
+      margin: 60px 0;
+      padding: 40px 0;
+      border-top: 1px solid var(--border-color);
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .suggestions h2 {
+      font-family: 'Inter', sans-serif;
+      font-size: 11px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      margin-bottom: 30px;
+      color: var(--deep-navy);
+    }
+
+    .suggestions-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .suggestion-link {
+      font-family: 'Inter', sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      text-decoration: none;
+      color: var(--rich-black);
+      padding: 15px;
+      background: white;
+      border: 1px solid var(--border-color);
+      transition: all 0.3s;
+      display: block;
+    }
+
+    .suggestion-link:hover {
+      border-color: var(--deep-navy);
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .suggestion-link small {
+      display: block;
+      font-size: 10px;
+      text-transform: uppercase;
+      color: #999;
+      margin-top: 5px;
+    }
+
+    .language-toggle {
+      margin: 30px 0;
+      font-family: 'Inter', sans-serif;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .language-toggle a {
+      color: var(--deep-navy);
+      text-decoration: none;
+      border-bottom: 1px dotted var(--deep-navy);
+      margin: 0 10px;
+      padding-bottom: 2px;
+    }
+
+    .language-toggle a:hover {
+      border-bottom-style: solid;
+    }
+
+    a.legal-link {
+      color: var(--deep-navy);
+      text-decoration: none;
+      border-bottom: 1px solid var(--deep-navy);
+      padding-bottom: 2px;
+      transition: all 0.2s;
+    }
+
+    a.legal-link:hover {
+      background-color: var(--deep-navy);
+      color: white;
+    }
+
+    .editorial-footer {
+      margin-top: 120px;
+      padding: 60px 20px;
+      border-top: 3px double var(--rich-black);
+      text-align: center;
+      background: white;
+    }
+
+    .footer-logo {
+      font-family: 'Playfair Display', serif;
+      font-weight: 900;
+      font-size: 1.2rem;
+      letter-spacing: -0.5px;
+      color: var(--rich-black);
+      text-decoration: none;
+    }
+
+    .footer-creds {
+      font-family: 'Inter', sans-serif;
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: #999;
+      margin-top: 20px;
+    }
+
+    @media print {
+      body { background: white; }
+      .legal-nav { display: none; }
+      .document-wrapper { margin: 0 auto; width: 100%; }
+    }
+
+    @media (max-width: 600px) {
+      .legal-nav { padding: 20px; }
+      .document-wrapper { padding: 0 20px; }
+      .error-actions { flex-direction: column; }
+      .btn { display: block; text-align: center; }
+    }
+  </style>
 </head>
 <body>
-  <p>Redirigiendo a <a href="https://www.revistacienciasestudiantes.com/es/team/">
-    Revista Ciencias Estudiantes
-  </a>...</p>
+
+  <nav class="legal-nav">
+    <a href="/" id="nav-home-link">The National Review of Sciences for Students</a>
+  </nav>
+
+  <main class="document-wrapper" id="main-content">
+    
+    <header class="editorial-header">
+      <div class="error-code" id="error-code">404</div>
+      <span class="kicker" id="error-kicker-es">Página no encontrada</span>
+      <span class="kicker" id="error-kicker-en" style="display: none;">Page not found</span>
+      <h1 id="error-title-es">Esta página no existe</h1>
+      <h1 id="error-title-en" style="display: none;">This page doesn't exist</h1>
+      <div class="meta-line" id="error-meta-es">San Felipe, Chile • Error de navegación</div>
+      <div class="meta-line" id="error-meta-en" style="display: none;">San Felipe, Chile • Navigation error</div>
+    </header>
+
+    <article class="legal-content">
+      <div id="content-es">
+        <p>La página que estás buscando podría haber sido movida, renombrada o podría no existir. Nuestro equipo editorial mantiene un archivo dinámico en constante evolución.</p>
+      </div>
+      <div id="content-en" style="display: none;">
+        <p>The page you're looking for might have been moved, renamed, or might not exist. Our editorial team maintains a dynamic and constantly evolving archive.</p>
+      </div>
+
+      <div class="language-toggle">
+        <a href="#" onclick="setLanguage('es'); return false;" id="lang-es-link">Español</a> • 
+        <a href="#" onclick="setLanguage('en'); return false;" id="lang-en-link">English</a>
+      </div>
+
+      <div class="error-actions">
+        <a href="/" class="btn" id="btn-home-es">Volver al inicio</a>
+        <a href="/" class="btn" id="btn-home-en" style="display: none;">Back to home</a>
+        <a href="/team/" class="btn btn-light" id="btn-team-es">Conocer al equipo</a>
+        <a href="/team/" class="btn btn-light" id="btn-team-en" style="display: none;">Meet the team</a>
+      </div>
+
+      <div class="suggestions">
+        <h2 id="suggestions-title-es">También te puede interesar</h2>
+        <h2 id="suggestions-title-en" style="display: none;">You might also be interested in</h2>
+        
+        <div class="suggestions-grid">
+          <a href="/es/team/" class="suggestion-link" id="suggestion-team-es">
+            Nuestro equipo editorial
+            <small>Conoce a los editores</small>
+          </a>
+          <a href="/en/team/" class="suggestion-link" id="suggestion-team-en" style="display: none;">
+            Our editorial team
+            <small>Meet the editors</small>
+          </a>
+          
+          <a href="/creditos.html" class="suggestion-link" id="suggestion-credits-es">
+            Créditos y atribuciones
+            <small>Sobre este proyecto</small>
+          </a>
+          <a href="/creditos.EN.html" class="suggestion-link" id="suggestion-credits-en" style="display: none;">
+            Credits & attributions
+            <small>About this project</small>
+          </a>
+          
+          <a href="/privacidad.html" class="suggestion-link" id="suggestion-privacy-es">
+            Política de privacidad
+            <small>Protección de datos</small>
+          </a>
+          <a href="/privacidad.EN.html" class="suggestion-link" id="suggestion-privacy-en" style="display: none;">
+            Privacy policy
+            <small>Data protection</small>
+          </a>
+        </div>
+      </div>
+
+      <p id="contact-es">
+        Si crees que esto es un error, puedes contactarnos en: 
+        <a href="mailto:contact@revistacienciasestudiantes.com" class="legal-link">contact@revistacienciasestudiantes.com</a>
+      </p>
+      <p id="contact-en" style="display: none;">
+        If you believe this is an error, you can contact us at: 
+        <a href="mailto:contact@revistacienciasestudiantes.com" class="legal-link">contact@revistacienciasestudiantes.com</a>
+      </p>
+    </article>
+
+    <footer class="editorial-footer">
+      <a href="/" class="footer-logo">R.N.C.E.</a>
+      <div class="footer-creds" id="footer-es">
+        ISSN 3087-2839 • San Felipe, Chile<br>
+        Una revista por y para estudiantes
+      </div>
+      <div class="footer-creds" id="footer-en" style="display: none;">
+        ISSN 3087-2839 • San Felipe, Chile<br>
+        A journal by and for students
+      </div>
+    </footer>
+
+  </main>
+
+  <script>
+    // Detectar el idioma preferido del navegador
+    function getBrowserLanguage() {
+      const lang = navigator.language || navigator.userLanguage;
+      return lang.startsWith('es') ? 'es' : 'en';
+    }
+
+    // Detectar si es una página de perfil de equipo (para redirección automática)
+    function detectAndRedirectTeamPage() {
+      const path = window.location.pathname;
+      
+      // Si es una página de equipo antigua (sin sufijo de idioma)
+      if (path.includes('/team/') && !path.endsWith('.html')) {
+        const lang = getBrowserLanguage();
+        const newPath = lang === 'es' ? '/es/team/' : '/en/team/';
+        window.location.replace(newPath);
+        return true;
+      }
+      
+      // Si es un HTML antiguo (como el index original que redirige)
+      if (path.endsWith('index.html') || path === '/index.html' || path === '/') {
+        const lang = getBrowserLanguage();
+        const newPath = lang === 'es' ? '/es/team/' : '/en/team/';
+        window.location.replace(newPath);
+        return true;
+      }
+      
+      return false;
+    }
+
+    // Sistema de cambio de idioma
+    let currentLang = 'es';
+
+    function setLanguage(lang) {
+      currentLang = lang;
+      
+      // Elementos en español
+      const esElements = document.querySelectorAll('[id$="-es"]');
+      const enElements = document.querySelectorAll('[id$="-en"]');
+      
+      esElements.forEach(el => el.style.display = el.id.startsWith('lang-') ? 'inline' : 'block');
+      enElements.forEach(el => el.style.display = 'none');
+      
+      if (lang === 'en') {
+        esElements.forEach(el => el.style.display = 'none');
+        enElements.forEach(el => el.style.display = el.id.startsWith('lang-') ? 'inline' : 'block');
+      }
+      
+      // Actualizar el enlace del nav
+      document.getElementById('nav-home-link').innerHTML = 
+        lang === 'es' ? 'Revista Nacional de las Ciencias para Estudiantes' : 'The National Review of Sciences for Students';
+      
+      // Guardar preferencia
+      localStorage.setItem('preferred-language', lang);
+    }
+
+    // Inicialización
+    window.onload = function() {
+      // Intentar redireccionar si es necesario
+      if (detectAndRedirectTeamPage()) {
+        return; // Si redirige, no continuar
+      }
+      
+      // Cargar idioma preferido
+      const savedLang = localStorage.getItem('preferred-language');
+      const browserLang = getBrowserLanguage();
+      
+      if (savedLang) {
+        setLanguage(savedLang);
+      } else {
+        setLanguage(browserLang);
+      }
+      
+      // Verificar si es un error 404 (esta página se sirve como 404)
+      document.title = currentLang === 'es' 
+        ? 'Página no encontrada — Revista Nacional de las Ciencias para Estudiantes'
+        : 'Page not found — National Review of Sciences for Students';
+    };
+  </script>
+
+  <!-- Script adicional para detectar si es una redirección de perfil antiguo -->
+  <script>
+    // Verificar si la URL contiene un slug de perfil antiguo
+    (function() {
+      const path = window.location.pathname;
+      const match = path.match(/\/([^\/]+)\.html$/);
+      
+      if (match && match[1] && !match[1].includes('index') && !match[1].includes('creditos') && !match[1].includes('privacidad')) {
+        const slug = match[1];
+        const lang = getBrowserLanguage();
+        
+        // Intentar redirigir al perfil en el idioma correcto
+        // Nota: Esto asume que los perfiles tienen sufijo .EN.html para inglés
+        if (slug.endsWith('.EN')) {
+          // Ya está en formato con idioma, probablemente correcto
+        } else {
+          // Es un slug sin idioma, redirigir al formato nuevo
+          const newPath = lang === 'es' 
+            ? `/team/${slug}.html` 
+            : `/team/${slug}.EN.html`;
+          
+          // Verificar si debemos redirigir (evitar bucles)
+          if (!path.includes('/team/')) {
+            window.location.replace(newPath);
+          }
+        }
+      }
+    })();
+  </script>
+
 </body>
 </html>
