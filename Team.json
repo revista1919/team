@@ -326,31 +326,6 @@
     "claimHash": null
   },
   {
-    "uid": "GKTVvsA50bVp0o6UakN5xxPCdoz2",
-    "displayName": "José Ignacio Carter",
-    "firstName": "José",
-    "lastName": "Principal",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "",
-      "en": ""
-    },
-    "interests": {
-      "es": [],
-      "en": []
-    },
-    "institution": "Colegio Curimon",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "https://i.postimg.cc/KvJ2S0JD/Screenshot-20260101-020809-com-android-chrome-Custom-Tab-Activity.jpg",
-    "slug": "jose-ignacio-carter",
-    "isAnonymous": false,
-    "claimHash": null
-  },
-  {
     "uid": "KKS3uXKY5vQnVHXuUoaQk2F1HZo1",
     "displayName": "Jun Ho Jeon",
     "firstName": "Jun Ho",
@@ -1005,6 +980,31 @@
     "social": {},
     "imageUrl": "",
     "slug": "cristobal-rojas",
+    "isAnonymous": false,
+    "claimHash": null
+  },
+  {
+    "uid": "GKTVvsA50bVp0o6UakN5xxPCdoz2",
+    "displayName": "José Ignacio Carter",
+    "firstName": "José",
+    "lastName": "Principal",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Colegio Curimon",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "https://i.postimg.cc/KvJ2S0JD/Screenshot-20260101-020809-com-android-chrome-Custom-Tab-Activity.jpg",
+    "slug": "jose-ignacio-carter",
     "isAnonymous": false,
     "claimHash": null
   }
