@@ -391,31 +391,6 @@
     "claimHash": null
   },
   {
-    "uid": "NJaiT2Zk0rhlAM2QCdayHI28RWz2",
-    "displayName": "Diego Durán ",
-    "firstName": "diego.duran.t92",
-    "lastName": "Principal",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "",
-      "en": ""
-    },
-    "interests": {
-      "es": [],
-      "en": []
-    },
-    "institution": "Broward International University",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "diego-duran",
-    "isAnonymous": false,
-    "claimHash": null
-  },
-  {
     "uid": "PUfEv6PN9mZ9tEkEfn8ZRdpb5WW2",
     "displayName": "Marina Soto",
     "firstName": "Marina",
@@ -1005,6 +980,31 @@
     "social": {},
     "imageUrl": "https://i.postimg.cc/KvJ2S0JD/Screenshot-20260101-020809-com-android-chrome-Custom-Tab-Activity.jpg",
     "slug": "jose-ignacio-carter",
+    "isAnonymous": false,
+    "claimHash": null
+  },
+  {
+    "uid": "NJaiT2Zk0rhlAM2QCdayHI28RWz2",
+    "displayName": "Diego Durán ",
+    "firstName": "diego.duran.t92",
+    "lastName": "Principal",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Broward International University",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "diego-duran",
     "isAnonymous": false,
     "claimHash": null
   }
