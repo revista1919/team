@@ -326,6 +326,31 @@
     "claimHash": null
   },
   {
+    "uid": "GKTVvsA50bVp0o6UakN5xxPCdoz2",
+    "displayName": "José Ignacio Carter",
+    "firstName": "José",
+    "lastName": "Principal",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Colegio Curimon",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "https://i.postimg.cc/KvJ2S0JD/Screenshot-20260101-020809-com-android-chrome-Custom-Tab-Activity.jpg",
+    "slug": "jose-ignacio-carter",
+    "isAnonymous": false,
+    "claimHash": null
+  },
+  {
     "uid": "KKS3uXKY5vQnVHXuUoaQk2F1HZo1",
     "displayName": "Jun Ho Jeon",
     "firstName": "Jun Ho",
@@ -453,6 +478,41 @@
     "social": {},
     "imageUrl": "https://i.postimg.cc/wvyRyZPS/f1c87432-6951-497a-8c5b-cb55984d7088.jpg",
     "slug": "marina-soto",
+    "isAnonymous": false,
+    "claimHash": null
+  },
+  {
+    "uid": "SXT77f1iIXhPewA8Endank8YjuW2",
+    "displayName": "Renato Vergara ",
+    "firstName": "Renato",
+    "lastName": "Vergara",
+    "roles": [
+      "Encargado de Redes Sociales",
+      "Autor"
+    ],
+    "description": {
+      "es": "Renato Vergara es estudiante de Segundo Medio del Colegio Curimón de San Felipe con interés en música, programación y matemáticas. Destaca por su compromiso y capacidad colaborativa. Participa activamente en actividades académicas. Es alumni de la FPP. Es un jugador de tennis de mesa aficionado.",
+      "en": "Renato Vergara is a 10th-grade student at Colegio Curimón in San Felipe, with an interest in music, programming, and mathematics. He stands out for his commitment and collaborative ability. He actively participates in academic activities. He is an alumnus of the FPP. He is an amateur table tennis player."
+    },
+    "interests": {
+      "es": [
+        "Programación",
+        "Música",
+        "Deportes",
+        "Top gun"
+      ],
+      "en": [
+        "Programming",
+        "Music",
+        "Sports"
+      ]
+    },
+    "institution": "Colegio Curimón",
+    "orcid": "",
+    "publicEmail": "renato.vergara@revistacienciasestudiantes.com",
+    "social": {},
+    "imageUrl": "https://i.ibb.co/XrnW92BX/1000035619-jpg.jpg",
+    "slug": "renato-vergara",
     "isAnonymous": false,
     "claimHash": null
   },
@@ -752,6 +812,31 @@
     "claimHash": null
   },
   {
+    "uid": "i8sGO7Qvx5gZ4VXjtmWUUSrWbqT2",
+    "displayName": "Sophie Quinteros",
+    "firstName": "Sophie",
+    "lastName": "",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Lincoln International Academy",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "sophie-quinteros",
+    "isAnonymous": false,
+    "claimHash": null
+  },
+  {
     "uid": "j6vlqaAh9iRrL9bbwvy5eBxh55z2",
     "displayName": "Magdalena Leal",
     "firstName": "Magdalena",
@@ -920,91 +1005,6 @@
     "social": {},
     "imageUrl": "",
     "slug": "cristobal-rojas",
-    "isAnonymous": false,
-    "claimHash": null
-  },
-  {
-    "uid": "i8sGO7Qvx5gZ4VXjtmWUUSrWbqT2",
-    "displayName": "Sophie Quinteros",
-    "firstName": "Sophie",
-    "lastName": "",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "",
-      "en": ""
-    },
-    "interests": {
-      "es": [],
-      "en": []
-    },
-    "institution": "Lincoln International Academy",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "sophie-quinteros",
-    "isAnonymous": false,
-    "claimHash": null
-  },
-  {
-    "uid": "SXT77f1iIXhPewA8Endank8YjuW2",
-    "displayName": "Renato Vergara ",
-    "firstName": "Renato",
-    "lastName": "Vergara",
-    "roles": [
-      "Encargado de Redes Sociales",
-      "Autor"
-    ],
-    "description": {
-      "es": "Renato Vergara es estudiante de Segundo Medio del Colegio Curimón de San Felipe con interés en música, programación y matemáticas. Destaca por su compromiso y capacidad colaborativa. Participa activamente en actividades académicas. Es alumni de la FPP. Es un jugador de tennis de mesa aficionado.",
-      "en": "Renato Vergara is a 10th-grade student at Colegio Curimón in San Felipe, with an interest in music, programming, and mathematics. He stands out for his commitment and collaborative ability. He actively participates in academic activities. He is an alumnus of the FPP. He is an amateur table tennis player."
-    },
-    "interests": {
-      "es": [
-        "Programación",
-        "Música",
-        "Deportes",
-        "Top gun"
-      ],
-      "en": [
-        "Programming",
-        "Music",
-        "Sports"
-      ]
-    },
-    "institution": "Colegio Curimón",
-    "orcid": "",
-    "publicEmail": "renato.vergara@revistacienciasestudiantes.com",
-    "social": {},
-    "imageUrl": "https://i.ibb.co/XrnW92BX/1000035619-jpg.jpg",
-    "slug": "renato-vergara",
-    "isAnonymous": false,
-    "claimHash": null
-  },
-  {
-    "uid": "GKTVvsA50bVp0o6UakN5xxPCdoz2",
-    "displayName": "José Ignacio Carter",
-    "firstName": "José",
-    "lastName": "Principal",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "",
-      "en": ""
-    },
-    "interests": {
-      "es": [],
-      "en": []
-    },
-    "institution": "Colegio Curimon",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "https://i.postimg.cc/KvJ2S0JD/Screenshot-20260101-020809-com-android-chrome-Custom-Tab-Activity.jpg",
-    "slug": "jose-ignacio-carter",
     "isAnonymous": false,
     "claimHash": null
   }
