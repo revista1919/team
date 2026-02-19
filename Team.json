@@ -30,7 +30,8 @@
     "imageUrl": "https://i.ibb.co/hjHVQ2K/Gemini-Generated-Image-jhrog8jhrog8jhro-1-png.png",
     "slug": "xavier-alonso-hernandez",
     "isAnonymous": false,
-    "claimHash": null
+    "claimHash": null,
+    "articles": []
   },
   {
     "uid": "40c3babe-9ed0-4a9f-b144-bc5a46728b12",
@@ -55,7 +56,8 @@
     "imageUrl": "",
     "slug": "roberto-diaz",
     "isAnonymous": false,
-    "claimHash": null
+    "claimHash": null,
+    "articles": []
   },
   {
     "uid": "47ZgaVGBZFU9kwmJZpl8K8ujMab2",
@@ -92,7 +94,8 @@
     "imageUrl": "",
     "slug": "santiago-soto",
     "isAnonymous": false,
-    "claimHash": null
+    "claimHash": null,
+    "articles": []
   },
   {
     "uid": "5fa816eb-012a-4cd7-8fdd-5824b5b9333f",
@@ -117,7 +120,8 @@
     "imageUrl": "",
     "slug": "florencia-espinosa",
     "isAnonymous": false,
-    "claimHash": null
+    "claimHash": null,
+    "articles": []
   },
   {
     "uid": "6c811b77-3e34-40a2-8d6a-f8cd71a07cf2",
@@ -142,7 +146,8 @@
     "imageUrl": "",
     "slug": "camilo-flores",
     "isAnonymous": false,
-    "claimHash": null
+    "claimHash": null,
+    "articles": []
   },
   {
     "uid": "80nl6CAxqyWTHAsg4BOZTMrNRiH2",
@@ -175,7 +180,8 @@
     "imageUrl": "https://i.postimg.cc/7ZtMd4C5/722c2ba2-121e-4d78-a41b-2628739ee398.jpg",
     "slug": "juan-pablo-miralles",
     "isAnonymous": false,
-    "claimHash": null
+    "claimHash": null,
+    "articles": []
   },
   {
     "uid": "93tfJj8JZkYBTtLLlIezEmiOVLm2",
@@ -200,7 +206,8 @@
     "imageUrl": "https://i.postimg.cc/SRzb64WM/Screenshot-20260101-030021.jpg",
     "slug": "mariana-moraga",
     "isAnonymous": false,
-    "claimHash": null
+    "claimHash": null,
+    "articles": []
   },
   {
     "uid": "9b8d8351-b594-4ad2-bbeb-d7c2c9d59fce",
@@ -225,7 +232,8 @@
     "imageUrl": "https://i.postimg.cc/W3vZLp1S/IMG-20260101-025208.jpg",
     "slug": "jose-antonio-fuentes",
     "isAnonymous": false,
-    "claimHash": null
+    "claimHash": null,
+    "articles": []
   },
   {
     "uid": "EP2S7UL6KnRgT8UlaHpHTwxtA7g1",
@@ -250,7 +258,8 @@
     "imageUrl": "",
     "slug": "trinidad-margozzini",
     "isAnonymous": false,
-    "claimHash": null
+    "claimHash": null,
+    "articles": []
   },
   {
     "uid": "FDRMEnz5agcQnhWSHlu4Lth2mHJ3",
@@ -285,7 +294,8 @@
     "imageUrl": "https://i.postimg.cc/pd8j65RD/IMG-20260101-WA0019.jpg",
     "slug": "tomas-ramirez",
     "isAnonymous": false,
-    "claimHash": null
+    "claimHash": null,
+    "articles": []
   },
   {
     "uid": "Fy2g2ipz91T2nYXmduetUF0RpvG3",
@@ -323,7 +333,34 @@
     "imageUrl": "https://i.ibb.co/V0dsX4b3/Whats-App-Image-2025-09-30-at-00-27-03.jpg",
     "slug": "lucas-velozo-mella",
     "isAnonymous": false,
-    "claimHash": null
+    "claimHash": null,
+    "articles": []
+  },
+  {
+    "uid": "GKTVvsA50bVp0o6UakN5xxPCdoz2",
+    "displayName": "José Ignacio Carter",
+    "firstName": "José",
+    "lastName": "Principal",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Colegio Curimon",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "https://i.postimg.cc/KvJ2S0JD/Screenshot-20260101-020809-com-android-chrome-Custom-Tab-Activity.jpg",
+    "slug": "jose-ignacio-carter",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
   },
   {
     "uid": "KKS3uXKY5vQnVHXuUoaQk2F1HZo1",
@@ -348,7 +385,8 @@
     "imageUrl": "",
     "slug": "jun-ho-jeon",
     "isAnonymous": false,
-    "claimHash": null
+    "claimHash": null,
+    "articles": []
   },
   {
     "uid": "LbeObFgrZgdyKQmUgldPmjnh8Sj1",
@@ -388,7 +426,34 @@
     "imageUrl": "https://i.postimg.cc/50gV4pbK/IMG-20260101-023114.jpg",
     "slug": "pascal-cea",
     "isAnonymous": false,
-    "claimHash": null
+    "claimHash": null,
+    "articles": []
+  },
+  {
+    "uid": "NJaiT2Zk0rhlAM2QCdayHI28RWz2",
+    "displayName": "Diego Durán",
+    "firstName": "Diego",
+    "lastName": "",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Broward International University",
+    "orcid": "",
+    "publicEmail": "diego.duran.t92@gmail.com",
+    "social": {},
+    "imageUrl": "",
+    "slug": "diego-duran",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
   },
   {
     "uid": "PUfEv6PN9mZ9tEkEfn8ZRdpb5WW2",
@@ -429,7 +494,8 @@
     "imageUrl": "https://i.postimg.cc/wvyRyZPS/f1c87432-6951-497a-8c5b-cb55984d7088.jpg",
     "slug": "marina-soto",
     "isAnonymous": false,
-    "claimHash": null
+    "claimHash": null,
+    "articles": []
   },
   {
     "uid": "SXT77f1iIXhPewA8Endank8YjuW2",
@@ -464,7 +530,8 @@
     "imageUrl": "https://i.ibb.co/XrnW92BX/1000035619-jpg.jpg",
     "slug": "renato-vergara",
     "isAnonymous": false,
-    "claimHash": null
+    "claimHash": null,
+    "articles": []
   },
   {
     "uid": "V0v60t9xDYXZlo3R8SUhddrIl7f2",
@@ -498,7 +565,8 @@
     "imageUrl": "https://i.postimg.cc/htC41hbm/unnamed.jpg",
     "slug": "carlos-gutierrez",
     "isAnonymous": false,
-    "claimHash": null
+    "claimHash": null,
+    "articles": []
   },
   {
     "uid": "VXyJhZL5JcUpMRKxoSU7xi0xUX03",
@@ -535,7 +603,8 @@
     "imageUrl": "https://i.postimg.cc/HnwKXcPc/Foto-Investigacio-n.jpg",
     "slug": "mario-ramirez",
     "isAnonymous": false,
-    "claimHash": null
+    "claimHash": null,
+    "articles": []
   },
   {
     "uid": "WB1xkKUAsnTVo4vj2CeaLUprDaB3",
@@ -571,7 +640,8 @@
     "imageUrl": "https://i.postimg.cc/VNCbG8Qy/0.jpg",
     "slug": "emanuel-cereceda",
     "isAnonymous": false,
-    "claimHash": null
+    "claimHash": null,
+    "articles": []
   },
   {
     "uid": "Wis4rhCQB7MM0HxFggEjngOOnSa2",
@@ -608,7 +678,8 @@
     "imageUrl": "https://i.postimg.cc/nr1zQZdK/Screenshot-20251122-120357.jpg",
     "slug": "joel-portugal",
     "isAnonymous": false,
-    "claimHash": null
+    "claimHash": null,
+    "articles": []
   },
   {
     "uid": "Wp9AbMocILX4UOy6il09qluhrL23",
@@ -649,7 +720,8 @@
     "imageUrl": "https://i.postimg.cc/d1MJwpbx/IMG-20231130-WA0014.jpg",
     "slug": "javier-vergara",
     "isAnonymous": false,
-    "claimHash": null
+    "claimHash": null,
+    "articles": []
   },
   {
     "uid": "YC6kihySELc3l8NodUN9Ffk8eEV2",
@@ -674,7 +746,8 @@
     "imageUrl": "",
     "slug": "santiago-vargas",
     "isAnonymous": false,
-    "claimHash": null
+    "claimHash": null,
+    "articles": []
   },
   {
     "uid": "bCWBGL4eJkdufLJDyKFQrgexxgy1",
@@ -699,7 +772,8 @@
     "imageUrl": "",
     "slug": "juan-vega",
     "isAnonymous": false,
-    "claimHash": null
+    "claimHash": null,
+    "articles": []
   },
   {
     "uid": "c9adbde3-61bd-415a-9f77-ad84ec959ce9",
@@ -734,7 +808,8 @@
     "imageUrl": "https://i.postimg.cc/8jhB7Rxq/IMG-20250930-230356-656.jpg",
     "slug": "benjamin-catalan",
     "isAnonymous": false,
-    "claimHash": null
+    "claimHash": null,
+    "articles": []
   },
   {
     "uid": "e9d73612-2812-45a8-8e5d-478bef5bc2ac",
@@ -759,7 +834,8 @@
     "imageUrl": "",
     "slug": "sofia-flores",
     "isAnonymous": false,
-    "claimHash": null
+    "claimHash": null,
+    "articles": []
   },
   {
     "uid": "i8sGO7Qvx5gZ4VXjtmWUUSrWbqT2",
@@ -784,7 +860,8 @@
     "imageUrl": "",
     "slug": "sophie-quinteros",
     "isAnonymous": false,
-    "claimHash": null
+    "claimHash": null,
+    "articles": []
   },
   {
     "uid": "j6vlqaAh9iRrL9bbwvy5eBxh55z2",
@@ -809,7 +886,8 @@
     "imageUrl": "",
     "slug": "magdalena-leal",
     "isAnonymous": false,
-    "claimHash": null
+    "claimHash": null,
+    "articles": []
   },
   {
     "uid": "mfDxTTdAd9SucyFfMveGOlHZcan2",
@@ -834,7 +912,8 @@
     "imageUrl": "",
     "slug": "agustin-maturana",
     "isAnonymous": false,
-    "claimHash": null
+    "claimHash": null,
+    "articles": []
   },
   {
     "uid": "ofxyom4jFkbdSaNh6gTzEKy3DTK2",
@@ -871,7 +950,8 @@
     "imageUrl": "https://i.postimg.cc/mkfVpYW6/9929cd0d-c089-4776-a902-70fa30d21e00.jpg",
     "slug": "francisco-correa",
     "isAnonymous": false,
-    "claimHash": null
+    "claimHash": null,
+    "articles": []
   },
   {
     "uid": "sVxFthpnosRlNBs17xfdLMO0EA23",
@@ -896,7 +976,8 @@
     "imageUrl": "",
     "slug": "amir-carbonell",
     "isAnonymous": false,
-    "claimHash": null
+    "claimHash": null,
+    "articles": []
   },
   {
     "uid": "wqf9Go6qvLaUc38E1CKZvBJZOZk1",
@@ -931,7 +1012,8 @@
     "imageUrl": "https://i.ibb.co/BKFy9Xw7/TOM-S-ARANCIBIA.jpg",
     "slug": "tomas-arancibia",
     "isAnonymous": false,
-    "claimHash": null
+    "claimHash": null,
+    "articles": []
   },
   {
     "uid": "z1HHJYjxglP1rp6TQpo5aypK26N2",
@@ -956,56 +1038,7 @@
     "imageUrl": "",
     "slug": "cristobal-rojas",
     "isAnonymous": false,
-    "claimHash": null
-  },
-  {
-    "uid": "GKTVvsA50bVp0o6UakN5xxPCdoz2",
-    "displayName": "José Ignacio Carter",
-    "firstName": "José",
-    "lastName": "Principal",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "",
-      "en": ""
-    },
-    "interests": {
-      "es": [],
-      "en": []
-    },
-    "institution": "Colegio Curimon",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "https://i.postimg.cc/KvJ2S0JD/Screenshot-20260101-020809-com-android-chrome-Custom-Tab-Activity.jpg",
-    "slug": "jose-ignacio-carter",
-    "isAnonymous": false,
-    "claimHash": null
-  },
-  {
-    "uid": "NJaiT2Zk0rhlAM2QCdayHI28RWz2",
-    "displayName": "Diego Durán",
-    "firstName": "Diego",
-    "lastName": "",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "",
-      "en": ""
-    },
-    "interests": {
-      "es": [],
-      "en": []
-    },
-    "institution": "Broward International University",
-    "orcid": "",
-    "publicEmail": "diego.duran.t92@gmail.com",
-    "social": {},
-    "imageUrl": "",
-    "slug": "diego-duran",
-    "isAnonymous": false,
-    "claimHash": null
+    "claimHash": null,
+    "articles": []
   }
 ]
