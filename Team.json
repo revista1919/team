@@ -295,7 +295,19 @@
     "slug": "tomas-ramirez",
     "isAnonymous": false,
     "claimHash": null,
-    "articles": []
+    "articles": [
+      {
+        "title": "El Sueño Humano y Sus Ciclos: Bases Neurobiológicas y Consecuencias de la Privación del Descanso",
+        "titleEn": "El Sueño Humano y Sus Ciclos: Bases Neurobiológicas y Consecuencias de la Privación del Descanso",
+        "submissionId": "",
+        "fecha": "2025-12-31",
+        "volumen": "1",
+        "numero": "1",
+        "area": "Neurobiología del sueño",
+        "numeroArticulo": "10",
+        "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-el-sueno-humano-y-sus-ciclos-bases-neurobiologicas-y-consecuencias-de-la-privacion-del-descanso-10.pdf"
+      }
+    ]
   },
   {
     "uid": "Fy2g2ipz91T2nYXmduetUF0RpvG3",
@@ -360,7 +372,19 @@
     "slug": "jose-ignacio-carter",
     "isAnonymous": false,
     "claimHash": null,
-    "articles": []
+    "articles": [
+      {
+        "title": "El Reloj de Flores de Viña del Mar como Conmemoración de la Copa Mundial de 1962 y su Influencia en el Turismo y la Economía Local",
+        "titleEn": "El Reloj de Flores de Viña del Mar como Conmemoración de la Copa Mundial de 1962 y su Influencia en el Turismo y la Economía Local",
+        "submissionId": "LEGACY-1771278762723-S8P12QMB9",
+        "fecha": "2026-01-21",
+        "volumen": "2",
+        "numero": "1",
+        "area": "Historia y Turismo",
+        "numeroArticulo": "11",
+        "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-el-reloj-de-flores-de-vina-del-mar-como-conmemoracion-de-la-copa-mundial-de-1962-y-su-influencia-en-el-turismo-y-la-economia-local-11.pdf"
+      }
+    ]
   },
   {
     "uid": "KKS3uXKY5vQnVHXuUoaQk2F1HZo1",
@@ -453,7 +477,19 @@
     "slug": "diego-duran",
     "isAnonymous": false,
     "claimHash": null,
-    "articles": []
+    "articles": [
+      {
+        "title": "Análisis de experiencia comparada sobre programas de protección para hijos de personas privadas de libertad en relación al caso del Programa Abriendo Caminos de Chile",
+        "titleEn": "Análisis de experiencia comparada sobre programas de protección para hijos de personas privadas de libertad en relación al caso del Programa Abriendo Caminos de Chile",
+        "submissionId": "LEGACY-1771278767252-TOYA37V21",
+        "fecha": "2026-02-18",
+        "volumen": "2",
+        "numero": "1",
+        "area": "Políticas Sociales",
+        "numeroArticulo": "qbFDH",
+        "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-analisis-de-experiencia-comparada-sobre-programas-de-proteccion-para-hijos-de-personas-privadas-de-libertad-en-relacion-al-caso-del-programa-abriendo-caminos-de-chile-12.pdf"
+      }
+    ]
   },
   {
     "uid": "PUfEv6PN9mZ9tEkEfn8ZRdpb5WW2",
