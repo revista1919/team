@@ -12,6 +12,7 @@ const __dirname = path.dirname(__filename);
 const TEAM_JSON_PATH = path.join(__dirname, 'Team.json');
 const PUBLIC_DIR = __dirname;
 const DOMAIN = 'https://www.revistacienciasestudiantes.com';
+const ARTICLES_JSON_URL = 'https://www.revistacienciasestudiantes.com/articles.json';
 
 // ========== INICIALIZAR FIREBASE ==========
 let serviceAccount;
@@ -39,7 +40,7 @@ function generateSlug(text) {
     .replace(/^-+|-+$/g, '');
 }
 
-// NUEVO: Generar ID único para autores sin cuenta
+// Generar ID único para autores sin cuenta
 function generateAnonymousId(name) {
   const hash = crypto.createHash('sha256')
     .update(name + '-' + Date.now().toString())
@@ -72,14 +73,13 @@ function saveTeamJson(users) {
     interests: u.interests,
     institution: u.institution,
     orcid: u.orcid,
-    // NUNCA guardar email privado en público
     publicEmail: u.publicEmail || null,
     social: u.social,
     imageUrl: u.imageUrl,
     slug: u.slug,
     isAnonymous: u.isAnonymous || false,
-    // Para anónimos, guardamos un hash para futura reclamación
-    claimHash: u.claimHash || null
+    claimHash: u.claimHash || null,
+    articles: u.articles || [] // Guardamos los artículos
   }));
   fs.writeFileSync(TEAM_JSON_PATH, JSON.stringify(teamJson, null, 2));
 }
@@ -107,10 +107,104 @@ const icons = {
   linkedin: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>`,
   x: `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>`,
   instagram: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>`,
-  web: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>`
+  web: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>`,
+  article: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16v16H4z"/><path d="M8 8h8M8 12h6M8 16h4"/></svg>`,
+  calendar: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>`,
+  volume: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>`
 };
 
-// ========== GENERADOR HTML ==========
+// ========== FUNCIÓN PARA OBTENER ARTÍCULOS ==========
+async function fetchAllArticles() {
+  try {
+    console.log('📥 Descargando articles.json...');
+    const response = await fetch(ARTICLES_JSON_URL);
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const articles = await response.json();
+    console.log(`✅ ${articles.length} artículos cargados`);
+    return articles;
+  } catch (error) {
+    console.error('❌ Error descargando articles.json:', error.message);
+    return [];
+  }
+}
+
+// ========== MATCHING DE AUTORES CON ARTÍCULOS ==========
+function matchAuthorsWithArticles(users, articles) {
+  console.log('🔗 Matcheando autores con sus artículos...');
+  
+  // Crear mapa de artículos por autor
+  const authorArticlesMap = new Map();
+  
+  articles.forEach(article => {
+    if (article.autores && Array.isArray(article.autores)) {
+      article.autores.forEach(author => {
+        // Caso 1: Matching por UID (usuarios registrados)
+        if (author.authorId) {
+          if (!authorArticlesMap.has(author.authorId)) {
+            authorArticlesMap.set(author.authorId, []);
+          }
+          authorArticlesMap.get(author.authorId).push({
+            title: article.titulo,
+            titleEn: article.tituloEnglish || article.titulo,
+            submissionId: article.submissionId,
+            fecha: article.fecha,
+            volumen: article.volumen,
+            numero: article.numero,
+            area: article.area,
+            numeroArticulo: article.numeroArticulo,
+            pdfUrl: article.pdfUrl
+          });
+        }
+        
+        // Caso 2: Matching por nombre (autores anónimos)
+        const authorName = author.name?.trim();
+        if (authorName) {
+          // Buscar usuario anónimo por nombre
+          const anonymousUser = users.find(u => 
+            u.isAnonymous && 
+            u.displayName.toLowerCase() === authorName.toLowerCase()
+          );
+          
+          if (anonymousUser) {
+            if (!authorArticlesMap.has(anonymousUser.uid)) {
+              authorArticlesMap.set(anonymousUser.uid, []);
+            }
+            authorArticlesMap.get(anonymousUser.uid).push({
+              title: article.titulo,
+              titleEn: article.tituloEnglish || article.titulo,
+              submissionId: article.submissionId,
+              fecha: article.fecha,
+              volumen: article.volumen,
+              numero: article.numero,
+              area: article.area,
+              numeroArticulo: article.numeroArticulo,
+              pdfUrl: article.pdfUrl
+            });
+          }
+        }
+      });
+    }
+  });
+  
+  // Asignar artículos a cada usuario
+  const usersWithArticles = users.map(user => {
+    const userArticles = authorArticlesMap.get(user.uid) || [];
+    return {
+      ...user,
+      articles: userArticles
+    };
+  });
+  
+  // Estadísticas
+  const usersWithArticlesCount = usersWithArticles.filter(u => u.articles.length > 0).length;
+  console.log(`✅ ${usersWithArticlesCount} usuarios tienen artículos asociados`);
+  
+  return usersWithArticles;
+}
+
+// ========== GENERADOR HTML MEJORADO ==========
 function generateHTML(user, lang) {
   const isSpanish = lang === 'es';
   const roles = user.roles || [];
@@ -149,34 +243,66 @@ function generateHTML(user, lang) {
     </div>
   ` : '';
 
-  // Determinar si es Editor en Jefe
   const isEditorEnJefe = roles.some(r => 
     r.toLowerCase().includes('editor en jefe') || r.toLowerCase() === 'editor-in-chief'
   );
 
-  // NUEVO: Sistema de contacto - NUNCA exponer emails privados
   let contactInfo = '';
   
   if (user.isAnonymous) {
-    // Autores anónimos: no muestran email, solo un mensaje
     contactInfo = `
       <div class="profile-inst">
-        <span class="italic text-gray-500">Autor colaborador</span>
+        <span class="italic text-gray-500">${isSpanish ? 'Autor colaborador' : 'Contributing author'}</span>
       </div>
     `;
   } else if (isEditorEnJefe) {
-    // Editor en Jefe: email institucional y dirección
     const institutionalEmail = `${(user.firstName || '').toLowerCase()}.${(user.lastName || '').toLowerCase()}@revistacienciasestudiantes.com`.replace(/\s/g, '');
     contactInfo = `
       <div class="profile-inst"><a href="mailto:${institutionalEmail}">${institutionalEmail}</a></div>
       <div class="profile-inst">San Felipe, Valparaíso, Chile</div>
     `;
   } else if (user.publicEmail) {
-    // Otros miembros: solo muestran correo público si existe
     contactInfo = `
       <div class="profile-inst"><a href="mailto:${user.publicEmail}">${user.publicEmail}</a></div>
     `;
   }
+
+  // ========== SECCIÓN DE ARTÍCULOS MEJORADA ==========
+  const articlesHtml = user.articles && user.articles.length > 0 ? `
+    <section class="articles-section">
+      <h2 class="section-title">
+        ${isSpanish ? 'Publicaciones' : 'Publications'}
+        <span class="article-count">${user.articles.length}</span>
+      </h2>
+      <div class="articles-grid">
+        ${user.articles.map(article => {
+          const fecha = new Date(article.fecha);
+          const año = fecha.getFullYear();
+          const mes = fecha.toLocaleString(isSpanish ? 'es' : 'en', { month: 'short' });
+          
+          return `
+          <a href="/article/${article.submissionId}.html" class="article-card">
+            <div class="article-card-header">
+              <span class="article-area">${article.area || (isSpanish ? 'Artículo' : 'Article')}</span>
+              <span class="article-meta-badge">Vol. ${article.volumen} • N° ${article.numero}</span>
+            </div>
+            <h3 class="article-title">${isSpanish ? article.title : (article.titleEn || article.title)}</h3>
+            <div class="article-footer">
+              <span class="article-date">
+                <span class="article-icon">${icons.calendar}</span>
+                ${mes} ${año}
+              </span>
+              ${article.pdfUrl ? `
+                <span class="article-pdf-link" onclick="event.stopPropagation(); window.open('${article.pdfUrl}', '_blank'); return false;">
+                  <span class="article-icon">📄</span> PDF
+                </span>
+              ` : ''}
+            </div>
+          </a>
+        `}).join('')}
+      </div>
+    </section>
+  ` : '';
 
   return `<!DOCTYPE html>
 <html lang="${lang}">
@@ -187,58 +313,451 @@ function generateHTML(user, lang) {
   <meta name="keywords" content="${interests.join(', ')}">
   <meta name="author" content="${user.displayName}">
   <title>${user.displayName} - ${isSpanish ? 'Equipo' : 'Team'} | Revista Ciencias Estudiantes</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Lora:wght@400;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Lora:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <style>
     :root {
       --primary: #007398;
+      --primary-light: #e6f3f8;
       --orcid-green: #A6CE39;
       --text: #1a1a1a;
+      --text-light: #4a4a4a;
       --grey: #555;
       --light-grey: #f8f8f8;
       --border: #e0e0e0;
+      --card-shadow: 0 2px 4px rgba(0,0,0,0.02);
+      --card-hover-shadow: 0 8px 16px rgba(0,115,152,0.08);
+      --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     }
-    body { margin: 0; font-family: 'Lora', serif; color: var(--text); background: #fff; line-height: 1.7; }
-    .top-nav { padding: 20px; text-align: center; border-bottom: 1px solid var(--border); font-family: 'Inter', sans-serif; text-transform: uppercase; letter-spacing: 2px; font-size: 11px; }
-    .top-nav a { text-decoration: none; color: var(--text); font-weight: 700; }
-    .profile-hero { max-width: 1000px; margin: 80px auto; padding: 0 40px; display: grid; grid-template-columns: 280px 1fr; gap: 60px; align-items: start; }
-    .sidebar-assets { display: flex; flex-direction: column; gap: 25px; }
-    .img-container { width: 280px; }
-    .profile-img { width: 100%; aspect-ratio: 1/1; object-fit: cover; filter: grayscale(10%); box-shadow: 20px 20px 0 var(--light-grey); border-radius: 4px; }
-    .no-img { width: 280px; height: 280px; background: var(--light-grey); display: flex; align-items: center; justify-content: center; font-family: 'Inter', sans-serif; color: #999; }
-    .profile-social { display: flex; gap: 15px; justify-content: flex-start; padding-top: 10px; }
-    .profile-social a { color: var(--grey); width: 20px; height: 20px; transition: all 0.3s; opacity: 0.7; }
-    .profile-social a:hover { color: var(--primary); opacity: 1; transform: translateY(-2px); }
-    .profile-info h1 { font-family: 'Playfair Display', serif; font-size: 3.8rem; margin: 0 0 10px; line-height: 1.1; font-weight: 900; letter-spacing: -1px; }
-    .profile-role { font-family: 'Inter', sans-serif; color: var(--primary); text-transform: uppercase; letter-spacing: 4px; font-size: 13px; font-weight: 700; margin-bottom: 20px; display: block; }
-    .profile-inst { font-family: 'Inter', sans-serif; color: var(--grey); font-size: 14px; margin-top: 5px; }
-    .profile-inst a { color: var(--grey); text-decoration: none; border-bottom: 1px dotted var(--border); }
-    .profile-inst a:hover { color: var(--primary); border-bottom-color: var(--primary); }
-    .orcid-container { margin: 20px 0; }
-    .orcid-link { display: inline-flex; align-items: center; text-decoration: none; color: var(--grey); font-family: 'Inter', sans-serif; font-size: 13px; padding: 6px 12px 6px 8px; background: var(--light-grey); border-radius: 4px; transition: background 0.3s; }
-    .orcid-link:hover { background: #eee; }
-    .orcid-icon { width: 20px; height: 20px; margin-right: 10px; }
-    .container { max-width: 800px; margin: 0 auto 100px; padding: 0 40px; }
-    .section-title { font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: 3px; border-bottom: 2px solid var(--text); padding-bottom: 8px; margin: 60px 0 30px; }
-    .bio-text { font-size: 1.2rem; color: #333; text-align: justify; }
-    .tags-container { display: flex; flex-wrap: wrap; gap: 10px; }
-    .keyword-tag { font-family: 'Inter', sans-serif; font-size: 12px; background: var(--light-grey); padding: 6px 15px; border-radius: 20px; font-weight: 600; }
-    .footer-nav { text-align: center; padding: 60px 20px; background: var(--light-grey); margin-top: 100px; }
-    .footer-nav a { font-family: 'Inter', sans-serif; font-size: 12px; text-decoration: none; color: var(--primary); font-weight: 700; margin: 0 15px; text-transform: uppercase; }
+    
+    body { 
+      margin: 0; 
+      font-family: 'Lora', serif; 
+      color: var(--text); 
+      background: #fff; 
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+    
+    .top-nav { 
+      padding: 20px; 
+      text-align: center; 
+      border-bottom: 1px solid var(--border); 
+      font-family: 'Inter', sans-serif; 
+      text-transform: uppercase; 
+      letter-spacing: 2px; 
+      font-size: clamp(10px, 2.5vw, 11px); 
+    }
+    
+    .top-nav a { 
+      text-decoration: none; 
+      color: var(--text); 
+      font-weight: 700; 
+    }
+    
+    .profile-hero { 
+      max-width: 1200px; 
+      margin: 40px auto; 
+      padding: 0 24px; 
+      display: grid; 
+      grid-template-columns: 280px 1fr; 
+      gap: 48px; 
+      align-items: start; 
+    }
+    
+    .sidebar-assets { 
+      display: flex; 
+      flex-direction: column; 
+      gap: 25px; 
+    }
+    
+    .img-container { 
+      width: 280px; 
+    }
+    
+    .profile-img { 
+      width: 100%; 
+      aspect-ratio: 1/1; 
+      object-fit: cover; 
+      filter: grayscale(10%); 
+      box-shadow: 20px 20px 0 var(--light-grey); 
+      border-radius: 4px; 
+      transition: var(--transition);
+    }
+    
+    .profile-img:hover {
+      box-shadow: 20px 20px 0 var(--primary-light);
+    }
+    
+    .no-img { 
+      width: 280px; 
+      height: 280px; 
+      background: var(--light-grey); 
+      display: flex; 
+      align-items: center; 
+      justify-content: center; 
+      font-family: 'Inter', sans-serif; 
+      color: #999; 
+    }
+    
+    .profile-social { 
+      display: flex; 
+      gap: 15px; 
+      justify-content: flex-start; 
+      padding-top: 10px; 
+    }
+    
+    .profile-social a { 
+      color: var(--grey); 
+      width: 20px; 
+      height: 20px; 
+      transition: var(--transition); 
+      opacity: 0.7; 
+    }
+    
+    .profile-social a:hover { 
+      color: var(--primary); 
+      opacity: 1; 
+      transform: translateY(-2px); 
+    }
+    
+    .profile-info h1 { 
+      font-family: 'Playfair Display', serif; 
+      font-size: clamp(2.5rem, 5vw, 3.8rem); 
+      margin: 0 0 10px; 
+      line-height: 1.1; 
+      font-weight: 900; 
+      letter-spacing: -1px; 
+    }
+    
+    .profile-role { 
+      font-family: 'Inter', sans-serif; 
+      color: var(--primary); 
+      text-transform: uppercase; 
+      letter-spacing: 4px; 
+      font-size: clamp(11px, 2vw, 13px); 
+      font-weight: 700; 
+      margin-bottom: 20px; 
+      display: block; 
+    }
+    
+    .profile-inst { 
+      font-family: 'Inter', sans-serif; 
+      color: var(--grey); 
+      font-size: 14px; 
+      margin-top: 5px; 
+    }
+    
+    .profile-inst a { 
+      color: var(--grey); 
+      text-decoration: none; 
+      border-bottom: 1px dotted var(--border); 
+    }
+    
+    .profile-inst a:hover { 
+      color: var(--primary); 
+      border-bottom-color: var(--primary); 
+    }
+    
+    .orcid-container { 
+      margin: 20px 0; 
+    }
+    
+    .orcid-link { 
+      display: inline-flex; 
+      align-items: center; 
+      text-decoration: none; 
+      color: var(--grey); 
+      font-family: 'Inter', sans-serif; 
+      font-size: 13px; 
+      padding: 6px 12px 6px 8px; 
+      background: var(--light-grey); 
+      border-radius: 4px; 
+      transition: var(--transition); 
+    }
+    
+    .orcid-link:hover { 
+      background: #eee; 
+      transform: translateY(-1px);
+    }
+    
+    .orcid-icon { 
+      width: 20px; 
+      height: 20px; 
+      margin-right: 10px; 
+    }
+    
+    .container { 
+      max-width: 1000px; 
+      margin: 0 auto 80px; 
+      padding: 0 24px; 
+    }
+    
+    .section-title { 
+      font-family: 'Inter', sans-serif; 
+      font-size: 11px; 
+      font-weight: 800; 
+      text-transform: uppercase; 
+      letter-spacing: 3px; 
+      border-bottom: 2px solid var(--text); 
+      padding-bottom: 8px; 
+      margin: 60px 0 30px; 
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    .article-count {
+      background: var(--primary-light);
+      color: var(--primary);
+      padding: 2px 8px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 600;
+    }
+    
+    .bio-text { 
+      font-size: clamp(1rem, 2vw, 1.2rem); 
+      color: var(--text-light); 
+      text-align: justify; 
+      line-height: 1.8;
+    }
+    
+    .tags-container { 
+      display: flex; 
+      flex-wrap: wrap; 
+      gap: 10px; 
+    }
+    
+    .keyword-tag { 
+      font-family: 'Inter', sans-serif; 
+      font-size: 12px; 
+      background: var(--light-grey); 
+      padding: 6px 15px; 
+      border-radius: 20px; 
+      font-weight: 600; 
+      transition: var(--transition);
+    }
+    
+    .keyword-tag:hover {
+      background: var(--primary-light);
+      color: var(--primary);
+    }
+    
+    /* ===== ARTÍCULOS GRID MEJORADO ===== */
+    .articles-section {
+      margin-top: 40px;
+    }
+    
+    .articles-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 24px;
+      margin-top: 20px;
+    }
+    
+    .article-card {
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 24px;
+      transition: var(--transition);
+      box-shadow: var(--card-shadow);
+    }
+    
+    .article-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--primary);
+      box-shadow: var(--card-hover-shadow);
+    }
+    
+    .article-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+      font-size: 11px;
+      font-family: 'Inter', sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    
+    .article-area {
+      color: var(--primary);
+      font-weight: 700;
+    }
+    
+    .article-meta-badge {
+      background: var(--light-grey);
+      padding: 4px 8px;
+      border-radius: 4px;
+      color: var(--grey);
+      font-weight: 600;
+    }
+    
+    .article-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.2rem;
+      line-height: 1.4;
+      margin: 0 0 20px;
+      color: var(--text);
+      font-weight: 700;
+      flex-grow: 1;
+    }
+    
+    .article-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: auto;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+      font-family: 'Inter', sans-serif;
+      font-size: 12px;
+    }
+    
+    .article-date {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      color: var(--grey);
+    }
+    
+    .article-pdf-link {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+    
+    .article-pdf-link:hover {
+      gap: 6px;
+    }
+    
+    .article-icon {
+      width: 14px;
+      height: 14px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .footer-nav { 
+      text-align: center; 
+      padding: 60px 20px; 
+      background: var(--light-grey); 
+      margin-top: 100px; 
+    }
+    
+    .footer-nav a { 
+      font-family: 'Inter', sans-serif; 
+      font-size: clamp(11px, 2vw, 12px); 
+      text-decoration: none; 
+      color: var(--primary); 
+      font-weight: 700; 
+      margin: 0 15px; 
+      text-transform: uppercase; 
+      transition: var(--transition);
+    }
+    
+    .footer-nav a:hover {
+      opacity: 0.8;
+    }
+    
+    /* ===== MEDIA QUERIES OPTIMIZADAS ===== */
     @media (max-width: 850px) {
-      .profile-hero { grid-template-columns: 1fr; text-align: center; gap: 40px; }
-      .sidebar-assets { align-items: center; }
-      .profile-social { justify-content: center; }
-      .orcid-link { justify-content: center; }
-      .profile-info h1 { font-size: 2.8rem; }
+      .profile-hero { 
+        grid-template-columns: 1fr; 
+        text-align: center; 
+        gap: 40px; 
+        margin: 20px auto;
+      }
+      
+      .sidebar-assets { 
+        align-items: center; 
+      }
+      
+      .img-container {
+        width: min(280px, 60vw);
+        margin: 0 auto;
+      }
+      
+      .no-img {
+        width: min(280px, 60vw);
+        height: min(280px, 60vw);
+        margin: 0 auto;
+      }
+      
+      .profile-social { 
+        justify-content: center; 
+      }
+      
+      .orcid-link { 
+        justify-content: center; 
+        margin: 0 auto;
+      }
+      
+      .profile-info h1 { 
+        font-size: clamp(2rem, 8vw, 2.8rem); 
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .profile-hero {
+        padding: 0 16px;
+      }
+      
+      .container {
+        padding: 0 16px;
+      }
+      
+      .articles-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+      }
+      
+      .article-card {
+        padding: 20px;
+      }
+      
+      .article-card-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+      }
+      
+      .section-title {
+        margin: 40px 0 20px;
+      }
+      
+      .footer-nav a {
+        display: inline-block;
+        margin: 8px 12px;
+      }
+    }
+    
+    @media (max-width: 360px) {
+      .article-footer {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+      }
     }
   </style>
 </head>
 <body>
   <nav class="top-nav"><a href="/">${isSpanish ? 'Revista Nacional de las Ciencias para Estudiantes' : 'The National Review of Sciences for Students'}</a></nav>
+  
   <header class="profile-hero">
     <div class="sidebar-assets">
       <div class="img-container">
-        ${user.imageUrl ? `<img src="${user.imageUrl}" alt="${user.displayName}" class="profile-img">` : '<div class="no-img">Sin imagen</div>'}
+        ${user.imageUrl ? `<img src="${user.imageUrl}" alt="${user.displayName}" class="profile-img">` : '<div class="no-img">' + (isSpanish ? 'Sin imagen' : 'No image') + '</div>'}
       </div>
       ${socialHtml}
     </div>
@@ -250,16 +769,21 @@ function generateHTML(user, lang) {
       ${contactInfo}
     </div>
   </header>
+  
   <main class="container">
     <section>
       <h2 class="section-title">${isSpanish ? 'Sobre mí' : 'About'}</h2>
       <div class="bio-text">${description}</div>
     </section>
+    
     <section>
       <h2 class="section-title">${isSpanish ? 'Áreas de interés' : 'Areas of interest'}</h2>
       <div class="tags-container">${interestsHtml}</div>
     </section>
+    
+    ${articlesHtml}
   </main>
+  
   <footer class="footer-nav">
     <a href="/team/">← ${isSpanish ? 'Volver al Equipo' : 'Back to Team'}</a>
     <a href="/">${isSpanish ? 'Inicio' : 'Home'}</a>
@@ -287,7 +811,8 @@ async function fetchAllUsers() {
       publicEmail: data.publicEmail || '',
       social: data.social || {},
       imageUrl: data.imageUrl || '',
-      isAnonymous: false
+      isAnonymous: false,
+      articles: [] // Inicializamos vacío
     });
   });
   return users;
@@ -310,24 +835,23 @@ async function fetchUser(uid) {
     publicEmail: data.publicEmail || '',
     social: data.social || {},
     imageUrl: data.imageUrl || '',
-    isAnonymous: false
+    isAnonymous: false,
+    articles: []
   };
 }
 
-// NUEVO: Obtener coautores anónimos de submissions
 async function fetchAnonymousAuthors() {
   console.log('📥 Buscando coautores anónimos en submissions...');
   const snapshot = await db.collection('submissions')
     .where('status', 'in', ['published', 'accepted'])
     .get();
   
-  const anonymousAuthorsMap = new Map(); // nombre -> datos agregados
+  const anonymousAuthorsMap = new Map();
 
   snapshot.forEach(doc => {
     const data = doc.data();
     if (data.authors && Array.isArray(data.authors)) {
       data.authors.forEach(author => {
-        // Si el autor tiene UID, ya es usuario registrado - lo ignoramos aquí
         if (author.uid) return;
         
         const name = `${author.firstName || ''} ${author.lastName || ''}`.trim();
@@ -341,11 +865,10 @@ async function fetchAnonymousAuthors() {
             institution: author.institution || '',
             orcid: author.orcid || '',
             articles: [],
-            email: author.email // Guardamos interno pero no se publicará
+            email: author.email
           });
         }
         
-        // Agregar artículo a la lista
         const entry = anonymousAuthorsMap.get(name);
         entry.articles.push({
           title: data.title,
@@ -359,12 +882,10 @@ async function fetchAnonymousAuthors() {
   return Array.from(anonymousAuthorsMap.values());
 }
 
-// NUEVO: Crear usuario anónimo en el mapa de equipo
 function createAnonymousUser(authorData) {
   const name = authorData.name;
   const slug = generateSlug(name);
   
-  // Crear un hash para futura reclamación (basado en email pero sin exponerlo)
   const claimHash = crypto.createHash('sha256')
     .update(authorData.email + '-revista-secret')
     .digest('hex')
@@ -383,25 +904,21 @@ function createAnonymousUser(authorData) {
     interests: { es: [], en: [] },
     institution: authorData.institution || '',
     orcid: authorData.orcid || '',
-    // NO guardamos publicEmail para anónimos
     publicEmail: null,
     social: {},
     imageUrl: '',
     slug: slug,
     isAnonymous: true,
     claimHash: claimHash,
-    // Metadatos para reclamación
     claimable: true,
     articles: authorData.articles || []
   };
 }
 
-// Asignar slugs respetando los existentes
 function assignSlugsPreserving(users, existingUsers) {
   const existingMap = new Map(existingUsers.map(u => [u.uid, u]));
   const usedSlugs = new Map();
   
-  // Primero, poblar slugs existentes
   existingUsers.forEach(u => {
     if (u.slug) usedSlugs.set(u.slug, u.uid);
   });
@@ -411,17 +928,14 @@ function assignSlugsPreserving(users, existingUsers) {
     const base = generateSlug(user.displayName || `${user.firstName} ${user.lastName}`);
     
     if (existing && existing.slug === base) {
-      // Mismo slug, mantener
       return { ...user, slug: existing.slug };
     }
     
     if (existing && existing.slug && existing.slug !== base) {
-      // Slug diferente pero usuario existente - mantener el antiguo
-      console.log(`ℹ️ Manteniendo slug antiguo para ${user.displayName}: ${existing.slug} (nuevo sería ${base})`);
+      console.log(`ℹ️ Manteniendo slug antiguo para ${user.displayName}: ${existing.slug}`);
       return { ...user, slug: existing.slug };
     }
     
-    // Usuario nuevo o anónimo - generar slug único
     let slug = base;
     let count = 1;
     
@@ -435,7 +949,6 @@ function assignSlugsPreserving(users, existingUsers) {
   });
 }
 
-// Generar redirecciones si un slug cambió
 function generateRedirects(oldUsers, newUsers) {
   const oldMap = new Map(oldUsers.map(u => [u.uid, u]));
   
@@ -453,14 +966,13 @@ function generateRedirects(oldUsers, newUsers) {
   }
 }
 
-// Generar HTMLs
 function generateHtmls(users) {
   for (const user of users) {
     const htmlEs = generateHTML(user, 'es');
     const htmlEn = generateHTML(user, 'en');
     fs.writeFileSync(path.join(PUBLIC_DIR, `${user.slug}.html`), htmlEs);
     fs.writeFileSync(path.join(PUBLIC_DIR, `${user.slug}.EN.html`), htmlEn);
-    console.log(`✅ Generado: ${user.slug}.html para ${user.displayName}${user.isAnonymous ? ' (anónimo)' : ''}`);
+    console.log(`✅ Generado: ${user.slug}.html para ${user.displayName}${user.isAnonymous ? ' (anónimo)' : ''} - ${user.articles.length} artículos`);
   }
 }
 
@@ -473,34 +985,32 @@ async function main() {
   
   const existingUsers = readExistingTeamJson();
   
+  // Obtener artículos primero (los necesitamos para todos los modos)
+  const articles = await fetchAllArticles();
+  
   if (mode === 'full' || mode === '--full') {
-    // 1. Obtener usuarios registrados
     console.log('📥 Obteniendo usuarios registrados de Firebase...');
     const registeredUsers = await fetchAllUsers();
     
-    // 2. Obtener autores anónimos de submissions publicadas
     const anonymousAuthors = await fetchAnonymousAuthors();
     const anonymousUsers = anonymousAuthors.map(author => createAnonymousUser(author));
     
-    // 3. Combinar
     const allUsers = [...registeredUsers, ...anonymousUsers];
     
-    // 4. Asignar slugs preservando existentes
     const usersWithSlug = assignSlugsPreserving(allUsers, existingUsers);
     
-    // 5. Generar redirecciones
-    generateRedirects(existingUsers, usersWithSlug);
+    // MATCHEAR CON ARTÍCULOS
+    const usersWithArticles = matchAuthorsWithArticles(usersWithSlug, articles);
     
-    // 6. Guardar JSON
-    saveTeamJson(usersWithSlug);
+    generateRedirects(existingUsers, usersWithArticles);
     
-    // 7. Generar HTMLs
-    generateHtmls(usersWithSlug);
+    saveTeamJson(usersWithArticles);
     
-    console.log(`🎉 Build completo finalizado. Total: ${usersWithSlug.length} usuarios (${registeredUsers.length} registrados, ${anonymousUsers.length} anónimos).`);
+    generateHtmls(usersWithArticles);
+    
+    console.log(`🎉 Build completo finalizado. Total: ${usersWithArticles.length} usuarios (${registeredUsers.length} registrados, ${anonymousUsers.length} anónimos).`);
     
   } else if (mode === '--user') {
-    // Actualizar un solo usuario
     const uid = args[1];
     if (!uid) {
       console.error('❌ Falta UID. Uso: build.js --user <uid>');
@@ -514,13 +1024,15 @@ async function main() {
       process.exit(1);
     }
     
-    // Mezclar con usuarios existentes
     const otherUsers = existingUsers.filter(u => u.uid !== uid);
     const allUsers = [...otherUsers, user];
     
     const usersWithSlug = assignSlugsPreserving(allUsers, existingUsers);
     
-    const updatedUser = usersWithSlug.find(u => u.uid === uid);
+    // MATCHEAR CON ARTÍCULOS
+    const usersWithArticles = matchAuthorsWithArticles(usersWithSlug, articles);
+    
+    const updatedUser = usersWithArticles.find(u => u.uid === uid);
     const oldUser = existingUsers.find(u => u.uid === uid);
     
     if (oldUser && oldUser.slug !== updatedUser.slug) {
@@ -531,13 +1043,12 @@ async function main() {
       fs.writeFileSync(path.join(PUBLIC_DIR, `${oldUser.slug}.EN.html`), redirectEn);
     }
     
-    saveTeamJson(usersWithSlug);
+    saveTeamJson(usersWithArticles);
     generateHtmls([updatedUser]);
     
     console.log(`✅ Usuario ${uid} actualizado.`);
     
   } else if (mode === '--claim') {
-    // Modo especial para reclamar perfil anónimo
     const uid = args[1];
     const claimHash = args[2];
     
@@ -546,7 +1057,6 @@ async function main() {
       process.exit(1);
     }
     
-    // Buscar usuario anónimo en existingUsers
     const anonUser = existingUsers.find(u => u.uid === uid && u.isAnonymous);
     if (!anonUser) {
       console.error('❌ Usuario anónimo no encontrado');
@@ -558,7 +1068,6 @@ async function main() {
       process.exit(1);
     }
     
-    // Marcar como reclamado (se reemplazará cuando el usuario registrado haga build)
     console.log(`✅ Hash válido. El perfil ${anonUser.displayName} puede ser reclamado.`);
     console.log(`Instrucciones para el usuario:`);
     console.log(`1. Crear cuenta con email: ${anonUser.email}`);
