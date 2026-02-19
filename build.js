@@ -142,20 +142,20 @@ function matchAuthorsWithArticles(users, articles) {
       article.autores.forEach(author => {
         // Caso 1: Matching por UID (usuarios registrados)
         if (author.authorId) {
-          if (!authorArticlesMap.has(author.authorId)) {
-            authorArticlesMap.set(author.authorId, []);
-          }
-          authorArticlesMap.get(author.authorId).push({
-            title: article.titulo,
-            titleEn: article.tituloEnglish || article.titulo,
-            submissionId: article.submissionId,
-            fecha: article.fecha,
-            volumen: article.volumen,
-            numero: article.numero,
-            area: article.area,
-            numeroArticulo: article.numeroArticulo,
-            pdfUrl: article.pdfUrl
-          });
+          // En la función matchAuthorsWithArticles, dentro del map de artículos:
+authorArticlesMap.get(author.authorId).push({
+  title: article.titulo,
+  titleEn: article.tituloEnglish || article.titulo,
+  submissionId: article.submissionId,
+  fecha: article.fecha,
+  volumen: article.volumen,
+  numero: article.numero,
+  area: article.area,
+  numeroArticulo: article.numeroArticulo,
+  pdfUrl: article.pdfUrl,
+  // AGREGAR ESTO - generar el slug para la URL
+  slug: generateSlug(article.titulo || '') + '-' + (article.numeroArticulo || '')
+});
         }
         
         // Caso 2: Matching por nombre (autores anónimos)
@@ -281,7 +281,7 @@ function generateHTML(user, lang) {
           const mes = fecha.toLocaleString(isSpanish ? 'es' : 'en', { month: 'short' });
           
           return `
-          <a href="/article/${article.submissionId}.html" class="article-card">
+          <a href="/articles/article-${article.slug}.html" class="article-card">
             <div class="article-card-header">
               <span class="article-area">${article.area || (isSpanish ? 'Artículo' : 'Article')}</span>
               <span class="article-meta-badge">Vol. ${article.volumen} • N° ${article.numero}</span>
@@ -791,7 +791,63 @@ function generateHTML(user, lang) {
 </body>
 </html>`;
 }
+// Añade esta función al final de build.js (después de generateHtmls)
 
+function generateArticleRedirects(users) {
+  console.log('🔄 Generando redirecciones para artículos...');
+  
+  // Crear un mapa de submissionId → nuevo slug
+  const redirectMap = new Map();
+  
+  users.forEach(user => {
+    user.articles.forEach(article => {
+      if (article.submissionId && article.slug) {
+        redirectMap.set(article.submissionId, article.slug);
+      }
+    });
+  });
+  
+  // Generar archivos de redirección para cada submissionId
+  redirectMap.forEach((slug, submissionId) => {
+    const redirectEs = `<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="0; url=/articles/article-${slug}.html">
+  <title>Redirigiendo...</title>
+</head>
+<body>
+  <p>Este artículo se ha movido. <a href="/articles/article-${slug}.html">Haz clic aquí</a>.</p>
+</body>
+</html>`;
+
+    const redirectEn = `<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="0; url=/articles/article-${slug}EN.html">
+  <title>Redirecting...</title>
+</head>
+<body>
+  <p>This article has moved. <a href="/articles/article-${slug}EN.html">Click here</a>.</p>
+</body>
+</html>`;
+
+    // Asegurar que existe el directorio /article
+    const articleDir = path.join(__dirname, 'article');
+    if (!fs.existsSync(articleDir)) {
+      fs.mkdirSync(articleDir, { recursive: true });
+    }
+    
+    fs.writeFileSync(path.join(articleDir, `${submissionId}.html`), redirectEs);
+    fs.writeFileSync(path.join(articleDir, `${submissionId}.EN.html`), redirectEn);
+  });
+  
+  console.log(`✅ ${redirectMap.size} redirecciones de artículos generadas`);
+}
+
+// Y llama a esta función al final de main(), después de generateHtmls(usersWithArticles)
+generateArticleRedirects(usersWithArticles);
 // ========== FUNCIONES PRINCIPALES ==========
 async function fetchAllUsers() {
   const snapshot = await db.collection('users').get();
