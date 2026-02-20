@@ -305,7 +305,8 @@
         "numero": "1",
         "area": "Neurobiología del sueño",
         "numeroArticulo": "10",
-        "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-el-sueno-humano-y-sus-ciclos-bases-neurobiologicas-y-consecuencias-de-la-privacion-del-descanso-10.pdf"
+        "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-el-sueno-humano-y-sus-ciclos-bases-neurobiologicas-y-consecuencias-de-la-privacion-del-descanso-10.pdf",
+        "slug": "el-sueno-humano-y-sus-ciclos-bases-neurobiologicas-y-consecuencias-de-la-privacion-del-descanso-10"
       }
     ]
   },
@@ -382,7 +383,8 @@
         "numero": "1",
         "area": "Historia y Turismo",
         "numeroArticulo": "11",
-        "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-el-reloj-de-flores-de-vina-del-mar-como-conmemoracion-de-la-copa-mundial-de-1962-y-su-influencia-en-el-turismo-y-la-economia-local-11.pdf"
+        "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-el-reloj-de-flores-de-vina-del-mar-como-conmemoracion-de-la-copa-mundial-de-1962-y-su-influencia-en-el-turismo-y-la-economia-local-11.pdf",
+        "slug": "el-reloj-de-flores-de-vina-del-mar-como-conmemoracion-de-la-copa-mundial-de-1962-y-su-influencia-en-el-turismo-y-la-economia-local-11"
       }
     ]
   },
@@ -487,7 +489,8 @@
         "numero": "1",
         "area": "Políticas Sociales",
         "numeroArticulo": "qbFDH",
-        "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-analisis-de-experiencia-comparada-sobre-programas-de-proteccion-para-hijos-de-personas-privadas-de-libertad-en-relacion-al-caso-del-programa-abriendo-caminos-de-chile-12.pdf"
+        "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-analisis-de-experiencia-comparada-sobre-programas-de-proteccion-para-hijos-de-personas-privadas-de-libertad-en-relacion-al-caso-del-programa-abriendo-caminos-de-chile-12.pdf",
+        "slug": "analisis-de-experiencia-comparada-sobre-programas-de-proteccion-para-hijos-de-personas-privadas-de-libertad-en-relacion-al-caso-del-programa-abriendo-caminos-de-chile-qbFDH"
       }
     ]
   },
@@ -757,7 +760,20 @@
     "slug": "javier-vergara",
     "isAnonymous": false,
     "claimHash": null,
-    "articles": []
+    "articles": [
+      {
+        "title": "El Ajedrez: Un Estudio sobre el Impacto Cultural del Ajedrez Durante la Guerra Fría y su Simbolismo Ideológico en Chile",
+        "titleEn": "El Ajedrez: Un Estudio sobre el Impacto Cultural del Ajedrez Durante la Guerra Fría y su Simbolismo Ideológico en Chile",
+        "submissionId": "",
+        "fecha": "2025-11-29",
+        "volumen": "1",
+        "numero": "1",
+        "area": "Historia del Ajedrez en la Guerra Fría",
+        "numeroArticulo": "8",
+        "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-el-ajedrez-un-estudio-sobre-el-impacto-cultural-del-ajedrez-durante-la-guerra-fria-y-su-simbolismo-ideologico-en-chile-8.pdf",
+        "slug": "el-ajedrez-un-estudio-sobre-el-impacto-cultural-del-ajedrez-durante-la-guerra-fria-y-su-simbolismo-ideologico-en-chile-8"
+      }
+    ]
   },
   {
     "uid": "YC6kihySELc3l8NodUN9Ffk8eEV2",
