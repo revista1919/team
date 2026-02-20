@@ -131,7 +131,6 @@ async function fetchAllArticles() {
 }
 
 // ========== MATCHING DE AUTORES CON ARTÍCULOS ==========
-// ========== MATCHING DE AUTORES CON ARTÍCULOS ==========
 function matchAuthorsWithArticles(users, articles) {
   console.log('🔗 Matcheando autores con sus artículos...');
   
@@ -159,7 +158,7 @@ function matchAuthorsWithArticles(users, articles) {
             area: article.area,
             numeroArticulo: article.numeroArticulo,
             pdfUrl: article.pdfUrl,
-            slug: articleSlug // <<< IMPORTANTE: Guardar el slug aquí
+            slug: articleSlug
           });
         }
         
@@ -186,7 +185,7 @@ function matchAuthorsWithArticles(users, articles) {
               area: article.area,
               numeroArticulo: article.numeroArticulo,
               pdfUrl: article.pdfUrl,
-              slug: articleSlug // <<< IMPORTANTE: Guardar el slug aquí también
+              slug: articleSlug
             });
           }
         }
@@ -209,6 +208,63 @@ function matchAuthorsWithArticles(users, articles) {
   
   return usersWithArticles;
 }
+
+// ========== GENERAR REDIRECCIONES PARA ARTÍCULOS ==========
+function generateArticleRedirects(users) {
+  console.log('🔄 Generando redirecciones para artículos...');
+  
+  // Crear un mapa de submissionId → nuevo slug
+  const redirectMap = new Map();
+  
+  users.forEach(user => {
+    user.articles.forEach(article => {
+      if (article.submissionId) {
+        // Asegurarse de que el slug existe
+        const slug = article.slug || (generateSlug(article.title || '') + '-' + (article.numeroArticulo || ''));
+        redirectMap.set(article.submissionId, slug);
+      }
+    });
+  });
+  
+  // Generar archivos de redirección para cada submissionId
+  redirectMap.forEach((slug, submissionId) => {
+    const redirectEs = `<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="0; url=/articles/article-${slug}.html">
+  <title>Redirigiendo...</title>
+</head>
+<body>
+  <p>Este artículo se ha movido. <a href="/articles/article-${slug}.html">Haz clic aquí</a>.</p>
+</body>
+</html>`;
+
+    const redirectEn = `<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="0; url=/articles/article-${slug}EN.html">
+  <title>Redirecting...</title>
+</head>
+<body>
+  <p>This article has moved. <a href="/articles/article-${slug}EN.html">Click here</a>.</p>
+</body>
+</html>`;
+
+    // Asegurar que existe el directorio /article
+    const articleDir = path.join(__dirname, 'article');
+    if (!fs.existsSync(articleDir)) {
+      fs.mkdirSync(articleDir, { recursive: true });
+    }
+    
+    fs.writeFileSync(path.join(articleDir, `${submissionId}.html`), redirectEs);
+    fs.writeFileSync(path.join(articleDir, `${submissionId}.EN.html`), redirectEn);
+  });
+  
+  console.log(`✅ ${redirectMap.size} redirecciones de artículos generadas`);
+}
+
 // ========== GENERADOR HTML MEJORADO ==========
 function generateHTML(user, lang) {
   const isSpanish = lang === 'es';
@@ -273,8 +329,7 @@ function generateHTML(user, lang) {
   }
 
   // ========== SECCIÓN DE ARTÍCULOS MEJORADA ==========
- // ========== SECCIÓN DE ARTÍCULOS MEJORADA ==========
-const articlesHtml = user.articles && user.articles.length > 0 ? `
+  const articlesHtml = user.articles && user.articles.length > 0 ? `
   <section class="articles-section">
     <h2 class="section-title">
       ${isSpanish ? 'Publicaciones' : 'Publications'}
@@ -800,68 +855,7 @@ const articlesHtml = user.articles && user.articles.length > 0 ? `
 </body>
 </html>`;
 }
-// Añade esta función al final de build.js (después de generateHtmls)
 
-// ========== GENERAR REDIRECCIONES PARA ARTÍCULOS ==========
-function generateArticleRedirects(users) {
-  console.log('🔄 Generando redirecciones para artículos...');
-  
-  // Crear un mapa de submissionId → nuevo slug
-  const redirectMap = new Map();
-  
-  users.forEach(user => {
-    user.articles.forEach(article => {
-      if (article.submissionId) {
-        // Asegurarse de que el slug existe
-        const slug = article.slug || (generateSlug(article.title || '') + '-' + (article.numeroArticulo || ''));
-        redirectMap.set(article.submissionId, slug);
-      }
-    });
-  });
-  
-  // Generar archivos de redirección para cada submissionId
-  redirectMap.forEach((slug, submissionId) => {
-    const redirectEs = `<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="0; url=/articles/article-${slug}.html">
-  <title>Redirigiendo...</title>
-</head>
-<body>
-  <p>Este artículo se ha movido. <a href="/articles/article-${slug}.html">Haz clic aquí</a>.</p>
-</body>
-</html>`;
-
-    const redirectEn = `<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="0; url=/articles/article-${slug}EN.html">
-  <title>Redirecting...</title>
-</head>
-<body>
-  <p>This article has moved. <a href="/articles/article-${slug}EN.html">Click here</a>.</p>
-</body>
-</html>`;
-
-    // Asegurar que existe el directorio /article
-    const articleDir = path.join(__dirname, 'article');
-    if (!fs.existsSync(articleDir)) {
-      fs.mkdirSync(articleDir, { recursive: true });
-    }
-    
-    fs.writeFileSync(path.join(articleDir, `${submissionId}.html`), redirectEs);
-    fs.writeFileSync(path.join(articleDir, `${submissionId}.EN.html`), redirectEn);
-  });
-  
-  console.log(`✅ ${redirectMap.size} redirecciones de artículos generadas`);
-}
-
-// Y llama a esta función al final de main(), después de generateHtmls(usersWithArticles)
-// Al final de main(), después de generateHtmls(usersWithArticles)
-generateHtmls(usersWithArticles);
-generateArticleRedirects(usersWithArticles); // <<< AÑADIR ESTA LÍNEA
 // ========== FUNCIONES PRINCIPALES ==========
 async function fetchAllUsers() {
   const snapshot = await db.collection('users').get();
@@ -1077,6 +1071,7 @@ async function main() {
     saveTeamJson(usersWithArticles);
     
     generateHtmls(usersWithArticles);
+    generateArticleRedirects(usersWithArticles);
     
     console.log(`🎉 Build completo finalizado. Total: ${usersWithArticles.length} usuarios (${registeredUsers.length} registrados, ${anonymousUsers.length} anónimos).`);
     
