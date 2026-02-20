@@ -131,6 +131,7 @@ async function fetchAllArticles() {
 }
 
 // ========== MATCHING DE AUTORES CON ARTÍCULOS ==========
+// ========== MATCHING DE AUTORES CON ARTÍCULOS ==========
 function matchAuthorsWithArticles(users, articles) {
   console.log('🔗 Matcheando autores con sus artículos...');
   
@@ -140,22 +141,26 @@ function matchAuthorsWithArticles(users, articles) {
   articles.forEach(article => {
     if (article.autores && Array.isArray(article.autores)) {
       article.autores.forEach(author => {
+        // Generar slug del artículo UNA SOLA VEZ aquí
+        const articleSlug = generateSlug(article.titulo || '') + '-' + (article.numeroArticulo || '');
+        
         // Caso 1: Matching por UID (usuarios registrados)
         if (author.authorId) {
-          // En la función matchAuthorsWithArticles, dentro del map de artículos:
-authorArticlesMap.get(author.authorId).push({
-  title: article.titulo,
-  titleEn: article.tituloEnglish || article.titulo,
-  submissionId: article.submissionId,
-  fecha: article.fecha,
-  volumen: article.volumen,
-  numero: article.numero,
-  area: article.area,
-  numeroArticulo: article.numeroArticulo,
-  pdfUrl: article.pdfUrl,
-  // AGREGAR ESTO - generar el slug para la URL
-  slug: generateSlug(article.titulo || '') + '-' + (article.numeroArticulo || '')
-});
+          if (!authorArticlesMap.has(author.authorId)) {
+            authorArticlesMap.set(author.authorId, []);
+          }
+          authorArticlesMap.get(author.authorId).push({
+            title: article.titulo,
+            titleEn: article.tituloEnglish || article.titulo,
+            submissionId: article.submissionId,
+            fecha: article.fecha,
+            volumen: article.volumen,
+            numero: article.numero,
+            area: article.area,
+            numeroArticulo: article.numeroArticulo,
+            pdfUrl: article.pdfUrl,
+            slug: articleSlug // <<< IMPORTANTE: Guardar el slug aquí
+          });
         }
         
         // Caso 2: Matching por nombre (autores anónimos)
@@ -180,7 +185,8 @@ authorArticlesMap.get(author.authorId).push({
               numero: article.numero,
               area: article.area,
               numeroArticulo: article.numeroArticulo,
-              pdfUrl: article.pdfUrl
+              pdfUrl: article.pdfUrl,
+              slug: articleSlug // <<< IMPORTANTE: Guardar el slug aquí también
             });
           }
         }
@@ -203,7 +209,6 @@ authorArticlesMap.get(author.authorId).push({
   
   return usersWithArticles;
 }
-
 // ========== GENERADOR HTML MEJORADO ==========
 function generateHTML(user, lang) {
   const isSpanish = lang === 'es';
@@ -268,41 +273,45 @@ function generateHTML(user, lang) {
   }
 
   // ========== SECCIÓN DE ARTÍCULOS MEJORADA ==========
-  const articlesHtml = user.articles && user.articles.length > 0 ? `
-    <section class="articles-section">
-      <h2 class="section-title">
-        ${isSpanish ? 'Publicaciones' : 'Publications'}
-        <span class="article-count">${user.articles.length}</span>
-      </h2>
-      <div class="articles-grid">
-        ${user.articles.map(article => {
-          const fecha = new Date(article.fecha);
-          const año = fecha.getFullYear();
-          const mes = fecha.toLocaleString(isSpanish ? 'es' : 'en', { month: 'short' });
-          
-          return `
-          <a href="/articles/article-${article.slug}.html" class="article-card">
-            <div class="article-card-header">
-              <span class="article-area">${article.area || (isSpanish ? 'Artículo' : 'Article')}</span>
-              <span class="article-meta-badge">Vol. ${article.volumen} • N° ${article.numero}</span>
-            </div>
-            <h3 class="article-title">${isSpanish ? article.title : (article.titleEn || article.title)}</h3>
-            <div class="article-footer">
-              <span class="article-date">
-                <span class="article-icon">${icons.calendar}</span>
-                ${mes} ${año}
+ // ========== SECCIÓN DE ARTÍCULOS MEJORADA ==========
+const articlesHtml = user.articles && user.articles.length > 0 ? `
+  <section class="articles-section">
+    <h2 class="section-title">
+      ${isSpanish ? 'Publicaciones' : 'Publications'}
+      <span class="article-count">${user.articles.length}</span>
+    </h2>
+    <div class="articles-grid">
+      ${user.articles.map(article => {
+        const fecha = new Date(article.fecha);
+        const año = fecha.getFullYear();
+        const mes = fecha.toLocaleString(isSpanish ? 'es' : 'en', { month: 'short' });
+        
+        // Usar el slug guardado, o generarlo como fallback
+        const articleSlug = article.slug || (generateSlug(article.title || '') + '-' + (article.numeroArticulo || ''));
+        
+        return `
+        <a href="/articles/article-${articleSlug}.html" class="article-card">
+          <div class="article-card-header">
+            <span class="article-area">${article.area || (isSpanish ? 'Artículo' : 'Article')}</span>
+            <span class="article-meta-badge">Vol. ${article.volumen} • N° ${article.numero}</span>
+          </div>
+          <h3 class="article-title">${isSpanish ? article.title : (article.titleEn || article.title)}</h3>
+          <div class="article-footer">
+            <span class="article-date">
+              <span class="article-icon">${icons.calendar}</span>
+              ${mes} ${año}
+            </span>
+            ${article.pdfUrl ? `
+              <span class="article-pdf-link" onclick="event.stopPropagation(); window.open('${article.pdfUrl}', '_blank'); return false;">
+                <span class="article-icon">📄</span> PDF
               </span>
-              ${article.pdfUrl ? `
-                <span class="article-pdf-link" onclick="event.stopPropagation(); window.open('${article.pdfUrl}', '_blank'); return false;">
-                  <span class="article-icon">📄</span> PDF
-                </span>
-              ` : ''}
-            </div>
-          </a>
-        `}).join('')}
-      </div>
-    </section>
-  ` : '';
+            ` : ''}
+          </div>
+        </a>
+      `}).join('')}
+    </div>
+  </section>
+` : '';
 
   return `<!DOCTYPE html>
 <html lang="${lang}">
@@ -793,6 +802,7 @@ function generateHTML(user, lang) {
 }
 // Añade esta función al final de build.js (después de generateHtmls)
 
+// ========== GENERAR REDIRECCIONES PARA ARTÍCULOS ==========
 function generateArticleRedirects(users) {
   console.log('🔄 Generando redirecciones para artículos...');
   
@@ -801,8 +811,10 @@ function generateArticleRedirects(users) {
   
   users.forEach(user => {
     user.articles.forEach(article => {
-      if (article.submissionId && article.slug) {
-        redirectMap.set(article.submissionId, article.slug);
+      if (article.submissionId) {
+        // Asegurarse de que el slug existe
+        const slug = article.slug || (generateSlug(article.title || '') + '-' + (article.numeroArticulo || ''));
+        redirectMap.set(article.submissionId, slug);
       }
     });
   });
@@ -847,7 +859,9 @@ function generateArticleRedirects(users) {
 }
 
 // Y llama a esta función al final de main(), después de generateHtmls(usersWithArticles)
-generateArticleRedirects(usersWithArticles);
+// Al final de main(), después de generateHtmls(usersWithArticles)
+generateHtmls(usersWithArticles);
+generateArticleRedirects(usersWithArticles); // <<< AÑADIR ESTA LÍNEA
 // ========== FUNCIONES PRINCIPALES ==========
 async function fetchAllUsers() {
   const snapshot = await db.collection('users').get();
