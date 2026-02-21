@@ -836,7 +836,20 @@
     "slug": "santiago-vargas",
     "isAnonymous": false,
     "claimHash": null,
-    "articles": []
+    "articles": [
+      {
+        "title": "Sendero Luminoso: Cuando el Pueblo También es un Enemigo",
+        "titleEn": "Sendero Luminoso: Cuando el Pueblo También es un Enemigo",
+        "submissionId": "LEGACY-1771278765240-4E5POZ1OL",
+        "fecha": "2025-11-29",
+        "volumen": "1",
+        "numero": "1",
+        "area": "Historia del Terrorismo en Perú durante la Guerra Fría",
+        "numeroArticulo": "3",
+        "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-sendero-luminoso-cuando-el-pueblo-tambien-es-un-enemigo-3.pdf",
+        "slug": "sendero-luminoso-cuando-el-pueblo-tambien-es-un-enemigo-3"
+      }
+    ]
   },
   {
     "uid": "bCWBGL4eJkdufLJDyKFQrgexxgy1",
@@ -1002,7 +1015,20 @@
     "slug": "agustin-maturana",
     "isAnonymous": false,
     "claimHash": null,
-    "articles": []
+    "articles": [
+      {
+        "title": "Sendero Luminoso: Cuando el Pueblo También es un Enemigo",
+        "titleEn": "Sendero Luminoso: Cuando el Pueblo También es un Enemigo",
+        "submissionId": "LEGACY-1771278765240-4E5POZ1OL",
+        "fecha": "2025-11-29",
+        "volumen": "1",
+        "numero": "1",
+        "area": "Historia del Terrorismo en Perú durante la Guerra Fría",
+        "numeroArticulo": "3",
+        "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-sendero-luminoso-cuando-el-pueblo-tambien-es-un-enemigo-3.pdf",
+        "slug": "sendero-luminoso-cuando-el-pueblo-tambien-es-un-enemigo-3"
+      }
+    ]
   },
   {
     "uid": "ofxyom4jFkbdSaNh6gTzEKy3DTK2",
