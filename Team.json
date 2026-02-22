@@ -1275,12 +1275,16 @@
       "en": ""
     },
     "interests": {
-      "es": "",
-      "en": ""
+      "es": [
+        "medicina",
+        "obstetricia",
+        "ginecología"
+      ],
+      "en": []
     },
-    "institution": "",
-    "orcid": "",
-    "publicEmail": null,
+    "institution": "Universidad de Caldas",
+    "orcid": "0000-0003-4170-2618",
+    "publicEmail": "jefferson.salguero@ucaldas.edu.co",
     "social": {},
     "imageUrl": "",
     "slug": "jefferson-salguero",
