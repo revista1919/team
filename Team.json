@@ -1261,5 +1261,31 @@
         "slug": "el-ajedrez-un-estudio-sobre-el-impacto-cultural-del-ajedrez-durante-la-guerra-fria-y-su-simbolismo-ideologico-en-chile-8"
       }
     ]
+  },
+  {
+    "uid": "Kz8C8BXp3wOvwq2UU9dPhrKsixE2",
+    "displayName": "Jefferson Salguero",
+    "firstName": "Jefferson",
+    "lastName": "Salguero",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": "",
+      "en": ""
+    },
+    "institution": "",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "jefferson-salguero",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
   }
 ]
