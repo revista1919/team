@@ -1298,7 +1298,8 @@
     "firstName": "Revista",
     "lastName": "Nacional",
     "roles": [
-      "Autor"
+      "Autor",
+      "Revisor"
     ],
     "description": {
       "es": "",
