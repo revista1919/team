@@ -1180,32 +1180,6 @@
     "articles": []
   },
   {
-    "uid": "aKJxOqguCUYOO2cC1l7nxuxPBAJ3",
-    "displayName": "Tobías Andersen Cristian",
-    "firstName": "Tobías",
-    "lastName": "Andersen Cristian",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "",
-      "en": ""
-    },
-    "interests": {
-      "es": "",
-      "en": ""
-    },
-    "institution": "",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "tobias-andersen-cristian",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
     "uid": "Wp9AbMocILX4UOy6il09qluhrL23",
     "displayName": "Javier Vergara",
     "firstName": "Javier",
@@ -1315,6 +1289,32 @@
     "social": {},
     "imageUrl": "",
     "slug": "revista-nacional",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
+  },
+  {
+    "uid": "aKJxOqguCUYOO2cC1l7nxuxPBAJ3",
+    "displayName": "Tobías Andersen Cristian",
+    "firstName": "Tobías",
+    "lastName": "Andersen Cristian",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": "",
+      "en": ""
+    },
+    "institution": "",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "tobias-andersen-cristian",
     "isAnonymous": false,
     "claimHash": null,
     "articles": []
