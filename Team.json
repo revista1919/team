@@ -1180,63 +1180,6 @@
     "articles": []
   },
   {
-    "uid": "Wp9AbMocILX4UOy6il09qluhrL23",
-    "displayName": "Javier Vergara",
-    "firstName": "Javier",
-    "lastName": "Vergara",
-    "roles": [
-      "Director General",
-      "Editor en Jefe",
-      "Autor",
-      "Fundador",
-      "Responsable de Desarrollo Web",
-      "Revisor",
-      "Editor de Sección"
-    ],
-    "description": {
-      "es": "Javier Vergara es estudiante Cuarto Medio en el Colegio Curimón de San Felipe, con interés en Economía, Ciencias Políticas y Matemáticas. Es estudiante de la Academia de Talentos de la UC. Finalista del Keneth Garshina Undergraduate Students Essay Contest del Mises Institute AERC 2025, con artículo publicado en la página del Mises Institute. Shortlisted para el John Locke Institute Global Essay Prize 2025. Distinction en London School of Economics Students Union Economics Society Essay Competition 2025. Ha sido becado para asistir a los Summer Courses del John Locke Institute en Princeton, la Universidad de Verano de la Universidad de las Hespérides en España, y para seminario del Ayn Rand Center en Buenos Aires. Ha publicado una traducción con Unión Editorial y se ha certificado en el College Program de ciencias políticas de la Universidad del Desarrollo.",
-      "en": "Javier Vergara is a fourth-year high school student at Curimón School in San Felipe, with an interest in Economics, Political Science, and Mathematics. He is a student at the UC Talent Academy. Finalist of the Keneth Garshina Undergraduate Students Essay Contest of the Mises Institute AERC 2025, with an article published on the Mises Institute's website. Shortlisted for the John Locke Institute Global Essay Prize 2025. Distinction in the London School of Economics Students Union Economics Society Essay Competition 2025. He has been awarded a scholarship to attend the Summer Courses of the John Locke Institute in Princeton, the Summer University of the University of Las Hespérides in Spain, and a seminar at the Ayn Rand Center in Buenos Aires. He has published a translation with Unión Editorial and has been certified in the Political Science College Program at Universidad del Desarrollo."
-    },
-    "interests": {
-      "es": [
-        "Economía",
-        "Matemáticas",
-        "Historia",
-        "Política"
-      ],
-      "en": [
-        "Economics",
-        "Mathematics",
-        "History",
-        "Politics"
-      ]
-    },
-    "institution": "Colegio Curimón",
-    "orcid": "0009-0005-5326-0177",
-    "publicEmail": null,
-    "social": {
-      "linkedin": "https://www.linkedin.com/in/javier-vergara-r%C3%ADos-1021b42b5?originalSubdomain=cl"
-    },
-    "imageUrl": "https://i.postimg.cc/d1MJwpbx/IMG-20231130-WA0014.jpg",
-    "slug": "javier-vergara",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": [
-      {
-        "title": "El Ajedrez: Un Estudio sobre el Impacto Cultural del Ajedrez Durante la Guerra Fría y su Simbolismo Ideológico en Chile",
-        "titleEn": "El Ajedrez: Un Estudio sobre el Impacto Cultural del Ajedrez Durante la Guerra Fría y su Simbolismo Ideológico en Chile",
-        "submissionId": "",
-        "fecha": "2025-11-29",
-        "volumen": "1",
-        "numero": "1",
-        "area": "Historia del Ajedrez en la Guerra Fría",
-        "numeroArticulo": "8",
-        "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-el-ajedrez-un-estudio-sobre-el-impacto-cultural-del-ajedrez-durante-la-guerra-fria-y-su-simbolismo-ideologico-en-chile-8.pdf",
-        "slug": "el-ajedrez-un-estudio-sobre-el-impacto-cultural-del-ajedrez-durante-la-guerra-fria-y-su-simbolismo-ideologico-en-chile-8"
-      }
-    ]
-  },
-  {
     "uid": "Kz8C8BXp3wOvwq2UU9dPhrKsixE2",
     "displayName": "Jefferson Salguero",
     "firstName": "Jefferson",
@@ -1345,5 +1288,61 @@
     "isAnonymous": false,
     "claimHash": null,
     "articles": []
+  },
+  {
+    "uid": "Wp9AbMocILX4UOy6il09qluhrL23",
+    "displayName": "Javier Vergara",
+    "firstName": "Javier",
+    "lastName": "Vergara",
+    "roles": [
+      "Director General",
+      "Editor en Jefe",
+      "Autor",
+      "Fundador",
+      "Responsable de Desarrollo Web",
+      "Editor de Sección"
+    ],
+    "description": {
+      "es": "Javier Vergara es estudiante Cuarto Medio en el Colegio Curimón de San Felipe, con interés en Economía, Ciencias Políticas y Matemáticas. Es estudiante de la Academia de Talentos de la UC. Finalista del Keneth Garshina Undergraduate Students Essay Contest del Mises Institute AERC 2025, con artículo publicado en la página del Mises Institute. Shortlisted para el John Locke Institute Global Essay Prize 2025. Distinction en London School of Economics Students Union Economics Society Essay Competition 2025. Ha sido becado para asistir a los Summer Courses del John Locke Institute en Princeton, la Universidad de Verano de la Universidad de las Hespérides en España, y para seminario del Ayn Rand Center en Buenos Aires. Ha publicado una traducción con Unión Editorial y se ha certificado en el College Program de ciencias políticas de la Universidad del Desarrollo.",
+      "en": "Javier Vergara is a fourth-year high school student at Curimón School in San Felipe, with an interest in Economics, Political Science, and Mathematics. He is a student at the UC Talent Academy. Finalist of the Keneth Garshina Undergraduate Students Essay Contest of the Mises Institute AERC 2025, with an article published on the Mises Institute's website. Shortlisted for the John Locke Institute Global Essay Prize 2025. Distinction in the London School of Economics Students Union Economics Society Essay Competition 2025. He has been awarded a scholarship to attend the Summer Courses of the John Locke Institute in Princeton, the Summer University of the University of Las Hespérides in Spain, and a seminar at the Ayn Rand Center in Buenos Aires. He has published a translation with Unión Editorial and has been certified in the Political Science College Program at Universidad del Desarrollo."
+    },
+    "interests": {
+      "es": [
+        "Economía",
+        "Matemáticas",
+        "Historia",
+        "Política"
+      ],
+      "en": [
+        "Economics",
+        "Mathematics",
+        "History",
+        "Politics"
+      ]
+    },
+    "institution": "Colegio Curimón",
+    "orcid": "0009-0005-5326-0177",
+    "publicEmail": null,
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/javier-vergara-r%C3%ADos-1021b42b5?originalSubdomain=cl"
+    },
+    "imageUrl": "https://i.postimg.cc/d1MJwpbx/IMG-20231130-WA0014.jpg",
+    "slug": "javier-vergara",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": [
+      {
+        "title": "El Ajedrez: Un Estudio sobre el Impacto Cultural del Ajedrez Durante la Guerra Fría y su Simbolismo Ideológico en Chile",
+        "titleEn": "El Ajedrez: Un Estudio sobre el Impacto Cultural del Ajedrez Durante la Guerra Fría y su Simbolismo Ideológico en Chile",
+        "submissionId": "",
+        "fecha": "2025-11-29",
+        "volumen": "1",
+        "numero": "1",
+        "area": "Historia del Ajedrez en la Guerra Fría",
+        "numeroArticulo": "8",
+        "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-el-ajedrez-un-estudio-sobre-el-impacto-cultural-del-ajedrez-durante-la-guerra-fria-y-su-simbolismo-ideologico-en-chile-8.pdf",
+        "slug": "el-ajedrez-un-estudio-sobre-el-impacto-cultural-del-ajedrez-durante-la-guerra-fria-y-su-simbolismo-ideologico-en-chile-8"
+      }
+    ]
   }
 ]
