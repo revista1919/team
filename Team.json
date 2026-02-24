@@ -1294,32 +1294,6 @@
     "articles": []
   },
   {
-    "uid": "aKJxOqguCUYOO2cC1l7nxuxPBAJ3",
-    "displayName": "Tobías Andersen Cristian",
-    "firstName": "Tobías",
-    "lastName": "Andersen Cristian",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "",
-      "en": ""
-    },
-    "interests": {
-      "es": "",
-      "en": ""
-    },
-    "institution": "",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "tobias-andersen-cristian",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
     "uid": "yWO6sUHomlYVmf3NxuMH15qJE1q2",
     "displayName": "Revista Estudiantes",
     "firstName": "Revista",
@@ -1342,6 +1316,32 @@
     "social": {},
     "imageUrl": "",
     "slug": "revista-estudiantes",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
+  },
+  {
+    "uid": "aKJxOqguCUYOO2cC1l7nxuxPBAJ3",
+    "displayName": "Tobías Andersen Cristian",
+    "firstName": "Tobías",
+    "lastName": "Andersen Cristian",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": "",
+      "en": ""
+    },
+    "institution": "",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "tobias-andersen-cristian",
     "isAnonymous": false,
     "claimHash": null,
     "articles": []
