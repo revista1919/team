@@ -1318,5 +1318,31 @@
     "isAnonymous": false,
     "claimHash": null,
     "articles": []
+  },
+  {
+    "uid": "yWO6sUHomlYVmf3NxuMH15qJE1q2",
+    "displayName": "Revista Estudiantes",
+    "firstName": "Revista",
+    "lastName": "Estudiantes",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": "",
+      "en": ""
+    },
+    "institution": "",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "revista-estudiantes",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
   }
 ]
