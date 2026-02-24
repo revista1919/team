@@ -1325,7 +1325,8 @@
     "firstName": "Revista",
     "lastName": "Estudiantes",
     "roles": [
-      "Autor"
+      "Autor",
+      "Revisor"
     ],
     "description": {
       "es": "",
