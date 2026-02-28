@@ -815,44 +815,6 @@
     "articles": []
   },
   {
-    "uid": "Wis4rhCQB7MM0HxFggEjngOOnSa2",
-    "displayName": "Joel Portugal",
-    "firstName": "Joel",
-    "lastName": "Portugal",
-    "roles": [
-      "Revisor"
-    ],
-    "description": {
-      "es": "Joel Portugal es estudiante de Tercero Medio en el liceo Nacional de Maipú, Con intereses en las áreas de Matemáticas, Programación y Física. Becado por tener uno de los mejores puntajes Simce de Estación Central dentro de su generación a los 8 años,  4to lugar entre los mejores dibujantes a nivel provincial de Arequipa en Perú en la categoría de menores en 2016. Creador, desarrollador y diseñador del juego \"Young Silver Cat\" «en proceso». Participa en la Academia de Talentos de la UC y es un gran jugador profesional de Ajedrez, Damas y Go",
-      "en": "Joel Portugal is an 11th-grade student at Maipú National High School, with interests in Mathematics, Programming, and Physics. Awarded a scholarship for having one of the best Simce scores in Estación Central within his generation at 8 years old, he also achieved 4th place among the best artists at the provincial level in Arequipa, Peru, in the junior category in 2016. He is the creator, developer, and designer of the game \"Young Silver Cat\" (in progress). He participates in the UC Talent Academy and is a great professional player of Chess, Checkers, and Go."
-    },
-    "interests": {
-      "es": [
-        "Álgebra",
-        "Matrices",
-        "Bioquímica",
-        "Física",
-        "Programación"
-      ],
-      "en": [
-        "Algebra",
-        "Matrices",
-        "Biochemistry",
-        "Physics",
-        "Programming"
-      ]
-    },
-    "institution": "Liceo Nacional de Maipú",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "https://i.postimg.cc/nr1zQZdK/Screenshot-20251122-120357.jpg",
-    "slug": "joel-portugal",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
     "uid": "Wp9AbMocILX4UOy6il09qluhrL23",
     "displayName": "Javier Vergara",
     "firstName": "Javier",
@@ -1367,6 +1329,45 @@
     "slug": "eustaquio-chernobyl",
     "isAnonymous": true,
     "claimHash": "aeaefb616cd3463a",
+    "articles": []
+  },
+  {
+    "uid": "Wis4rhCQB7MM0HxFggEjngOOnSa2",
+    "displayName": "Joel Portugal",
+    "firstName": "Joel",
+    "lastName": "Portugal",
+    "roles": [
+      "Revisor"
+    ],
+    "description": {
+      "es": "Joel Portugal es estudiante de Tercero Medio en el liceo Nacional de Maipú, Con intereses en las áreas de Matemáticas, Programación y Física. Becado por tener uno de los mejores puntajes Simce de Estación Central dentro de su generación a los 8 años,  4to lugar entre los mejores dibujantes a nivel provincial de Arequipa en Perú en la categoría de menores en 2016. Creador, desarrollador y diseñador digital. Participa en la Academia de Talentos de la UC y es un gran jugador profesional de Ajedrez, Damas y Go",
+      "en": "Joel Portugal is an 11th-grade student at Maipú National High School, with interests in Mathematics, Programming, and Physics. Awarded a scholarship for having one of the best Simce scores in Estación Central within his generation at 8 years old, he also achieved 4th place among the best artists at the provincial level in Arequipa, Peru, in the junior category in 2016. He is the creator, developer, and digital designer. He participates in the UC Talent Academy and is a great professional player of Chess, Checkers, and Go."
+    },
+    "interests": {
+      "es": [
+        "Álgebra",
+        "Matrices",
+        "Bioquímica",
+        "Física",
+        "Programación",
+        "Cálculo"
+      ],
+      "en": [
+        "Algebra",
+        "Matrices",
+        "Biochemistry",
+        "Physics",
+        "Programming"
+      ]
+    },
+    "institution": "Liceo Nacional de Maipú",
+    "orcid": "",
+    "publicEmail": "amigojoel45@gmail.com",
+    "social": {},
+    "imageUrl": "https://i.postimg.cc/nr1zQZdK/Screenshot-20251122-120357.jpg",
+    "slug": "joel-portugal",
+    "isAnonymous": false,
+    "claimHash": null,
     "articles": []
   }
 ]
