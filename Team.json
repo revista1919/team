@@ -1350,8 +1350,7 @@
     "firstName": "Revista",
     "lastName": "Estudiantes",
     "roles": [
-      "Autor",
-      "Revisor"
+      "Autor"
     ],
     "description": {
       "es": "",
