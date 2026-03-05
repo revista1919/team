@@ -635,42 +635,6 @@
     "articles": []
   },
   {
-    "uid": "SXT77f1iIXhPewA8Endank8YjuW2",
-    "displayName": "Renato Vergara ",
-    "firstName": "Renato",
-    "lastName": "Vergara",
-    "roles": [
-      "Encargado de Redes Sociales",
-      "Autor"
-    ],
-    "description": {
-      "es": "Renato Vergara es estudiante de Segundo Medio del Colegio Curimón de San Felipe con interés en música, programación y matemáticas. Destaca por su compromiso y capacidad colaborativa. Participa activamente en actividades académicas. Es alumni de la FPP. Es un jugador de tennis de mesa aficionado.",
-      "en": "Renato Vergara is a 10th-grade student at Colegio Curimón in San Felipe, with an interest in music, programming, and mathematics. He stands out for his commitment and collaborative ability. He actively participates in academic activities. He is an alumnus of the FPP. He is an amateur table tennis player."
-    },
-    "interests": {
-      "es": [
-        "Programación",
-        "Música",
-        "Deportes",
-        "Top gun"
-      ],
-      "en": [
-        "Programming",
-        "Music",
-        "Sports"
-      ]
-    },
-    "institution": "Colegio Curimón",
-    "orcid": "",
-    "publicEmail": "renato.vergara@revistacienciasestudiantes.com",
-    "social": {},
-    "imageUrl": "https://i.ibb.co/XrnW92BX/1000035619-jpg.jpg",
-    "slug": "renato-vergara",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
     "uid": "V0v60t9xDYXZlo3R8SUhddrIl7f2",
     "displayName": "Carlos Gutiérrez",
     "firstName": "Carlos",
@@ -1334,6 +1298,42 @@
     "slug": "eustaquio-chernobyl1",
     "isAnonymous": true,
     "claimHash": "aeaefb616cd3463a",
+    "articles": []
+  },
+  {
+    "uid": "SXT77f1iIXhPewA8Endank8YjuW2",
+    "displayName": "Renato Vergara",
+    "firstName": "Renato",
+    "lastName": "Vergara",
+    "roles": [
+      "Encargado de Redes Sociales",
+      "Autor"
+    ],
+    "description": {
+      "es": "Renato Vergara es estudiante de Segundo Medio del Colegio Curimón de San Felipe con interés en música, programación y matemáticas. Destaca por su compromiso y capacidad colaborativa. Participa activamente en actividades académicas. Es alumni de la FPP. Es un jugador de tennis de mesa aficionado.",
+      "en": "Renato Vergara is a 10th-grade student at Colegio Curimón in San Felipe, with an interest in music, programming, and mathematics. He stands out for his commitment and collaborative ability. He actively participates in academic activities. He is an alumnus of the FPP. He is an amateur table tennis player."
+    },
+    "interests": {
+      "es": [
+        "Programación",
+        "Música",
+        "Deportes",
+        "Top gun"
+      ],
+      "en": [
+        "Programming",
+        "Music",
+        "Sports"
+      ]
+    },
+    "institution": "Colegio Curimón",
+    "orcid": "",
+    "publicEmail": "renato.vergara@revistacienciasestudiantes.com",
+    "social": {},
+    "imageUrl": "https://i.ibb.co/4ZxZ0Dwm/Gemini-Generated-Image-tyxy3ktyxy3ktyxy-png.png",
+    "slug": "renato-vergara",
+    "isAnonymous": false,
+    "claimHash": null,
     "articles": []
   }
 ]
