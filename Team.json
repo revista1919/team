@@ -586,9 +586,9 @@
         "volumen": "2",
         "numero": "1",
         "area": "Políticas Sociales",
-        "numeroArticulo": "qbFDH",
+        "numeroArticulo": "12",
         "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-analisis-de-experiencia-comparada-sobre-programas-de-proteccion-para-hijos-de-personas-privadas-de-libertad-en-relacion-al-caso-del-programa-abriendo-caminos-de-chile-12.pdf",
-        "slug": "analisis-de-experiencia-comparada-sobre-programas-de-proteccion-para-hijos-de-personas-privadas-de-libertad-en-relacion-al-caso-del-programa-abriendo-caminos-de-chile-qbFDH"
+        "slug": "analisis-de-experiencia-comparada-sobre-programas-de-proteccion-para-hijos-de-personas-privadas-de-libertad-en-relacion-al-caso-del-programa-abriendo-caminos-de-chile-12"
       }
     ]
   },
@@ -630,6 +630,42 @@
     "social": {},
     "imageUrl": "https://i.postimg.cc/wvyRyZPS/f1c87432-6951-497a-8c5b-cb55984d7088.jpg",
     "slug": "marina-soto",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
+  },
+  {
+    "uid": "SXT77f1iIXhPewA8Endank8YjuW2",
+    "displayName": "Renato Vergara",
+    "firstName": "Renato",
+    "lastName": "Vergara",
+    "roles": [
+      "Encargado de Redes Sociales",
+      "Autor"
+    ],
+    "description": {
+      "es": "Renato Vergara es estudiante de Segundo Medio del Colegio Curimón de San Felipe con interés en música, programación y matemáticas. Destaca por su compromiso y capacidad colaborativa. Participa activamente en actividades académicas. Es alumni de la FPP. Es un jugador de tennis de mesa aficionado.",
+      "en": "Renato Vergara is a 10th-grade student at Colegio Curimón in San Felipe, with an interest in music, programming, and mathematics. He stands out for his commitment and collaborative ability. He actively participates in academic activities. He is an alumnus of the FPP. He is an amateur table tennis player."
+    },
+    "interests": {
+      "es": [
+        "Programación",
+        "Música",
+        "Deportes",
+        "Top gun"
+      ],
+      "en": [
+        "Programming",
+        "Music",
+        "Sports"
+      ]
+    },
+    "institution": "Colegio Curimón",
+    "orcid": "",
+    "publicEmail": "renato.vergara@revistacienciasestudiantes.com",
+    "social": {},
+    "imageUrl": "https://i.ibb.co/fzHJrNZt/Gemini-Generated-Image-tyxy3ktyxy3ktyxy-1-png.png",
+    "slug": "renato-vergara",
     "isAnonymous": false,
     "claimHash": null,
     "articles": []
@@ -1275,7 +1311,7 @@
     "articles": []
   },
   {
-    "uid": "anon-eustaquio-chernobyl-mmdvrtw4",
+    "uid": "anon-eustaquio-chernobyl-mmh0lwe1",
     "displayName": "Eustaquio Chernobyl",
     "firstName": "Eustaquio",
     "lastName": "Chernobyl",
@@ -1295,45 +1331,9 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "eustaquio-chernobyl1",
+    "slug": "eustaquio-chernobyl",
     "isAnonymous": true,
     "claimHash": "aeaefb616cd3463a",
-    "articles": []
-  },
-  {
-    "uid": "SXT77f1iIXhPewA8Endank8YjuW2",
-    "displayName": "Renato Vergara",
-    "firstName": "Renato",
-    "lastName": "Vergara",
-    "roles": [
-      "Encargado de Redes Sociales",
-      "Autor"
-    ],
-    "description": {
-      "es": "Renato Vergara es estudiante de Segundo Medio del Colegio Curimón de San Felipe con interés en música, programación y matemáticas. Destaca por su compromiso y capacidad colaborativa. Participa activamente en actividades académicas. Es alumni de la FPP. Es un jugador de tennis de mesa aficionado.",
-      "en": "Renato Vergara is a 10th-grade student at Colegio Curimón in San Felipe, with an interest in music, programming, and mathematics. He stands out for his commitment and collaborative ability. He actively participates in academic activities. He is an alumnus of the FPP. He is an amateur table tennis player."
-    },
-    "interests": {
-      "es": [
-        "Programación",
-        "Música",
-        "Deportes",
-        "Top gun"
-      ],
-      "en": [
-        "Programming",
-        "Music",
-        "Sports"
-      ]
-    },
-    "institution": "Colegio Curimón",
-    "orcid": "",
-    "publicEmail": "renato.vergara@revistacienciasestudiantes.com",
-    "social": {},
-    "imageUrl": "https://i.ibb.co/fzHJrNZt/Gemini-Generated-Image-tyxy3ktyxy3ktyxy-1-png.png",
-    "slug": "renato-vergara",
-    "isAnonymous": false,
-    "claimHash": null,
     "articles": []
   }
 ]
