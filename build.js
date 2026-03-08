@@ -393,6 +393,61 @@ function generateHTML(user, lang) {
       --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     }
     
+    /* EFECTO DE TEXTURA DE PAPEL */
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0; left: 0;
+      width: 100vw; height: 100vh;
+      opacity: 0.03;
+      pointer-events: none;
+      z-index: 9999;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    }
+    
+    /* BARRA DE LECTURA PROGRESIVA */
+    .scroll-progress {
+      position: fixed;
+      top: 0; left: 0;
+      height: 3px;
+      background: linear-gradient(to right, var(--primary), var(--orcid-green));
+      width: 0%;
+      z-index: 10000;
+    }
+    
+    /* REVELACIÓN AL HACER SCROLL */
+    .reveal {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: all 0.8s cubic-bezier(0.2, 1, 0.3, 1);
+    }
+    
+    .reveal.active {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    
+    /* SELECCIÓN DE TEXTO PERSONALIZADA */
+    ::selection {
+      background: var(--primary-light);
+      color: var(--primary);
+    }
+    
+    /* CUSTOM SCROLLBAR */
+    ::-webkit-scrollbar { 
+      width: 8px; 
+    }
+    ::-webkit-scrollbar-track { 
+      background: var(--light-grey); 
+    }
+    ::-webkit-scrollbar-thumb { 
+      background: #ccc; 
+      border-radius: 10px; 
+    }
+    ::-webkit-scrollbar-thumb:hover { 
+      background: var(--primary); 
+    }
+    
     body { 
       margin: 0; 
       font-family: 'Lora', serif; 
@@ -402,6 +457,7 @@ function generateHTML(user, lang) {
       -webkit-font-smoothing: antialiased;
     }
     
+    /* MEJORA DE NAVEGACIÓN CON GLASSMORPHISM */
     .top-nav { 
       padding: 20px; 
       text-align: center; 
@@ -409,7 +465,12 @@ function generateHTML(user, lang) {
       font-family: 'Inter', sans-serif; 
       text-transform: uppercase; 
       letter-spacing: 2px; 
-      font-size: clamp(10px, 2.5vw, 11px); 
+      font-size: clamp(10px, 2.5vw, 11px);
+      position: sticky;
+      top: 0;
+      background: rgba(255, 255, 255, 0.8);
+      backdrop-filter: blur(10px);
+      z-index: 1000;
     }
     
     .top-nav a { 
@@ -438,6 +499,7 @@ function generateHTML(user, lang) {
       width: 280px; 
     }
     
+    /* EFECTO MAGNÉTICO EN FOTO */
     .profile-img { 
       width: 100%; 
       aspect-ratio: 1/1; 
@@ -445,11 +507,12 @@ function generateHTML(user, lang) {
       filter: grayscale(10%); 
       box-shadow: 20px 20px 0 var(--light-grey); 
       border-radius: 4px; 
-      transition: var(--transition);
+      transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     }
     
     .profile-img:hover {
       box-shadow: 20px 20px 0 var(--primary-light);
+      transform: scale(1.02) rotate(1deg);
     }
     
     .no-img { 
@@ -607,7 +670,7 @@ function generateHTML(user, lang) {
       color: var(--primary);
     }
     
-    /* ===== ARTÍCULOS GRID MEJORADO ===== */
+    /* ARTÍCULOS GRID MEJORADO */
     .articles-section {
       margin-top: 40px;
     }
@@ -734,7 +797,7 @@ function generateHTML(user, lang) {
       opacity: 0.8;
     }
     
-    /* ===== MEDIA QUERIES OPTIMIZADAS ===== */
+    /* MEDIA QUERIES OPTIMIZADAS */
     @media (max-width: 850px) {
       .profile-hero { 
         grid-template-columns: 1fr; 
@@ -816,6 +879,8 @@ function generateHTML(user, lang) {
   </style>
 </head>
 <body>
+  <div class="scroll-progress" id="scrollBar"></div>
+  
   <nav class="top-nav"><a href="/">${isSpanish ? 'Revista Nacional de las Ciencias para Estudiantes' : 'The National Review of Sciences for Students'}</a></nav>
   
   <header class="profile-hero">
@@ -852,6 +917,40 @@ function generateHTML(user, lang) {
     <a href="/team/">← ${isSpanish ? 'Volver al Equipo' : 'Back to Team'}</a>
     <a href="/">${isSpanish ? 'Inicio' : 'Home'}</a>
   </footer>
+
+  <script>
+    // Barra de progreso de lectura
+    window.onscroll = function() {
+      let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      let scrolled = (winScroll / height) * 100;
+      document.getElementById("scrollBar").style.width = scrolled + "%";
+    };
+
+    // Observer para revelar elementos al hacer scroll
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: "0px 0px -50px 0px"
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('active');
+          // Opcional: dejar de observar después de activar
+          observer.unobserve(entry.target);
+        }
+      });
+    }, observerOptions);
+
+    // Aplicar a secciones y tarjetas
+    document.addEventListener('DOMContentLoaded', function() {
+      document.querySelectorAll('section, .article-card, .profile-hero').forEach(el => {
+        el.classList.add('reveal');
+        observer.observe(el);
+      });
+    });
+  </script>
 </body>
 </html>`;
 }
