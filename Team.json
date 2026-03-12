@@ -1335,5 +1335,31 @@
     "isAnonymous": true,
     "claimHash": "aeaefb616cd3463a",
     "articles": []
+  },
+  {
+    "uid": "caSqg1C0tjdDsIm57nOcLydA1DU2",
+    "displayName": "Amelia Ribadeneira",
+    "firstName": "Amelia",
+    "lastName": "Ribadeneira",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": "",
+      "en": ""
+    },
+    "institution": "",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "amelia-ribadeneira",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
   }
 ]
