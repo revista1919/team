@@ -1361,5 +1361,31 @@
         "slug": "el-ajedrez-un-estudio-sobre-el-impacto-cultural-del-ajedrez-durante-la-guerra-fria-y-su-simbolismo-ideologico-en-chile-8"
       }
     ]
+  },
+  {
+    "uid": "6zP7dqLbLkf0Bww46MjGmN5y6J33",
+    "displayName": "Sofía Cristina Muñoz Linares",
+    "firstName": "Sofía Cristina",
+    "lastName": "Muñoz Linares",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": "",
+      "en": ""
+    },
+    "institution": "",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "sofia-cristina-munoz-linares",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
   }
 ]
