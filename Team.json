@@ -1397,17 +1397,19 @@
       "Autor"
     ],
     "description": {
-      "es": "",
-      "en": ""
+      "es": "Soy estudiante de segundo semestre de Relaciones Internacionales en la UMAR. Mi formación inició en el área técnica, titulándome como Diseñador Gráfico Digital en el CECyTE 38, lo que me permite abordar los problemas sociales con una visión creativa y estructurada. Actualmente, enfoco mis estudios en la intersección entre la historia y la migración, apasionado por la literatura como fuente de entendimiento de la realidad internacional. Busco especializarme en procesos migratorios desde una perspectiva histórica y política.",
+      "en": "Soy estudiante de segundo semestre de Relaciones Internacionales en la UMAR. Mi formación inició en el área técnica, titulándome como Diseñador Gráfico Digital en el CECyTE 38, lo que me permite abordar los problemas sociales con una visión creativa y estructurada. Actualmente, enfoco mis estudios en la intersección entre la historia y la migración, apasionado por la literatura como fuente de entendimiento de la realidad internacional. Busco especializarme en procesos migratorios desde una perspectiva histórica y política."
     },
     "interests": {
-      "es": "",
-      "en": ""
+      "es": [],
+      "en": []
     },
-    "institution": "",
+    "institution": "Universidad del mar campus Huatulco ",
     "orcid": "",
-    "publicEmail": null,
-    "social": {},
+    "publicEmail": "yaircanteraflores@gmail.com",
+    "social": {
+      "instagram": "https://www.instagram.com/y_hist.z?igsh=MTgzZ3ZwcXF2cWxpMg=="
+    },
     "imageUrl": "",
     "slug": "yair-cantera-flores",
     "isAnonymous": false,
