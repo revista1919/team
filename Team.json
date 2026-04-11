@@ -1281,32 +1281,6 @@
     "articles": []
   },
   {
-    "uid": "caSqg1C0tjdDsIm57nOcLydA1DU2",
-    "displayName": "Amelia Ribadeneira",
-    "firstName": "Amelia",
-    "lastName": "Ribadeneira",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "",
-      "en": ""
-    },
-    "interests": {
-      "es": [],
-      "en": []
-    },
-    "institution": "",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "amelia-ribadeneira",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
     "uid": "Wp9AbMocILX4UOy6il09qluhrL23",
     "displayName": "Javier Vergara",
     "firstName": "Javier",
@@ -1416,6 +1390,32 @@
     },
     "imageUrl": "",
     "slug": "yair-cantera-flores",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
+  },
+  {
+    "uid": "caSqg1C0tjdDsIm57nOcLydA1DU2",
+    "displayName": "Amelia Ribadeneira",
+    "firstName": "Amelia",
+    "lastName": "Ribadeneira",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "Estudiante de noveno de básica del Pensionado Universitario",
+      "en": "Estudiante de noveno de básica del Pensionado Universitario"
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Pensionado Universitario",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "amelia-ribadeneira",
     "isAnonymous": false,
     "claimHash": null,
     "articles": []
