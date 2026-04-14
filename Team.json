@@ -142,6 +142,32 @@
     "articles": []
   },
   {
+    "uid": "6zP7dqLbLkf0Bww46MjGmN5y6J33",
+    "displayName": "Sofía Cristina Muñoz Linares",
+    "firstName": "Sofía Cristina",
+    "lastName": "Muñoz Linares",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": "",
+      "en": ""
+    },
+    "institution": "",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "sofia-cristina-munoz-linares",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
+  },
+  {
     "uid": "80nl6CAxqyWTHAsg4BOZTMrNRiH2",
     "displayName": "Juan Pablo Miralles",
     "firstName": "Juan",
@@ -429,6 +455,38 @@
         "slug": "el-reloj-de-flores-de-vina-del-mar-como-conmemoracion-de-la-copa-mundial-de-1962-y-su-influencia-en-el-turismo-y-la-economia-local-11"
       }
     ]
+  },
+  {
+    "uid": "GxRzOmVWsDQ3sUlDXHABoHu3PGE2",
+    "displayName": "Yair Cantera Flores",
+    "firstName": "Yair",
+    "lastName": "Cantera Flores",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "Soy estudiante de segundo semestre de Relaciones Internacionales en la UMAR. Mi formación inició en el área técnica, titulándome como Diseñador Gráfico Digital en el CECyTE 38, lo que me permite abordar los problemas sociales con una visión creativa y estructurada. Actualmente, enfoco mis estudios en la intersección entre la historia y la migración, apasionado por la literatura como fuente de entendimiento de la realidad internacional. Busco especializarme en procesos migratorios desde una perspectiva histórica y política.",
+      "en": "Soy estudiante de segundo semestre de Relaciones Internacionales en la UMAR. Mi formación inició en el área técnica, titulándome como Diseñador Gráfico Digital en el CECyTE 38, lo que me permite abordar los problemas sociales con una visión creativa y estructurada. Actualmente, enfoco mis estudios en la intersección entre la historia y la migración, apasionado por la literatura como fuente de entendimiento de la realidad internacional. Busco especializarme en procesos migratorios desde una perspectiva histórica y política."
+    },
+    "interests": {
+      "es": [
+        "Historia",
+        "Política",
+        "Migración"
+      ],
+      "en": []
+    },
+    "institution": "Universidad del mar campus Huatulco ",
+    "orcid": "",
+    "publicEmail": "yaircanteraflores@gmail.com",
+    "social": {
+      "instagram": "https://www.instagram.com/y_hist.z?igsh=MTgzZ3ZwcXF2cWxpMg=="
+    },
+    "imageUrl": "",
+    "slug": "yair-cantera-flores",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
   },
   {
     "uid": "KKS3uXKY5vQnVHXuUoaQk2F1HZo1",
@@ -820,6 +878,62 @@
     "articles": []
   },
   {
+    "uid": "Wp9AbMocILX4UOy6il09qluhrL23",
+    "displayName": "Javier Vergara",
+    "firstName": "Javier",
+    "lastName": "Vergara",
+    "roles": [
+      "Director General",
+      "Editor en Jefe",
+      "Autor",
+      "Fundador",
+      "Responsable de Desarrollo Web",
+      "Editor de Sección"
+    ],
+    "description": {
+      "es": "Javier Vergara es estudiante Cuarto Medio en el Colegio Curimón de San Felipe, con interés en Economía, Ciencias Políticas y Matemáticas. Es estudiante de la Academia de Talentos de la UC. Finalista del Keneth Garshina Undergraduate Students Essay Contest del Mises Institute AERC 2025, con artículo publicado en la página del Mises Institute. Shortlisted para el John Locke Institute Global Essay Prize 2025. Distinction en London School of Economics Students Union Economics Society Essay Competition 2025. Ha sido becado para asistir a los Summer Courses del John Locke Institute en Princeton, la Universidad de Verano de la Universidad de las Hespérides en España, y para seminario del Ayn Rand Center en Buenos Aires. Ha publicado una traducción con Unión Editorial y se ha certificado en el College Program de ciencias políticas de la Universidad del Desarrollo.",
+      "en": "Javier Vergara is a fourth-year high school student at Curimón School in San Felipe, with an interest in Economics, Political Science, and Mathematics. He is a student at the UC Talent Academy. Finalist of the Keneth Garshina Undergraduate Students Essay Contest of the Mises Institute AERC 2025, with an article published on the Mises Institute's website. Shortlisted for the John Locke Institute Global Essay Prize 2025. Distinction in the London School of Economics Students Union Economics Society Essay Competition 2025. He has been awarded a scholarship to attend the Summer Courses of the John Locke Institute in Princeton, the Summer University of the University of Las Hespérides in Spain, and a seminar at the Ayn Rand Center in Buenos Aires. He has published a translation with Unión Editorial and has been certified in the Political Science College Program at Universidad del Desarrollo."
+    },
+    "interests": {
+      "es": [
+        "Economía",
+        "Matemáticas",
+        "Historia",
+        "Política"
+      ],
+      "en": [
+        "Economics",
+        "Mathematics",
+        "History",
+        "Politics"
+      ]
+    },
+    "institution": "Colegio Curimón",
+    "orcid": "0009-0005-5326-0177",
+    "publicEmail": null,
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/javier-vergara-r%C3%ADos-1021b42b5?originalSubdomain=cl"
+    },
+    "imageUrl": "https://i.ibb.co/YTLfDByH/73014-jpg.jpg",
+    "slug": "javier-vergara",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": [
+      {
+        "title": "El Ajedrez: Un Estudio sobre el Impacto Cultural del Ajedrez Durante la Guerra Fría y su Simbolismo Ideológico en Chile",
+        "titleEn": "El Ajedrez: Un Estudio sobre el Impacto Cultural del Ajedrez Durante la Guerra Fría y su Simbolismo Ideológico en Chile",
+        "submissionId": "",
+        "fecha": "2025-11-29",
+        "volumen": "1",
+        "numero": "1",
+        "area": "Historia del Ajedrez en la Guerra Fría",
+        "numeroArticulo": "8",
+        "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-el-ajedrez-un-estudio-sobre-el-impacto-cultural-del-ajedrez-durante-la-guerra-fria-y-su-simbolismo-ideologico-en-chile-8.pdf",
+        "slug": "el-ajedrez-un-estudio-sobre-el-impacto-cultural-del-ajedrez-durante-la-guerra-fria-y-su-simbolismo-ideologico-en-chile-8"
+      }
+    ]
+  },
+  {
     "uid": "YC6kihySELc3l8NodUN9Ffk8eEV2",
     "displayName": "Santiago Vargas",
     "firstName": "Santiago",
@@ -945,6 +1059,45 @@
     "isAnonymous": false,
     "claimHash": null,
     "articles": []
+  },
+  {
+    "uid": "caSqg1C0tjdDsIm57nOcLydA1DU2",
+    "displayName": "Amelia Ribadeneira",
+    "firstName": "Amelia",
+    "lastName": "Ribadeneira",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "Estudiante de noveno de básica del Pensionado Universitario",
+      "en": "Estudiante de noveno de básica del Pensionado Universitario"
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Pensionado Universitario",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "amelia-ribadeneira",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": [
+      {
+        "title": "Las medias rojas: símbolo de libertad femenina frente al patriarcado",
+        "titleEn": "Las medias rojas: símbolo de libertad femenina frente al patriarcado",
+        "submissionId": "SUB-1773359015493-ZOFB1OSLS",
+        "fecha": "2026-04-13",
+        "volumen": "2",
+        "numero": "1",
+        "area": "Lengua y Literatura",
+        "numeroArticulo": 13,
+        "pdfUrl": "https://revista1919.github.io/articless/pdfs/Article-las-medias-rojas-smbolo-de-libertad-femenina-frent-13.pdf",
+        "slug": "las-medias-rojas-simbolo-de-libertad-femenina-frente-al-patriarcado-13"
+      }
+    ]
   },
   {
     "uid": "e9d73612-2812-45a8-8e5d-478bef5bc2ac",
@@ -1255,10 +1408,10 @@
     "articles": []
   },
   {
-    "uid": "anon-eustaquio-chernobyl-mmh0lwe1",
-    "displayName": "Eustaquio Chernobyl",
-    "firstName": "Eustaquio",
-    "lastName": "Chernobyl",
+    "uid": "anon-amelia-ribadeneira-mnxw1hrw",
+    "displayName": "Amelia Ribadeneira",
+    "firstName": "Amelia",
+    "lastName": "Ribadeneira",
     "roles": [
       "Autor"
     ],
@@ -1270,154 +1423,27 @@
       "es": [],
       "en": []
     },
-    "institution": "Universidad de la Vida",
-    "orcid": "0012-3245-5432-2345",
+    "institution": "Colegio Pensionado Universitario",
+    "orcid": "",
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "eustaquio-chernobyl",
+    "slug": "amelia-ribadeneira1",
     "isAnonymous": true,
-    "claimHash": "aeaefb616cd3463a",
-    "articles": []
-  },
-  {
-    "uid": "Wp9AbMocILX4UOy6il09qluhrL23",
-    "displayName": "Javier Vergara",
-    "firstName": "Javier",
-    "lastName": "Vergara",
-    "roles": [
-      "Director General",
-      "Editor en Jefe",
-      "Autor",
-      "Fundador",
-      "Responsable de Desarrollo Web",
-      "Editor de Sección"
-    ],
-    "description": {
-      "es": "Javier Vergara es estudiante Cuarto Medio en el Colegio Curimón de San Felipe, con interés en Economía, Ciencias Políticas y Matemáticas. Es estudiante de la Academia de Talentos de la UC. Finalista del Keneth Garshina Undergraduate Students Essay Contest del Mises Institute AERC 2025, con artículo publicado en la página del Mises Institute. Shortlisted para el John Locke Institute Global Essay Prize 2025. Distinction en London School of Economics Students Union Economics Society Essay Competition 2025. Ha sido becado para asistir a los Summer Courses del John Locke Institute en Princeton, la Universidad de Verano de la Universidad de las Hespérides en España, y para seminario del Ayn Rand Center en Buenos Aires. Ha publicado una traducción con Unión Editorial y se ha certificado en el College Program de ciencias políticas de la Universidad del Desarrollo.",
-      "en": "Javier Vergara is a fourth-year high school student at Curimón School in San Felipe, with an interest in Economics, Political Science, and Mathematics. He is a student at the UC Talent Academy. Finalist of the Keneth Garshina Undergraduate Students Essay Contest of the Mises Institute AERC 2025, with an article published on the Mises Institute's website. Shortlisted for the John Locke Institute Global Essay Prize 2025. Distinction in the London School of Economics Students Union Economics Society Essay Competition 2025. He has been awarded a scholarship to attend the Summer Courses of the John Locke Institute in Princeton, the Summer University of the University of Las Hespérides in Spain, and a seminar at the Ayn Rand Center in Buenos Aires. He has published a translation with Unión Editorial and has been certified in the Political Science College Program at Universidad del Desarrollo."
-    },
-    "interests": {
-      "es": [
-        "Economía",
-        "Matemáticas",
-        "Historia",
-        "Política"
-      ],
-      "en": [
-        "Economics",
-        "Mathematics",
-        "History",
-        "Politics"
-      ]
-    },
-    "institution": "Colegio Curimón",
-    "orcid": "0009-0005-5326-0177",
-    "publicEmail": null,
-    "social": {
-      "linkedin": "https://www.linkedin.com/in/javier-vergara-r%C3%ADos-1021b42b5?originalSubdomain=cl"
-    },
-    "imageUrl": "https://i.ibb.co/YTLfDByH/73014-jpg.jpg",
-    "slug": "javier-vergara",
-    "isAnonymous": false,
-    "claimHash": null,
+    "claimHash": "ed420b08a85cf384",
     "articles": [
       {
-        "title": "El Ajedrez: Un Estudio sobre el Impacto Cultural del Ajedrez Durante la Guerra Fría y su Simbolismo Ideológico en Chile",
-        "titleEn": "El Ajedrez: Un Estudio sobre el Impacto Cultural del Ajedrez Durante la Guerra Fría y su Simbolismo Ideológico en Chile",
-        "submissionId": "",
-        "fecha": "2025-11-29",
-        "volumen": "1",
+        "title": "Las medias rojas: símbolo de libertad femenina frente al patriarcado",
+        "titleEn": "Las medias rojas: símbolo de libertad femenina frente al patriarcado",
+        "submissionId": "SUB-1773359015493-ZOFB1OSLS",
+        "fecha": "2026-04-13",
+        "volumen": "2",
         "numero": "1",
-        "area": "Historia del Ajedrez en la Guerra Fría",
-        "numeroArticulo": "8",
-        "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-el-ajedrez-un-estudio-sobre-el-impacto-cultural-del-ajedrez-durante-la-guerra-fria-y-su-simbolismo-ideologico-en-chile-8.pdf",
-        "slug": "el-ajedrez-un-estudio-sobre-el-impacto-cultural-del-ajedrez-durante-la-guerra-fria-y-su-simbolismo-ideologico-en-chile-8"
+        "area": "Lengua y Literatura",
+        "numeroArticulo": 13,
+        "pdfUrl": "https://revista1919.github.io/articless/pdfs/Article-las-medias-rojas-smbolo-de-libertad-femenina-frent-13.pdf",
+        "slug": "las-medias-rojas-simbolo-de-libertad-femenina-frente-al-patriarcado-13"
       }
     ]
-  },
-  {
-    "uid": "6zP7dqLbLkf0Bww46MjGmN5y6J33",
-    "displayName": "Sofía Cristina Muñoz Linares",
-    "firstName": "Sofía Cristina",
-    "lastName": "Muñoz Linares",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "",
-      "en": ""
-    },
-    "interests": {
-      "es": "",
-      "en": ""
-    },
-    "institution": "",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "sofia-cristina-munoz-linares",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
-    "uid": "GxRzOmVWsDQ3sUlDXHABoHu3PGE2",
-    "displayName": "Yair Cantera Flores",
-    "firstName": "Yair",
-    "lastName": "Cantera Flores",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "Soy estudiante de segundo semestre de Relaciones Internacionales en la UMAR. Mi formación inició en el área técnica, titulándome como Diseñador Gráfico Digital en el CECyTE 38, lo que me permite abordar los problemas sociales con una visión creativa y estructurada. Actualmente, enfoco mis estudios en la intersección entre la historia y la migración, apasionado por la literatura como fuente de entendimiento de la realidad internacional. Busco especializarme en procesos migratorios desde una perspectiva histórica y política.",
-      "en": "Soy estudiante de segundo semestre de Relaciones Internacionales en la UMAR. Mi formación inició en el área técnica, titulándome como Diseñador Gráfico Digital en el CECyTE 38, lo que me permite abordar los problemas sociales con una visión creativa y estructurada. Actualmente, enfoco mis estudios en la intersección entre la historia y la migración, apasionado por la literatura como fuente de entendimiento de la realidad internacional. Busco especializarme en procesos migratorios desde una perspectiva histórica y política."
-    },
-    "interests": {
-      "es": [
-        "Historia",
-        "Política",
-        "Migración"
-      ],
-      "en": []
-    },
-    "institution": "Universidad del mar campus Huatulco ",
-    "orcid": "",
-    "publicEmail": "yaircanteraflores@gmail.com",
-    "social": {
-      "instagram": "https://www.instagram.com/y_hist.z?igsh=MTgzZ3ZwcXF2cWxpMg=="
-    },
-    "imageUrl": "",
-    "slug": "yair-cantera-flores",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
-    "uid": "caSqg1C0tjdDsIm57nOcLydA1DU2",
-    "displayName": "Amelia Ribadeneira",
-    "firstName": "Amelia",
-    "lastName": "Ribadeneira",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "Estudiante de noveno de básica del Pensionado Universitario",
-      "en": "Estudiante de noveno de básica del Pensionado Universitario"
-    },
-    "interests": {
-      "es": [],
-      "en": []
-    },
-    "institution": "Pensionado Universitario",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "amelia-ribadeneira",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
   }
 ]
