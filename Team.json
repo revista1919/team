@@ -489,36 +489,6 @@
     ]
   },
   {
-    "uid": "Kz8C8BXp3wOvwq2UU9dPhrKsixE2",
-    "displayName": "Jefferson Salguero",
-    "firstName": "Jefferson",
-    "lastName": "Salguero",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "",
-      "en": ""
-    },
-    "interests": {
-      "es": [
-        "medicina",
-        "obstetricia",
-        "ginecología"
-      ],
-      "en": []
-    },
-    "institution": "Universidad de Caldas",
-    "orcid": "0000-0003-4170-2618",
-    "publicEmail": "jefferson.salguero@ucaldas.edu.co",
-    "social": {},
-    "imageUrl": "",
-    "slug": "jefferson-salguero",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
     "uid": "LbeObFgrZgdyKQmUgldPmjnh8Sj1",
     "displayName": "Pascal Cea",
     "firstName": "pascalcea08",
@@ -1552,5 +1522,37 @@
         "slug": "historia-e-impacto-del-yodo-en-la-salud-chilena-2"
       }
     ]
+  },
+  {
+    "uid": "Kz8C8BXp3wOvwq2UU9dPhrKsixE2",
+    "displayName": "Jefferson Salguero",
+    "firstName": "Jefferson",
+    "lastName": "Salguero",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [
+        "medicina",
+        "obstetricia",
+        "ginecología"
+      ],
+      "en": []
+    },
+    "institution": "Universidad de Caldas",
+    "orcid": "0000-0003-4170-2618",
+    "publicEmail": "jefferson.salguero@ucaldas.edu.co",
+    "social": {
+      "instagram": "jsalguero0515"
+    },
+    "imageUrl": "",
+    "slug": "jefferson-salguero",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
   }
 ]
