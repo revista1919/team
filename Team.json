@@ -1564,12 +1564,18 @@
       "Autor"
     ],
     "description": {
-      "es": "",
-      "en": ""
+      "es": "Benjamín Catalán estudiante de IV° medio colegio calasanz con interes principalmente en matemáticas, fisica y pastoral juvenil. Hace clase privadas de matemáticas y participa dentro del grupo pastoral \"Movimiento Calasanz\" trabajando con niños de educacion basica.\nMedallista de la olimpiada nacional de matemáticas 2025\nMedallista de la olimpiada escolar Cmat\nEs jugador de ajedrez federado",
+      "en": "Benjamín Catalán estudiante de IV° medio colegio calasanz con interes principalmente en matemáticas, fisica y pastoral juvenil. Hace clase privadas de matemáticas y participa dentro del grupo pastoral \"Movimiento Calasanz\" trabajando con niños de educacion basica.\nMedallista de la olimpiada nacional de matemáticas 2025\nMedallista de la olimpiada escolar Cmat\nEs jugador de ajedrez federado"
     },
     "interests": {
-      "es": "",
-      "en": ""
+      "es": [
+        "Matemáticas",
+        "Física",
+        "Historia",
+        "Teología",
+        "Filosofía"
+      ],
+      "en": []
     },
     "institution": "",
     "orcid": "",
