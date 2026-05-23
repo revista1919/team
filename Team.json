@@ -1520,38 +1520,6 @@
     "articles": []
   },
   {
-    "uid": "mCaKZ93suhRHWu69IrJQgwVuxPh2",
-    "displayName": "Benjamín Catalán Valenzuela",
-    "firstName": "Benjamín",
-    "lastName": "Catalán Valenzuela",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "Benjamín Catalán estudiante de IV° medio colegio calasanz con interes principalmente en matemáticas, fisica y pastoral juvenil. Hace clase privadas de matemáticas y participa dentro del grupo pastoral \"Movimiento Calasanz\" trabajando con niños de educacion basica.\nMedallista de la olimpiada nacional de matemáticas 2025\nMedallista de la olimpiada escolar Cmat\nEs jugador de ajedrez federado",
-      "en": "Benjamín Catalán estudiante de IV° medio colegio calasanz con interes principalmente en matemáticas, fisica y pastoral juvenil. Hace clase privadas de matemáticas y participa dentro del grupo pastoral \"Movimiento Calasanz\" trabajando con niños de educacion basica.\nMedallista de la olimpiada nacional de matemáticas 2025\nMedallista de la olimpiada escolar Cmat\nEs jugador de ajedrez federado"
-    },
-    "interests": {
-      "es": [
-        "Matemáticas",
-        "Física",
-        "Historia",
-        "Teología",
-        "Filosofía"
-      ],
-      "en": []
-    },
-    "institution": "",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "benjamin-catalan-valenzuela",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
     "uid": "c9adbde3-61bd-415a-9f77-ad84ec959ce9",
     "displayName": "Benjamín Catalán",
     "firstName": "Benjamín",
@@ -1583,6 +1551,42 @@
     "social": {},
     "imageUrl": "https://i.postimg.cc/8jhB7Rxq/IMG-20250930-230356-656.jpg",
     "slug": "benjamin-catalan",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
+  },
+  {
+    "uid": "mCaKZ93suhRHWu69IrJQgwVuxPh2",
+    "displayName": "Benjamín Catalán",
+    "firstName": "Benjamín",
+    "lastName": "Catalán",
+    "roles": [
+      "Revisor"
+    ],
+    "description": {
+      "en": "Benjamín Catalán, an 11th-grade student at Colegio Calasanz, with primary interests in mathematics, physics, and youth ministry. He tutors in mathematics and participates in the pastoral group \"Movimiento Calasanz\", working with elementary school children.\nFinalist in the 2025 National Mathematics Olympiad.\nMedalist in the CMAT School Olympiad.\nHe is a federated chess player.",
+      "es": "Benjamín Catalán, estudiante de Tercero Medio del Colegio Calasanz, con interés principalmente en matemáticas, física y pastoral juvenil. Hace clases privadas de matemáticas y participa dentro del grupo pastoral \"Movimiento Calasanz\", trabajando con niños de educación básica.\nFinalista de la Olimpiada Nacional de Matemáticas 2025.\nMedallista de la Olimpiada Escolar CMAT.\nEs jugador de ajedrez federado."
+    },
+    "interests": {
+      "en": [
+        "Mathematics",
+        "Physics",
+        "Literature",
+        "Philosophy"
+      ],
+      "es": [
+        "Matemática",
+        "Física",
+        "Literatura",
+        "Filosofía"
+      ]
+    },
+    "institution": "Colegio Calasanz",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "https://i.postimg.cc/8jhB7Rxq/IMG-20250930-230356-656.jpg",
+    "slug": "benjamin-catalan-valenzuela",
     "isAnonymous": false,
     "claimHash": null,
     "articles": []
