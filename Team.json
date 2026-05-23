@@ -1554,5 +1554,31 @@
     "isAnonymous": false,
     "claimHash": null,
     "articles": []
+  },
+  {
+    "uid": "mCaKZ93suhRHWu69IrJQgwVuxPh2",
+    "displayName": "Benjamín Catalán Valenzuela",
+    "firstName": "Benjamín",
+    "lastName": "Catalán Valenzuela",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": "",
+      "en": ""
+    },
+    "institution": "",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "benjamin-catalan-valenzuela",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
   }
 ]
