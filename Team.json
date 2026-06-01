@@ -142,32 +142,6 @@
     "articles": []
   },
   {
-    "uid": "6zP7dqLbLkf0Bww46MjGmN5y6J33",
-    "displayName": "Sofía Cristina Muñoz Linares",
-    "firstName": "Sofía Cristina",
-    "lastName": "Muñoz Linares",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "",
-      "en": ""
-    },
-    "interests": {
-      "es": "",
-      "en": ""
-    },
-    "institution": "",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "sofia-cristina-munoz-linares",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
     "uid": "80nl6CAxqyWTHAsg4BOZTMrNRiH2",
     "displayName": "Juan Pablo Miralles",
     "firstName": "Juan",
@@ -1587,6 +1561,32 @@
     "social": {},
     "imageUrl": "https://i.postimg.cc/8jhB7Rxq/IMG-20250930-230356-656.jpg",
     "slug": "benjamin-catalan-valenzuela",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
+  },
+  {
+    "uid": "6zP7dqLbLkf0Bww46MjGmN5y6J33",
+    "displayName": "Sofía Cristina Muñoz Linares",
+    "firstName": "Sofía Cristina",
+    "lastName": "Muñoz Linares",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": "",
+      "en": ""
+    },
+    "institution": "",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "sofia-cristina-munoz-linares",
     "isAnonymous": false,
     "claimHash": null,
     "articles": []
