@@ -1,5 +1,38 @@
 [
   {
+    "uid": "3IvS5w02HVdSAugPL0HxgojE0Wl1",
+    "displayName": "Josefina Pérez Moyano",
+    "firstName": "Josefina",
+    "lastName": "Pérez Moyano",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [
+        "Matemática",
+        "Física",
+        "Astronomía",
+        "Filosofía",
+        "Filosofía Política",
+        "Artes"
+      ],
+      "en": []
+    },
+    "institution": "Colegio Santa María de lo Cañas",
+    "orcid": "",
+    "publicEmail": "josefina.perez.ac@gmail.com",
+    "social": {},
+    "imageUrl": "",
+    "slug": "josefina-perez-moyano",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
+  },
+  {
     "uid": "40c3babe-9ed0-4a9f-b144-bc5a46728b12",
     "displayName": "Roberto Díaz",
     "firstName": "Roberto",
@@ -142,6 +175,32 @@
     "articles": []
   },
   {
+    "uid": "6zP7dqLbLkf0Bww46MjGmN5y6J33",
+    "displayName": "Sofía Cristina Muñoz Linares",
+    "firstName": "Sofía Cristina",
+    "lastName": "Muñoz Linares",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": "",
+      "en": ""
+    },
+    "institution": "",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "sofia-cristina-munoz-linares",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
+  },
+  {
     "uid": "80nl6CAxqyWTHAsg4BOZTMrNRiH2",
     "displayName": "Juan Pablo Miralles",
     "firstName": "Juan",
@@ -174,6 +233,50 @@
     "isAnonymous": false,
     "claimHash": null,
     "articles": []
+  },
+  {
+    "uid": "93tfJj8JZkYBTtLLlIezEmiOVLm2",
+    "displayName": "Mariana Moraga",
+    "firstName": "Mariana",
+    "lastName": "Moraga",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "Mariana Moraga es una estudiante de Cuarto Medio con gran vocación por la Biología y la Química. Ha participado en concursos nacionales como Delibera, Explora y Economía Más Cerca del Banco Central, y ha asistido a cursos de verano de Anatomía en la Universidad de Chile y la Universidad de Valparaíso. Destaca por su curiosidad intelectual, compromiso y habilidades de investigación y pensamiento crítico, proyectándose como una joven con fuerte potencial en el ámbito científico.",
+      "en": "Mariana Moraga es una estudiante de Cuarto Medio con gran vocación por la Biología y la Química. Ha participado en concursos nacionales como Delibera, Explora y Economía Más Cerca del Banco Central, y ha asistido a cursos de verano de Anatomía en la Universidad de Chile y la Universidad de Valparaíso. Destaca por su curiosidad intelectual, compromiso y habilidades de investigación y pensamiento crítico, proyectándose como una joven con fuerte potencial en el ámbito científico."
+    },
+    "interests": {
+      "es": [
+        "Biología",
+        "Ciencias",
+        "Química",
+        "Historia"
+      ],
+      "en": []
+    },
+    "institution": "Colegio Curimón",
+    "orcid": "",
+    "publicEmail": "Mariema0827@gmail.com",
+    "social": {},
+    "imageUrl": "https://i.ibb.co/YBqJtKQt/4f2a41c1-4879-4e5e-ac79-d6c67a87402d-jpeg.jpg",
+    "slug": "mariana-moraga",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": [
+      {
+        "title": "Historia e Impacto del Yodo en la Salud Chilena",
+        "titleEn": "Historia e Impacto del Yodo en la Salud Chilena",
+        "submissionId": "",
+        "fecha": "2025-11-27",
+        "volumen": "1",
+        "numero": "1",
+        "area": "Nutrición y Salud Pública Chilena",
+        "numeroArticulo": "2",
+        "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-historia-e-impacto-del-yodo-en-la-salud-chilena-2.pdf",
+        "slug": "historia-e-impacto-del-yodo-en-la-salud-chilena-2"
+      }
+    ]
   },
   {
     "uid": "9b8d8351-b594-4ad2-bbeb-d7c2c9d59fce",
@@ -463,6 +566,38 @@
     ]
   },
   {
+    "uid": "Kz8C8BXp3wOvwq2UU9dPhrKsixE2",
+    "displayName": "Jefferson Salguero",
+    "firstName": "Jefferson",
+    "lastName": "Salguero",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [
+        "medicina",
+        "obstetricia",
+        "ginecología"
+      ],
+      "en": []
+    },
+    "institution": "Universidad de Caldas",
+    "orcid": "0000-0003-4170-2618",
+    "publicEmail": "jefferson.salguero@ucaldas.edu.co",
+    "social": {
+      "instagram": "jsalguero0515"
+    },
+    "imageUrl": "",
+    "slug": "jefferson-salguero",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
+  },
+  {
     "uid": "LbeObFgrZgdyKQmUgldPmjnh8Sj1",
     "displayName": "Pascal Cea",
     "firstName": "pascalcea08",
@@ -593,6 +728,50 @@
     "social": {},
     "imageUrl": "https://i.postimg.cc/wvyRyZPS/f1c87432-6951-497a-8c5b-cb55984d7088.jpg",
     "slug": "marina-soto",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
+  },
+  {
+    "uid": "SXT77f1iIXhPewA8Endank8YjuW2",
+    "displayName": "Renato Vergara",
+    "firstName": "Renato",
+    "lastName": "Vergara",
+    "roles": [
+      "Encargado de Redes Sociales",
+      "Autor"
+    ],
+    "description": {
+      "es": "Renato Vergara es estudiante de tercero Medio del Colegio Curimón de San Felipe con interés en música, programación y matemáticas. Destaca por su compromiso y capacidad colaborativa. Participa activamente en actividades académicas. Es alumni de la FPP. Es un jugador de tenis de mesa aficionado. le gusta suits y top gun",
+      "en": "Renato Vergara is a 10th-grade student at Colegio Curimón in San Felipe, with an interest in music, programming, and mathematics. He stands out for his commitment and collaborative ability. He actively participates in academic activities. He is an alumnus of the FPP. He is an amateur table tenis player. he like suits and top gun"
+    },
+    "interests": {
+      "es": [
+        "Programación",
+        "Música",
+        "Deportes",
+        "Top gun",
+        "tenis de mesa",
+        "suits"
+      ],
+      "en": [
+        "Programming",
+        "Music",
+        "Sports",
+        "teble tenis",
+        "top gun",
+        "suits"
+      ]
+    },
+    "institution": "Colegio Curimón",
+    "orcid": "",
+    "publicEmail": "renato.vergara@revistacienciasestudiantes.com",
+    "social": {
+      "website": "https://es.pornhub.com/",
+      "instagram": "https://www.instagram.com/renav_ergara22/"
+    },
+    "imageUrl": "https://i.ibb.co/x8PXGpxC/images-3-jpg.jpg",
+    "slug": "renato-vergara",
     "isAnonymous": false,
     "claimHash": null,
     "articles": []
@@ -1036,6 +1215,42 @@
     "articles": []
   },
   {
+    "uid": "mCaKZ93suhRHWu69IrJQgwVuxPh2",
+    "displayName": "Benjamín Catalán",
+    "firstName": "Benjamín",
+    "lastName": "Catalán",
+    "roles": [
+      "Revisor"
+    ],
+    "description": {
+      "en": "Benjamín Catalán, an 11th-grade student at Colegio Calasanz, with primary interests in mathematics, physics, and youth ministry. He tutors in mathematics and participates in the pastoral group \"Movimiento Calasanz\", working with elementary school children.\nFinalist in the 2025 National Mathematics Olympiad.\nMedalist in the CMAT School Olympiad.\nHe is a federated chess player.",
+      "es": "Benjamín Catalán, estudiante de Tercero Medio del Colegio Calasanz, con interés principalmente en matemáticas, física y pastoral juvenil. Hace clases privadas de matemáticas y participa dentro del grupo pastoral \"Movimiento Calasanz\", trabajando con niños de educación básica.\nFinalista de la Olimpiada Nacional de Matemáticas 2025.\nMedallista de la Olimpiada Escolar CMAT.\nEs jugador de ajedrez federado."
+    },
+    "interests": {
+      "en": [
+        "Mathematics",
+        "Physics",
+        "Literature",
+        "Philosophy"
+      ],
+      "es": [
+        "Matemática",
+        "Física",
+        "Literatura",
+        "Filosofía"
+      ]
+    },
+    "institution": "Colegio Calasanz",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "https://i.postimg.cc/8jhB7Rxq/IMG-20250930-230356-656.jpg",
+    "slug": "benjamin-catalan-valenzuela",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
+  },
+  {
     "uid": "mfDxTTdAd9SucyFfMveGOlHZcan2",
     "displayName": "Agustín Maturana",
     "firstName": "Agustín",
@@ -1253,7 +1468,7 @@
     "articles": []
   },
   {
-    "uid": "anon-santiago-vargas-moyodb0q",
+    "uid": "anon-santiago-vargas-mq437isk",
     "displayName": "Santiago Vargas",
     "firstName": "Santiago Vargas",
     "lastName": "",
@@ -1273,7 +1488,7 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "santiago-vargas1",
+    "slug": "santiago-vargas2",
     "isAnonymous": true,
     "claimHash": "4107c792f1a33f0b",
     "articles": [
@@ -1304,7 +1519,7 @@
     ]
   },
   {
-    "uid": "anon-amir-carbonell-moyodb0q",
+    "uid": "anon-amir-carbonell-mq437isk",
     "displayName": "Amir Carbonell",
     "firstName": "Amir",
     "lastName": "Carbonell",
@@ -1324,7 +1539,7 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "amir-carbonell1",
+    "slug": "amir-carbonell2",
     "isAnonymous": true,
     "claimHash": "4e556796f61b4b17",
     "articles": [
@@ -1343,7 +1558,7 @@
     ]
   },
   {
-    "uid": "anon-amelia-ribadeneira-moyodb0r",
+    "uid": "anon-amelia-ribadeneira-mq437isk",
     "displayName": "Amelia Ribadeneira",
     "firstName": "Amelia",
     "lastName": "Ribadeneira",
@@ -1363,7 +1578,7 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "amelia-ribadeneira2",
+    "slug": "amelia-ribadeneira1",
     "isAnonymous": true,
     "claimHash": "ed420b08a85cf384",
     "articles": [
@@ -1380,256 +1595,5 @@
         "slug": "las-medias-rojas-simbolo-de-libertad-femenina-frente-al-patriarcado-13"
       }
     ]
-  },
-  {
-    "uid": "93tfJj8JZkYBTtLLlIezEmiOVLm2",
-    "displayName": "Mariana Moraga",
-    "firstName": "Mariana",
-    "lastName": "Moraga",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "Mariana Moraga es una estudiante de Cuarto Medio con gran vocación por la Biología y la Química. Ha participado en concursos nacionales como Delibera, Explora y Economía Más Cerca del Banco Central, y ha asistido a cursos de verano de Anatomía en la Universidad de Chile y la Universidad de Valparaíso. Destaca por su curiosidad intelectual, compromiso y habilidades de investigación y pensamiento crítico, proyectándose como una joven con fuerte potencial en el ámbito científico.",
-      "en": "Mariana Moraga es una estudiante de Cuarto Medio con gran vocación por la Biología y la Química. Ha participado en concursos nacionales como Delibera, Explora y Economía Más Cerca del Banco Central, y ha asistido a cursos de verano de Anatomía en la Universidad de Chile y la Universidad de Valparaíso. Destaca por su curiosidad intelectual, compromiso y habilidades de investigación y pensamiento crítico, proyectándose como una joven con fuerte potencial en el ámbito científico."
-    },
-    "interests": {
-      "es": [
-        "Biología",
-        "Ciencias",
-        "Química",
-        "Historia"
-      ],
-      "en": []
-    },
-    "institution": "Colegio Curimón",
-    "orcid": "",
-    "publicEmail": "Mariema0827@gmail.com",
-    "social": {},
-    "imageUrl": "https://i.ibb.co/YBqJtKQt/4f2a41c1-4879-4e5e-ac79-d6c67a87402d-jpeg.jpg",
-    "slug": "mariana-moraga",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": [
-      {
-        "title": "Historia e Impacto del Yodo en la Salud Chilena",
-        "titleEn": "Historia e Impacto del Yodo en la Salud Chilena",
-        "submissionId": "",
-        "fecha": "2025-11-27",
-        "volumen": "1",
-        "numero": "1",
-        "area": "Nutrición y Salud Pública Chilena",
-        "numeroArticulo": "2",
-        "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-historia-e-impacto-del-yodo-en-la-salud-chilena-2.pdf",
-        "slug": "historia-e-impacto-del-yodo-en-la-salud-chilena-2"
-      }
-    ]
-  },
-  {
-    "uid": "Kz8C8BXp3wOvwq2UU9dPhrKsixE2",
-    "displayName": "Jefferson Salguero",
-    "firstName": "Jefferson",
-    "lastName": "Salguero",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "",
-      "en": ""
-    },
-    "interests": {
-      "es": [
-        "medicina",
-        "obstetricia",
-        "ginecología"
-      ],
-      "en": []
-    },
-    "institution": "Universidad de Caldas",
-    "orcid": "0000-0003-4170-2618",
-    "publicEmail": "jefferson.salguero@ucaldas.edu.co",
-    "social": {
-      "instagram": "jsalguero0515"
-    },
-    "imageUrl": "",
-    "slug": "jefferson-salguero",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
-    "uid": "c9adbde3-61bd-415a-9f77-ad84ec959ce9",
-    "displayName": "Benjamín Catalán",
-    "firstName": "Benjamín",
-    "lastName": "Catalán",
-    "roles": [
-      "Revisor"
-    ],
-    "description": {
-      "es": "Benjamín Catalán, estudiante de Tercero Medio del Colegio Calasanz, con interés principalmente en matemáticas, física y pastoral juvenil. Hace clases privadas de matemáticas y participa dentro del grupo pastoral \"Movimiento Calasanz\", trabajando con niños de educación básica.\nFinalista de la Olimpiada Nacional de Matemáticas 2025.\nMedallista de la Olimpiada Escolar CMAT.\nEs jugador de ajedrez federado.",
-      "en": "Benjamín Catalán, an 11th-grade student at Colegio Calasanz, with primary interests in mathematics, physics, and youth ministry. He tutors in mathematics and participates in the pastoral group \"Movimiento Calasanz\", working with elementary school children.\nFinalist in the 2025 National Mathematics Olympiad.\nMedalist in the CMAT School Olympiad.\nHe is a federated chess player."
-    },
-    "interests": {
-      "es": [
-        "Matemática",
-        "Física",
-        "Literatura",
-        "Filosofía"
-      ],
-      "en": [
-        "Mathematics",
-        "Physics",
-        "Literature",
-        "Philosophy"
-      ]
-    },
-    "institution": "Colegio Calasanz",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "https://i.postimg.cc/8jhB7Rxq/IMG-20250930-230356-656.jpg",
-    "slug": "benjamin-catalan",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
-    "uid": "mCaKZ93suhRHWu69IrJQgwVuxPh2",
-    "displayName": "Benjamín Catalán",
-    "firstName": "Benjamín",
-    "lastName": "Catalán",
-    "roles": [
-      "Revisor"
-    ],
-    "description": {
-      "en": "Benjamín Catalán, an 11th-grade student at Colegio Calasanz, with primary interests in mathematics, physics, and youth ministry. He tutors in mathematics and participates in the pastoral group \"Movimiento Calasanz\", working with elementary school children.\nFinalist in the 2025 National Mathematics Olympiad.\nMedalist in the CMAT School Olympiad.\nHe is a federated chess player.",
-      "es": "Benjamín Catalán, estudiante de Tercero Medio del Colegio Calasanz, con interés principalmente en matemáticas, física y pastoral juvenil. Hace clases privadas de matemáticas y participa dentro del grupo pastoral \"Movimiento Calasanz\", trabajando con niños de educación básica.\nFinalista de la Olimpiada Nacional de Matemáticas 2025.\nMedallista de la Olimpiada Escolar CMAT.\nEs jugador de ajedrez federado."
-    },
-    "interests": {
-      "en": [
-        "Mathematics",
-        "Physics",
-        "Literature",
-        "Philosophy"
-      ],
-      "es": [
-        "Matemática",
-        "Física",
-        "Literatura",
-        "Filosofía"
-      ]
-    },
-    "institution": "Colegio Calasanz",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "https://i.postimg.cc/8jhB7Rxq/IMG-20250930-230356-656.jpg",
-    "slug": "benjamin-catalan-valenzuela",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
-    "uid": "6zP7dqLbLkf0Bww46MjGmN5y6J33",
-    "displayName": "Sofía Cristina Muñoz Linares",
-    "firstName": "Sofía Cristina",
-    "lastName": "Muñoz Linares",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "",
-      "en": ""
-    },
-    "interests": {
-      "es": "",
-      "en": ""
-    },
-    "institution": "",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "sofia-cristina-munoz-linares",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
-    "uid": "3IvS5w02HVdSAugPL0HxgojE0Wl1",
-    "displayName": "Josefina Pérez Moyano",
-    "firstName": "Josefina",
-    "lastName": "Pérez Moyano",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "",
-      "en": ""
-    },
-    "interests": {
-      "es": [
-        "Matemática",
-        "Física",
-        "Astronomía",
-        "Filosofía",
-        "Filosofía Política",
-        "Artes"
-      ],
-      "en": []
-    },
-    "institution": "Colegio Santa María de lo Cañas",
-    "orcid": "",
-    "publicEmail": "josefina.perez.ac@gmail.com",
-    "social": {},
-    "imageUrl": "",
-    "slug": "josefina-perez-moyano",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
-    "uid": "SXT77f1iIXhPewA8Endank8YjuW2",
-    "displayName": "Renato Vergara",
-    "firstName": "Renato",
-    "lastName": "Vergara",
-    "roles": [
-      "Encargado de Redes Sociales",
-      "Autor"
-    ],
-    "description": {
-      "es": "Renato Vergara es estudiante de tercero Medio del Colegio Curimón de San Felipe con interés en música, programación y matemáticas. Destaca por su compromiso y capacidad colaborativa. Participa activamente en actividades académicas. Es alumni de la FPP. Es un jugador de tenis de mesa aficionado. le gusta suits y top gun",
-      "en": "Renato Vergara is a 10th-grade student at Colegio Curimón in San Felipe, with an interest in music, programming, and mathematics. He stands out for his commitment and collaborative ability. He actively participates in academic activities. He is an alumnus of the FPP. He is an amateur table tenis player. he like suits and top gun"
-    },
-    "interests": {
-      "es": [
-        "Programación",
-        "Música",
-        "Deportes",
-        "Top gun",
-        "tenis de mesa",
-        "suits"
-      ],
-      "en": [
-        "Programming",
-        "Music",
-        "Sports",
-        "teble tenis",
-        "top gun",
-        "suits"
-      ]
-    },
-    "institution": "Colegio Curimón",
-    "orcid": "",
-    "publicEmail": "renato.vergara@revistacienciasestudiantes.com",
-    "social": {
-      "website": "https://es.pornhub.com/",
-      "instagram": "https://www.instagram.com/renav_ergara22/"
-    },
-    "imageUrl": "https://i.ibb.co/x8PXGpxC/images-3-jpg.jpg",
-    "slug": "renato-vergara",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
   }
 ]
