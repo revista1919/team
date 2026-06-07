@@ -1604,12 +1604,19 @@
       "en": ""
     },
     "interests": {
-      "es": "",
-      "en": ""
+      "es": [
+        "Matemática",
+        "Física",
+        "Astronomía",
+        "Filosofía",
+        "Filosofía Política",
+        "Artes"
+      ],
+      "en": []
     },
-    "institution": "",
+    "institution": "Colegio Santa María de lo Cañas",
     "orcid": "",
-    "publicEmail": null,
+    "publicEmail": "josefina.perez.ac@gmail.com",
     "social": {},
     "imageUrl": "",
     "slug": "josefina-perez-moyano",
