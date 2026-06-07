@@ -1590,5 +1590,31 @@
     "isAnonymous": false,
     "claimHash": null,
     "articles": []
+  },
+  {
+    "uid": "3IvS5w02HVdSAugPL0HxgojE0Wl1",
+    "displayName": "Josefina Pérez Moyano",
+    "firstName": "Josefina",
+    "lastName": "Pérez Moyano",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": "",
+      "en": ""
+    },
+    "institution": "",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "josefina-perez-moyano",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
   }
 ]
