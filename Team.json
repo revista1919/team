@@ -1560,7 +1560,7 @@
   },
   {
     "uid": "mfDxTTdAd9SucyFfMveGOlHZcan2",
-    "displayName": "Agustín Maturana",
+    "displayName": "Agustín",
     "firstName": "Agustín",
     "lastName": "",
     "roles": [
@@ -1568,7 +1568,7 @@
       "Revisor"
     ],
     "description": {
-      "es": "Agustín Maturana es estudiante de 4°Medio del Instituto Miguel León Prado. Participa en la Academia de Talentos de la UC. Es líder de la Academia de Filosofía Juan Bautista Chaminade. Presenta interés en diversas áreas, tales como la filosofía, historia, literatura, psicología, psiquiatría, música, etcétera.",
+      "es": "Agustín Maturana es estudiante de 4°Medio del Instituto Miguel León Prado. Participa en la Academia de Talentos de la UC. Es líder de la Academia de Filosofía Juan Bautista Chaminade. Presenta interés en diversas áreas, como la filosofía, historia, política, literatura, psicología, psiquiatría, música, etcétera.",
       "en": "Agustín Maturana es estudiante de 4°Medio del Instituto Miguel León Prado. Participa en la Academia de Talentos de la UC. Es líder de la Academia de Filosofía Juan Bautista Chaminade. Presenta interés en diversas áreas, tales como la filosofía, historia, literatura, psicología, psiquiatría, música, etcétera."
     },
     "interests": {
@@ -1580,7 +1580,8 @@
         "Psiquiatría",
         "Música",
         "Psicoanálisis",
-        "Biología celular"
+        "Biología celular",
+        "Ciencias políticas"
       ],
       "en": []
     },
