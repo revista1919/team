@@ -691,6 +691,93 @@
     ]
   },
   {
+    "uid": "PUfEv6PN9mZ9tEkEfn8ZRdpb5WW2",
+    "displayName": "Marina Soto",
+    "firstName": "Marina",
+    "lastName": "Soto",
+    "roles": [
+      "Revisor",
+      "Autor"
+    ],
+    "description": {
+      "es": "Marina Soto es estudiante de College de Ciencias de la Pontificia Universidad Católica de Chile y egresada de la Academia de Talentos de la UC. Se interesa principalmente en las humanidades, con experiencia en debates —recientemente participó en uno competitivo organizado por la Universidad de Chile—, en poesía japonesa y latinoamericana, y en la elaboración de ensayos académicos y creativos. Complementa su formación con proyectos en artes visuales, como pintura al óleo y experimentación con recursos visuales. Domina, además de español, inglés, con certificación C1, y estudia japonés como tercer idioma.",
+      "en": "Marina Soto is a student at Science College at Pontificial Catholic University of Chile school and a former student of the UC Talent Academy. She is mainly interested in the humanities, with experience in debates —she recently participated in a competitive one organized by the University of Chile—, in Japanese and Latin American poetry, and in writing academic and creative essays. She complements her education with projects in visual arts, such as oil painting and experimentation with visual resources. In addition to Spanish, she is proficient in English, with C1 certification, and studies Japanese as a third language."
+    },
+    "interests": {
+      "es": [
+        "Ciencias políticas",
+        "Finanzas",
+        "Economía política",
+        "Poesía latinoamericana",
+        "Literatura universal",
+        "Debate",
+        "Química nuclear"
+      ],
+      "en": [
+        "Political Science",
+        "Finance",
+        "Political Economy",
+        "Latin American Poetry",
+        "World Literature",
+        "Debate",
+        "Nuclear Chemistry"
+      ]
+    },
+    "institution": "Pontificia Universidad Católica de Chile ",
+    "orcid": "",
+    "publicEmail": "marina.soto@estudiante.uc.cl",
+    "social": {},
+    "imageUrl": "https://i.postimg.cc/wvyRyZPS/f1c87432-6951-497a-8c5b-cb55984d7088.jpg",
+    "slug": "marina-soto",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
+  },
+  {
+    "uid": "SXT77f1iIXhPewA8Endank8YjuW2",
+    "displayName": "Renato Vergara",
+    "firstName": "Renato",
+    "lastName": "Vergara",
+    "roles": [
+      "Encargado de Redes Sociales",
+      "Autor"
+    ],
+    "description": {
+      "es": "Renato Vergara es estudiante de tercero Medio del Colegio Curimón de San Felipe con interés en música, programación y matemáticas. Destaca por su compromiso y capacidad colaborativa. Participa activamente en actividades académicas. Es alumni de la FPP. Es un jugador de tenis de mesa aficionado. le gusta suits y top gun",
+      "en": "Renato Vergara is a 10th-grade student at Colegio Curimón in San Felipe, with an interest in music, programming, and mathematics. He stands out for his commitment and collaborative ability. He actively participates in academic activities. He is an alumnus of the FPP. He is an amateur table tenis player. he like suits and top gun"
+    },
+    "interests": {
+      "es": [
+        "Programación",
+        "Música",
+        "Deportes",
+        "Top gun",
+        "tenis de mesa",
+        "suits"
+      ],
+      "en": [
+        "Programming",
+        "Music",
+        "Sports",
+        "teble tenis",
+        "top gun",
+        "suits"
+      ]
+    },
+    "institution": "Colegio Curimón",
+    "orcid": "",
+    "publicEmail": "renato.vergara@revistacienciasestudiantes.com",
+    "social": {
+      "website": "",
+      "instagram": "https://www.instagram.com/renav_ergara22/"
+    },
+    "imageUrl": "https://i.ibb.co/8gM0rpwv/1000029862-jpg.jpg",
+    "slug": "renato-vergara",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
+  },
+  {
     "uid": "V0v60t9xDYXZlo3R8SUhddrIl7f2",
     "displayName": "Carlos Gutiérrez",
     "firstName": "Carlos",
@@ -1165,6 +1252,56 @@
     "articles": []
   },
   {
+    "uid": "mfDxTTdAd9SucyFfMveGOlHZcan2",
+    "displayName": "Agustín",
+    "firstName": "Agustín",
+    "lastName": "",
+    "roles": [
+      "Autor",
+      "Revisor"
+    ],
+    "description": {
+      "es": "Agustín Maturana es estudiante de 4°Medio del Instituto Miguel León Prado. Participa en la Academia de Talentos de la UC. Es líder de la Academia de Filosofía Juan Bautista Chaminade. Presenta interés en diversas áreas, como la filosofía, historia, política, literatura, psicología, psiquiatría, música, etcétera.",
+      "en": "Agustín Maturana es estudiante de 4°Medio del Instituto Miguel León Prado. Participa en la Academia de Talentos de la UC. Es líder de la Academia de Filosofía Juan Bautista Chaminade. Presenta interés en diversas áreas, tales como la filosofía, historia, literatura, psicología, psiquiatría, música, etcétera."
+    },
+    "interests": {
+      "es": [
+        "Filosofía",
+        "Historia",
+        "Literatura",
+        "Psicología",
+        "Psiquiatría",
+        "Música",
+        "Psicoanálisis",
+        "Biología celular",
+        "Ciencias políticas"
+      ],
+      "en": []
+    },
+    "institution": "Instituto Miguel León Prado",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "https://i.ibb.co/CqjtYp6/1000104912-jpg.jpg",
+    "slug": "agustin-maturana",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": [
+      {
+        "title": "Sendero Luminoso: Cuando el Pueblo También es un Enemigo",
+        "titleEn": "Sendero Luminoso: Cuando el Pueblo También es un Enemigo",
+        "submissionId": "LEGACY-1771278765240-4E5POZ1OL",
+        "fecha": "2025-11-29",
+        "volumen": "1",
+        "numero": "1",
+        "area": "Historia del Terrorismo en Perú durante la Guerra Fría",
+        "numeroArticulo": "3",
+        "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-sendero-luminoso-cuando-el-pueblo-tambien-es-un-enemigo-3.pdf",
+        "slug": "sendero-luminoso-cuando-el-pueblo-tambien-es-un-enemigo-3"
+      }
+    ]
+  },
+  {
     "uid": "ofxyom4jFkbdSaNh6gTzEKy3DTK2",
     "displayName": "Francisco Correa",
     "firstName": "Francisco",
@@ -1343,7 +1480,7 @@
     "articles": []
   },
   {
-    "uid": "anon-santiago-vargas-mq437isk",
+    "uid": "anon-santiago-vargas-mr2x5uq2",
     "displayName": "Santiago Vargas",
     "firstName": "Santiago Vargas",
     "lastName": "",
@@ -1363,7 +1500,7 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "santiago-vargas2",
+    "slug": "santiago-vargas1",
     "isAnonymous": true,
     "claimHash": "4107c792f1a33f0b",
     "articles": [
@@ -1394,7 +1531,7 @@
     ]
   },
   {
-    "uid": "anon-amir-carbonell-mq437isk",
+    "uid": "anon-amir-carbonell-mr2x5uq3",
     "displayName": "Amir Carbonell",
     "firstName": "Amir",
     "lastName": "Carbonell",
@@ -1414,7 +1551,7 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "amir-carbonell2",
+    "slug": "amir-carbonell1",
     "isAnonymous": true,
     "claimHash": "4e556796f61b4b17",
     "articles": [
@@ -1433,7 +1570,7 @@
     ]
   },
   {
-    "uid": "anon-amelia-ribadeneira-mq437isk",
+    "uid": "anon-amelia-ribadeneira-mr2x5uq3",
     "displayName": "Amelia Ribadeneira",
     "firstName": "Amelia",
     "lastName": "Ribadeneira",
@@ -1453,7 +1590,7 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "amelia-ribadeneira1",
+    "slug": "amelia-ribadeneira2",
     "isAnonymous": true,
     "claimHash": "ed420b08a85cf384",
     "articles": [
@@ -1468,143 +1605,6 @@
         "numeroArticulo": 13,
         "pdfUrl": "https://revista1919.github.io/articless/pdfs/Article-las-medias-rojas-smbolo-de-libertad-femenina-frent-13.pdf",
         "slug": "las-medias-rojas-simbolo-de-libertad-femenina-frente-al-patriarcado-13"
-      }
-    ]
-  },
-  {
-    "uid": "SXT77f1iIXhPewA8Endank8YjuW2",
-    "displayName": "Renato Vergara",
-    "firstName": "Renato",
-    "lastName": "Vergara",
-    "roles": [
-      "Encargado de Redes Sociales",
-      "Autor"
-    ],
-    "description": {
-      "es": "Renato Vergara es estudiante de tercero Medio del Colegio Curimón de San Felipe con interés en música, programación y matemáticas. Destaca por su compromiso y capacidad colaborativa. Participa activamente en actividades académicas. Es alumni de la FPP. Es un jugador de tenis de mesa aficionado. le gusta suits y top gun",
-      "en": "Renato Vergara is a 10th-grade student at Colegio Curimón in San Felipe, with an interest in music, programming, and mathematics. He stands out for his commitment and collaborative ability. He actively participates in academic activities. He is an alumnus of the FPP. He is an amateur table tenis player. he like suits and top gun"
-    },
-    "interests": {
-      "es": [
-        "Programación",
-        "Música",
-        "Deportes",
-        "Top gun",
-        "tenis de mesa",
-        "suits"
-      ],
-      "en": [
-        "Programming",
-        "Music",
-        "Sports",
-        "teble tenis",
-        "top gun",
-        "suits"
-      ]
-    },
-    "institution": "Colegio Curimón",
-    "orcid": "",
-    "publicEmail": "renato.vergara@revistacienciasestudiantes.com",
-    "social": {
-      "website": "",
-      "instagram": "https://www.instagram.com/renav_ergara22/"
-    },
-    "imageUrl": "https://i.ibb.co/8gM0rpwv/1000029862-jpg.jpg",
-    "slug": "renato-vergara",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
-    "uid": "PUfEv6PN9mZ9tEkEfn8ZRdpb5WW2",
-    "displayName": "Marina Soto",
-    "firstName": "Marina",
-    "lastName": "Soto",
-    "roles": [
-      "Revisor",
-      "Autor"
-    ],
-    "description": {
-      "es": "Marina Soto es estudiante de College de Ciencias de la Pontificia Universidad Católica de Chile y egresada de la Academia de Talentos de la UC. Se interesa principalmente en las humanidades, con experiencia en debates —recientemente participó en uno competitivo organizado por la Universidad de Chile—, en poesía japonesa y latinoamericana, y en la elaboración de ensayos académicos y creativos. Complementa su formación con proyectos en artes visuales, como pintura al óleo y experimentación con recursos visuales. Domina, además de español, inglés, con certificación C1, y estudia japonés como tercer idioma.",
-      "en": "Marina Soto is a student at Science College at Pontificial Catholic University of Chile school and a former student of the UC Talent Academy. She is mainly interested in the humanities, with experience in debates —she recently participated in a competitive one organized by the University of Chile—, in Japanese and Latin American poetry, and in writing academic and creative essays. She complements her education with projects in visual arts, such as oil painting and experimentation with visual resources. In addition to Spanish, she is proficient in English, with C1 certification, and studies Japanese as a third language."
-    },
-    "interests": {
-      "es": [
-        "Ciencias políticas",
-        "Finanzas",
-        "Economía política",
-        "Poesía latinoamericana",
-        "Literatura universal",
-        "Debate",
-        "Química nuclear"
-      ],
-      "en": [
-        "Political Science",
-        "Finance",
-        "Political Economy",
-        "Latin American Poetry",
-        "World Literature",
-        "Debate",
-        "Nuclear Chemistry"
-      ]
-    },
-    "institution": "Pontificia Universidad Católica de Chile ",
-    "orcid": "",
-    "publicEmail": "marina.soto@estudiante.uc.cl",
-    "social": {},
-    "imageUrl": "https://i.postimg.cc/wvyRyZPS/f1c87432-6951-497a-8c5b-cb55984d7088.jpg",
-    "slug": "marina-soto",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
-    "uid": "mfDxTTdAd9SucyFfMveGOlHZcan2",
-    "displayName": "Agustín",
-    "firstName": "Agustín",
-    "lastName": "",
-    "roles": [
-      "Autor",
-      "Revisor"
-    ],
-    "description": {
-      "es": "Agustín Maturana es estudiante de 4°Medio del Instituto Miguel León Prado. Participa en la Academia de Talentos de la UC. Es líder de la Academia de Filosofía Juan Bautista Chaminade. Presenta interés en diversas áreas, como la filosofía, historia, política, literatura, psicología, psiquiatría, música, etcétera.",
-      "en": "Agustín Maturana es estudiante de 4°Medio del Instituto Miguel León Prado. Participa en la Academia de Talentos de la UC. Es líder de la Academia de Filosofía Juan Bautista Chaminade. Presenta interés en diversas áreas, tales como la filosofía, historia, literatura, psicología, psiquiatría, música, etcétera."
-    },
-    "interests": {
-      "es": [
-        "Filosofía",
-        "Historia",
-        "Literatura",
-        "Psicología",
-        "Psiquiatría",
-        "Música",
-        "Psicoanálisis",
-        "Biología celular",
-        "Ciencias políticas"
-      ],
-      "en": []
-    },
-    "institution": "Instituto Miguel León Prado",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "https://i.ibb.co/CqjtYp6/1000104912-jpg.jpg",
-    "slug": "agustin-maturana",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": [
-      {
-        "title": "Sendero Luminoso: Cuando el Pueblo También es un Enemigo",
-        "titleEn": "Sendero Luminoso: Cuando el Pueblo También es un Enemigo",
-        "submissionId": "LEGACY-1771278765240-4E5POZ1OL",
-        "fecha": "2025-11-29",
-        "volumen": "1",
-        "numero": "1",
-        "area": "Historia del Terrorismo en Perú durante la Guerra Fría",
-        "numeroArticulo": "3",
-        "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-sendero-luminoso-cuando-el-pueblo-tambien-es-un-enemigo-3.pdf",
-        "slug": "sendero-luminoso-cuando-el-pueblo-tambien-es-un-enemigo-3"
       }
     ]
   }
