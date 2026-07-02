@@ -1252,56 +1252,6 @@
     "articles": []
   },
   {
-    "uid": "mfDxTTdAd9SucyFfMveGOlHZcan2",
-    "displayName": "Agustín",
-    "firstName": "Agustín",
-    "lastName": "",
-    "roles": [
-      "Autor",
-      "Revisor"
-    ],
-    "description": {
-      "es": "Agustín Maturana es estudiante de 4°Medio del Instituto Miguel León Prado. Participa en la Academia de Talentos de la UC. Es líder de la Academia de Filosofía Juan Bautista Chaminade. Presenta interés en diversas áreas, como la filosofía, historia, política, literatura, psicología, psiquiatría, música, etcétera.",
-      "en": "Agustín Maturana es estudiante de 4°Medio del Instituto Miguel León Prado. Participa en la Academia de Talentos de la UC. Es líder de la Academia de Filosofía Juan Bautista Chaminade. Presenta interés en diversas áreas, tales como la filosofía, historia, literatura, psicología, psiquiatría, música, etcétera."
-    },
-    "interests": {
-      "es": [
-        "Filosofía",
-        "Historia",
-        "Literatura",
-        "Psicología",
-        "Psiquiatría",
-        "Música",
-        "Psicoanálisis",
-        "Biología celular",
-        "Ciencias políticas"
-      ],
-      "en": []
-    },
-    "institution": "Instituto Miguel León Prado",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "https://i.ibb.co/CqjtYp6/1000104912-jpg.jpg",
-    "slug": "agustin-maturana",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": [
-      {
-        "title": "Sendero Luminoso: Cuando el Pueblo También es un Enemigo",
-        "titleEn": "Sendero Luminoso: Cuando el Pueblo También es un Enemigo",
-        "submissionId": "LEGACY-1771278765240-4E5POZ1OL",
-        "fecha": "2025-11-29",
-        "volumen": "1",
-        "numero": "1",
-        "area": "Historia del Terrorismo en Perú durante la Guerra Fría",
-        "numeroArticulo": "3",
-        "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-sendero-luminoso-cuando-el-pueblo-tambien-es-un-enemigo-3.pdf",
-        "slug": "sendero-luminoso-cuando-el-pueblo-tambien-es-un-enemigo-3"
-      }
-    ]
-  },
-  {
     "uid": "ofxyom4jFkbdSaNh6gTzEKy3DTK2",
     "displayName": "Francisco Correa",
     "firstName": "Francisco",
@@ -1605,6 +1555,56 @@
         "numeroArticulo": 13,
         "pdfUrl": "https://revista1919.github.io/articless/pdfs/Article-las-medias-rojas-smbolo-de-libertad-femenina-frent-13.pdf",
         "slug": "las-medias-rojas-simbolo-de-libertad-femenina-frente-al-patriarcado-13"
+      }
+    ]
+  },
+  {
+    "uid": "mfDxTTdAd9SucyFfMveGOlHZcan2",
+    "displayName": "Agustín Maturana",
+    "firstName": "Agustín",
+    "lastName": "",
+    "roles": [
+      "Autor",
+      "Revisor"
+    ],
+    "description": {
+      "es": "Agustín Maturana es estudiante de 4°Medio del Instituto Miguel León Prado. Participa en la Academia de Talentos de la UC. Es líder de la Academia de Filosofía Juan Bautista Chaminade. Presenta interés en diversas áreas, como la filosofía, historia, política, literatura, psicología, psiquiatría, música, etcétera.",
+      "en": "Agustín Maturana es estudiante de 4°Medio del Instituto Miguel León Prado. Participa en la Academia de Talentos de la UC. Es líder de la Academia de Filosofía Juan Bautista Chaminade. Presenta interés en diversas áreas, tales como la filosofía, historia, literatura, psicología, psiquiatría, música, etcétera."
+    },
+    "interests": {
+      "es": [
+        "Filosofía",
+        "Historia",
+        "Literatura",
+        "Psicología",
+        "Psiquiatría",
+        "Música",
+        "Psicoanálisis",
+        "Biología celular",
+        "Ciencias políticas"
+      ],
+      "en": []
+    },
+    "institution": "Instituto Miguel León Prado",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "https://i.ibb.co/CqjtYp6/1000104912-jpg.jpg",
+    "slug": "agustin-maturana",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": [
+      {
+        "title": "Sendero Luminoso: Cuando el Pueblo También es un Enemigo",
+        "titleEn": "Sendero Luminoso: Cuando el Pueblo También es un Enemigo",
+        "submissionId": "LEGACY-1771278765240-4E5POZ1OL",
+        "fecha": "2025-11-29",
+        "volumen": "1",
+        "numero": "1",
+        "area": "Historia del Terrorismo en Perú durante la Guerra Fría",
+        "numeroArticulo": "3",
+        "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-sendero-luminoso-cuando-el-pueblo-tambien-es-un-enemigo-3.pdf",
+        "slug": "sendero-luminoso-cuando-el-pueblo-tambien-es-un-enemigo-3"
       }
     ]
   }
