@@ -1692,7 +1692,8 @@
     "firstName": "Revisor",
     "lastName": "Anónimo",
     "roles": [
-      "Autor"
+      "Autor",
+      "Revisor"
     ],
     "description": {
       "es": "",
