@@ -1635,32 +1635,6 @@
     "articles": []
   },
   {
-    "uid": "U2qslQgRRudLpgNQXX43U9wxPVy1",
-    "displayName": "Revisor Anónimo",
-    "firstName": "Revisor",
-    "lastName": "Anónimo",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "",
-      "en": ""
-    },
-    "interests": {
-      "es": "",
-      "en": ""
-    },
-    "institution": "",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "revisor-anonimo",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
     "uid": "e46rzTXDOTdqFnPJNJAvV5rxpZa2",
     "displayName": "Revisor anónimo Andersen",
     "firstName": "Revisor anónimo",
@@ -1709,6 +1683,33 @@
     "social": {},
     "imageUrl": "",
     "slug": "revisor-anonimo1",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
+  },
+  {
+    "uid": "U2qslQgRRudLpgNQXX43U9wxPVy1",
+    "displayName": "Revisor Anónimo",
+    "firstName": "Revisor",
+    "lastName": "Anónimo",
+    "roles": [
+      "Autor",
+      "Revisor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": "",
+      "en": ""
+    },
+    "institution": "",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "revisor-anonimo",
     "isAnonymous": false,
     "claimHash": null,
     "articles": []
