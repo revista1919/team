@@ -927,6 +927,62 @@
     "articles": []
   },
   {
+    "uid": "Wp9AbMocILX4UOy6il09qluhrL23",
+    "displayName": "Javier Vergara",
+    "firstName": "Javier",
+    "lastName": "Vergara",
+    "roles": [
+      "Director General",
+      "Editor en Jefe",
+      "Autor",
+      "Fundador",
+      "Responsable de Desarrollo Web",
+      "Editor de Sección"
+    ],
+    "description": {
+      "es": "Javier Vergara es estudiante Cuarto Medio en el Colegio Curimón de San Felipe, con interés en Economía, Ciencias Políticas y Matemáticas. Es estudiante de la Academia de Talentos de la UC. Finalista del Keneth Garshina Undergraduate Students Essay Contest del Mises Institute AERC 2025, con artículo publicado en la página del Mises Institute. Shortlisted para el John Locke Institute Global Essay Prize 2025. Distinction en London School of Economics Students Union Economics Society Essay Competition 2025. Ha sido becado para asistir a los Summer Courses del John Locke Institute en Princeton, la Universidad de Verano de la Universidad de las Hespérides en España, y para seminario del Ayn Rand Center en Buenos Aires. Ha publicado una traducción con Unión Editorial y se ha certificado en el College Program de ciencias políticas de la Universidad del Desarrollo.",
+      "en": "Javier Vergara is a fourth-year high school student at Curimón School in San Felipe, with an interest in Economics, Political Science, and Mathematics. He is a student at the UC Talent Academy. Finalist of the Keneth Garshina Undergraduate Students Essay Contest of the Mises Institute AERC 2025, with an article published on the Mises Institute's website. Shortlisted for the John Locke Institute Global Essay Prize 2025. Distinction in the London School of Economics Students Union Economics Society Essay Competition 2025. He has been awarded a scholarship to attend the Summer Courses of the John Locke Institute in Princeton, the Summer University of the University of Las Hespérides in Spain, and a seminar at the Ayn Rand Center in Buenos Aires. He has published a translation with Unión Editorial and has been certified in the Political Science College Program at Universidad del Desarrollo."
+    },
+    "interests": {
+      "es": [
+        "Economía",
+        "Matemáticas",
+        "Historia",
+        "Política"
+      ],
+      "en": [
+        "Economics",
+        "Mathematics",
+        "History",
+        "Politics"
+      ]
+    },
+    "institution": "Colegio Curimón",
+    "orcid": "0009-0005-5326-0177",
+    "publicEmail": null,
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/javier-vergara-r%C3%ADos-1021b42b5?originalSubdomain=cl"
+    },
+    "imageUrl": "https://i.ibb.co/YTLfDByH/73014-jpg.jpg",
+    "slug": "javier-vergara",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": [
+      {
+        "title": "El Ajedrez: Un Estudio sobre el Impacto Cultural del Ajedrez Durante la Guerra Fría y su Simbolismo Ideológico en Chile",
+        "titleEn": "El Ajedrez: Un Estudio sobre el Impacto Cultural del Ajedrez Durante la Guerra Fría y su Simbolismo Ideológico en Chile",
+        "submissionId": "",
+        "fecha": "2025-11-29",
+        "volumen": "1",
+        "numero": "1",
+        "area": "Historia del Ajedrez en la Guerra Fría",
+        "numeroArticulo": "8",
+        "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-el-ajedrez-un-estudio-sobre-el-impacto-cultural-del-ajedrez-durante-la-guerra-fria-y-su-simbolismo-ideologico-en-chile-8.pdf",
+        "slug": "el-ajedrez-un-estudio-sobre-el-impacto-cultural-del-ajedrez-durante-la-guerra-fria-y-su-simbolismo-ideologico-en-chile-8"
+      }
+    ]
+  },
+  {
     "uid": "YC6kihySELc3l8NodUN9Ffk8eEV2",
     "displayName": "Santiago Vargas",
     "firstName": "Santiago",
@@ -976,32 +1032,6 @@
         "slug": "fundamentos-generales-de-la-sociedad-estado-taxicraticos-15"
       }
     ]
-  },
-  {
-    "uid": "aKJxOqguCUYOO2cC1l7nxuxPBAJ3",
-    "displayName": "Tobías Andersen Cristian",
-    "firstName": "Tobías",
-    "lastName": "Andersen Cristian",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "",
-      "en": ""
-    },
-    "interests": {
-      "es": "",
-      "en": ""
-    },
-    "institution": "",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "tobias-andersen-cristian",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
   },
   {
     "uid": "bCWBGL4eJkdufLJDyKFQrgexxgy1",
@@ -1196,6 +1226,56 @@
     "articles": []
   },
   {
+    "uid": "mfDxTTdAd9SucyFfMveGOlHZcan2",
+    "displayName": "Agustín Maturana",
+    "firstName": "Agustín",
+    "lastName": "",
+    "roles": [
+      "Autor",
+      "Revisor"
+    ],
+    "description": {
+      "es": "Agustín Maturana es estudiante de 4°Medio del Instituto Miguel León Prado. Participa en la Academia de Talentos de la UC. Es líder de la Academia de Filosofía Juan Bautista Chaminade. Presenta interés en diversas áreas, como la filosofía, historia, política, literatura, psicología, psiquiatría, música, etcétera.",
+      "en": "Agustín Maturana es estudiante de 4°Medio del Instituto Miguel León Prado. Participa en la Academia de Talentos de la UC. Es líder de la Academia de Filosofía Juan Bautista Chaminade. Presenta interés en diversas áreas, tales como la filosofía, historia, literatura, psicología, psiquiatría, música, etcétera."
+    },
+    "interests": {
+      "es": [
+        "Filosofía",
+        "Historia",
+        "Literatura",
+        "Psicología",
+        "Psiquiatría",
+        "Música",
+        "Psicoanálisis",
+        "Biología celular",
+        "Ciencias políticas"
+      ],
+      "en": []
+    },
+    "institution": "Instituto Miguel León Prado",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "https://i.ibb.co/CqjtYp6/1000104912-jpg.jpg",
+    "slug": "agustin-maturana",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": [
+      {
+        "title": "Sendero Luminoso: Cuando el Pueblo También es un Enemigo",
+        "titleEn": "Sendero Luminoso: Cuando el Pueblo También es un Enemigo",
+        "submissionId": "LEGACY-1771278765240-4E5POZ1OL",
+        "fecha": "2025-11-29",
+        "volumen": "1",
+        "numero": "1",
+        "area": "Historia del Terrorismo en Perú durante la Guerra Fría",
+        "numeroArticulo": "3",
+        "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-sendero-luminoso-cuando-el-pueblo-tambien-es-un-enemigo-3.pdf",
+        "slug": "sendero-luminoso-cuando-el-pueblo-tambien-es-un-enemigo-3"
+      }
+    ]
+  },
+  {
     "uid": "ofxyom4jFkbdSaNh6gTzEKy3DTK2",
     "displayName": "Francisco Correa",
     "firstName": "Francisco",
@@ -1229,32 +1309,6 @@
     "social": {},
     "imageUrl": "https://i.postimg.cc/mkfVpYW6/9929cd0d-c089-4776-a902-70fa30d21e00.jpg",
     "slug": "francisco-correa",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
-    "uid": "sOPBOJRQd6bDtJspqOsSkNpNJLe2",
-    "displayName": "Revista Nacional",
-    "firstName": "Revista",
-    "lastName": "Nacional",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "",
-      "en": ""
-    },
-    "interests": {
-      "es": "",
-      "en": ""
-    },
-    "institution": "",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "revista-nacional",
     "isAnonymous": false,
     "claimHash": null,
     "articles": []
@@ -1322,32 +1376,6 @@
     "articles": []
   },
   {
-    "uid": "yWO6sUHomlYVmf3NxuMH15qJE1q2",
-    "displayName": "Revista Estudiantes",
-    "firstName": "Revista",
-    "lastName": "Estudiantes",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "",
-      "en": ""
-    },
-    "interests": {
-      "es": "",
-      "en": ""
-    },
-    "institution": "",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "revista-estudiantes",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
     "uid": "z1HHJYjxglP1rp6TQpo5aypK26N2",
     "displayName": "Cristóbal Rojas",
     "firstName": "Cristobal",
@@ -1374,7 +1402,7 @@
     "articles": []
   },
   {
-    "uid": "anon-santiago-vargas-mr2x5uq2",
+    "uid": "anon-santiago-vargas-mreb23a4",
     "displayName": "Santiago Vargas",
     "firstName": "Santiago Vargas",
     "lastName": "",
@@ -1394,7 +1422,7 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "santiago-vargas1",
+    "slug": "santiago-vargas2",
     "isAnonymous": true,
     "claimHash": "4107c792f1a33f0b",
     "articles": [
@@ -1425,7 +1453,7 @@
     ]
   },
   {
-    "uid": "anon-amir-carbonell-mr2x5uq3",
+    "uid": "anon-amir-carbonell-mreb23a4",
     "displayName": "Amir Carbonell",
     "firstName": "Amir",
     "lastName": "Carbonell",
@@ -1445,7 +1473,7 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "amir-carbonell1",
+    "slug": "amir-carbonell2",
     "isAnonymous": true,
     "claimHash": "4e556796f61b4b17",
     "articles": [
@@ -1464,7 +1492,7 @@
     ]
   },
   {
-    "uid": "anon-amelia-ribadeneira-mr2x5uq3",
+    "uid": "anon-amelia-ribadeneira-mreb23a4",
     "displayName": "Amelia Ribadeneira",
     "firstName": "Amelia",
     "lastName": "Ribadeneira",
@@ -1484,7 +1512,7 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "amelia-ribadeneira2",
+    "slug": "amelia-ribadeneira1",
     "isAnonymous": true,
     "claimHash": "ed420b08a85cf384",
     "articles": [
@@ -1503,216 +1531,29 @@
     ]
   },
   {
-    "uid": "mfDxTTdAd9SucyFfMveGOlHZcan2",
-    "displayName": "Agustín Maturana",
-    "firstName": "Agustín",
-    "lastName": "",
-    "roles": [
-      "Autor",
-      "Revisor"
-    ],
-    "description": {
-      "es": "Agustín Maturana es estudiante de 4°Medio del Instituto Miguel León Prado. Participa en la Academia de Talentos de la UC. Es líder de la Academia de Filosofía Juan Bautista Chaminade. Presenta interés en diversas áreas, como la filosofía, historia, política, literatura, psicología, psiquiatría, música, etcétera.",
-      "en": "Agustín Maturana es estudiante de 4°Medio del Instituto Miguel León Prado. Participa en la Academia de Talentos de la UC. Es líder de la Academia de Filosofía Juan Bautista Chaminade. Presenta interés en diversas áreas, tales como la filosofía, historia, literatura, psicología, psiquiatría, música, etcétera."
-    },
-    "interests": {
-      "es": [
-        "Filosofía",
-        "Historia",
-        "Literatura",
-        "Psicología",
-        "Psiquiatría",
-        "Música",
-        "Psicoanálisis",
-        "Biología celular",
-        "Ciencias políticas"
-      ],
-      "en": []
-    },
-    "institution": "Instituto Miguel León Prado",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "https://i.ibb.co/CqjtYp6/1000104912-jpg.jpg",
-    "slug": "agustin-maturana",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": [
-      {
-        "title": "Sendero Luminoso: Cuando el Pueblo También es un Enemigo",
-        "titleEn": "Sendero Luminoso: Cuando el Pueblo También es un Enemigo",
-        "submissionId": "LEGACY-1771278765240-4E5POZ1OL",
-        "fecha": "2025-11-29",
-        "volumen": "1",
-        "numero": "1",
-        "area": "Historia del Terrorismo en Perú durante la Guerra Fría",
-        "numeroArticulo": "3",
-        "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-sendero-luminoso-cuando-el-pueblo-tambien-es-un-enemigo-3.pdf",
-        "slug": "sendero-luminoso-cuando-el-pueblo-tambien-es-un-enemigo-3"
-      }
-    ]
-  },
-  {
-    "uid": "Asvqx1uczjZ1xGBjC3UG9oTfZll1",
-    "displayName": "Revisor Anónimo",
-    "firstName": "Revisor",
-    "lastName": "Anónimo",
-    "roles": [
-      "Autor",
-      "Revisor"
-    ],
-    "description": {
-      "es": "",
-      "en": ""
-    },
-    "interests": {
-      "es": "",
-      "en": ""
-    },
-    "institution": "",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "revisor-anonimo1",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
-    "uid": "U2qslQgRRudLpgNQXX43U9wxPVy1",
-    "displayName": "Revisor Anónimo",
-    "firstName": "Revisor",
-    "lastName": "Anónimo",
-    "roles": [
-      "Autor",
-      "Revisor"
-    ],
-    "description": {
-      "es": "",
-      "en": ""
-    },
-    "interests": {
-      "es": "",
-      "en": ""
-    },
-    "institution": "",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "revisor-anonimo",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
-    "uid": "e46rzTXDOTdqFnPJNJAvV5rxpZa2",
-    "displayName": "Revisor anónimo Andersen",
-    "firstName": "Revisor anónimo",
-    "lastName": "Andersen",
-    "roles": [
-      "Autor",
-      "Revisor"
-    ],
-    "description": {
-      "es": "",
-      "en": ""
-    },
-    "interests": {
-      "es": "",
-      "en": ""
-    },
-    "institution": "",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "revisor-anonimo-andersen",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
-    "uid": "UkVWsupBp3VmK6Q8Rvc72Iuz2X73",
-    "displayName": "James Zamudio",
-    "firstName": "James",
-    "lastName": "Zamudio",
+    "uid": "anon-marina-soto-mreb23a4",
+    "displayName": "Marina Soto",
+    "firstName": "Marina",
+    "lastName": "Soto",
     "roles": [
       "Autor"
     ],
     "description": {
-      "es": "",
-      "en": ""
+      "es": "Autor colaborador que ha publicado en nuestra revista.",
+      "en": "Contributing author who has published in our journal."
     },
     "interests": {
-      "es": "",
-      "en": ""
+      "es": [],
+      "en": []
     },
-    "institution": "",
+    "institution": "Pontificia Universidad Católica de Chile",
     "orcid": "",
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "james-zamudio",
-    "isAnonymous": false,
-    "claimHash": null,
+    "slug": "marina-soto1",
+    "isAnonymous": true,
+    "claimHash": "9e323367eed7c982",
     "articles": []
-  },
-  {
-    "uid": "Wp9AbMocILX4UOy6il09qluhrL23",
-    "displayName": "Javier Vergara",
-    "firstName": "Javier",
-    "lastName": "Vergara",
-    "roles": [
-      "Director General",
-      "Editor en Jefe",
-      "Autor",
-      "Fundador",
-      "Responsable de Desarrollo Web",
-      "Editor de Sección"
-    ],
-    "description": {
-      "es": "Javier Vergara es estudiante Cuarto Medio en el Colegio Curimón de San Felipe, con interés en Economía, Ciencias Políticas y Matemáticas. Es estudiante de la Academia de Talentos de la UC. Finalista del Keneth Garshina Undergraduate Students Essay Contest del Mises Institute AERC 2025, con artículo publicado en la página del Mises Institute. Shortlisted para el John Locke Institute Global Essay Prize 2025. Distinction en London School of Economics Students Union Economics Society Essay Competition 2025. Ha sido becado para asistir a los Summer Courses del John Locke Institute en Princeton, la Universidad de Verano de la Universidad de las Hespérides en España, y para seminario del Ayn Rand Center en Buenos Aires. Ha publicado una traducción con Unión Editorial y se ha certificado en el College Program de ciencias políticas de la Universidad del Desarrollo.",
-      "en": "Javier Vergara is a fourth-year high school student at Curimón School in San Felipe, with an interest in Economics, Political Science, and Mathematics. He is a student at the UC Talent Academy. Finalist of the Keneth Garshina Undergraduate Students Essay Contest of the Mises Institute AERC 2025, with an article published on the Mises Institute's website. Shortlisted for the John Locke Institute Global Essay Prize 2025. Distinction in the London School of Economics Students Union Economics Society Essay Competition 2025. He has been awarded a scholarship to attend the Summer Courses of the John Locke Institute in Princeton, the Summer University of the University of Las Hespérides in Spain, and a seminar at the Ayn Rand Center in Buenos Aires. He has published a translation with Unión Editorial and has been certified in the Political Science College Program at Universidad del Desarrollo."
-    },
-    "interests": {
-      "es": [
-        "Economía",
-        "Matemáticas",
-        "Historia",
-        "Política"
-      ],
-      "en": [
-        "Economics",
-        "Mathematics",
-        "History",
-        "Politics"
-      ]
-    },
-    "institution": "Colegio Curimón",
-    "orcid": "0009-0005-5326-0177",
-    "publicEmail": null,
-    "social": {
-      "linkedin": "https://www.linkedin.com/in/javier-vergara-r%C3%ADos-1021b42b5?originalSubdomain=cl"
-    },
-    "imageUrl": "https://i.ibb.co/YTLfDByH/73014-jpg.jpg",
-    "slug": "javier-vergara",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": [
-      {
-        "title": "El Ajedrez: Un Estudio sobre el Impacto Cultural del Ajedrez Durante la Guerra Fría y su Simbolismo Ideológico en Chile",
-        "titleEn": "El Ajedrez: Un Estudio sobre el Impacto Cultural del Ajedrez Durante la Guerra Fría y su Simbolismo Ideológico en Chile",
-        "submissionId": "",
-        "fecha": "2025-11-29",
-        "volumen": "1",
-        "numero": "1",
-        "area": "Historia del Ajedrez en la Guerra Fría",
-        "numeroArticulo": "8",
-        "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-el-ajedrez-un-estudio-sobre-el-impacto-cultural-del-ajedrez-durante-la-guerra-fria-y-su-simbolismo-ideologico-en-chile-8.pdf",
-        "slug": "el-ajedrez-un-estudio-sobre-el-impacto-cultural-del-ajedrez-durante-la-guerra-fria-y-su-simbolismo-ideologico-en-chile-8"
-      }
-    ]
   }
 ]
