@@ -1555,5 +1555,31 @@
     "isAnonymous": true,
     "claimHash": "9e323367eed7c982",
     "articles": []
+  },
+  {
+    "uid": "lQ4d5nKJ42XUMYWshdKnSMnz47z2",
+    "displayName": "Javier Alonso Vergara Ríos",
+    "firstName": "Javier Alonso",
+    "lastName": "Vergara Ríos",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "en": "",
+      "es": ""
+    },
+    "interests": {
+      "en": "",
+      "es": ""
+    },
+    "institution": "",
+    "orcid": "0009-0005-5326-0177",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "javier-alonso-vergara-rios",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
   }
 ]
