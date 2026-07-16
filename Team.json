@@ -1687,32 +1687,6 @@
     ]
   },
   {
-    "uid": "MYx0rr9gp3YXfnhdIxkMjvU9cuq1",
-    "displayName": "Revisor Anónimo 1",
-    "firstName": "Revisor Anónimo",
-    "lastName": "1",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "",
-      "en": ""
-    },
-    "interests": {
-      "es": "",
-      "en": ""
-    },
-    "institution": "",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "revisor-anonimo-1",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
     "uid": "Aj5dIWx9WzNelimPZKHwW6Odnog1",
     "displayName": "Revisor Anónimo 2",
     "firstName": "Revisor Anónimo",
@@ -1734,6 +1708,33 @@
     "social": {},
     "imageUrl": "",
     "slug": "revisor-anonimo-2",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
+  },
+  {
+    "uid": "MYx0rr9gp3YXfnhdIxkMjvU9cuq1",
+    "displayName": "Revisor Anónimo 1",
+    "firstName": "Revisor Anónimo",
+    "lastName": "1",
+    "roles": [
+      "Autor",
+      "Revisor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": "",
+      "en": ""
+    },
+    "institution": "",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "revisor-anonimo-1",
     "isAnonymous": false,
     "claimHash": null,
     "articles": []
