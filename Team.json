@@ -1711,5 +1711,31 @@
     "isAnonymous": false,
     "claimHash": null,
     "articles": []
+  },
+  {
+    "uid": "Aj5dIWx9WzNelimPZKHwW6Odnog1",
+    "displayName": "Revisor Anónimo 2",
+    "firstName": "Revisor Anónimo",
+    "lastName": "2",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": "",
+      "en": ""
+    },
+    "institution": "",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "revisor-anonimo-2",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
   }
 ]
