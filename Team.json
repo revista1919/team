@@ -1685,5 +1685,31 @@
         "slug": "el-ajedrez-un-estudio-sobre-el-impacto-cultural-del-ajedrez-durante-la-guerra-fria-y-su-simbolismo-ideologico-en-chile-8"
       }
     ]
+  },
+  {
+    "uid": "MYx0rr9gp3YXfnhdIxkMjvU9cuq1",
+    "displayName": "Revisor Anónimo 1",
+    "firstName": "Revisor Anónimo",
+    "lastName": "1",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": "",
+      "en": ""
+    },
+    "institution": "",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "revisor-anonimo-1",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
   }
 ]
