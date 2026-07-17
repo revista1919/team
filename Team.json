@@ -1346,40 +1346,6 @@
     "articles": []
   },
   {
-    "uid": "wqf9Go6qvLaUc38E1CKZvBJZOZk1",
-    "displayName": "Tomás Arancibia",
-    "firstName": "Tomás",
-    "lastName": "Arancibia",
-    "roles": [],
-    "description": {
-      "es": "Tomás Arancibia es un estudiante de Tercero Medio en el Colegio Calasanz, con interés principalmente en las Matemáticas y Ciencias, especialmente en química. Participa en la Academia de Talentos de la UC. Participante de diversas competencias matemáticasa lo largo de los años. Es jugador federado de Ajedrez con una destacada y premiada participación en diversos torneos.",
-      "en": "Tomás Arancibia is a Third-Year High School student at Colegio Calasanz, with primary interest in Mathematics and Sciences, especially Chemistry. He participates in the UC Talent Academy. He has participated in various math competitions over the years. He is a federated Chess player with a distinguished and award-winning participation in various tournaments."
-    },
-    "interests": {
-      "es": [
-        "Álgebra",
-        "Estequiometria",
-        "Bioquímica",
-        "Geometría"
-      ],
-      "en": [
-        "Algebra",
-        "Stoichiometry",
-        "Biochemistry",
-        "Geometry"
-      ]
-    },
-    "institution": "Colegio Calasanz",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "https://i.ibb.co/BKFy9Xw7/TOM-S-ARANCIBIA.jpg",
-    "slug": "tomas-arancibia",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
     "uid": "z1HHJYjxglP1rp6TQpo5aypK26N2",
     "displayName": "Cristóbal Rojas",
     "firstName": "Cristobal",
@@ -1850,6 +1816,42 @@
     "social": {},
     "imageUrl": "https://i.postimg.cc/7ZtMd4C5/722c2ba2-121e-4d78-a41b-2628739ee398.jpg",
     "slug": "juan-pablo-miralles",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
+  },
+  {
+    "uid": "wqf9Go6qvLaUc38E1CKZvBJZOZk1",
+    "displayName": "Tomás Arancibia",
+    "firstName": "Tomás",
+    "lastName": "Arancibia",
+    "roles": [
+      "Equipo Editorial"
+    ],
+    "description": {
+      "es": "Tomás Arancibia es un estudiante de Tercero Medio en el Colegio Calasanz, con interés principalmente en las Matemáticas y Ciencias, especialmente en química. Participa en la Academia de Talentos de la UC. Participante de diversas competencias matemáticasa lo largo de los años. Es jugador federado de Ajedrez con una destacada y premiada participación en diversos torneos.",
+      "en": "Tomás Arancibia is a Third-Year High School student at Colegio Calasanz, with primary interest in Mathematics and Sciences, especially Chemistry. He participates in the UC Talent Academy. He has participated in various math competitions over the years. He is a federated Chess player with a distinguished and award-winning participation in various tournaments."
+    },
+    "interests": {
+      "es": [
+        "Álgebra",
+        "Estequiometria",
+        "Bioquímica",
+        "Geometría"
+      ],
+      "en": [
+        "Algebra",
+        "Stoichiometry",
+        "Biochemistry",
+        "Geometry"
+      ]
+    },
+    "institution": "Colegio Calasanz",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "https://i.ibb.co/BKFy9Xw7/TOM-S-ARANCIBIA.jpg",
+    "slug": "tomas-arancibia",
     "isAnonymous": false,
     "claimHash": null,
     "articles": []
