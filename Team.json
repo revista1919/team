@@ -1852,14 +1852,14 @@
       "en": ""
     },
     "interests": {
-      "es": "",
-      "en": ""
+      "es": [],
+      "en": []
     },
     "institution": "",
     "orcid": "",
     "publicEmail": null,
     "social": {},
-    "imageUrl": "",
+    "imageUrl": "https://i.ibb.co/R4ggmvKm/Gemini-Generated-Image-jhrog8jhrog8jhro-1-png.png",
     "slug": "revisor-anonimo-1",
     "isAnonymous": false,
     "claimHash": null,
