@@ -201,38 +201,6 @@
     "articles": []
   },
   {
-    "uid": "80nl6CAxqyWTHAsg4BOZTMrNRiH2",
-    "displayName": "Juan Pablo Miralles",
-    "firstName": "Juan",
-    "lastName": "Pablo Miralles",
-    "roles": [],
-    "description": {
-      "es": "Juan Pablo Miralles es un estudiante de Tercero Medio en el Colegio Calasanz, con interes principalmente en las matemáticas y química. Participa en la Academia de Talentos de la UC. Finalista de CMAT en equipo tres veces, equipo ganador de 2025, y dos veces finalista nacional de matemáticas, medalla de bronce en las Olimpiadas Nacionales de Matemáticas 2024 nivel menor y medalla de plata ONM 2025 nivel mayor.",
-      "en": "Juan Pablo Miralles is a third-year high school student at Calasanz School, primarily interested in mathematics and chemistry. He participates in the UC Talent Academy. He is a three-time team finalist in CMAT, a member of the 2025 winning team, and a two-time national mathematics finalist, a bronze medalist in the 2024 National Mathematics Olympiad (junior level), and a silver medalist in the 2025 ONM (senior level)."
-    },
-    "interests": {
-      "es": [
-        "Estequiometría",
-        "Teoría de números",
-        "Teoría de conjuntos"
-      ],
-      "en": [
-        "Stoichiometry",
-        "Number theory",
-        "Set theory"
-      ]
-    },
-    "institution": "Colegio Calasanz",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "https://i.postimg.cc/7ZtMd4C5/722c2ba2-121e-4d78-a41b-2628739ee398.jpg",
-    "slug": "juan-pablo-miralles",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
     "uid": "93tfJj8JZkYBTtLLlIezEmiOVLm2",
     "displayName": "Mariana Moraga",
     "firstName": "Mariana",
@@ -1850,6 +1818,40 @@
     "slug": "marina-soto2",
     "isAnonymous": true,
     "claimHash": "9e323367eed7c982",
+    "articles": []
+  },
+  {
+    "uid": "80nl6CAxqyWTHAsg4BOZTMrNRiH2",
+    "displayName": "Juan Pablo Miralles",
+    "firstName": "Juan",
+    "lastName": "Pablo Miralles",
+    "roles": [
+      "Equipo Editorial"
+    ],
+    "description": {
+      "es": "Juan Pablo Miralles es un estudiante de Tercero Medio en el Colegio Calasanz, con interes principalmente en las matemáticas y química. Participa en la Academia de Talentos de la UC. Finalista de CMAT en equipo tres veces, equipo ganador de 2025, y dos veces finalista nacional de matemáticas, medalla de bronce en las Olimpiadas Nacionales de Matemáticas 2024 nivel menor y medalla de plata ONM 2025 nivel mayor.",
+      "en": "Juan Pablo Miralles is a third-year high school student at Calasanz School, primarily interested in mathematics and chemistry. He participates in the UC Talent Academy. He is a three-time team finalist in CMAT, a member of the 2025 winning team, and a two-time national mathematics finalist, a bronze medalist in the 2024 National Mathematics Olympiad (junior level), and a silver medalist in the 2025 ONM (senior level)."
+    },
+    "interests": {
+      "es": [
+        "Estequiometría",
+        "Teoría de números",
+        "Teoría de conjuntos"
+      ],
+      "en": [
+        "Stoichiometry",
+        "Number theory",
+        "Set theory"
+      ]
+    },
+    "institution": "Colegio Calasanz",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "https://i.postimg.cc/7ZtMd4C5/722c2ba2-121e-4d78-a41b-2628739ee398.jpg",
+    "slug": "juan-pablo-miralles",
+    "isAnonymous": false,
+    "claimHash": null,
     "articles": []
   }
 ]
