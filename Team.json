@@ -201,6 +201,40 @@
     "articles": []
   },
   {
+    "uid": "80nl6CAxqyWTHAsg4BOZTMrNRiH2",
+    "displayName": "Juan Pablo Miralles",
+    "firstName": "Juan",
+    "lastName": "Pablo Miralles",
+    "roles": [
+      "Equipo Editorial"
+    ],
+    "description": {
+      "es": "Juan Pablo Miralles es un estudiante de Tercero Medio en el Colegio Calasanz, con interes principalmente en las matemáticas y química. Participa en la Academia de Talentos de la UC. Finalista de CMAT en equipo tres veces, equipo ganador de 2025, y dos veces finalista nacional de matemáticas, medalla de bronce en las Olimpiadas Nacionales de Matemáticas 2024 nivel menor y medalla de plata ONM 2025 nivel mayor.",
+      "en": "Juan Pablo Miralles is a third-year high school student at Calasanz School, primarily interested in mathematics and chemistry. He participates in the UC Talent Academy. He is a three-time team finalist in CMAT, a member of the 2025 winning team, and a two-time national mathematics finalist, a bronze medalist in the 2024 National Mathematics Olympiad (junior level), and a silver medalist in the 2025 ONM (senior level)."
+    },
+    "interests": {
+      "es": [
+        "Estequiometría",
+        "Teoría de números",
+        "Teoría de conjuntos"
+      ],
+      "en": [
+        "Stoichiometry",
+        "Number theory",
+        "Set theory"
+      ]
+    },
+    "institution": "Colegio Calasanz",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "https://i.postimg.cc/7ZtMd4C5/722c2ba2-121e-4d78-a41b-2628739ee398.jpg",
+    "slug": "juan-pablo-miralles",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
+  },
+  {
     "uid": "93tfJj8JZkYBTtLLlIezEmiOVLm2",
     "displayName": "Mariana Moraga",
     "firstName": "Mariana",
@@ -713,7 +747,8 @@
     "firstName": "Marina",
     "lastName": "Soto",
     "roles": [
-      "Autor"
+      "Autor",
+      "Equipo Editorial"
     ],
     "description": {
       "es": "Marina Soto es estudiante de College de Ciencias de la Pontificia Universidad Católica de Chile y egresada de la Academia de Talentos de la UC. Se interesa principalmente en las humanidades, con experiencia en debates —recientemente participó en uno competitivo organizado por la Universidad de Chile—, en poesía japonesa y latinoamericana, y en la elaboración de ensayos académicos y creativos. Complementa su formación con proyectos en artes visuales, como pintura al óleo y experimentación con recursos visuales. Domina, además de español, inglés, con certificación C1, y estudia japonés como tercer idioma.",
@@ -799,7 +834,8 @@
     "firstName": "Carlos",
     "lastName": "Gutiérrez",
     "roles": [
-      "Responsable de Desarrollo Web"
+      "Responsable de Desarrollo Web",
+      "Equipo Editorial"
     ],
     "description": {
       "es": "Carlos Gutiérrez es estudiante de Tercero Medio en el colegio New Heinrich High School, con interés en matemática, biología, química y programación. Estudiante de la Academia de Talentos de la UC.",
@@ -871,7 +907,8 @@
     "firstName": "Emanuel",
     "lastName": "Cereceda",
     "roles": [
-      "Editor de Sección"
+      "Editor de Sección",
+      "Equipo Editorial"
     ],
     "description": {
       "es": "Emanuel Cereceda es estudiante de tercero medio en el Liceo Bicentenario Santa María de las Condes, con un marcado interés en las matemáticas y las ciencias. Destaca por su participación en Olimpiadas Nacionales de Matemáticas, en donde ha sido clasificado regional, y por su especialización en álgebra y análisis. Además, es nadador federado de la Federación Chilena de Deportes Acuáticos, lo que le ha permitido desarrollar disciplina, constancia y concentración.",
@@ -897,6 +934,45 @@
     "social": {},
     "imageUrl": "https://i.postimg.cc/VNCbG8Qy/0.jpg",
     "slug": "emanuel-cereceda",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
+  },
+  {
+    "uid": "Wis4rhCQB7MM0HxFggEjngOOnSa2",
+    "displayName": "Joel Portugal",
+    "firstName": "Joel",
+    "lastName": "Portugal",
+    "roles": [
+      "Equipo Editorial"
+    ],
+    "description": {
+      "es": "Joel Portugal es estudiante de Tercero Medio en el liceo Nacional de Maipú, Con intereses en las áreas de Matemáticas, Programación y Física. Becado por tener uno de los mejores puntajes Simce de Estación Central dentro de su generación a los 8 años,  4to lugar entre los mejores dibujantes a nivel provincial de Arequipa en Perú en la categoría de menores en 2016. Creador, desarrollador y diseñador digital. Participa en la Academia de Talentos de la UC y es un gran jugador profesional de Ajedrez, Damas y Go",
+      "en": "Joel Portugal is an 11th-grade student at Maipú National High School, with interests in Mathematics, Programming, and Physics. Awarded a scholarship for having one of the best Simce scores in Estación Central within his generation at 8 years old, he also achieved 4th place among the best artists at the provincial level in Arequipa, Peru, in the junior category in 2016. He is the creator, developer, and digital designer. He participates in the UC Talent Academy and is a great professional player of Chess, Checkers, and Go."
+    },
+    "interests": {
+      "es": [
+        "Álgebra",
+        "Matrices",
+        "Bioquímica",
+        "Física",
+        "Programación",
+        "Cálculo"
+      ],
+      "en": [
+        "Algebra",
+        "Matrices",
+        "Biochemistry",
+        "Physics",
+        "Programming"
+      ]
+    },
+    "institution": "Liceo Nacional de Maipú",
+    "orcid": "",
+    "publicEmail": "amigojoel45@gmail.com",
+    "social": {},
+    "imageUrl": "https://i.postimg.cc/nr1zQZdK/Screenshot-20251122-120357.jpg",
+    "slug": "joel-portugal",
     "isAnonymous": false,
     "claimHash": null,
     "articles": []
@@ -1167,7 +1243,9 @@
     "displayName": "Benjamín Catalán",
     "firstName": "Benjamín",
     "lastName": "Catalán",
-    "roles": [],
+    "roles": [
+      "Equipo Editorial"
+    ],
     "description": {
       "en": "Benjamín Catalán, an 11th-grade student at Colegio Calasanz, with primary interests in mathematics, physics, and youth ministry. He tutors in mathematics and participates in the pastoral group \"Movimiento Calasanz\", working with elementary school children.\nFinalist in the 2025 National Mathematics Olympiad.\nMedalist in the CMAT School Olympiad.\nHe is a federated chess player.",
       "es": "Benjamín Catalán, estudiante de Tercero Medio del Colegio Calasanz, con interés principalmente en matemáticas, física y pastoral juvenil. Hace clases privadas de matemáticas y participa dentro del grupo pastoral \"Movimiento Calasanz\", trabajando con niños de educación básica.\nFinalista de la Olimpiada Nacional de Matemáticas 2025.\nMedallista de la Olimpiada Escolar CMAT.\nEs jugador de ajedrez federado."
@@ -1202,7 +1280,8 @@
     "firstName": "Agustín",
     "lastName": "",
     "roles": [
-      "Autor"
+      "Autor",
+      "Equipo Editorial"
     ],
     "description": {
       "es": "Agustín Maturana es estudiante de 4°Medio del Instituto Miguel León Prado. Participa en la Academia de Talentos de la UC. Es líder de la Academia de Filosofía Juan Bautista Chaminade. Presenta interés en diversas áreas, como la filosofía, historia, política, literatura, psicología, psiquiatría, música, etcétera.",
@@ -1309,481 +1388,6 @@
     "articles": []
   },
   {
-    "uid": "z1HHJYjxglP1rp6TQpo5aypK26N2",
-    "displayName": "Cristóbal Rojas",
-    "firstName": "Cristobal",
-    "lastName": "Rojas",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "",
-      "en": ""
-    },
-    "interests": {
-      "es": [],
-      "en": []
-    },
-    "institution": "Liceo Amanda Labarca",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "cristobal-rojas",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
-    "uid": "anon-pascalcea08-mrokejnl",
-    "displayName": "pascalcea08",
-    "firstName": "pascalcea08",
-    "lastName": "",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "Autor colaborador que ha publicado en nuestra revista.",
-      "en": "Contributing author who has published in our journal."
-    },
-    "interests": {
-      "es": [],
-      "en": []
-    },
-    "institution": "Colegio Curimon de San Felipe",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "pascalcea08",
-    "isAnonymous": true,
-    "claimHash": "f1c37cfcf42c3f26",
-    "articles": []
-  },
-  {
-    "uid": "anon-joseignaciocarterpalma-mrokejnl",
-    "displayName": "joseignaciocarterpalma",
-    "firstName": "joseignaciocarterpalma",
-    "lastName": "",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "Autor colaborador que ha publicado en nuestra revista.",
-      "en": "Contributing author who has published in our journal."
-    },
-    "interests": {
-      "es": [],
-      "en": []
-    },
-    "institution": "Colegio Curimon",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "joseignaciocarterpalma",
-    "isAnonymous": true,
-    "claimHash": "3613436c399d1452",
-    "articles": []
-  },
-  {
-    "uid": "anon-jose-mrokejnl",
-    "displayName": "José",
-    "firstName": "José",
-    "lastName": "",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "Autor colaborador que ha publicado en nuestra revista.",
-      "en": "Contributing author who has published in our journal."
-    },
-    "interests": {
-      "es": [],
-      "en": []
-    },
-    "institution": "Colegio Curimon",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "jose",
-    "isAnonymous": true,
-    "claimHash": "3613436c399d1452",
-    "articles": []
-  },
-  {
-    "uid": "anon-phie-bravo-mrokejnl",
-    "displayName": "phie.bravo",
-    "firstName": "phie.bravo",
-    "lastName": "",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "Autor colaborador que ha publicado en nuestra revista.",
-      "en": "Contributing author who has published in our journal."
-    },
-    "interests": {
-      "es": [],
-      "en": []
-    },
-    "institution": "Lincoln International Academy; Liceo provincial santa teresa de los andes",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "phie-bravo",
-    "isAnonymous": true,
-    "claimHash": "c4c22a467d7aa957",
-    "articles": []
-  },
-  {
-    "uid": "anon-cristobal-rojas-m-mrokejnl",
-    "displayName": "cristobal.rojas.m",
-    "firstName": "cristobal.rojas.m",
-    "lastName": "",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "Autor colaborador que ha publicado en nuestra revista.",
-      "en": "Contributing author who has published in our journal."
-    },
-    "interests": {
-      "es": [],
-      "en": []
-    },
-    "institution": "Liceo Amanda Labarca",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "cristobal-rojas-m",
-    "isAnonymous": true,
-    "claimHash": "0dd09c1c0cf0eb8e",
-    "articles": []
-  },
-  {
-    "uid": "anon-jun-ho-jeon-acevedo-mrokejnl",
-    "displayName": "jun.ho.jeon.acevedo",
-    "firstName": "jun.ho.jeon.acevedo",
-    "lastName": "",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "Autor colaborador que ha publicado en nuestra revista.",
-      "en": "Contributing author who has published in our journal."
-    },
-    "interests": {
-      "es": [],
-      "en": []
-    },
-    "institution": "Colegio San Viator de Macul",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "jun-ho-jeon-acevedo",
-    "isAnonymous": true,
-    "claimHash": "68cc5e7905ec4a04",
-    "articles": []
-  },
-  {
-    "uid": "anon-javieritoalonso-vergara-mrokejnl",
-    "displayName": "javieritoalonso.vergara",
-    "firstName": "javieritoalonso.vergara",
-    "lastName": "",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "Autor colaborador que ha publicado en nuestra revista.",
-      "en": "Contributing author who has published in our journal."
-    },
-    "interests": {
-      "es": [],
-      "en": []
-    },
-    "institution": "Academia de Talentos UC",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "javieritoalonso-vergara",
-    "isAnonymous": true,
-    "claimHash": "b4c985b509f5a9f2",
-    "articles": []
-  },
-  {
-    "uid": "anon-aster-maturana-mrokejnl",
-    "displayName": "aster.maturana",
-    "firstName": "aster.maturana",
-    "lastName": "",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "Autor colaborador que ha publicado en nuestra revista.",
-      "en": "Contributing author who has published in our journal."
-    },
-    "interests": {
-      "es": [],
-      "en": []
-    },
-    "institution": "Instituto Miguel León Prado; jaja no sé dónde estudia el Santiago",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "aster-maturana",
-    "isAnonymous": true,
-    "claimHash": "6450c6e5363169b6",
-    "articles": []
-  },
-  {
-    "uid": "anon-magdalena-leal-ocares-mrokejnl",
-    "displayName": "magdalena.leal.ocares",
-    "firstName": "magdalena.leal.ocares",
-    "lastName": "",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "Autor colaborador que ha publicado en nuestra revista.",
-      "en": "Contributing author who has published in our journal."
-    },
-    "interests": {
-      "es": [],
-      "en": []
-    },
-    "institution": "PENTA UC",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "magdalena-leal-ocares",
-    "isAnonymous": true,
-    "claimHash": "c2d63719b00f912a",
-    "articles": []
-  },
-  {
-    "uid": "anon-santiago-vargas-mrokejnm",
-    "displayName": "Santiago Vargas",
-    "firstName": "Santiago Vargas",
-    "lastName": "",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "Autor colaborador que ha publicado en nuestra revista.",
-      "en": "Contributing author who has published in our journal."
-    },
-    "interests": {
-      "es": [],
-      "en": []
-    },
-    "institution": "Penta UC",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "santiago-vargas1",
-    "isAnonymous": true,
-    "claimHash": "4107c792f1a33f0b",
-    "articles": [
-      {
-        "title": "Sendero Luminoso: Cuando el Pueblo También es un Enemigo",
-        "titleEn": "Sendero Luminoso: Cuando el Pueblo También es un Enemigo",
-        "submissionId": "LEGACY-1771278765240-4E5POZ1OL",
-        "fecha": "2025-11-29",
-        "volumen": "1",
-        "numero": "1",
-        "area": "Historia del Terrorismo en Perú durante la Guerra Fría",
-        "numeroArticulo": "3",
-        "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-sendero-luminoso-cuando-el-pueblo-tambien-es-un-enemigo-3.pdf",
-        "slug": "sendero-luminoso-cuando-el-pueblo-tambien-es-un-enemigo-3"
-      },
-      {
-        "title": "Fundamentos generales de la sociedad-estado Taxicraticos",
-        "titleEn": "Fundamentos generales de la sociedad-estado Taxicraticos",
-        "submissionId": "LEGACY-1771278766858-9NNN57SOW",
-        "fecha": "2026-05-09",
-        "volumen": "2",
-        "numero": "1",
-        "area": "Teoría Política",
-        "numeroArticulo": 15,
-        "pdfUrl": "https://revista1919.github.io/articless/pdfs/Article-fundamentos-generales-de-la-sociedad-estado-taxicr-15.pdf",
-        "slug": "fundamentos-generales-de-la-sociedad-estado-taxicraticos-15"
-      }
-    ]
-  },
-  {
-    "uid": "anon-diego-duran-t92-mrokejnm",
-    "displayName": "diego.duran.t92",
-    "firstName": "diego.duran.t92",
-    "lastName": "",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "Autor colaborador que ha publicado en nuestra revista.",
-      "en": "Contributing author who has published in our journal."
-    },
-    "interests": {
-      "es": [],
-      "en": []
-    },
-    "institution": "Broward International University",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "diego-duran-t92",
-    "isAnonymous": true,
-    "claimHash": "7fe77163eda99130",
-    "articles": []
-  },
-  {
-    "uid": "anon-amir-carbonell-mrokejnm",
-    "displayName": "Amir Carbonell",
-    "firstName": "Amir",
-    "lastName": "Carbonell",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "Autor colaborador que ha publicado en nuestra revista.",
-      "en": "Contributing author who has published in our journal."
-    },
-    "interests": {
-      "es": [],
-      "en": []
-    },
-    "institution": "Pontificia Universidad Católica de Chile",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "amir-carbonell1",
-    "isAnonymous": true,
-    "claimHash": "4e556796f61b4b17",
-    "articles": [
-      {
-        "title": "Interacciones Gravitacionales en Sistemas Galácticos",
-        "titleEn": "Interacciones Gravitacionales en Sistemas Galácticos",
-        "submissionId": "SUB-1771972662277-OOFZPF9SG",
-        "fecha": "2026-05-08",
-        "volumen": "2",
-        "numero": "1",
-        "area": "Astrofísica Computacional",
-        "numeroArticulo": 14,
-        "pdfUrl": "https://revista1919.github.io/articless/pdfs/Article-interacciones-gravitacionales-en-sistemas-galctico-14.pdf",
-        "slug": "interacciones-gravitacionales-en-sistemas-galacticos-14"
-      }
-    ]
-  },
-  {
-    "uid": "anon-amelia-ribadeneira-mrokejnm",
-    "displayName": "Amelia Ribadeneira",
-    "firstName": "Amelia",
-    "lastName": "Ribadeneira",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "Autor colaborador que ha publicado en nuestra revista.",
-      "en": "Contributing author who has published in our journal."
-    },
-    "interests": {
-      "es": [],
-      "en": []
-    },
-    "institution": "Colegio Pensionado Universitario",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "amelia-ribadeneira2",
-    "isAnonymous": true,
-    "claimHash": "ed420b08a85cf384",
-    "articles": [
-      {
-        "title": "Las medias rojas: símbolo de libertad femenina frente al patriarcado",
-        "titleEn": "Las medias rojas: símbolo de libertad femenina frente al patriarcado",
-        "submissionId": "SUB-1773359015493-ZOFB1OSLS",
-        "fecha": "2026-04-13",
-        "volumen": "2",
-        "numero": "1",
-        "area": "Lengua y Literatura",
-        "numeroArticulo": 13,
-        "pdfUrl": "https://revista1919.github.io/articless/pdfs/Article-las-medias-rojas-smbolo-de-libertad-femenina-frent-13.pdf",
-        "slug": "las-medias-rojas-simbolo-de-libertad-femenina-frente-al-patriarcado-13"
-      }
-    ]
-  },
-  {
-    "uid": "anon-marina-soto-mrokejnm",
-    "displayName": "Marina Soto",
-    "firstName": "Marina",
-    "lastName": "Soto",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "Autor colaborador que ha publicado en nuestra revista.",
-      "en": "Contributing author who has published in our journal."
-    },
-    "interests": {
-      "es": [],
-      "en": []
-    },
-    "institution": "Pontificia Universidad Católica de Chile",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "marina-soto2",
-    "isAnonymous": true,
-    "claimHash": "9e323367eed7c982",
-    "articles": []
-  },
-  {
-    "uid": "80nl6CAxqyWTHAsg4BOZTMrNRiH2",
-    "displayName": "Juan Pablo Miralles",
-    "firstName": "Juan",
-    "lastName": "Pablo Miralles",
-    "roles": [
-      "Equipo Editorial"
-    ],
-    "description": {
-      "es": "Juan Pablo Miralles es un estudiante de Tercero Medio en el Colegio Calasanz, con interes principalmente en las matemáticas y química. Participa en la Academia de Talentos de la UC. Finalista de CMAT en equipo tres veces, equipo ganador de 2025, y dos veces finalista nacional de matemáticas, medalla de bronce en las Olimpiadas Nacionales de Matemáticas 2024 nivel menor y medalla de plata ONM 2025 nivel mayor.",
-      "en": "Juan Pablo Miralles is a third-year high school student at Calasanz School, primarily interested in mathematics and chemistry. He participates in the UC Talent Academy. He is a three-time team finalist in CMAT, a member of the 2025 winning team, and a two-time national mathematics finalist, a bronze medalist in the 2024 National Mathematics Olympiad (junior level), and a silver medalist in the 2025 ONM (senior level)."
-    },
-    "interests": {
-      "es": [
-        "Estequiometría",
-        "Teoría de números",
-        "Teoría de conjuntos"
-      ],
-      "en": [
-        "Stoichiometry",
-        "Number theory",
-        "Set theory"
-      ]
-    },
-    "institution": "Colegio Calasanz",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "https://i.postimg.cc/7ZtMd4C5/722c2ba2-121e-4d78-a41b-2628739ee398.jpg",
-    "slug": "juan-pablo-miralles",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
     "uid": "wqf9Go6qvLaUc38E1CKZvBJZOZk1",
     "displayName": "Tomás Arancibia",
     "firstName": "Tomás",
@@ -1820,42 +1424,444 @@
     "articles": []
   },
   {
-    "uid": "Wis4rhCQB7MM0HxFggEjngOOnSa2",
-    "displayName": "Joel Portugal",
-    "firstName": "Joel",
-    "lastName": "Portugal",
+    "uid": "z1HHJYjxglP1rp6TQpo5aypK26N2",
+    "displayName": "Cristóbal Rojas",
+    "firstName": "Cristobal",
+    "lastName": "Rojas",
     "roles": [
-      "Equipo Editorial"
+      "Autor"
     ],
     "description": {
-      "es": "Joel Portugal es estudiante de Tercero Medio en el liceo Nacional de Maipú, Con intereses en las áreas de Matemáticas, Programación y Física. Becado por tener uno de los mejores puntajes Simce de Estación Central dentro de su generación a los 8 años,  4to lugar entre los mejores dibujantes a nivel provincial de Arequipa en Perú en la categoría de menores en 2016. Creador, desarrollador y diseñador digital. Participa en la Academia de Talentos de la UC y es un gran jugador profesional de Ajedrez, Damas y Go",
-      "en": "Joel Portugal is an 11th-grade student at Maipú National High School, with interests in Mathematics, Programming, and Physics. Awarded a scholarship for having one of the best Simce scores in Estación Central within his generation at 8 years old, he also achieved 4th place among the best artists at the provincial level in Arequipa, Peru, in the junior category in 2016. He is the creator, developer, and digital designer. He participates in the UC Talent Academy and is a great professional player of Chess, Checkers, and Go."
+      "es": "",
+      "en": ""
     },
     "interests": {
-      "es": [
-        "Álgebra",
-        "Matrices",
-        "Bioquímica",
-        "Física",
-        "Programación",
-        "Cálculo"
-      ],
-      "en": [
-        "Algebra",
-        "Matrices",
-        "Biochemistry",
-        "Physics",
-        "Programming"
-      ]
+      "es": [],
+      "en": []
     },
-    "institution": "Liceo Nacional de Maipú",
+    "institution": "Liceo Amanda Labarca",
     "orcid": "",
-    "publicEmail": "amigojoel45@gmail.com",
+    "publicEmail": null,
     "social": {},
-    "imageUrl": "https://i.postimg.cc/nr1zQZdK/Screenshot-20251122-120357.jpg",
-    "slug": "joel-portugal",
+    "imageUrl": "",
+    "slug": "cristobal-rojas",
     "isAnonymous": false,
     "claimHash": null,
+    "articles": []
+  },
+  {
+    "uid": "anon-pascalcea08-mrokmby8",
+    "displayName": "pascalcea08",
+    "firstName": "pascalcea08",
+    "lastName": "",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "Autor colaborador que ha publicado en nuestra revista.",
+      "en": "Contributing author who has published in our journal."
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Colegio Curimon de San Felipe",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "pascalcea081",
+    "isAnonymous": true,
+    "claimHash": "f1c37cfcf42c3f26",
+    "articles": []
+  },
+  {
+    "uid": "anon-joseignaciocarterpalma-mrokmby8",
+    "displayName": "joseignaciocarterpalma",
+    "firstName": "joseignaciocarterpalma",
+    "lastName": "",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "Autor colaborador que ha publicado en nuestra revista.",
+      "en": "Contributing author who has published in our journal."
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Colegio Curimon",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "joseignaciocarterpalma1",
+    "isAnonymous": true,
+    "claimHash": "3613436c399d1452",
+    "articles": []
+  },
+  {
+    "uid": "anon-jose-mrokmby8",
+    "displayName": "José",
+    "firstName": "José",
+    "lastName": "",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "Autor colaborador que ha publicado en nuestra revista.",
+      "en": "Contributing author who has published in our journal."
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Colegio Curimon",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "jose1",
+    "isAnonymous": true,
+    "claimHash": "3613436c399d1452",
+    "articles": []
+  },
+  {
+    "uid": "anon-phie-bravo-mrokmby8",
+    "displayName": "phie.bravo",
+    "firstName": "phie.bravo",
+    "lastName": "",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "Autor colaborador que ha publicado en nuestra revista.",
+      "en": "Contributing author who has published in our journal."
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Lincoln International Academy; Liceo provincial santa teresa de los andes",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "phie-bravo1",
+    "isAnonymous": true,
+    "claimHash": "c4c22a467d7aa957",
+    "articles": []
+  },
+  {
+    "uid": "anon-cristobal-rojas-m-mrokmby8",
+    "displayName": "cristobal.rojas.m",
+    "firstName": "cristobal.rojas.m",
+    "lastName": "",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "Autor colaborador que ha publicado en nuestra revista.",
+      "en": "Contributing author who has published in our journal."
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Liceo Amanda Labarca",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "cristobal-rojas-m1",
+    "isAnonymous": true,
+    "claimHash": "0dd09c1c0cf0eb8e",
+    "articles": []
+  },
+  {
+    "uid": "anon-jun-ho-jeon-acevedo-mrokmby9",
+    "displayName": "jun.ho.jeon.acevedo",
+    "firstName": "jun.ho.jeon.acevedo",
+    "lastName": "",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "Autor colaborador que ha publicado en nuestra revista.",
+      "en": "Contributing author who has published in our journal."
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Colegio San Viator de Macul",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "jun-ho-jeon-acevedo1",
+    "isAnonymous": true,
+    "claimHash": "68cc5e7905ec4a04",
+    "articles": []
+  },
+  {
+    "uid": "anon-javieritoalonso-vergara-mrokmby9",
+    "displayName": "javieritoalonso.vergara",
+    "firstName": "javieritoalonso.vergara",
+    "lastName": "",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "Autor colaborador que ha publicado en nuestra revista.",
+      "en": "Contributing author who has published in our journal."
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Academia de Talentos UC",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "javieritoalonso-vergara1",
+    "isAnonymous": true,
+    "claimHash": "b4c985b509f5a9f2",
+    "articles": []
+  },
+  {
+    "uid": "anon-aster-maturana-mrokmby9",
+    "displayName": "aster.maturana",
+    "firstName": "aster.maturana",
+    "lastName": "",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "Autor colaborador que ha publicado en nuestra revista.",
+      "en": "Contributing author who has published in our journal."
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Instituto Miguel León Prado; jaja no sé dónde estudia el Santiago",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "aster-maturana1",
+    "isAnonymous": true,
+    "claimHash": "6450c6e5363169b6",
+    "articles": []
+  },
+  {
+    "uid": "anon-magdalena-leal-ocares-mrokmby9",
+    "displayName": "magdalena.leal.ocares",
+    "firstName": "magdalena.leal.ocares",
+    "lastName": "",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "Autor colaborador que ha publicado en nuestra revista.",
+      "en": "Contributing author who has published in our journal."
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "PENTA UC",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "magdalena-leal-ocares1",
+    "isAnonymous": true,
+    "claimHash": "c2d63719b00f912a",
+    "articles": []
+  },
+  {
+    "uid": "anon-santiago-vargas-mrokmby9",
+    "displayName": "Santiago Vargas",
+    "firstName": "Santiago Vargas",
+    "lastName": "",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "Autor colaborador que ha publicado en nuestra revista.",
+      "en": "Contributing author who has published in our journal."
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Penta UC",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "santiago-vargas2",
+    "isAnonymous": true,
+    "claimHash": "4107c792f1a33f0b",
+    "articles": [
+      {
+        "title": "Sendero Luminoso: Cuando el Pueblo También es un Enemigo",
+        "titleEn": "Sendero Luminoso: Cuando el Pueblo También es un Enemigo",
+        "submissionId": "LEGACY-1771278765240-4E5POZ1OL",
+        "fecha": "2025-11-29",
+        "volumen": "1",
+        "numero": "1",
+        "area": "Historia del Terrorismo en Perú durante la Guerra Fría",
+        "numeroArticulo": "3",
+        "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-sendero-luminoso-cuando-el-pueblo-tambien-es-un-enemigo-3.pdf",
+        "slug": "sendero-luminoso-cuando-el-pueblo-tambien-es-un-enemigo-3"
+      },
+      {
+        "title": "Fundamentos generales de la sociedad-estado Taxicraticos",
+        "titleEn": "Fundamentos generales de la sociedad-estado Taxicraticos",
+        "submissionId": "LEGACY-1771278766858-9NNN57SOW",
+        "fecha": "2026-05-09",
+        "volumen": "2",
+        "numero": "1",
+        "area": "Teoría Política",
+        "numeroArticulo": 15,
+        "pdfUrl": "https://revista1919.github.io/articless/pdfs/Article-fundamentos-generales-de-la-sociedad-estado-taxicr-15.pdf",
+        "slug": "fundamentos-generales-de-la-sociedad-estado-taxicraticos-15"
+      }
+    ]
+  },
+  {
+    "uid": "anon-diego-duran-t92-mrokmby9",
+    "displayName": "diego.duran.t92",
+    "firstName": "diego.duran.t92",
+    "lastName": "",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "Autor colaborador que ha publicado en nuestra revista.",
+      "en": "Contributing author who has published in our journal."
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Broward International University",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "diego-duran-t921",
+    "isAnonymous": true,
+    "claimHash": "7fe77163eda99130",
+    "articles": []
+  },
+  {
+    "uid": "anon-amir-carbonell-mrokmby9",
+    "displayName": "Amir Carbonell",
+    "firstName": "Amir",
+    "lastName": "Carbonell",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "Autor colaborador que ha publicado en nuestra revista.",
+      "en": "Contributing author who has published in our journal."
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Pontificia Universidad Católica de Chile",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "amir-carbonell2",
+    "isAnonymous": true,
+    "claimHash": "4e556796f61b4b17",
+    "articles": [
+      {
+        "title": "Interacciones Gravitacionales en Sistemas Galácticos",
+        "titleEn": "Interacciones Gravitacionales en Sistemas Galácticos",
+        "submissionId": "SUB-1771972662277-OOFZPF9SG",
+        "fecha": "2026-05-08",
+        "volumen": "2",
+        "numero": "1",
+        "area": "Astrofísica Computacional",
+        "numeroArticulo": 14,
+        "pdfUrl": "https://revista1919.github.io/articless/pdfs/Article-interacciones-gravitacionales-en-sistemas-galctico-14.pdf",
+        "slug": "interacciones-gravitacionales-en-sistemas-galacticos-14"
+      }
+    ]
+  },
+  {
+    "uid": "anon-amelia-ribadeneira-mrokmby9",
+    "displayName": "Amelia Ribadeneira",
+    "firstName": "Amelia",
+    "lastName": "Ribadeneira",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "Autor colaborador que ha publicado en nuestra revista.",
+      "en": "Contributing author who has published in our journal."
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Colegio Pensionado Universitario",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "amelia-ribadeneira1",
+    "isAnonymous": true,
+    "claimHash": "ed420b08a85cf384",
+    "articles": [
+      {
+        "title": "Las medias rojas: símbolo de libertad femenina frente al patriarcado",
+        "titleEn": "Las medias rojas: símbolo de libertad femenina frente al patriarcado",
+        "submissionId": "SUB-1773359015493-ZOFB1OSLS",
+        "fecha": "2026-04-13",
+        "volumen": "2",
+        "numero": "1",
+        "area": "Lengua y Literatura",
+        "numeroArticulo": 13,
+        "pdfUrl": "https://revista1919.github.io/articless/pdfs/Article-las-medias-rojas-smbolo-de-libertad-femenina-frent-13.pdf",
+        "slug": "las-medias-rojas-simbolo-de-libertad-femenina-frente-al-patriarcado-13"
+      }
+    ]
+  },
+  {
+    "uid": "anon-marina-soto-mrokmby9",
+    "displayName": "Marina Soto",
+    "firstName": "Marina",
+    "lastName": "Soto",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "Autor colaborador que ha publicado en nuestra revista.",
+      "en": "Contributing author who has published in our journal."
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Pontificia Universidad Católica de Chile",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "marina-soto1",
+    "isAnonymous": true,
+    "claimHash": "9e323367eed7c982",
     "articles": []
   }
 ]
