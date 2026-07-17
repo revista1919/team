@@ -283,10 +283,7 @@ const visibleRoles =
       ? roles.filter(r => !isAuthorRole(r) && !isRevisorRole(r))
       : roles.filter(r => !isRevisorRole(r));
 
-  const visibleRoles =
-    roles.length > 1
-      ? roles.filter(r => !isAuthorRole(r))
-      : roles;
+
 
   const rolesStr = visibleRoles.join(', ');
 
