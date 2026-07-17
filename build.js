@@ -273,16 +273,20 @@ function generateHTML(user, lang) {
   const isSpanish = lang === 'es';
   const roles = user.roles || [];
 
-  const isRevisorRole = r => {
+const isRevisorRole = r => {
   const x = r.toLowerCase().trim();
   return x === 'revisor' || x === 'reviewer';
+};
+
+const isAuthorRole = r => {
+  const x = r.toLowerCase().trim();
+  return x === 'autor' || x === 'author';
 };
 
 const visibleRoles =
     roles.length > 1
       ? roles.filter(r => !isAuthorRole(r) && !isRevisorRole(r))
       : roles.filter(r => !isRevisorRole(r));
-
 
 
   const rolesStr = visibleRoles.join(', ');
