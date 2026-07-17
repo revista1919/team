@@ -205,9 +205,7 @@
     "displayName": "Juan Pablo Miralles",
     "firstName": "Juan",
     "lastName": "Pablo Miralles",
-    "roles": [
-      "Revisor"
-    ],
+    "roles": [],
     "description": {
       "es": "Juan Pablo Miralles es un estudiante de Tercero Medio en el Colegio Calasanz, con interes principalmente en las matemáticas y química. Participa en la Academia de Talentos de la UC. Finalista de CMAT en equipo tres veces, equipo ganador de 2025, y dos veces finalista nacional de matemáticas, medalla de bronce en las Olimpiadas Nacionales de Matemáticas 2024 nivel menor y medalla de plata ONM 2025 nivel mayor.",
       "en": "Juan Pablo Miralles is a third-year high school student at Calasanz School, primarily interested in mathematics and chemistry. He participates in the UC Talent Academy. He is a three-time team finalist in CMAT, a member of the 2025 winning team, and a two-time national mathematics finalist, a bronze medalist in the 2024 National Mathematics Olympiad (junior level), and a silver medalist in the 2025 ONM (senior level)."
@@ -318,6 +316,32 @@
     ]
   },
   {
+    "uid": "Aj5dIWx9WzNelimPZKHwW6Odnog1",
+    "displayName": "Revisor Anónimo 2",
+    "firstName": "Revisor Anónimo",
+    "lastName": "2",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": "",
+      "en": ""
+    },
+    "institution": "",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "revisor-anonimo-2",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
+  },
+  {
     "uid": "EP2S7UL6KnRgT8UlaHpHTwxtA7g1",
     "displayName": "Trinidad Margozzini",
     "firstName": "Trinidad",
@@ -398,7 +422,6 @@
     "firstName": "lgvm3011",
     "lastName": "Principal",
     "roles": [
-      "Revisor",
       "Autor"
     ],
     "description": {
@@ -652,6 +675,32 @@
     ]
   },
   {
+    "uid": "MYx0rr9gp3YXfnhdIxkMjvU9cuq1",
+    "displayName": "Revisor Anónimo 1",
+    "firstName": "Revisor Anónimo",
+    "lastName": "1",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": "",
+      "en": ""
+    },
+    "institution": "",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "revisor-anonimo-1",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
+  },
+  {
     "uid": "NJaiT2Zk0rhlAM2QCdayHI28RWz2",
     "displayName": "Diego Durán",
     "firstName": "Diego",
@@ -696,7 +745,6 @@
     "firstName": "Marina",
     "lastName": "Soto",
     "roles": [
-      "Revisor",
       "Autor"
     ],
     "description": {
@@ -783,8 +831,7 @@
     "firstName": "Carlos",
     "lastName": "Gutiérrez",
     "roles": [
-      "Responsable de Desarrollo Web",
-      "Revisor"
+      "Responsable de Desarrollo Web"
     ],
     "description": {
       "es": "Carlos Gutiérrez es estudiante de Tercero Medio en el colegio New Heinrich High School, con interés en matemática, biología, química y programación. Estudiante de la Academia de Talentos de la UC.",
@@ -856,7 +903,6 @@
     "firstName": "Emanuel",
     "lastName": "Cereceda",
     "roles": [
-      "Revisor",
       "Editor de Sección"
     ],
     "description": {
@@ -892,9 +938,7 @@
     "displayName": "Joel Portugal",
     "firstName": "Joel",
     "lastName": "Portugal",
-    "roles": [
-      "Revisor"
-    ],
+    "roles": [],
     "description": {
       "es": "Joel Portugal es estudiante de Tercero Medio en el liceo Nacional de Maipú, Con intereses en las áreas de Matemáticas, Programación y Física. Becado por tener uno de los mejores puntajes Simce de Estación Central dentro de su generación a los 8 años,  4to lugar entre los mejores dibujantes a nivel provincial de Arequipa en Perú en la categoría de menores en 2016. Creador, desarrollador y diseñador digital. Participa en la Academia de Talentos de la UC y es un gran jugador profesional de Ajedrez, Damas y Go",
       "en": "Joel Portugal is an 11th-grade student at Maipú National High School, with interests in Mathematics, Programming, and Physics. Awarded a scholarship for having one of the best Simce scores in Estación Central within his generation at 8 years old, he also achieved 4th place among the best artists at the provincial level in Arequipa, Peru, in the junior category in 2016. He is the creator, developer, and digital designer. He participates in the UC Talent Academy and is a great professional player of Chess, Checkers, and Go."
@@ -925,6 +969,62 @@
     "isAnonymous": false,
     "claimHash": null,
     "articles": []
+  },
+  {
+    "uid": "Wp9AbMocILX4UOy6il09qluhrL23",
+    "displayName": "Javier Vergara",
+    "firstName": "Javier",
+    "lastName": "Vergara",
+    "roles": [
+      "Director General",
+      "Editor en Jefe",
+      "Autor",
+      "Fundador",
+      "Responsable de Desarrollo Web",
+      "Editor de Sección"
+    ],
+    "description": {
+      "es": "Javier Vergara es estudiante Cuarto Medio en el Colegio Curimón de San Felipe, con interés en Economía, Ciencias Políticas y Matemáticas. Es estudiante de la Academia de Talentos de la UC. Finalista del Keneth Garshina Undergraduate Students Essay Contest del Mises Institute AERC 2025, con artículo publicado en la página del Mises Institute. Shortlisted para el John Locke Institute Global Essay Prize 2025. Distinction en London School of Economics Students Union Economics Society Essay Competition 2025. Ha sido becado para asistir a los Summer Courses del John Locke Institute en Princeton, la Universidad de Verano de la Universidad de las Hespérides en España, y para seminario del Ayn Rand Center en Buenos Aires. Ha publicado una traducción con Unión Editorial y se ha certificado en el College Program de ciencias políticas de la Universidad del Desarrollo.",
+      "en": "Javier Vergara is a fourth-year high school student at Curimón School in San Felipe, with an interest in Economics, Political Science, and Mathematics. He is a student at the UC Talent Academy. Finalist of the Keneth Garshina Undergraduate Students Essay Contest of the Mises Institute AERC 2025, with an article published on the Mises Institute's website. Shortlisted for the John Locke Institute Global Essay Prize 2025. Distinction in the London School of Economics Students Union Economics Society Essay Competition 2025. He has been awarded a scholarship to attend the Summer Courses of the John Locke Institute in Princeton, the Summer University of the University of Las Hespérides in Spain, and a seminar at the Ayn Rand Center in Buenos Aires. He has published a translation with Unión Editorial and has been certified in the Political Science College Program at Universidad del Desarrollo."
+    },
+    "interests": {
+      "es": [
+        "Economía",
+        "Matemáticas",
+        "Historia",
+        "Política"
+      ],
+      "en": [
+        "Economics",
+        "Mathematics",
+        "History",
+        "Politics"
+      ]
+    },
+    "institution": "Colegio Curimón",
+    "orcid": "0009-0005-5326-0177",
+    "publicEmail": null,
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/javier-vergara-r%C3%ADos-1021b42b5?originalSubdomain=cl"
+    },
+    "imageUrl": "https://i.ibb.co/YTLfDByH/73014-jpg.jpg",
+    "slug": "javier-vergara",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": [
+      {
+        "title": "El Ajedrez: Un Estudio sobre el Impacto Cultural del Ajedrez Durante la Guerra Fría y su Simbolismo Ideológico en Chile",
+        "titleEn": "El Ajedrez: Un Estudio sobre el Impacto Cultural del Ajedrez Durante la Guerra Fría y su Simbolismo Ideológico en Chile",
+        "submissionId": "",
+        "fecha": "2025-11-29",
+        "volumen": "1",
+        "numero": "1",
+        "area": "Historia del Ajedrez en la Guerra Fría",
+        "numeroArticulo": "8",
+        "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-el-ajedrez-un-estudio-sobre-el-impacto-cultural-del-ajedrez-durante-la-guerra-fria-y-su-simbolismo-ideologico-en-chile-8.pdf",
+        "slug": "el-ajedrez-un-estudio-sobre-el-impacto-cultural-del-ajedrez-durante-la-guerra-fria-y-su-simbolismo-ideologico-en-chile-8"
+      }
+    ]
   },
   {
     "uid": "YC6kihySELc3l8NodUN9Ffk8eEV2",
@@ -982,9 +1082,7 @@
     "displayName": "Juan Vega",
     "firstName": "Juan",
     "lastName": "Vega",
-    "roles": [
-      "Revisor"
-    ],
+    "roles": [],
     "description": {
       "es": "",
       "en": ""
@@ -1138,9 +1236,7 @@
     "displayName": "Benjamín Catalán",
     "firstName": "Benjamín",
     "lastName": "Catalán",
-    "roles": [
-      "Revisor"
-    ],
+    "roles": [],
     "description": {
       "en": "Benjamín Catalán, an 11th-grade student at Colegio Calasanz, with primary interests in mathematics, physics, and youth ministry. He tutors in mathematics and participates in the pastoral group \"Movimiento Calasanz\", working with elementary school children.\nFinalist in the 2025 National Mathematics Olympiad.\nMedalist in the CMAT School Olympiad.\nHe is a federated chess player.",
       "es": "Benjamín Catalán, estudiante de Tercero Medio del Colegio Calasanz, con interés principalmente en matemáticas, física y pastoral juvenil. Hace clases privadas de matemáticas y participa dentro del grupo pastoral \"Movimiento Calasanz\", trabajando con niños de educación básica.\nFinalista de la Olimpiada Nacional de Matemáticas 2025.\nMedallista de la Olimpiada Escolar CMAT.\nEs jugador de ajedrez federado."
@@ -1175,8 +1271,7 @@
     "firstName": "Agustín",
     "lastName": "",
     "roles": [
-      "Autor",
-      "Revisor"
+      "Autor"
     ],
     "description": {
       "es": "Agustín Maturana es estudiante de 4°Medio del Instituto Miguel León Prado. Participa en la Academia de Talentos de la UC. Es líder de la Academia de Filosofía Juan Bautista Chaminade. Presenta interés en diversas áreas, como la filosofía, historia, política, literatura, psicología, psiquiatría, música, etcétera.",
@@ -1225,7 +1320,6 @@
     "firstName": "Francisco",
     "lastName": "Correa",
     "roles": [
-      "Revisor",
       "Co-Fundador",
       "Subdirector General"
     ],
@@ -1288,9 +1382,7 @@
     "displayName": "Tomás Arancibia",
     "firstName": "Tomás",
     "lastName": "Arancibia",
-    "roles": [
-      "Revisor"
-    ],
+    "roles": [],
     "description": {
       "es": "Tomás Arancibia es un estudiante de Tercero Medio en el Colegio Calasanz, con interés principalmente en las Matemáticas y Ciencias, especialmente en química. Participa en la Academia de Talentos de la UC. Participante de diversas competencias matemáticasa lo largo de los años. Es jugador federado de Ajedrez con una destacada y premiada participación en diversos torneos.",
       "en": "Tomás Arancibia is a Third-Year High School student at Colegio Calasanz, with primary interest in Mathematics and Sciences, especially Chemistry. He participates in the UC Talent Academy. He has participated in various math competitions over the years. He is a federated Chess player with a distinguished and award-winning participation in various tournaments."
@@ -1346,7 +1438,241 @@
     "articles": []
   },
   {
-    "uid": "anon-santiago-vargas-mreb23a4",
+    "uid": "anon-pascalcea08-mrokejnl",
+    "displayName": "pascalcea08",
+    "firstName": "pascalcea08",
+    "lastName": "",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "Autor colaborador que ha publicado en nuestra revista.",
+      "en": "Contributing author who has published in our journal."
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Colegio Curimon de San Felipe",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "pascalcea08",
+    "isAnonymous": true,
+    "claimHash": "f1c37cfcf42c3f26",
+    "articles": []
+  },
+  {
+    "uid": "anon-joseignaciocarterpalma-mrokejnl",
+    "displayName": "joseignaciocarterpalma",
+    "firstName": "joseignaciocarterpalma",
+    "lastName": "",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "Autor colaborador que ha publicado en nuestra revista.",
+      "en": "Contributing author who has published in our journal."
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Colegio Curimon",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "joseignaciocarterpalma",
+    "isAnonymous": true,
+    "claimHash": "3613436c399d1452",
+    "articles": []
+  },
+  {
+    "uid": "anon-jose-mrokejnl",
+    "displayName": "José",
+    "firstName": "José",
+    "lastName": "",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "Autor colaborador que ha publicado en nuestra revista.",
+      "en": "Contributing author who has published in our journal."
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Colegio Curimon",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "jose",
+    "isAnonymous": true,
+    "claimHash": "3613436c399d1452",
+    "articles": []
+  },
+  {
+    "uid": "anon-phie-bravo-mrokejnl",
+    "displayName": "phie.bravo",
+    "firstName": "phie.bravo",
+    "lastName": "",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "Autor colaborador que ha publicado en nuestra revista.",
+      "en": "Contributing author who has published in our journal."
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Lincoln International Academy; Liceo provincial santa teresa de los andes",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "phie-bravo",
+    "isAnonymous": true,
+    "claimHash": "c4c22a467d7aa957",
+    "articles": []
+  },
+  {
+    "uid": "anon-cristobal-rojas-m-mrokejnl",
+    "displayName": "cristobal.rojas.m",
+    "firstName": "cristobal.rojas.m",
+    "lastName": "",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "Autor colaborador que ha publicado en nuestra revista.",
+      "en": "Contributing author who has published in our journal."
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Liceo Amanda Labarca",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "cristobal-rojas-m",
+    "isAnonymous": true,
+    "claimHash": "0dd09c1c0cf0eb8e",
+    "articles": []
+  },
+  {
+    "uid": "anon-jun-ho-jeon-acevedo-mrokejnl",
+    "displayName": "jun.ho.jeon.acevedo",
+    "firstName": "jun.ho.jeon.acevedo",
+    "lastName": "",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "Autor colaborador que ha publicado en nuestra revista.",
+      "en": "Contributing author who has published in our journal."
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Colegio San Viator de Macul",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "jun-ho-jeon-acevedo",
+    "isAnonymous": true,
+    "claimHash": "68cc5e7905ec4a04",
+    "articles": []
+  },
+  {
+    "uid": "anon-javieritoalonso-vergara-mrokejnl",
+    "displayName": "javieritoalonso.vergara",
+    "firstName": "javieritoalonso.vergara",
+    "lastName": "",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "Autor colaborador que ha publicado en nuestra revista.",
+      "en": "Contributing author who has published in our journal."
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Academia de Talentos UC",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "javieritoalonso-vergara",
+    "isAnonymous": true,
+    "claimHash": "b4c985b509f5a9f2",
+    "articles": []
+  },
+  {
+    "uid": "anon-aster-maturana-mrokejnl",
+    "displayName": "aster.maturana",
+    "firstName": "aster.maturana",
+    "lastName": "",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "Autor colaborador que ha publicado en nuestra revista.",
+      "en": "Contributing author who has published in our journal."
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Instituto Miguel León Prado; jaja no sé dónde estudia el Santiago",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "aster-maturana",
+    "isAnonymous": true,
+    "claimHash": "6450c6e5363169b6",
+    "articles": []
+  },
+  {
+    "uid": "anon-magdalena-leal-ocares-mrokejnl",
+    "displayName": "magdalena.leal.ocares",
+    "firstName": "magdalena.leal.ocares",
+    "lastName": "",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "Autor colaborador que ha publicado en nuestra revista.",
+      "en": "Contributing author who has published in our journal."
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "PENTA UC",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "magdalena-leal-ocares",
+    "isAnonymous": true,
+    "claimHash": "c2d63719b00f912a",
+    "articles": []
+  },
+  {
+    "uid": "anon-santiago-vargas-mrokejnm",
     "displayName": "Santiago Vargas",
     "firstName": "Santiago Vargas",
     "lastName": "",
@@ -1366,7 +1692,7 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "santiago-vargas2",
+    "slug": "santiago-vargas1",
     "isAnonymous": true,
     "claimHash": "4107c792f1a33f0b",
     "articles": [
@@ -1397,7 +1723,33 @@
     ]
   },
   {
-    "uid": "anon-amir-carbonell-mreb23a4",
+    "uid": "anon-diego-duran-t92-mrokejnm",
+    "displayName": "diego.duran.t92",
+    "firstName": "diego.duran.t92",
+    "lastName": "",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "Autor colaborador que ha publicado en nuestra revista.",
+      "en": "Contributing author who has published in our journal."
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Broward International University",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "diego-duran-t92",
+    "isAnonymous": true,
+    "claimHash": "7fe77163eda99130",
+    "articles": []
+  },
+  {
+    "uid": "anon-amir-carbonell-mrokejnm",
     "displayName": "Amir Carbonell",
     "firstName": "Amir",
     "lastName": "Carbonell",
@@ -1417,7 +1769,7 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "amir-carbonell2",
+    "slug": "amir-carbonell1",
     "isAnonymous": true,
     "claimHash": "4e556796f61b4b17",
     "articles": [
@@ -1436,7 +1788,7 @@
     ]
   },
   {
-    "uid": "anon-amelia-ribadeneira-mreb23a4",
+    "uid": "anon-amelia-ribadeneira-mrokejnm",
     "displayName": "Amelia Ribadeneira",
     "firstName": "Amelia",
     "lastName": "Ribadeneira",
@@ -1456,7 +1808,7 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "amelia-ribadeneira1",
+    "slug": "amelia-ribadeneira2",
     "isAnonymous": true,
     "claimHash": "ed420b08a85cf384",
     "articles": [
@@ -1475,7 +1827,7 @@
     ]
   },
   {
-    "uid": "anon-marina-soto-mreb23a4",
+    "uid": "anon-marina-soto-mrokejnm",
     "displayName": "Marina Soto",
     "firstName": "Marina",
     "lastName": "Soto",
@@ -1495,248 +1847,9 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "marina-soto1",
+    "slug": "marina-soto2",
     "isAnonymous": true,
     "claimHash": "9e323367eed7c982",
-    "articles": []
-  },
-  {
-    "uid": "lQ4d5nKJ42XUMYWshdKnSMnz47z2",
-    "displayName": "Javier Alonso Vergara Ríos",
-    "firstName": "Javier Alonso",
-    "lastName": "Vergara Ríos",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "en": "",
-      "es": ""
-    },
-    "interests": {
-      "en": "",
-      "es": ""
-    },
-    "institution": "",
-    "orcid": "0009-0005-5326-0177",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "javier-alonso-vergara-rios",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
-    "uid": "XjAQDiH73QNNoc4r7PQanPKHFy62",
-    "displayName": "",
-    "firstName": "Javier Alonso",
-    "lastName": "Vergara Ríos",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "en": "",
-      "es": ""
-    },
-    "interests": {
-      "en": "",
-      "es": ""
-    },
-    "institution": "",
-    "orcid": "0009-0005-5326-0177",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "javier-alonso-vergara-rios1",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
-    "uid": "I0l0IVF5pfURVcDSmRuwhyunm0G3",
-    "displayName": "",
-    "firstName": "Javier Alonso",
-    "lastName": "Vergara Ríos",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "en": "",
-      "es": ""
-    },
-    "interests": {
-      "en": "",
-      "es": ""
-    },
-    "institution": "",
-    "orcid": "0009-0005-5326-0177",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "javier-alonso-vergara-rios2",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
-    "uid": "1r3VBdrsF4ZoXHUFsPrAiUMTAzH3",
-    "displayName": "",
-    "firstName": "Javier Alonso",
-    "lastName": "Vergara Ríos",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "en": "",
-      "es": ""
-    },
-    "interests": {
-      "en": "",
-      "es": ""
-    },
-    "institution": "",
-    "orcid": "0009-0005-5326-0177",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "javier-alonso-vergara-rios3",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
-    "uid": "eQuNGBV5PTfqINZDsVHf5XCh07I2",
-    "displayName": "",
-    "firstName": "Javier Alonso",
-    "lastName": "Vergara Ríos",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "en": "",
-      "es": ""
-    },
-    "interests": {
-      "en": "",
-      "es": ""
-    },
-    "institution": "",
-    "orcid": "0009-0005-5326-0177",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "javier-alonso-vergara-rios4",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
-    "uid": "Wp9AbMocILX4UOy6il09qluhrL23",
-    "displayName": "Javier Vergara",
-    "firstName": "Javier",
-    "lastName": "Vergara",
-    "roles": [
-      "Director General",
-      "Editor en Jefe",
-      "Autor",
-      "Fundador",
-      "Responsable de Desarrollo Web",
-      "Editor de Sección"
-    ],
-    "description": {
-      "es": "Javier Vergara es estudiante Cuarto Medio en el Colegio Curimón de San Felipe, con interés en Economía, Ciencias Políticas y Matemáticas. Es estudiante de la Academia de Talentos de la UC. Finalista del Keneth Garshina Undergraduate Students Essay Contest del Mises Institute AERC 2025, con artículo publicado en la página del Mises Institute. Shortlisted para el John Locke Institute Global Essay Prize 2025. Distinction en London School of Economics Students Union Economics Society Essay Competition 2025. Ha sido becado para asistir a los Summer Courses del John Locke Institute en Princeton, la Universidad de Verano de la Universidad de las Hespérides en España, y para seminario del Ayn Rand Center en Buenos Aires. Ha publicado una traducción con Unión Editorial y se ha certificado en el College Program de ciencias políticas de la Universidad del Desarrollo.",
-      "en": "Javier Vergara is a fourth-year high school student at Curimón School in San Felipe, with an interest in Economics, Political Science, and Mathematics. He is a student at the UC Talent Academy. Finalist of the Keneth Garshina Undergraduate Students Essay Contest of the Mises Institute AERC 2025, with an article published on the Mises Institute's website. Shortlisted for the John Locke Institute Global Essay Prize 2025. Distinction in the London School of Economics Students Union Economics Society Essay Competition 2025. He has been awarded a scholarship to attend the Summer Courses of the John Locke Institute in Princeton, the Summer University of the University of Las Hespérides in Spain, and a seminar at the Ayn Rand Center in Buenos Aires. He has published a translation with Unión Editorial and has been certified in the Political Science College Program at Universidad del Desarrollo."
-    },
-    "interests": {
-      "es": [
-        "Economía",
-        "Matemáticas",
-        "Historia",
-        "Política"
-      ],
-      "en": [
-        "Economics",
-        "Mathematics",
-        "History",
-        "Politics"
-      ]
-    },
-    "institution": "Colegio Curimón",
-    "orcid": "0009-0005-5326-0177",
-    "publicEmail": null,
-    "social": {
-      "linkedin": "https://www.linkedin.com/in/javier-vergara-r%C3%ADos-1021b42b5?originalSubdomain=cl"
-    },
-    "imageUrl": "https://i.ibb.co/YTLfDByH/73014-jpg.jpg",
-    "slug": "javier-vergara",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": [
-      {
-        "title": "El Ajedrez: Un Estudio sobre el Impacto Cultural del Ajedrez Durante la Guerra Fría y su Simbolismo Ideológico en Chile",
-        "titleEn": "El Ajedrez: Un Estudio sobre el Impacto Cultural del Ajedrez Durante la Guerra Fría y su Simbolismo Ideológico en Chile",
-        "submissionId": "",
-        "fecha": "2025-11-29",
-        "volumen": "1",
-        "numero": "1",
-        "area": "Historia del Ajedrez en la Guerra Fría",
-        "numeroArticulo": "8",
-        "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-el-ajedrez-un-estudio-sobre-el-impacto-cultural-del-ajedrez-durante-la-guerra-fria-y-su-simbolismo-ideologico-en-chile-8.pdf",
-        "slug": "el-ajedrez-un-estudio-sobre-el-impacto-cultural-del-ajedrez-durante-la-guerra-fria-y-su-simbolismo-ideologico-en-chile-8"
-      }
-    ]
-  },
-  {
-    "uid": "MYx0rr9gp3YXfnhdIxkMjvU9cuq1",
-    "displayName": "Revisor Anónimo 1",
-    "firstName": "Revisor Anónimo",
-    "lastName": "1",
-    "roles": [
-      "Autor",
-      "Revisor"
-    ],
-    "description": {
-      "es": "",
-      "en": ""
-    },
-    "interests": {
-      "es": "",
-      "en": ""
-    },
-    "institution": "",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "revisor-anonimo-1",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
-    "uid": "Aj5dIWx9WzNelimPZKHwW6Odnog1",
-    "displayName": "Revisor Anónimo 2",
-    "firstName": "Revisor Anónimo",
-    "lastName": "2",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "",
-      "en": ""
-    },
-    "interests": {
-      "es": "",
-      "en": ""
-    },
-    "institution": "",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "revisor-anonimo-2",
-    "isAnonymous": false,
-    "claimHash": null,
     "articles": []
   }
 ]
