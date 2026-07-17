@@ -68,7 +68,10 @@ function saveTeamJson(users) {
     displayName: u.displayName,
     firstName: u.firstName,
     lastName: u.lastName,
-    roles: u.roles,
+     roles: (u.roles || []).filter(r => {
+      const role = r.toLowerCase().trim();
+      return role !== 'revisor' && role !== 'reviewer';
+    }),
     description: u.description,
     interests: u.interests,
     institution: u.institution,
@@ -270,10 +273,15 @@ function generateHTML(user, lang) {
   const isSpanish = lang === 'es';
   const roles = user.roles || [];
 
-  const isAuthorRole = r => {
-    const x = r.toLowerCase().trim();
-    return x === 'autor' || x === 'author';
-  };
+  const isRevisorRole = r => {
+  const x = r.toLowerCase().trim();
+  return x === 'revisor' || x === 'reviewer';
+};
+
+const visibleRoles =
+    roles.length > 1
+      ? roles.filter(r => !isAuthorRole(r) && !isRevisorRole(r))
+      : roles.filter(r => !isRevisorRole(r));
 
   const visibleRoles =
     roles.length > 1
