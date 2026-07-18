@@ -1222,43 +1222,6 @@
     ]
   },
   {
-    "uid": "ofxyom4jFkbdSaNh6gTzEKy3DTK2",
-    "displayName": "Francisco Correa",
-    "firstName": "Francisco",
-    "lastName": "Correa",
-    "roles": [
-      "Co-Fundador",
-      "Subdirector General"
-    ],
-    "description": {
-      "es": "Francisco Correa estudiante de Tercero Medio en el Colegio Calasanz, con interes principalmente en las Matemáticas, Ciencias Políticas e Historia. Participa en la Academia de Talentos de la UC. Tres veces finalista nacional de matematicas, medalla de plata en las Olimpiadas Nacionales de Matemáticas 2024 nivel menor, y medalla de bronce 2025 nivel menor. Equipo ganador del CMAT 2025. Es nadador federado de la Federación Chilena de Deportes Acuáticos y es jugador federado de Ajedrez.",
-      "en": "Francisco Correa, an 11th-grade student at Calasanz School, primarily interested in Mathematics, Political Science, and History. He participates in the UC Talent Academy. He is a three-time national mathematics finalist, a silver medalist in the 2024 National Mathematics Olympiad (junior level), and a bronze medalist in the 2025 National Mathematics Olympiad (junior level). He was also part of the winning team of the CMAT 2025. He is a federated swimmer with the Chilean Aquatics Sports Federation and a federated chess player."
-    },
-    "interests": {
-      "es": [
-        "Teoría de números",
-        "Teoría de Juegos",
-        "Política Internacional",
-        "Historia Universal"
-      ],
-      "en": [
-        "Number Theory",
-        "Game Theory",
-        "International Politics",
-        "World History"
-      ]
-    },
-    "institution": "Colegio Calasanz",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "https://i.postimg.cc/mkfVpYW6/9929cd0d-c089-4776-a902-70fa30d21e00.jpg",
-    "slug": "francisco-correa",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
     "uid": "sVxFthpnosRlNBs17xfdLMO0EA23",
     "displayName": "Amir Carbonell",
     "firstName": "Amir",
@@ -1861,6 +1824,44 @@
     "social": {},
     "imageUrl": "https://i.ibb.co/R4ggmvKm/Gemini-Generated-Image-jhrog8jhrog8jhro-1-png.png",
     "slug": "revisor-anonimo-1",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
+  },
+  {
+    "uid": "ofxyom4jFkbdSaNh6gTzEKy3DTK2",
+    "displayName": "Francisco Correa",
+    "firstName": "Francisco",
+    "lastName": "Correa",
+    "roles": [
+      "Co-Fundador",
+      "Subdirector General",
+      "Editor de Sección"
+    ],
+    "description": {
+      "es": "Francisco Correa estudiante de Tercero Medio en el Colegio Calasanz, con interes principalmente en las Matemáticas, Ciencias Políticas e Historia. Participa en la Academia de Talentos de la UC. Tres veces finalista nacional de matematicas, medalla de plata en las Olimpiadas Nacionales de Matemáticas 2024 nivel menor, y medalla de bronce 2025 nivel menor. Equipo ganador del CMAT 2025. Es nadador federado de la Federación Chilena de Deportes Acuáticos y es jugador federado de Ajedrez.",
+      "en": "Francisco Correa, an 11th-grade student at Calasanz School, primarily interested in Mathematics, Political Science, and History. He participates in the UC Talent Academy. He is a three-time national mathematics finalist, a silver medalist in the 2024 National Mathematics Olympiad (junior level), and a bronze medalist in the 2025 National Mathematics Olympiad (junior level). He was also part of the winning team of the CMAT 2025. He is a federated swimmer with the Chilean Aquatics Sports Federation and a federated chess player."
+    },
+    "interests": {
+      "es": [
+        "Teoría de números",
+        "Teoría de Juegos",
+        "Política Internacional",
+        "Historia Universal"
+      ],
+      "en": [
+        "Number Theory",
+        "Game Theory",
+        "International Politics",
+        "World History"
+      ]
+    },
+    "institution": "Colegio Calasanz",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "https://i.postimg.cc/mkfVpYW6/9929cd0d-c089-4776-a902-70fa30d21e00.jpg",
+    "slug": "francisco-correa",
     "isAnonymous": false,
     "claimHash": null,
     "articles": []
