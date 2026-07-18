@@ -1803,32 +1803,6 @@
     "articles": []
   },
   {
-    "uid": "MYx0rr9gp3YXfnhdIxkMjvU9cuq1",
-    "displayName": "Revisor Anónimo 1",
-    "firstName": "Revisor Anónimo",
-    "lastName": "1",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "",
-      "en": ""
-    },
-    "interests": {
-      "es": [],
-      "en": []
-    },
-    "institution": "",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "https://i.ibb.co/R4ggmvKm/Gemini-Generated-Image-jhrog8jhrog8jhro-1-png.png",
-    "slug": "revisor-anonimo-1",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
     "uid": "ofxyom4jFkbdSaNh6gTzEKy3DTK2",
     "displayName": "Francisco Correa",
     "firstName": "Francisco",
@@ -1862,6 +1836,32 @@
     "social": {},
     "imageUrl": "https://i.postimg.cc/mkfVpYW6/9929cd0d-c089-4776-a902-70fa30d21e00.jpg",
     "slug": "francisco-correa",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
+  },
+  {
+    "uid": "MYx0rr9gp3YXfnhdIxkMjvU9cuq1",
+    "displayName": "Revisor Anónimo 1",
+    "firstName": "Revisor Anónimo",
+    "lastName": "1",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "https://i.ibb.co/R4ggmvKm/Gemini-Generated-Image-jhrog8jhrog8jhro-1-png.png",
+    "slug": "revisor-anonimo-1",
     "isAnonymous": false,
     "claimHash": null,
     "articles": []
