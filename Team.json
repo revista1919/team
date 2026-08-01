@@ -344,32 +344,6 @@
     "articles": []
   },
   {
-    "uid": "EP2S7UL6KnRgT8UlaHpHTwxtA7g1",
-    "displayName": "Trinidad Margozzini",
-    "firstName": "Trinidad",
-    "lastName": "Margonzzini",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": " ",
-      "en": " "
-    },
-    "interests": {
-      "es": [],
-      "en": []
-    },
-    "institution": "Colegio Curimón",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "trinidad-margozzini",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
     "uid": "FDRMEnz5agcQnhWSHlu4Lth2mHJ3",
     "displayName": "Tomás Ramírez",
     "firstName": "Tomás",
@@ -1862,6 +1836,32 @@
     "social": {},
     "imageUrl": "https://i.ibb.co/R4ggmvKm/Gemini-Generated-Image-jhrog8jhrog8jhro-1-png.png",
     "slug": "revisor-anonimo-1",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
+  },
+  {
+    "uid": "EP2S7UL6KnRgT8UlaHpHTwxtA7g1",
+    "displayName": "Trinidad Margonzzini",
+    "firstName": "Trinidad",
+    "lastName": "Margonzzini",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Colegio Curimón",
+    "orcid": "",
+    "publicEmail": "trini.margozzini@gmail.com",
+    "social": {},
+    "imageUrl": "",
+    "slug": "trinidad-margozzini",
     "isAnonymous": false,
     "claimHash": null,
     "articles": []
