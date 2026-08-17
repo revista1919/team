@@ -695,50 +695,6 @@
     "articles": []
   },
   {
-    "uid": "SXT77f1iIXhPewA8Endank8YjuW2",
-    "displayName": "Renato Vergara",
-    "firstName": "Renato",
-    "lastName": "Vergara",
-    "roles": [
-      "Encargado de Redes Sociales",
-      "Autor"
-    ],
-    "description": {
-      "es": "Renato Vergara es estudiante de tercero Medio del Colegio Curimón de San Felipe con interés en música, programación y matemáticas. Destaca por su compromiso y capacidad colaborativa. Participa activamente en actividades académicas. Es alumni de la FPP. Es un jugador de tenis de mesa aficionado. le gusta suits y top gun",
-      "en": "Renato Vergara is a 10th-grade student at Colegio Curimón in San Felipe, with an interest in music, programming, and mathematics. He stands out for his commitment and collaborative ability. He actively participates in academic activities. He is an alumnus of the FPP. He is an amateur table tenis player. he like suits and top gun"
-    },
-    "interests": {
-      "es": [
-        "Programación",
-        "Música",
-        "Deportes",
-        "Top gun",
-        "tenis de mesa",
-        "suits"
-      ],
-      "en": [
-        "Programming",
-        "Music",
-        "Sports",
-        "teble tenis",
-        "top gun",
-        "suits"
-      ]
-    },
-    "institution": "Colegio Curimón",
-    "orcid": "",
-    "publicEmail": "renato.vergara@revistacienciasestudiantes.com",
-    "social": {
-      "website": "",
-      "instagram": "https://www.instagram.com/renav_ergara22/"
-    },
-    "imageUrl": "https://i.ibb.co/8gM0rpwv/1000029862-jpg.jpg",
-    "slug": "renato-vergara",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
     "uid": "V0v60t9xDYXZlo3R8SUhddrIl7f2",
     "displayName": "Carlos Gutiérrez",
     "firstName": "Carlos",
@@ -1888,6 +1844,52 @@
     "social": {},
     "imageUrl": "",
     "slug": "salvador-andres",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
+  },
+  {
+    "uid": "SXT77f1iIXhPewA8Endank8YjuW2",
+    "displayName": "Renato Vergara",
+    "firstName": "Renato",
+    "lastName": "Vergara",
+    "roles": [
+      "Encargado de Redes Sociales",
+      "Autor"
+    ],
+    "description": {
+      "es": "Renato Vergara es estudiante de tercero Medio del Colegio Curimón de San Felipe con interés en música, programación y matemáticas. Destaca por su compromiso y capacidad colaborativa. Participa activamente en actividades académicas. Es alumni de la FPP. Es un jugador de tenis de mesa aficionado. le gusta suits, top gun y Modern family",
+      "en": "Renato Vergara is a 10th-grade student at Colegio Curimón in San Felipe, with an interest in music, programming, and mathematics. He stands out for his commitment and collaborative ability. He actively participates in academic activities. He is an alumnus of the FPP. He is an amateur table tenis player. he like suits, top gun and Modern Family"
+    },
+    "interests": {
+      "es": [
+        "Programación",
+        "Música",
+        "Deportes",
+        "Top gun",
+        "tenis de mesa",
+        "suits",
+        "Modern Family"
+      ],
+      "en": [
+        "Programming",
+        "Music",
+        "Sports",
+        "teble tenis",
+        "Familia Moderna",
+        "La Ley de los Audaces",
+        "Arriba Pistola"
+      ]
+    },
+    "institution": "Colegio Curimón",
+    "orcid": "",
+    "publicEmail": "renato.vergara@revistacienciasestudiantes.com",
+    "social": {
+      "website": "",
+      "instagram": "https://www.instagram.com/renav_ergara22/"
+    },
+    "imageUrl": "https://i.ibb.co/8gM0rpwv/1000029862-jpg.jpg",
+    "slug": "renato-vergara",
     "isAnonymous": false,
     "claimHash": null,
     "articles": []
