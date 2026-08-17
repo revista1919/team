@@ -1868,7 +1868,7 @@
   },
   {
     "uid": "UQ2MkGOJHhSAz26LjevApqQKXA53",
-    "displayName": "",
+    "displayName": "Salvador Andrés",
     "firstName": "Salvador Andrés ",
     "lastName": "",
     "roles": [
@@ -1879,12 +1879,12 @@
       "es": ""
     },
     "interests": {
-      "en": "",
-      "es": ""
+      "es": [],
+      "en": []
     },
-    "institution": "",
+    "institution": "Liceo Camilo Ortuzar Montt ",
     "orcid": "0009-0009-2063-7416",
-    "publicEmail": null,
+    "publicEmail": "salva.2009glopez@gmail.com",
     "social": {},
     "imageUrl": "",
     "slug": "salvador-andres",
