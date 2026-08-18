@@ -1,38 +1,5 @@
 [
   {
-    "uid": "3IvS5w02HVdSAugPL0HxgojE0Wl1",
-    "displayName": "Josefina Pérez Moyano",
-    "firstName": "Josefina",
-    "lastName": "Pérez Moyano",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "",
-      "en": ""
-    },
-    "interests": {
-      "es": [
-        "Matemática",
-        "Física",
-        "Astronomía",
-        "Filosofía",
-        "Filosofía Política",
-        "Artes"
-      ],
-      "en": []
-    },
-    "institution": "Colegio Santa María de lo Cañas",
-    "orcid": "",
-    "publicEmail": "josefina.perez.ac@gmail.com",
-    "social": {},
-    "imageUrl": "",
-    "slug": "josefina-perez-moyano",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
     "uid": "40c3babe-9ed0-4a9f-b144-bc5a46728b12",
     "displayName": "Roberto Díaz",
     "firstName": "Roberto",
@@ -1890,6 +1857,39 @@
     },
     "imageUrl": "https://i.ibb.co/8gM0rpwv/1000029862-jpg.jpg",
     "slug": "renato-vergara",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
+  },
+  {
+    "uid": "3IvS5w02HVdSAugPL0HxgojE0Wl1",
+    "displayName": "Josefina Pérez Moyano",
+    "firstName": "Josefina",
+    "lastName": "Pérez Moyano",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [
+        "Matemática",
+        "Física",
+        "Astronomía",
+        "Filosofía",
+        "Filosofía Política",
+        "Artes"
+      ],
+      "en": []
+    },
+    "institution": "Colegio Santa María de lo Cañas",
+    "orcid": "0009-0001-7455-7720",
+    "publicEmail": "josefina.perez.ac@gmail.com",
+    "social": {},
+    "imageUrl": "",
+    "slug": "josefina-perez-moyano",
     "isAnonymous": false,
     "claimHash": null,
     "articles": []
