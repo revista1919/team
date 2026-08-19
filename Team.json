@@ -1893,5 +1893,29 @@
     "isAnonymous": false,
     "claimHash": null,
     "articles": []
+  },
+  {
+    "uid": "cpOh22ZAEoMtasJkPx30WVaTuql1",
+    "displayName": "Juanito Pérez",
+    "firstName": "Juanito",
+    "lastName": "Pérez",
+    "roles": [],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Universidad de Chile",
+    "orcid": "",
+    "publicEmail": "luchitojara.rovier@gmail.com",
+    "social": {},
+    "imageUrl": "",
+    "slug": "juanito-perez",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
   }
 ]
