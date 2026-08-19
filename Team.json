@@ -1965,5 +1965,29 @@
     "isAnonymous": false,
     "claimHash": null,
     "articles": []
+  },
+  {
+    "uid": "bpaTN2x304XYwNMSUfpJ1BzJXNq1",
+    "displayName": "Dr Juan Pablo Marco",
+    "firstName": "Dr",
+    "lastName": "Juan Pablo Marco",
+    "roles": [],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "U de Chile",
+    "orcid": "",
+    "publicEmail": "creatisala@gmail.com",
+    "social": {},
+    "imageUrl": "",
+    "slug": "dr-juan-pablo-marco",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
   }
 ]
