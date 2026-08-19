@@ -1941,5 +1941,29 @@
     "isAnonymous": false,
     "claimHash": null,
     "articles": []
+  },
+  {
+    "uid": "IO3UYq0TaOXMbTxigs4gCUhizC72",
+    "displayName": "Juan Perez",
+    "firstName": "Juan",
+    "lastName": "Perez",
+    "roles": [],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "UCEMA",
+    "orcid": "",
+    "publicEmail": "luchitojara.rovier@gmail.com",
+    "social": {},
+    "imageUrl": "",
+    "slug": "juan-perez",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
   }
 ]
