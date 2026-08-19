@@ -1917,5 +1917,29 @@
     "isAnonymous": false,
     "claimHash": null,
     "articles": []
+  },
+  {
+    "uid": "4ZPQCAOejcYMEkkqpBBAKFI6gSt1",
+    "displayName": "Roberto Gomez",
+    "firstName": "Roberto",
+    "lastName": "Gomez",
+    "roles": [],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Notredam",
+    "orcid": "",
+    "publicEmail": "creatisala@gmail.com",
+    "social": {},
+    "imageUrl": "",
+    "slug": "roberto-gomez",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
   }
 ]
