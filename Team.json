@@ -2003,12 +2003,15 @@
       "en": ""
     },
     "interests": {
-      "es": "",
-      "en": ""
+      "es": [
+        "Educación Médica",
+        "Medicina Física"
+      ],
+      "en": []
     },
-    "institution": "",
+    "institution": "Centro Médico Rehabilitas ",
     "orcid": "",
-    "publicEmail": null,
+    "publicEmail": "Info@rehabilitas.cl ",
     "social": {},
     "imageUrl": "",
     "slug": "maria-lucia-rios-fuentes",
