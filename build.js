@@ -68,7 +68,7 @@ function saveTeamJson(users) {
     displayName: u.displayName,
     firstName: u.firstName,
     lastName: u.lastName,
-     roles: (u.roles || []).filter(r => {
+    roles: (u.roles || []).filter(r => {
       const role = r.toLowerCase().trim();
       return role !== 'revisor' && role !== 'reviewer';
     }),
@@ -84,6 +84,11 @@ function saveTeamJson(users) {
     claimHash: u.claimHash || null,
     articles: u.articles || [] // Guardamos los artículos
   }));
+  
+  // Debug: mostrar cuántos artículos tiene cada usuario
+  const usersWithArticles = teamJson.filter(u => u.articles && u.articles.length > 0);
+  console.log(`💾 Guardando Team.json con ${teamJson.length} usuarios (${usersWithArticles.length} con artículos)`);
+  
   fs.writeFileSync(TEAM_JSON_PATH, JSON.stringify(teamJson, null, 2));
 }
 
@@ -126,32 +131,292 @@ async function fetchAllArticles() {
     }
     const articles = await response.json();
     console.log(`✅ ${articles.length} artículos cargados`);
+    
+    // Debug: mostrar estructura de los primeros artículos
+    if (articles.length > 0) {
+      console.log('📋 Estructura del primer artículo:');
+      console.log(JSON.stringify({
+        titulo: articles[0].titulo,
+        autores: articles[0].autores,
+        authorIds: articles[0].authorIds,
+        numeroArticulo: articles[0].numeroArticulo,
+        submissionId: articles[0].submissionId
+      }, null, 2));
+    }
+    
     return articles;
   } catch (error) {
     console.error('❌ Error descargando articles.json:', error.message);
     return [];
   }
 }
-
 // ========== MATCHING DE AUTORES CON ARTÍCULOS ==========
 function matchAuthorsWithArticles(users, articles) {
   console.log('🔗 Matcheando autores con sus artículos...');
+  console.log(`   Usuarios: ${users.length}, Artículos: ${articles.length}`);
   
   // Crear mapa de artículos por autor
   const authorArticlesMap = new Map();
   
+  // Crear mapas de usuarios por diferentes criterios
+  const userByUid = new Map();
+  const userBySlug = new Map();
+  const userByDisplayName = new Map();
+  const userByFullName = new Map();
+  const userByEmail = new Map();
+  const userByOrcid = new Map();
+  
+  users.forEach(user => {
+    // Por UID
+    if (user.uid) {
+      userByUid.set(user.uid, user);
+      userByUid.set(user.uid.toLowerCase(), user);
+      userByUid.set(user.uid.trim(), user);
+    }
+    
+    // Por slug
+    if (user.slug) {
+      userBySlug.set(user.slug, user);
+      userBySlug.set(user.slug.toLowerCase(), user);
+      userBySlug.set(user.slug.trim(), user);
+    }
+    
+    // Por displayName
+    if (user.displayName) {
+      userByDisplayName.set(user.displayName, user);
+      userByDisplayName.set(user.displayName.toLowerCase(), user);
+      userByDisplayName.set(user.displayName.trim(), user);
+      // Versión sin números
+      userByDisplayName.set(user.displayName.replace(/\d+$/, '').trim(), user);
+      userByDisplayName.set(user.displayName.toLowerCase().replace(/\d+$/, '').trim(), user);
+    }
+    
+    // Por nombre completo (firstName + lastName)
+    if (user.firstName || user.lastName) {
+      const fullName = `${user.firstName || ''} ${user.lastName || ''}`.trim();
+      if (fullName) {
+        userByFullName.set(fullName, user);
+        userByFullName.set(fullName.toLowerCase(), user);
+        // Versión sin números
+        userByFullName.set(fullName.replace(/\d+$/, '').trim(), user);
+        userByFullName.set(fullName.toLowerCase().replace(/\d+$/, '').trim(), user);
+      }
+    }
+    
+    // Por email
+    if (user.publicEmail) {
+      userByEmail.set(user.publicEmail.toLowerCase().trim(), user);
+    }
+    
+    // Por ORCID
+    if (user.orcid) {
+      const cleanOrcid = user.orcid.replace('https://orcid.org/', '').trim();
+      userByOrcid.set(cleanOrcid, user);
+    }
+  });
+  
+  // Contador para estadísticas
+  let matchedCount = 0;
+  let unmatchedCount = 0;
+  
   articles.forEach(article => {
-    if (article.autores && Array.isArray(article.autores)) {
-      article.autores.forEach(author => {
-        // Generar slug del artículo UNA SOLA VEZ aquí
-        const articleSlug = generateSlug(article.titulo || '') + '-' + (article.numeroArticulo || '');
-        
-        // Caso 1: Matching por UID (usuarios registrados)
-        if (author.authorId) {
-          if (!authorArticlesMap.has(author.authorId)) {
-            authorArticlesMap.set(author.authorId, []);
+    if (!article.autores) return;
+    
+    // Normalizar autores a array
+    let autoresArray = [];
+    if (typeof article.autores === 'string') {
+      autoresArray = article.autores.split(';').map(name => ({ name: name.trim() }));
+    } else if (Array.isArray(article.autores)) {
+      autoresArray = article.autores.map(a => {
+        if (typeof a === 'string') return { name: a };
+        return a;
+      });
+    }
+    
+    // Obtener authorIds si existen
+    const authorIds = article.authorIds || [];
+    
+    // Generar slug del artículo UNA SOLA VEZ
+    const articleSlug = generateSlug(article.titulo || '') + '-' + (article.numeroArticulo || '');
+    
+    // Procesar cada autor
+    autoresArray.forEach((author, index) => {
+      const authorName = author.name || `${author.firstName || ''} ${author.lastName || ''}`.trim();
+      const authorEmail = author.email || author.publicEmail || '';
+      const authorOrcid = author.orcid || '';
+      const authorSlug = author.slug || '';
+      const authorId = author.authorId || authorIds[index] || null;
+      
+      console.log(`\n   👤 Procesando autor: "${authorName}"`);
+      console.log(`      AuthorID: ${authorId || 'null'}`);
+      console.log(`      Email: ${authorEmail || 'null'}`);
+      console.log(`      ORCID: ${authorOrcid || 'null'}`);
+      console.log(`      Slug: ${authorSlug || 'null'}`);
+      
+      let matchedUser = null;
+      let matchMethod = '';
+      
+      // 1. Intentar por authorId (UID)
+      if (authorId) {
+        if (userByUid.has(authorId)) {
+          matchedUser = userByUid.get(authorId);
+          matchMethod = 'UID';
+        } else if (userByUid.has(authorId.toLowerCase())) {
+          matchedUser = userByUid.get(authorId.toLowerCase());
+          matchMethod = 'UID (lowercase)';
+        } else if (userByUid.has(authorId.trim())) {
+          matchedUser = userByUid.get(authorId.trim());
+          matchMethod = 'UID (trim)';
+        } else {
+          // Buscar coincidencia parcial de UID
+          for (const [uid, user] of userByUid) {
+            if (uid.includes(authorId) || authorId.includes(uid)) {
+              matchedUser = user;
+              matchMethod = 'UID (parcial)';
+              break;
+            }
           }
-          authorArticlesMap.get(author.authorId).push({
+        }
+      }
+      
+      // 2. Intentar por email
+      if (!matchedUser && authorEmail) {
+        const cleanEmail = authorEmail.toLowerCase().trim();
+        if (userByEmail.has(cleanEmail)) {
+          matchedUser = userByEmail.get(cleanEmail);
+          matchMethod = 'Email';
+        }
+      }
+      
+      // 3. Intentar por ORCID
+      if (!matchedUser && authorOrcid) {
+        const cleanOrcid = authorOrcid.replace('https://orcid.org/', '').trim();
+        if (userByOrcid.has(cleanOrcid)) {
+          matchedUser = userByOrcid.get(cleanOrcid);
+          matchMethod = 'ORCID';
+        }
+      }
+      
+      // 4. Intentar por slug
+      if (!matchedUser && authorSlug) {
+        if (userBySlug.has(authorSlug)) {
+          matchedUser = userBySlug.get(authorSlug);
+          matchMethod = 'Slug';
+        } else if (userBySlug.has(authorSlug.toLowerCase())) {
+          matchedUser = userBySlug.get(authorSlug.toLowerCase());
+          matchMethod = 'Slug (lowercase)';
+        }
+      }
+      
+      // 5. Intentar por nombre exacto
+      if (!matchedUser && authorName) {
+        const cleanName = authorName.trim();
+        if (userByDisplayName.has(cleanName)) {
+          matchedUser = userByDisplayName.get(cleanName);
+          matchMethod = 'DisplayName';
+        } else if (userByDisplayName.has(cleanName.toLowerCase())) {
+          matchedUser = userByDisplayName.get(cleanName.toLowerCase());
+          matchMethod = 'DisplayName (lowercase)';
+        } else if (userByFullName.has(cleanName)) {
+          matchedUser = userByFullName.get(cleanName);
+          matchMethod = 'FullName';
+        } else if (userByFullName.has(cleanName.toLowerCase())) {
+          matchedUser = userByFullName.get(cleanName.toLowerCase());
+          matchMethod = 'FullName (lowercase)';
+        }
+      }
+      
+      // 6. Intentar por nombre normalizado (sin números, sin tildes)
+      if (!matchedUser && authorName) {
+        const normalizedName = authorName.toLowerCase()
+          .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+          .replace(/\d+$/, '')
+          .trim();
+        
+        // Buscar en displayNames
+        for (const [name, user] of userByDisplayName) {
+          const normalizedKey = name.toLowerCase()
+            .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+            .replace(/\d+$/, '')
+            .trim();
+          
+          if (normalizedKey === normalizedName) {
+            matchedUser = user;
+            matchMethod = 'Nombre normalizado';
+            break;
+          }
+        }
+        
+        // Buscar en fullNames
+        if (!matchedUser) {
+          for (const [name, user] of userByFullName) {
+            const normalizedKey = name.toLowerCase()
+              .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+              .replace(/\d+$/, '')
+              .trim();
+            
+            if (normalizedKey === normalizedName) {
+              matchedUser = user;
+              matchMethod = 'Nombre normalizado (fullName)';
+              break;
+            }
+          }
+        }
+      }
+      
+      // 7. Intentar por coincidencia parcial de nombre
+      if (!matchedUser && authorName) {
+        const normalizedName = authorName.toLowerCase()
+          .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+          .replace(/[^a-z0-9]/g, '')
+          .replace(/\d+$/, '');
+        
+        // Buscar coincidencia parcial
+        for (const [name, user] of userByDisplayName) {
+          const normalizedKey = name.toLowerCase()
+            .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+            .replace(/[^a-z0-9]/g, '')
+            .replace(/\d+$/, '');
+          
+          if (normalizedName && normalizedKey) {
+            if (normalizedName.includes(normalizedKey) || normalizedKey.includes(normalizedName)) {
+              const minLength = Math.min(normalizedName.length, normalizedKey.length);
+              if (minLength >= 5) {
+                matchedUser = user;
+                matchMethod = 'Coincidencia parcial';
+                break;
+              }
+            }
+          }
+        }
+      }
+      
+      // 8. Para usuarios anónimos, intentar matching por nombre
+      if (!matchedUser && authorName) {
+        const anonymousUser = users.find(u => 
+          u.isAnonymous && 
+          u.displayName && 
+          u.displayName.toLowerCase().trim() === authorName.toLowerCase().trim()
+        );
+        
+        if (anonymousUser) {
+          matchedUser = anonymousUser;
+          matchMethod = 'Usuario anónimo';
+        }
+      }
+      
+      if (matchedUser && matchedUser.uid) {
+        if (!authorArticlesMap.has(matchedUser.uid)) {
+          authorArticlesMap.set(matchedUser.uid, []);
+        }
+        
+        // Verificar que el artículo no esté duplicado
+        const articleExists = authorArticlesMap.get(matchedUser.uid).some(a => 
+          a.numeroArticulo === article.numeroArticulo
+        );
+        
+        if (!articleExists) {
+          authorArticlesMap.get(matchedUser.uid).push({
             title: article.titulo,
             titleEn: article.tituloEnglish || article.titulo,
             submissionId: article.submissionId,
@@ -163,38 +428,35 @@ function matchAuthorsWithArticles(users, articles) {
             pdfUrl: article.pdfUrl,
             slug: articleSlug
           });
+          matchedCount++;
+          console.log(`      ✅ Match por ${matchMethod}: ${matchedUser.displayName}`);
+        } else {
+          console.log(`      ⚠️ Artículo ya existe para ${matchedUser.displayName}`);
         }
-        
-        // Caso 2: Matching por nombre (autores anónimos)
-        const authorName = author.name?.trim();
-        if (authorName) {
-          // Buscar usuario anónimo por nombre
-          const anonymousUser = users.find(u => 
-            u.isAnonymous && 
-            u.displayName.toLowerCase() === authorName.toLowerCase()
-          );
-          
-          if (anonymousUser) {
-            if (!authorArticlesMap.has(anonymousUser.uid)) {
-              authorArticlesMap.set(anonymousUser.uid, []);
-            }
-            authorArticlesMap.get(anonymousUser.uid).push({
-              title: article.titulo,
-              titleEn: article.tituloEnglish || article.titulo,
-              submissionId: article.submissionId,
-              fecha: article.fecha,
-              volumen: article.volumen,
-              numero: article.numero,
-              area: article.area,
-              numeroArticulo: article.numeroArticulo,
-              pdfUrl: article.pdfUrl,
-              slug: articleSlug
-            });
-          }
-        }
-      });
-    }
+      } else {
+        unmatchedCount++;
+        console.log(`      ❌ No se encontró match para: ${authorName}`);
+      }
+    });
   });
+  
+  // Asignar artículos a cada usuario
+  const usersWithArticles = users.map(user => {
+    const userArticles = authorArticlesMap.get(user.uid) || [];
+    return {
+      ...user,
+      articles: userArticles
+    };
+  });
+  
+  // Estadísticas
+  console.log(`\n📊 Estadísticas de matching:`);
+  console.log(`   ✅ Matches exitosos: ${matchedCount}`);
+  console.log(`   ❌ Sin match: ${unmatchedCount}`);
+  console.log(`   👥 Usuarios con artículos: ${usersWithArticles.filter(u => u.articles.length > 0).length}`);
+  
+  return usersWithArticles;
+}
   
   // Asignar artículos a cada usuario
   const usersWithArticles = users.map(user => {
@@ -1147,7 +1409,6 @@ function generateHtmls(users) {
     console.log(`✅ Generado: ${user.slug}.html para ${user.displayName}${user.isAnonymous ? ' (anónimo)' : ''} - ${user.articles.length} artículos`);
   }
 }
-
 // ========== MODO DE EJECUCIÓN ==========
 async function main() {
   const args = process.argv.slice(2);
@@ -1163,16 +1424,29 @@ async function main() {
   if (mode === 'full' || mode === '--full') {
     console.log('📥 Obteniendo usuarios registrados de Firebase...');
     const registeredUsers = await fetchAllUsers();
+    console.log(`   ✅ ${registeredUsers.length} usuarios registrados obtenidos`);
     
     const anonymousAuthors = await fetchAnonymousAuthors();
+    console.log(`   ✅ ${anonymousAuthors.length} autores anónimos obtenidos`);
+    
     const anonymousUsers = anonymousAuthors.map(author => createAnonymousUser(author));
     
     const allUsers = [...registeredUsers, ...anonymousUsers];
+    console.log(`   📊 Total usuarios: ${allUsers.length} (${registeredUsers.length} registrados + ${anonymousUsers.length} anónimos)`);
     
     const usersWithSlug = assignSlugsPreserving(allUsers, existingUsers);
     
     // MATCHEAR CON ARTÍCULOS
+    console.log('\n🔗 Iniciando matching de autores con artículos...');
     const usersWithArticles = matchAuthorsWithArticles(usersWithSlug, articles);
+    
+    // Debug: mostrar usuarios con artículos
+    const usersWithArticlesCount = usersWithArticles.filter(u => u.articles && u.articles.length > 0);
+    console.log(`\n📊 Resumen de matching:`);
+    console.log(`   ✅ ${usersWithArticlesCount.length} usuarios tienen artículos asociados`);
+    usersWithArticlesCount.forEach(u => {
+      console.log(`   👤 ${u.displayName} (${u.uid}): ${u.articles.length} artículos`);
+    });
     
     generateRedirects(existingUsers, usersWithArticles);
     
@@ -1181,7 +1455,11 @@ async function main() {
     generateHtmls(usersWithArticles);
     generateArticleRedirects(usersWithArticles);
     
-    console.log(`🎉 Build completo finalizado. Total: ${usersWithArticles.length} usuarios (${registeredUsers.length} registrados, ${anonymousUsers.length} anónimos).`);
+    console.log(`\n🎉 Build completo finalizado.`);
+    console.log(`   Total: ${usersWithArticles.length} usuarios`);
+    console.log(`   Registrados: ${registeredUsers.length}`);
+    console.log(`   Anónimos: ${anonymousUsers.length}`);
+    console.log(`   Con artículos: ${usersWithArticlesCount.length}`);
     
   } else if (mode === '--user') {
     const uid = args[1];
@@ -1197,16 +1475,21 @@ async function main() {
       process.exit(1);
     }
     
+    console.log(`   ✅ Usuario encontrado: ${user.displayName}`);
+    
     const otherUsers = existingUsers.filter(u => u.uid !== uid);
     const allUsers = [...otherUsers, user];
     
     const usersWithSlug = assignSlugsPreserving(allUsers, existingUsers);
     
     // MATCHEAR CON ARTÍCULOS
+    console.log('\n🔗 Matcheando usuario con artículos...');
     const usersWithArticles = matchAuthorsWithArticles(usersWithSlug, articles);
     
     const updatedUser = usersWithArticles.find(u => u.uid === uid);
     const oldUser = existingUsers.find(u => u.uid === uid);
+    
+    console.log(`\n📊 Artículos encontrados para ${updatedUser?.displayName}: ${updatedUser?.articles?.length || 0}`);
     
     if (oldUser && oldUser.slug !== updatedUser.slug) {
       console.log(`🔄 Slug cambiado: ${oldUser.slug} → ${updatedUser.slug}`);
@@ -1246,8 +1529,74 @@ async function main() {
     console.log(`1. Crear cuenta con email: ${anonUser.email}`);
     console.log(`2. El equipo editorial asociará su UID con este perfil.`);
     
+  } else if (mode === '--debug-match') {
+    // Modo especial para debug de matching
+    console.log('🔍 MODO DEBUG: Verificando matching de autores...\n');
+    
+    const registeredUsers = await fetchAllUsers();
+    const anonymousAuthors = await fetchAnonymousAuthors();
+    const anonymousUsers = anonymousAuthors.map(author => createAnonymousUser(author));
+    const allUsers = [...registeredUsers, ...anonymousUsers];
+    
+    console.log(`📊 Total usuarios: ${allUsers.length}`);
+    console.log(`📊 Total artículos: ${articles.length}\n`);
+    
+    // Buscar a Josefina específicamente
+    const josefina = allUsers.find(u => 
+      u.displayName?.toLowerCase().includes('josefina') ||
+      u.firstName?.toLowerCase().includes('josefina') ||
+      u.lastName?.toLowerCase().includes('perez') ||
+      u.lastName?.toLowerCase().includes('pérez')
+    );
+    
+    if (josefina) {
+      console.log('👤 Usuario Josefina encontrado:');
+      console.log(JSON.stringify({
+        uid: josefina.uid,
+        displayName: josefina.displayName,
+        firstName: josefina.firstName,
+        lastName: josefina.lastName,
+        slug: josefina.slug,
+        email: josefina.publicEmail,
+        isAnonymous: josefina.isAnonymous
+      }, null, 2));
+    } else {
+      console.log('❌ No se encontró usuario con nombre Josefina');
+    }
+    
+    // Buscar artículos con Josefina
+    const josefinaArticles = articles.filter(article => {
+      const autoresStr = JSON.stringify(article.autores).toLowerCase();
+      return autoresStr.includes('josefina') || 
+             autoresStr.includes('perez') || 
+             autoresStr.includes('pérez');
+    });
+    
+    console.log(`\n📄 Artículos que mencionan a Josefina: ${josefinaArticles.length}`);
+    josefinaArticles.forEach(article => {
+      console.log(`\n   Artículo: ${article.titulo}`);
+      console.log(`   Autores: ${JSON.stringify(article.autores, null, 2)}`);
+      console.log(`   AuthorIds: ${JSON.stringify(article.authorIds || [], null, 2)}`);
+    });
+    
+    // Probar matching
+    console.log('\n🔗 Probando matching...');
+    const usersWithArticles = matchAuthorsWithArticles(allUsers, articles);
+    
+    const josefinaWithArticles = usersWithArticles.find(u => 
+      u.displayName?.toLowerCase().includes('josefina') ||
+      u.firstName?.toLowerCase().includes('josefina')
+    );
+    
+    if (josefinaWithArticles) {
+      console.log(`\n✅ Josefina tiene ${josefinaWithArticles.articles?.length || 0} artículos`);
+      josefinaWithArticles.articles?.forEach(a => {
+        console.log(`   - ${a.title}`);
+      });
+    }
+    
   } else {
-    console.error('❌ Modo no reconocido. Usa: build.js [--full|--user <uid>|--claim <uid> <hash>]');
+    console.error('❌ Modo no reconocido. Usa: build.js [--full|--user <uid>|--claim <uid> <hash>|--debug-match]');
     process.exit(1);
   }
 }
