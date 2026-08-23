@@ -121,35 +121,6 @@ const icons = {
   volume: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>`
 };
 
-// ========== FUNCIÓN PARA OBTENER ARTÍCULOS ==========
-async function fetchAllArticles() {
-  try {
-    console.log('📥 Descargando articles.json...');
-    const response = await fetch(ARTICLES_JSON_URL);
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    const articles = await response.json();
-    console.log(`✅ ${articles.length} artículos cargados`);
-    
-    // Debug: mostrar estructura de los primeros artículos
-    if (articles.length > 0) {
-      console.log('📋 Estructura del primer artículo:');
-      console.log(JSON.stringify({
-        titulo: articles[0].titulo,
-        autores: articles[0].autores,
-        authorIds: articles[0].authorIds,
-        numeroArticulo: articles[0].numeroArticulo,
-        submissionId: articles[0].submissionId
-      }, null, 2));
-    }
-    
-    return articles;
-  } catch (error) {
-    console.error('❌ Error descargando articles.json:', error.message);
-    return [];
-  }
-}
 // ========== MATCHING DE AUTORES CON ARTÍCULOS ==========
 function matchAuthorsWithArticles(users, articles) {
   console.log('🔗 Matcheando autores con sus artículos...');
@@ -236,8 +207,18 @@ function matchAuthorsWithArticles(users, articles) {
     // Obtener authorIds si existen
     const authorIds = article.authorIds || [];
     
-    // Generar slug del artículo UNA SOLA VEZ
-    const articleSlug = generateSlug(article.titulo || '') + '-' + (article.numeroArticulo || '');
+    // GENERAR SLUG DEL ARTÍCULO USANDO PERMALINK SI EXISTE
+    let articleSlug = '';
+    
+    if (article.permalink && article.permalink.trim() !== '') {
+      // Usar el permalink directamente
+      articleSlug = article.permalink;
+      console.log(`   🔗 Usando permalink: ${articleSlug}`);
+    } else {
+      // Generar slug como fallback
+      articleSlug = generateSlug(article.titulo || '') + '-' + (article.numeroArticulo || '');
+      console.log(`   ⚠️ Permalink no encontrado, generando slug: ${articleSlug}`);
+    }
     
     // Procesar cada autor
     autoresArray.forEach((author, index) => {
@@ -426,10 +407,13 @@ function matchAuthorsWithArticles(users, articles) {
             area: article.area,
             numeroArticulo: article.numeroArticulo,
             pdfUrl: article.pdfUrl,
-            slug: articleSlug
+            slug: articleSlug,  // Usar el permalink o slug generado
+            permalink: article.permalink || articleSlug  // Guardar el permalink original
           });
           matchedCount++;
           console.log(`      ✅ Match por ${matchMethod}: ${matchedUser.displayName}`);
+          console.log(`      📄 Artículo: ${article.titulo}`);
+          console.log(`      🔗 Slug: ${articleSlug}`);
         } else {
           console.log(`      ⚠️ Artículo ya existe para ${matchedUser.displayName}`);
         }
@@ -457,23 +441,6 @@ function matchAuthorsWithArticles(users, articles) {
   
   return usersWithArticles;
 }
-  
-  // Asignar artículos a cada usuario
-  const usersWithArticles = users.map(user => {
-    const userArticles = authorArticlesMap.get(user.uid) || [];
-    return {
-      ...user,
-      articles: userArticles
-    };
-  });
-  
-  // Estadísticas
-  const usersWithArticlesCount = usersWithArticles.filter(u => u.articles.length > 0).length;
-  console.log(`✅ ${usersWithArticlesCount} usuarios tienen artículos asociados`);
-  
-  return usersWithArticles;
-}
-
 // ========== GENERAR REDIRECCIONES PARA ARTÍCULOS ==========
 function generateArticleRedirects(users) {
   console.log('🔄 Generando redirecciones para artículos...');
@@ -484,8 +451,8 @@ function generateArticleRedirects(users) {
   users.forEach(user => {
     user.articles.forEach(article => {
       if (article.submissionId) {
-        // Asegurarse de que el slug existe
-        const slug = article.slug || (generateSlug(article.title || '') + '-' + (article.numeroArticulo || ''));
+        // Usar el permalink si existe, o generar slug como fallback
+        const slug = article.permalink || article.slug || (generateSlug(article.title || '') + '-' + (article.numeroArticulo || ''));
         redirectMap.set(article.submissionId, slug);
       }
     });
@@ -599,8 +566,8 @@ const visibleRoles =
     `;
   }
 
-  // ========== SECCIÓN DE ARTÍCULOS MEJORADA ==========
-  const articlesHtml = user.articles && user.articles.length > 0 ? `
+// En la sección de artículos del HTML generado
+const articlesHtml = user.articles && user.articles.length > 0 ? `
   <section class="articles-section">
     <h2 class="section-title">
       ${isSpanish ? 'Publicaciones' : 'Publications'}
@@ -612,8 +579,8 @@ const visibleRoles =
         const año = fecha.getFullYear();
         const mes = fecha.toLocaleString(isSpanish ? 'es' : 'en', { month: 'short' });
         
-        // Usar el slug guardado, o generarlo como fallback
-        const articleSlug = article.slug || (generateSlug(article.title || '') + '-' + (article.numeroArticulo || ''));
+        // USAR PERMALINK SI EXISTE, O SLUG COMO FALLBACK
+        const articleSlug = article.permalink || article.slug || (generateSlug(article.title || '') + '-' + (article.numeroArticulo || ''));
         
         return `
         <a href="/articles/article-${articleSlug}.html" class="article-card">
