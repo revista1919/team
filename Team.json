@@ -41,7 +41,8 @@
         "area": "Filosofía",
         "numeroArticulo": 16,
         "pdfUrl": "https://revista1919.github.io/articless/pdfs/Article-el-universo-las-matematicas-y-la-existencia-de-dios-16.pdf",
-        "slug": "el-universo-las-matematicas-y-la-existencia-de-dios-16"
+        "slug": "el-universo-las-matematicas-y-la-existencia-de-dios-16",
+        "permalink": "el-universo-las-matematicas-y-la-existencia-de-dios-16"
       }
     ]
   },
@@ -69,7 +70,21 @@
     "slug": "roberto-diaz",
     "isAnonymous": false,
     "claimHash": null,
-    "articles": []
+    "articles": [
+      {
+        "title": "Del Somocismo al Sandinismo: La Guerra Fría y la Lucha por el Poder en Nicaragua",
+        "titleEn": "Del Somocismo al Sandinismo: La Guerra Fría y la Lucha por el Poder en Nicaragua",
+        "submissionId": "LEGACY-1771278765644-0WBL03530",
+        "fecha": "2025-11-29",
+        "volumen": "1",
+        "numero": "1",
+        "area": "Historia de Nicaragua durante la Guerra Fría",
+        "numeroArticulo": "5",
+        "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-del-somocismo-al-sandinismo-la-guerra-fria-y-la-lucha-por-el-poder-en-nicaragua-5.pdf",
+        "slug": "del-somocismo-al-sandinismo-la-guerra-fria-y-la-lucha-por-el-poder-en-nicaragua-5",
+        "permalink": "del-somocismo-al-sandinismo-la-guerra-fria-y-la-lucha-por-el-poder-en-nicaragua-5"
+      }
+    ]
   },
   {
     "uid": "47ZgaVGBZFU9kwmJZpl8K8ujMab2",
@@ -118,7 +133,8 @@
         "area": "Historia del Ajedrez en la Guerra Fría",
         "numeroArticulo": "8",
         "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-el-ajedrez-un-estudio-sobre-el-impacto-cultural-del-ajedrez-durante-la-guerra-fria-y-su-simbolismo-ideologico-en-chile-8.pdf",
-        "slug": "el-ajedrez-un-estudio-sobre-el-impacto-cultural-del-ajedrez-durante-la-guerra-fria-y-su-simbolismo-ideologico-en-chile-8"
+        "slug": "el-ajedrez-un-estudio-sobre-el-impacto-cultural-del-ajedrez-durante-la-guerra-fria-y-su-simbolismo-ideologico-en-chile-8",
+        "permalink": "el-ajedrez-un-estudio-sobre-el-impacto-cultural-del-ajedrez-durante-la-guerra-fria-y-su-simbolismo-ideologico-en-chile-8"
       }
     ]
   },
@@ -157,7 +173,8 @@
         "area": "Historia de Vietnam en la Guerra Fría",
         "numeroArticulo": "7",
         "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-evaluar-y-contrastar-las-transformaciones-de-las-estructuras-sociales-ocurridas-en-vietnam-y-sudafrica-durante-la-guerra-fria-7.pdf",
-        "slug": "evaluar-y-contrastar-las-transformaciones-de-las-estructuras-sociales-ocurridas-en-vietnam-y-sudafrica-durante-la-guerra-fria-7"
+        "slug": "evaluar-y-contrastar-las-transformaciones-de-las-estructuras-sociales-ocurridas-en-vietnam-y-sudafrica-durante-la-guerra-fria-7",
+        "permalink": "evaluar-y-contrastar-las-transformaciones-de-las-estructuras-sociales-ocurridas-en-vietnam-y-sudafrica-durante-la-guerra-fria-7"
       }
     ]
   },
@@ -185,7 +202,21 @@
     "slug": "camilo-flores",
     "isAnonymous": false,
     "claimHash": null,
-    "articles": []
+    "articles": [
+      {
+        "title": "La Música y el Cine como Métodos de Propaganda en la Guerra Fría",
+        "titleEn": "La Música y el Cine como Métodos de Propaganda en la Guerra Fría",
+        "submissionId": "LEGACY-1771278764419-TMZ3X2FRW",
+        "fecha": "2025-11-29",
+        "volumen": "1",
+        "numero": "1",
+        "area": "Historia de Latinoamérica en la Guerra Fría",
+        "numeroArticulo": "6",
+        "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-la-musica-y-el-cine-como-metodos-de-propaganda-en-la-guerra-fria-6.pdf",
+        "slug": "la-musica-y-el-cine-como-metodos-de-propaganda-en-la-guerra-fria-6",
+        "permalink": "la-musica-y-el-cine-como-metodos-de-propaganda-en-la-guerra-fria-6"
+      }
+    ]
   },
   {
     "uid": "6zP7dqLbLkf0Bww46MjGmN5y6J33",
@@ -287,7 +318,8 @@
         "area": "Nutrición y Salud Pública Chilena",
         "numeroArticulo": "2",
         "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-historia-e-impacto-del-yodo-en-la-salud-chilena-2.pdf",
-        "slug": "historia-e-impacto-del-yodo-en-la-salud-chilena-2"
+        "slug": "historia-e-impacto-del-yodo-en-la-salud-chilena-2",
+        "permalink": "historia-e-impacto-del-yodo-en-la-salud-chilena-2"
       }
     ]
   },
@@ -326,7 +358,8 @@
         "area": "Neurobiología del sueño",
         "numeroArticulo": "10",
         "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-el-sueno-humano-y-sus-ciclos-bases-neurobiologicas-y-consecuencias-de-la-privacion-del-descanso-10.pdf",
-        "slug": "el-sueno-humano-y-sus-ciclos-bases-neurobiologicas-y-consecuencias-de-la-privacion-del-descanso-10"
+        "slug": "el-sueno-humano-y-sus-ciclos-bases-neurobiologicas-y-consecuencias-de-la-privacion-del-descanso-10",
+        "permalink": "el-sueno-humano-y-sus-ciclos-bases-neurobiologicas-y-consecuencias-de-la-privacion-del-descanso-10"
       }
     ]
   },
@@ -427,7 +460,8 @@
         "area": "Neurobiología del sueño",
         "numeroArticulo": "10",
         "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-el-sueno-humano-y-sus-ciclos-bases-neurobiologicas-y-consecuencias-de-la-privacion-del-descanso-10.pdf",
-        "slug": "el-sueno-humano-y-sus-ciclos-bases-neurobiologicas-y-consecuencias-de-la-privacion-del-descanso-10"
+        "slug": "el-sueno-humano-y-sus-ciclos-bases-neurobiologicas-y-consecuencias-de-la-privacion-del-descanso-10",
+        "permalink": "el-sueno-humano-y-sus-ciclos-bases-neurobiologicas-y-consecuencias-de-la-privacion-del-descanso-10"
       }
     ]
   },
@@ -505,7 +539,8 @@
         "area": "Historia de la Humanidad",
         "numeroArticulo": "9",
         "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-book-review-de-animales-a-dioses-breve-historia-de-la-humanidad-9.pdf",
-        "slug": "book-review-de-animales-a-dioses-breve-historia-de-la-humanidad-9"
+        "slug": "book-review-de-animales-a-dioses-breve-historia-de-la-humanidad-9",
+        "permalink": "book-review-de-animales-a-dioses-breve-historia-de-la-humanidad-9"
       },
       {
         "title": "El Sueño Humano y Sus Ciclos: Bases Neurobiológicas y Consecuencias de la Privación del Descanso",
@@ -517,7 +552,8 @@
         "area": "Neurobiología del sueño",
         "numeroArticulo": "10",
         "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-el-sueno-humano-y-sus-ciclos-bases-neurobiologicas-y-consecuencias-de-la-privacion-del-descanso-10.pdf",
-        "slug": "el-sueno-humano-y-sus-ciclos-bases-neurobiologicas-y-consecuencias-de-la-privacion-del-descanso-10"
+        "slug": "el-sueno-humano-y-sus-ciclos-bases-neurobiologicas-y-consecuencias-de-la-privacion-del-descanso-10",
+        "permalink": "el-sueno-humano-y-sus-ciclos-bases-neurobiologicas-y-consecuencias-de-la-privacion-del-descanso-10"
       },
       {
         "title": "El Reloj de Flores de Viña del Mar como Conmemoración de la Copa Mundial de 1962 y su Influencia en el Turismo y la Economía Local",
@@ -529,7 +565,8 @@
         "area": "Historia y Turismo",
         "numeroArticulo": "11",
         "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-el-reloj-de-flores-de-vina-del-mar-como-conmemoracion-de-la-copa-mundial-de-1962-y-su-influencia-en-el-turismo-y-la-economia-local-11.pdf",
-        "slug": "el-reloj-de-flores-de-vina-del-mar-como-conmemoracion-de-la-copa-mundial-de-1962-y-su-influencia-en-el-turismo-y-la-economia-local-11"
+        "slug": "el-reloj-de-flores-de-vina-del-mar-como-conmemoracion-de-la-copa-mundial-de-1962-y-su-influencia-en-el-turismo-y-la-economia-local-11",
+        "permalink": "el-reloj-de-flores-de-vina-del-mar-como-conmemoracion-de-la-copa-mundial-de-1962-y-su-influencia-en-el-turismo-y-la-economia-local-11"
       }
     ]
   },
@@ -600,7 +637,8 @@
         "area": "Historia de Latinoamérica en la Guerra Fría",
         "numeroArticulo": "6",
         "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-la-musica-y-el-cine-como-metodos-de-propaganda-en-la-guerra-fria-6.pdf",
-        "slug": "la-musica-y-el-cine-como-metodos-de-propaganda-en-la-guerra-fria-6"
+        "slug": "la-musica-y-el-cine-como-metodos-de-propaganda-en-la-guerra-fria-6",
+        "permalink": "la-musica-y-el-cine-como-metodos-de-propaganda-en-la-guerra-fria-6"
       }
     ]
   },
@@ -686,7 +724,8 @@
         "area": "Historia del s. XX Chilena",
         "numeroArticulo": "1",
         "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-impacto-sociodemografico-de-las-politicas-de-reforma-agraria-en-el-valle-del-aconcagua-1.pdf",
-        "slug": "impacto-sociodemografico-de-las-politicas-de-reforma-agraria-en-el-valle-del-aconcagua-1"
+        "slug": "impacto-sociodemografico-de-las-politicas-de-reforma-agraria-en-el-valle-del-aconcagua-1",
+        "permalink": "impacto-sociodemografico-de-las-politicas-de-reforma-agraria-en-el-valle-del-aconcagua-1"
       }
     ]
   },
@@ -725,9 +764,37 @@
         "area": "Políticas Sociales",
         "numeroArticulo": "12",
         "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-analisis-de-experiencia-comparada-sobre-programas-de-proteccion-para-hijos-de-personas-privadas-de-libertad-en-relacion-al-caso-del-programa-abriendo-caminos-de-chile-12.pdf",
-        "slug": "analisis-de-experiencia-comparada-sobre-programas-de-proteccion-para-hijos-de-personas-privadas-de-libertad-en-relacion-al-caso-del-programa-abriendo-caminos-de-chile-12"
+        "slug": "analisis-de-experiencia-comparada-sobre-programas-de-proteccion-para-hijos-de-personas-privadas-de-libertad-en-relacion-al-caso-del-programa-abriendo-caminos-de-chile-qbFDH",
+        "permalink": "analisis-de-experiencia-comparada-sobre-programas-de-proteccion-para-hijos-de-personas-privadas-de-libertad-en-relacion-al-caso-del-programa-abriendo-caminos-de-chile-qbFDH"
       }
     ]
+  },
+  {
+    "uid": "NxA51whca6amZIFWqmS5wn3jzsz2",
+    "displayName": "Danilo Javier Carmona Rammsy",
+    "firstName": "Danilo Javier",
+    "lastName": "Carmona Rammsy",
+    "roles": [
+      "Autor",
+      "Asesor Académico"
+    ],
+    "description": {
+      "es": "Mi nombre es Danilo J. Carmona Rammsy, Bioquímico y Doctor en Ciencias con mención en Química por la Universidad de Concepción; Diploma en Docencia en Educación Superior por la Universidad de La Serena.\nMis líneas de investigación se enfocan en la química teórica y computacional (en particular, métodos DFT), la ciencia de datos y la bioinformática aplicada, las que he desarrollado a través de mis estudios de doctorado y experiencias postdoctorales. En el ámbito de la docencia, me he desempeñado como profesor e instructor en diversas áreas de la química; química general, orgánica, inorgánica, analítica y fisicoquímica, tanto en la Universidad Austral de Chile como en la Universidad de Concepción.\nAdemás, fui docente del programa Talentos UdeC (2018–2020), donde creé y dicté cursos y talleres como \"La máquina imposible\" y \"Construyendo un modelo molecular\". Actualmente me desempeño como docente en Penta UC a cargo del curso \"Visualizando el mundo cuántico\", donde analizamos el concepto de orbital a partir de primeros principios.",
+      "en": "Mi nombre es Danilo J. Carmona Rammsy, Bioquímico y Doctor en Ciencias con mención en Química por la Universidad de Concepción; Diploma en Docencia en Educación Superior por la Universidad de La Serena.\nMis líneas de investigación se enfocan en la química teórica y computacional (en particular, métodos DFT), la ciencia de datos y la bioinformática aplicada, las que he desarrollado a través de mis estudios de doctorado y experiencias postdoctorales. En el ámbito de la docencia, me he desempeñado como profesor e instructor en diversas áreas de la química; química general, orgánica, inorgánica, analítica y fisicoquímica, tanto en la Universidad Austral de Chile como en la Universidad de Concepción.\nAdemás, fui docente del programa Talentos UdeC (2018–2020), donde creé y dicté cursos y talleres como \"La máquina imposible\" y \"Construyendo un modelo molecular\". Actualmente me desempeño como docente en Penta UC a cargo del curso \"Visualizando el mundo cuántico\", donde analizamos el concepto de orbital a partir de primeros principios."
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "",
+    "orcid": "0009-0009-4700-079X",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "https://i.ibb.co/7trqPRHK/foto-jpg.jpg",
+    "slug": "danilo-javier-carmona-rammsy",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
   },
   {
     "uid": "PUfEv6PN9mZ9tEkEfn8ZRdpb5WW2",
@@ -1045,7 +1112,8 @@
         "area": "Historia del Ajedrez en la Guerra Fría",
         "numeroArticulo": "8",
         "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-el-ajedrez-un-estudio-sobre-el-impacto-cultural-del-ajedrez-durante-la-guerra-fria-y-su-simbolismo-ideologico-en-chile-8.pdf",
-        "slug": "el-ajedrez-un-estudio-sobre-el-impacto-cultural-del-ajedrez-durante-la-guerra-fria-y-su-simbolismo-ideologico-en-chile-8"
+        "slug": "el-ajedrez-un-estudio-sobre-el-impacto-cultural-del-ajedrez-durante-la-guerra-fria-y-su-simbolismo-ideologico-en-chile-8",
+        "permalink": "el-ajedrez-un-estudio-sobre-el-impacto-cultural-del-ajedrez-durante-la-guerra-fria-y-su-simbolismo-ideologico-en-chile-8"
       }
     ]
   },
@@ -1084,7 +1152,8 @@
         "area": "Historia del Terrorismo en Perú durante la Guerra Fría",
         "numeroArticulo": "3",
         "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-sendero-luminoso-cuando-el-pueblo-tambien-es-un-enemigo-3.pdf",
-        "slug": "sendero-luminoso-cuando-el-pueblo-tambien-es-un-enemigo-3"
+        "slug": "sendero-luminoso-cuando-el-pueblo-tambien-es-un-enemigo-3",
+        "permalink": "sendero-luminoso-cuando-el-pueblo-tambien-es-un-enemigo-3"
       },
       {
         "title": "Fundamentos generales de la sociedad-estado Taxicraticos",
@@ -1096,7 +1165,8 @@
         "area": "Teoría Política",
         "numeroArticulo": 15,
         "pdfUrl": "https://revista1919.github.io/articless/pdfs/Article-fundamentos-generales-de-la-sociedad-estado-taxicr-15.pdf",
-        "slug": "fundamentos-generales-de-la-sociedad-estado-taxicraticos-15"
+        "slug": "fundamentos-generales-de-la-sociedad-estado-taxicraticos-15",
+        "permalink": "fundamentos-generales-de-la-sociedad-estado-taxicraticos-15"
       }
     ]
   },
@@ -1159,7 +1229,8 @@
         "area": "Lengua y Literatura",
         "numeroArticulo": 13,
         "pdfUrl": "https://revista1919.github.io/articless/pdfs/Article-las-medias-rojas-smbolo-de-libertad-femenina-frent-13.pdf",
-        "slug": "las-medias-rojas-simbolo-de-libertad-femenina-frente-al-patriarcado-13"
+        "slug": "las-medias-rojas-simbolo-de-libertad-femenina-frente-al-patriarcado-13",
+        "permalink": "las-medias-rojas-simbolo-de-libertad-femenina-frente-al-patriarcado-13"
       }
     ]
   },
@@ -1187,7 +1258,21 @@
     "slug": "sofia-flores",
     "isAnonymous": false,
     "claimHash": null,
-    "articles": []
+    "articles": [
+      {
+        "title": "Panamá en la Guerra Fría: Comparativa del Antes y Durante de su Utilización Estratégica de EE.UU",
+        "titleEn": "Panamá en la Guerra Fría: Comparativa del Antes y Durante de su Utilización Estratégica de EE.UU",
+        "submissionId": "LEGACY-1771278764001-SPGM4FEBV",
+        "fecha": "2025-11-29",
+        "volumen": "1",
+        "numero": "1",
+        "area": "Historia de América Latina durante la Guerra Fría",
+        "numeroArticulo": "4",
+        "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-panama-en-la-guerra-fria-comparativa-del-antes-y-durante-de-su-utilizacion-estrategica-de-eeuu-4.pdf",
+        "slug": "panama-en-la-guerra-fria-comparativa-del-antes-y-durante-de-su-utilizacion-estrategica-de-ee-uu-4",
+        "permalink": "panama-en-la-guerra-fria-comparativa-del-antes-y-durante-de-su-utilizacion-estrategica-de-ee-uu-4"
+      }
+    ]
   },
   {
     "uid": "i8sGO7Qvx5gZ4VXjtmWUUSrWbqT2",
@@ -1224,7 +1309,8 @@
         "area": "Historia de Vietnam en la Guerra Fría",
         "numeroArticulo": "7",
         "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-evaluar-y-contrastar-las-transformaciones-de-las-estructuras-sociales-ocurridas-en-vietnam-y-sudafrica-durante-la-guerra-fria-7.pdf",
-        "slug": "evaluar-y-contrastar-las-transformaciones-de-las-estructuras-sociales-ocurridas-en-vietnam-y-sudafrica-durante-la-guerra-fria-7"
+        "slug": "evaluar-y-contrastar-las-transformaciones-de-las-estructuras-sociales-ocurridas-en-vietnam-y-sudafrica-durante-la-guerra-fria-7",
+        "permalink": "evaluar-y-contrastar-las-transformaciones-de-las-estructuras-sociales-ocurridas-en-vietnam-y-sudafrica-durante-la-guerra-fria-7"
       }
     ]
   },
@@ -1252,7 +1338,21 @@
     "slug": "magdalena-leal",
     "isAnonymous": false,
     "claimHash": null,
-    "articles": []
+    "articles": [
+      {
+        "title": "Del Somocismo al Sandinismo: La Guerra Fría y la Lucha por el Poder en Nicaragua",
+        "titleEn": "Del Somocismo al Sandinismo: La Guerra Fría y la Lucha por el Poder en Nicaragua",
+        "submissionId": "LEGACY-1771278765644-0WBL03530",
+        "fecha": "2025-11-29",
+        "volumen": "1",
+        "numero": "1",
+        "area": "Historia de Nicaragua durante la Guerra Fría",
+        "numeroArticulo": "5",
+        "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-del-somocismo-al-sandinismo-la-guerra-fria-y-la-lucha-por-el-poder-en-nicaragua-5.pdf",
+        "slug": "del-somocismo-al-sandinismo-la-guerra-fria-y-la-lucha-por-el-poder-en-nicaragua-5",
+        "permalink": "del-somocismo-al-sandinismo-la-guerra-fria-y-la-lucha-por-el-poder-en-nicaragua-5"
+      }
+    ]
   },
   {
     "uid": "mCaKZ93suhRHWu69IrJQgwVuxPh2",
@@ -1336,7 +1436,8 @@
         "area": "Historia del Terrorismo en Perú durante la Guerra Fría",
         "numeroArticulo": "3",
         "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-sendero-luminoso-cuando-el-pueblo-tambien-es-un-enemigo-3.pdf",
-        "slug": "sendero-luminoso-cuando-el-pueblo-tambien-es-un-enemigo-3"
+        "slug": "sendero-luminoso-cuando-el-pueblo-tambien-es-un-enemigo-3",
+        "permalink": "sendero-luminoso-cuando-el-pueblo-tambien-es-un-enemigo-3"
       }
     ]
   },
@@ -1495,10 +1596,24 @@
     "slug": "cristobal-rojas",
     "isAnonymous": false,
     "claimHash": null,
-    "articles": []
+    "articles": [
+      {
+        "title": "Panamá en la Guerra Fría: Comparativa del Antes y Durante de su Utilización Estratégica de EE.UU",
+        "titleEn": "Panamá en la Guerra Fría: Comparativa del Antes y Durante de su Utilización Estratégica de EE.UU",
+        "submissionId": "LEGACY-1771278764001-SPGM4FEBV",
+        "fecha": "2025-11-29",
+        "volumen": "1",
+        "numero": "1",
+        "area": "Historia de América Latina durante la Guerra Fría",
+        "numeroArticulo": "4",
+        "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-panama-en-la-guerra-fria-comparativa-del-antes-y-durante-de-su-utilizacion-estrategica-de-eeuu-4.pdf",
+        "slug": "panama-en-la-guerra-fria-comparativa-del-antes-y-durante-de-su-utilizacion-estrategica-de-ee-uu-4",
+        "permalink": "panama-en-la-guerra-fria-comparativa-del-antes-y-durante-de-su-utilizacion-estrategica-de-ee-uu-4"
+      }
+    ]
   },
   {
-    "uid": "anon-pascalcea08-mt68xz41",
+    "uid": "anon-pascalcea08-mt7gw9yh",
     "displayName": "pascalcea08",
     "firstName": "pascalcea08",
     "lastName": "",
@@ -1518,13 +1633,13 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "pascalcea08",
+    "slug": "pascalcea081",
     "isAnonymous": true,
     "claimHash": "f1c37cfcf42c3f26",
     "articles": []
   },
   {
-    "uid": "anon-joseignaciocarterpalma-mt68xz41",
+    "uid": "anon-joseignaciocarterpalma-mt7gw9yh",
     "displayName": "joseignaciocarterpalma",
     "firstName": "joseignaciocarterpalma",
     "lastName": "",
@@ -1544,13 +1659,13 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "joseignaciocarterpalma",
+    "slug": "joseignaciocarterpalma1",
     "isAnonymous": true,
     "claimHash": "3613436c399d1452",
     "articles": []
   },
   {
-    "uid": "anon-jose-mt68xz41",
+    "uid": "anon-jose-mt7gw9yh",
     "displayName": "José",
     "firstName": "José",
     "lastName": "",
@@ -1570,13 +1685,13 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "jose",
+    "slug": "jose1",
     "isAnonymous": true,
     "claimHash": "3613436c399d1452",
     "articles": []
   },
   {
-    "uid": "anon-phie-bravo-mt68xz41",
+    "uid": "anon-phie-bravo-mt7gw9yh",
     "displayName": "phie.bravo",
     "firstName": "phie.bravo",
     "lastName": "",
@@ -1596,13 +1711,13 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "phie-bravo",
+    "slug": "phie-bravo1",
     "isAnonymous": true,
     "claimHash": "c4c22a467d7aa957",
     "articles": []
   },
   {
-    "uid": "anon-cristobal-rojas-m-mt68xz41",
+    "uid": "anon-cristobal-rojas-m-mt7gw9yh",
     "displayName": "cristobal.rojas.m",
     "firstName": "cristobal.rojas.m",
     "lastName": "",
@@ -1622,13 +1737,13 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "cristobal-rojas-m",
+    "slug": "cristobal-rojas-m1",
     "isAnonymous": true,
     "claimHash": "0dd09c1c0cf0eb8e",
     "articles": []
   },
   {
-    "uid": "anon-jun-ho-jeon-acevedo-mt68xz41",
+    "uid": "anon-jun-ho-jeon-acevedo-mt7gw9yi",
     "displayName": "jun.ho.jeon.acevedo",
     "firstName": "jun.ho.jeon.acevedo",
     "lastName": "",
@@ -1648,13 +1763,13 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "jun-ho-jeon-acevedo",
+    "slug": "jun-ho-jeon-acevedo1",
     "isAnonymous": true,
     "claimHash": "68cc5e7905ec4a04",
     "articles": []
   },
   {
-    "uid": "anon-javieritoalonso-vergara-mt68xz41",
+    "uid": "anon-javieritoalonso-vergara-mt7gw9yi",
     "displayName": "javieritoalonso.vergara",
     "firstName": "javieritoalonso.vergara",
     "lastName": "",
@@ -1674,13 +1789,13 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "javieritoalonso-vergara",
+    "slug": "javieritoalonso-vergara1",
     "isAnonymous": true,
     "claimHash": "b4c985b509f5a9f2",
     "articles": []
   },
   {
-    "uid": "anon-aster-maturana-mt68xz41",
+    "uid": "anon-aster-maturana-mt7gw9yi",
     "displayName": "aster.maturana",
     "firstName": "aster.maturana",
     "lastName": "",
@@ -1700,13 +1815,13 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "aster-maturana",
+    "slug": "aster-maturana1",
     "isAnonymous": true,
     "claimHash": "6450c6e5363169b6",
     "articles": []
   },
   {
-    "uid": "anon-magdalena-leal-ocares-mt68xz41",
+    "uid": "anon-magdalena-leal-ocares-mt7gw9yi",
     "displayName": "magdalena.leal.ocares",
     "firstName": "magdalena.leal.ocares",
     "lastName": "",
@@ -1726,13 +1841,13 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "magdalena-leal-ocares",
+    "slug": "magdalena-leal-ocares1",
     "isAnonymous": true,
     "claimHash": "c2d63719b00f912a",
     "articles": []
   },
   {
-    "uid": "anon-santiago-vargas-mt68xz41",
+    "uid": "anon-santiago-vargas-mt7gw9yi",
     "displayName": "Santiago Vargas",
     "firstName": "Santiago Vargas",
     "lastName": "",
@@ -1752,38 +1867,13 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "santiago-vargas1",
+    "slug": "santiago-vargas2",
     "isAnonymous": true,
     "claimHash": "4107c792f1a33f0b",
-    "articles": [
-      {
-        "title": "Sendero Luminoso: Cuando el Pueblo También es un Enemigo",
-        "titleEn": "Sendero Luminoso: Cuando el Pueblo También es un Enemigo",
-        "submissionId": "LEGACY-1771278765240-4E5POZ1OL",
-        "fecha": "2025-11-29",
-        "volumen": "1",
-        "numero": "1",
-        "area": "Historia del Terrorismo en Perú durante la Guerra Fría",
-        "numeroArticulo": "3",
-        "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-sendero-luminoso-cuando-el-pueblo-tambien-es-un-enemigo-3.pdf",
-        "slug": "sendero-luminoso-cuando-el-pueblo-tambien-es-un-enemigo-3"
-      },
-      {
-        "title": "Fundamentos generales de la sociedad-estado Taxicraticos",
-        "titleEn": "Fundamentos generales de la sociedad-estado Taxicraticos",
-        "submissionId": "LEGACY-1771278766858-9NNN57SOW",
-        "fecha": "2026-05-09",
-        "volumen": "2",
-        "numero": "1",
-        "area": "Teoría Política",
-        "numeroArticulo": 15,
-        "pdfUrl": "https://revista1919.github.io/articless/pdfs/Article-fundamentos-generales-de-la-sociedad-estado-taxicr-15.pdf",
-        "slug": "fundamentos-generales-de-la-sociedad-estado-taxicraticos-15"
-      }
-    ]
+    "articles": []
   },
   {
-    "uid": "anon-diego-duran-t92-mt68xz41",
+    "uid": "anon-diego-duran-t92-mt7gw9yi",
     "displayName": "diego.duran.t92",
     "firstName": "diego.duran.t92",
     "lastName": "",
@@ -1803,13 +1893,13 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "diego-duran-t92",
+    "slug": "diego-duran-t921",
     "isAnonymous": true,
     "claimHash": "7fe77163eda99130",
     "articles": []
   },
   {
-    "uid": "anon-amir-carbonell-mt68xz41",
+    "uid": "anon-amir-carbonell-mt7gw9yi",
     "displayName": "Amir Carbonell",
     "firstName": "Amir",
     "lastName": "Carbonell",
@@ -1829,7 +1919,7 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "amir-carbonell1",
+    "slug": "amir-carbonell2",
     "isAnonymous": true,
     "claimHash": "4e556796f61b4b17",
     "articles": [
@@ -1843,12 +1933,13 @@
         "area": "Astrofísica Computacional",
         "numeroArticulo": 14,
         "pdfUrl": "https://revista1919.github.io/articless/pdfs/Article-interacciones-gravitacionales-en-sistemas-galctico-14.pdf",
-        "slug": "interacciones-gravitacionales-en-sistemas-galacticos-14"
+        "slug": "interacciones-gravitacionales-en-sistemas-galacticos-14",
+        "permalink": "interacciones-gravitacionales-en-sistemas-galacticos-14"
       }
     ]
   },
   {
-    "uid": "anon-amelia-ribadeneira-mt68xz41",
+    "uid": "anon-amelia-ribadeneira-mt7gw9yi",
     "displayName": "Amelia Ribadeneira",
     "firstName": "Amelia",
     "lastName": "Ribadeneira",
@@ -1868,26 +1959,13 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "amelia-ribadeneira2",
+    "slug": "amelia-ribadeneira1",
     "isAnonymous": true,
     "claimHash": "ed420b08a85cf384",
-    "articles": [
-      {
-        "title": "Las medias rojas: símbolo de libertad femenina frente al patriarcado",
-        "titleEn": "Las medias rojas: símbolo de libertad femenina frente al patriarcado",
-        "submissionId": "SUB-1773359015493-ZOFB1OSLS",
-        "fecha": "2026-04-13",
-        "volumen": "2",
-        "numero": "1",
-        "area": "Lengua y Literatura",
-        "numeroArticulo": 13,
-        "pdfUrl": "https://revista1919.github.io/articless/pdfs/Article-las-medias-rojas-smbolo-de-libertad-femenina-frent-13.pdf",
-        "slug": "las-medias-rojas-simbolo-de-libertad-femenina-frente-al-patriarcado-13"
-      }
-    ]
+    "articles": []
   },
   {
-    "uid": "anon-josefina-perez-mt68xz41",
+    "uid": "anon-josefina-perez-mt7gw9yi",
     "displayName": "Josefina Pérez",
     "firstName": "Josefina",
     "lastName": "Pérez",
@@ -1907,26 +1985,13 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "josefina-perez",
+    "slug": "josefina-perez1",
     "isAnonymous": true,
     "claimHash": "e5c6631b0da25a6c",
-    "articles": [
-      {
-        "title": "El Universo, las matemáticas y la existencia de Dios",
-        "titleEn": "Universe, Matematics, and the Existence of God",
-        "submissionId": "SUB-1780802806237-C72XO6DZ6",
-        "fecha": "2026-08-21",
-        "volumen": "2",
-        "numero": "2",
-        "area": "Filosofía",
-        "numeroArticulo": 16,
-        "pdfUrl": "https://revista1919.github.io/articless/pdfs/Article-el-universo-las-matematicas-y-la-existencia-de-dios-16.pdf",
-        "slug": "el-universo-las-matematicas-y-la-existencia-de-dios-16"
-      }
-    ]
+    "articles": []
   },
   {
-    "uid": "anon-marina-soto-mt68xz41",
+    "uid": "anon-marina-soto-mt7gw9yi",
     "displayName": "Marina Soto",
     "firstName": "Marina",
     "lastName": "Soto",
@@ -1946,13 +2011,13 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "marina-soto2",
+    "slug": "marina-soto1",
     "isAnonymous": true,
     "claimHash": "9e323367eed7c982",
     "articles": []
   },
   {
-    "uid": "anon-jefferson-estimadisimo-mt68xz41",
+    "uid": "anon-jefferson-estimadisimo-mt7gw9yi",
     "displayName": "Jefferson Estimadísimo",
     "firstName": "Jefferson",
     "lastName": "Estimadísimo",
@@ -1972,7 +2037,7 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "jefferson-estimadisimo",
+    "slug": "jefferson-estimadisimo1",
     "isAnonymous": true,
     "claimHash": "1e19b23d4240427e",
     "articles": []
