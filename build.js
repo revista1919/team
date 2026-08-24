@@ -565,7 +565,22 @@ const visibleRoles =
       <div class="profile-inst"><a href="mailto:${user.publicEmail}">${user.publicEmail}</a></div>
     `;
   }
-
+// ========== FUNCIÓN PARA OBTENER ARTÍCULOS ==========
+async function fetchAllArticles() {
+  try {
+    console.log('📥 Descargando articles.json...');
+    const response = await fetch(ARTICLES_JSON_URL);
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const articles = await response.json();
+    console.log(`✅ ${articles.length} artículos cargados`);
+    return articles;
+  } catch (error) {
+    console.error('❌ Error descargando articles.json:', error.message);
+    return [];
+  }
+}
 // En la sección de artículos del HTML generado
 const articlesHtml = user.articles && user.articles.length > 0 ? `
   <section class="articles-section">
