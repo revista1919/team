@@ -120,7 +120,22 @@ const icons = {
   calendar: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>`,
   volume: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>`
 };
-
+// ========== FUNCIÓN PARA OBTENER ARTÍCULOS ==========
+async function fetchAllArticles() {
+  try {
+    console.log('📥 Descargando articles.json...');
+    const response = await fetch(ARTICLES_JSON_URL);
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const articles = await response.json();
+    console.log(`✅ ${articles.length} artículos cargados`);
+    return articles;
+  } catch (error) {
+    console.error('❌ Error descargando articles.json:', error.message);
+    return [];
+  }
+}
 // ========== MATCHING DE AUTORES CON ARTÍCULOS ==========
 function matchAuthorsWithArticles(users, articles) {
   console.log('🔗 Matcheando autores con sus artículos...');
@@ -441,6 +456,7 @@ function matchAuthorsWithArticles(users, articles) {
   
   return usersWithArticles;
 }
+
 // ========== GENERAR REDIRECCIONES PARA ARTÍCULOS ==========
 function generateArticleRedirects(users) {
   console.log('🔄 Generando redirecciones para artículos...');
@@ -565,22 +581,7 @@ const visibleRoles =
       <div class="profile-inst"><a href="mailto:${user.publicEmail}">${user.publicEmail}</a></div>
     `;
   }
-// ========== FUNCIÓN PARA OBTENER ARTÍCULOS ==========
-async function fetchAllArticles() {
-  try {
-    console.log('📥 Descargando articles.json...');
-    const response = await fetch(ARTICLES_JSON_URL);
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    const articles = await response.json();
-    console.log(`✅ ${articles.length} artículos cargados`);
-    return articles;
-  } catch (error) {
-    console.error('❌ Error descargando articles.json:', error.message);
-    return [];
-  }
-}
+
 // En la sección de artículos del HTML generado
 const articlesHtml = user.articles && user.articles.length > 0 ? `
   <section class="articles-section">
