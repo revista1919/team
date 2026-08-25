@@ -770,33 +770,6 @@
     ]
   },
   {
-    "uid": "NxA51whca6amZIFWqmS5wn3jzsz2",
-    "displayName": "Danilo Javier Carmona Rammsy",
-    "firstName": "Danilo Javier",
-    "lastName": "Carmona Rammsy",
-    "roles": [
-      "Autor",
-      "Asesor Académico"
-    ],
-    "description": {
-      "es": "Mi nombre es Danilo J. Carmona Rammsy, Bioquímico y Doctor en Ciencias con mención en Química por la Universidad de Concepción; Diploma en Docencia en Educación Superior por la Universidad de La Serena.\nMis líneas de investigación se enfocan en la química teórica y computacional (en particular, métodos DFT), la ciencia de datos y la bioinformática aplicada, las que he desarrollado a través de mis estudios de doctorado y experiencias postdoctorales. En el ámbito de la docencia, me he desempeñado como profesor e instructor en diversas áreas de la química; química general, orgánica, inorgánica, analítica y fisicoquímica, tanto en la Universidad Austral de Chile como en la Universidad de Concepción.\nAdemás, fui docente del programa Talentos UdeC (2018–2020), donde creé y dicté cursos y talleres como \"La máquina imposible\" y \"Construyendo un modelo molecular\". Actualmente me desempeño como docente en Penta UC a cargo del curso \"Visualizando el mundo cuántico\", donde analizamos el concepto de orbital a partir de primeros principios.",
-      "en": "Mi nombre es Danilo J. Carmona Rammsy, Bioquímico y Doctor en Ciencias con mención en Química por la Universidad de Concepción; Diploma en Docencia en Educación Superior por la Universidad de La Serena.\nMis líneas de investigación se enfocan en la química teórica y computacional (en particular, métodos DFT), la ciencia de datos y la bioinformática aplicada, las que he desarrollado a través de mis estudios de doctorado y experiencias postdoctorales. En el ámbito de la docencia, me he desempeñado como profesor e instructor en diversas áreas de la química; química general, orgánica, inorgánica, analítica y fisicoquímica, tanto en la Universidad Austral de Chile como en la Universidad de Concepción.\nAdemás, fui docente del programa Talentos UdeC (2018–2020), donde creé y dicté cursos y talleres como \"La máquina imposible\" y \"Construyendo un modelo molecular\". Actualmente me desempeño como docente en Penta UC a cargo del curso \"Visualizando el mundo cuántico\", donde analizamos el concepto de orbital a partir de primeros principios."
-    },
-    "interests": {
-      "es": [],
-      "en": []
-    },
-    "institution": "",
-    "orcid": "0009-0009-4700-079X",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "https://i.ibb.co/7trqPRHK/foto-jpg.jpg",
-    "slug": "danilo-javier-carmona-rammsy",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
     "uid": "PUfEv6PN9mZ9tEkEfn8ZRdpb5WW2",
     "displayName": "Marina Soto",
     "firstName": "Marina",
@@ -2040,6 +2013,33 @@
     "slug": "jefferson-estimadisimo1",
     "isAnonymous": true,
     "claimHash": "1e19b23d4240427e",
+    "articles": []
+  },
+  {
+    "uid": "NxA51whca6amZIFWqmS5wn3jzsz2",
+    "displayName": "Danilo Javier Carmona Rammsy",
+    "firstName": "Danilo Javier",
+    "lastName": "Carmona Rammsy",
+    "roles": [
+      "Autor",
+      "Asesor Académico"
+    ],
+    "description": {
+      "es": "Mi nombre es Danilo J. Carmona Rammsy, Bioquímico y Doctor en Ciencias con mención en Química por la Universidad de Concepción; Diploma en Docencia en Educación Superior por la Universidad de La Serena.\nMis líneas de investigación se enfocan en la química teórica y computacional (en particular, métodos DFT), la ciencia de datos y la bioinformática aplicada, las que he desarrollado a través de mis estudios de doctorado y experiencias postdoctorales. En el ámbito de la docencia, me he desempeñado como profesor e instructor en diversas áreas de la química; química general, orgánica, inorgánica, analítica y fisicoquímica, tanto en la Universidad Austral de Chile como en la Universidad de Concepción.\nAdemás, fui docente del programa Talentos UdeC (2018–2020), donde creé y dicté cursos y talleres como \"La máquina imposible\" y \"Construyendo un modelo molecular\". Actualmente me desempeño como docente en Penta UC a cargo del curso \"Visualizando el mundo cuántico\", donde analizamos el concepto de orbital a partir de primeros principios.",
+      "en": "Mi nombre es Danilo J. Carmona Rammsy, Bioquímico y Doctor en Ciencias con mención en Química por la Universidad de Concepción; Diploma en Docencia en Educación Superior por la Universidad de La Serena.\nMis líneas de investigación se enfocan en la química teórica y computacional (en particular, métodos DFT), la ciencia de datos y la bioinformática aplicada, las que he desarrollado a través de mis estudios de doctorado y experiencias postdoctorales. En el ámbito de la docencia, me he desempeñado como profesor e instructor en diversas áreas de la química; química general, orgánica, inorgánica, analítica y fisicoquímica, tanto en la Universidad Austral de Chile como en la Universidad de Concepción.\nAdemás, fui docente del programa Talentos UdeC (2018–2020), donde creé y dicté cursos y talleres como \"La máquina imposible\" y \"Construyendo un modelo molecular\". Actualmente me desempeño como docente en Penta UC a cargo del curso \"Visualizando el mundo cuántico\", donde analizamos el concepto de orbital a partir de primeros principios."
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "",
+    "orcid": "0009-0009-4700-079X",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "https://revista1919.github.io/images/img-1787683925822-izme3m.webp",
+    "slug": "danilo-javier-carmona-rammsy",
+    "isAnonymous": false,
+    "claimHash": null,
     "articles": []
   }
 ]
