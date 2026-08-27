@@ -390,6 +390,46 @@
     "articles": []
   },
   {
+    "uid": "EP2S7UL6KnRgT8UlaHpHTwxtA7g1",
+    "displayName": "Trinidad Margonzzini",
+    "firstName": "Trinidad",
+    "lastName": "Margonzzini",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Colegio Curimón",
+    "orcid": "",
+    "publicEmail": "trini.margozzini@gmail.com",
+    "social": {},
+    "imageUrl": "",
+    "slug": "trinidad-margozzini",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": [
+      {
+        "title": "El automóvil y la industria automotriz chilena, 1925-1990",
+        "titleEn": "The Automobile and the Chilean Automotive Industry, 1925–1990",
+        "submissionId": "SUB-1787787589446-1I92Z9H2G",
+        "fecha": "2026-08-27",
+        "volumen": "2",
+        "numero": "2",
+        "area": "Historia",
+        "numeroArticulo": 17,
+        "pdfUrl": "https://revista1919.github.io/articless/pdfs/Article-el-automovil-y-la-industria-automotriz-chilena-1925-1990-17.pdf",
+        "slug": "el-automovil-y-la-industria-automotriz-chilena-1925-1990-17",
+        "permalink": "el-automovil-y-la-industria-automotriz-chilena-1925-1990-17"
+      }
+    ]
+  },
+  {
     "uid": "FDRMEnz5agcQnhWSHlu4Lth2mHJ3",
     "displayName": "Tomás Ramírez",
     "firstName": "Tomás",
@@ -742,6 +782,33 @@
         "permalink": "analisis-de-experiencia-comparada-sobre-programas-de-proteccion-para-hijos-de-personas-privadas-de-libertad-en-relacion-al-caso-del-programa-abriendo-caminos-de-chile-qbFDH"
       }
     ]
+  },
+  {
+    "uid": "NxA51whca6amZIFWqmS5wn3jzsz2",
+    "displayName": "Danilo Javier Carmona Rammsy",
+    "firstName": "Danilo Javier",
+    "lastName": "Carmona Rammsy",
+    "roles": [
+      "Autor",
+      "Asesor Académico"
+    ],
+    "description": {
+      "es": "Mi nombre es Danilo J. Carmona Rammsy, Bioquímico y Doctor en Ciencias con mención en Química por la Universidad de Concepción; Diploma en Docencia en Educación Superior por la Universidad de La Serena.\nMis líneas de investigación se enfocan en la química teórica y computacional (en particular, métodos DFT), la ciencia de datos y la bioinformática aplicada, las que he desarrollado a través de mis estudios de doctorado y experiencias postdoctorales. En el ámbito de la docencia, me he desempeñado como profesor e instructor en diversas áreas de la química; química general, orgánica, inorgánica, analítica y fisicoquímica, tanto en la Universidad Austral de Chile como en la Universidad de Concepción.\nAdemás, fui docente del programa Talentos UdeC (2018–2020), donde creé y dicté cursos y talleres como \"La máquina imposible\" y \"Construyendo un modelo molecular\". Actualmente me desempeño como docente en Penta UC a cargo del curso \"Visualizando el mundo cuántico\", donde analizamos el concepto de orbital a partir de primeros principios.",
+      "en": "Mi nombre es Danilo J. Carmona Rammsy, Bioquímico y Doctor en Ciencias con mención en Química por la Universidad de Concepción; Diploma en Docencia en Educación Superior por la Universidad de La Serena.\nMis líneas de investigación se enfocan en la química teórica y computacional (en particular, métodos DFT), la ciencia de datos y la bioinformática aplicada, las que he desarrollado a través de mis estudios de doctorado y experiencias postdoctorales. En el ámbito de la docencia, me he desempeñado como profesor e instructor en diversas áreas de la química; química general, orgánica, inorgánica, analítica y fisicoquímica, tanto en la Universidad Austral de Chile como en la Universidad de Concepción.\nAdemás, fui docente del programa Talentos UdeC (2018–2020), donde creé y dicté cursos y talleres como \"La máquina imposible\" y \"Construyendo un modelo molecular\". Actualmente me desempeño como docente en Penta UC a cargo del curso \"Visualizando el mundo cuántico\", donde analizamos el concepto de orbital a partir de primeros principios."
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "",
+    "orcid": "0009-0009-4700-079X",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "https://www.revistacienciasestudiantes.com/images/img-1787683925822-izme3m.webp",
+    "slug": "danilo-javier-carmona-rammsy",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
   },
   {
     "uid": "PUfEv6PN9mZ9tEkEfn8ZRdpb5WW2",
@@ -1338,6 +1405,57 @@
     "articles": []
   },
   {
+    "uid": "mfDxTTdAd9SucyFfMveGOlHZcan2",
+    "displayName": "Agustín Maturana",
+    "firstName": "Agustín",
+    "lastName": "",
+    "roles": [
+      "Autor",
+      "Editor de Sección"
+    ],
+    "description": {
+      "es": "Agustín Maturana es estudiante de 4°Medio del Instituto Miguel León Prado. Participa en la Academia de Talentos de la UC. Es líder de la Academia de Filosofía Juan Bautista Chaminade. Presenta interés en diversas áreas, como la filosofía, historia, política, literatura, psicología, psiquiatría, música, etcétera.",
+      "en": "Agustín Maturana es estudiante de 4°Medio del Instituto Miguel León Prado. Participa en la Academia de Talentos de la UC. Es líder de la Academia de Filosofía Juan Bautista Chaminade. Presenta interés en diversas áreas, tales como la filosofía, historia, literatura, psicología, psiquiatría, música, etcétera."
+    },
+    "interests": {
+      "es": [
+        "Filosofía",
+        "Historia",
+        "Literatura",
+        "Psicología",
+        "Psiquiatría",
+        "Música",
+        "Psicoanálisis",
+        "Biología celular",
+        "Ciencias políticas"
+      ],
+      "en": []
+    },
+    "institution": "Instituto Miguel León Prado",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "https://i.ibb.co/CqjtYp6/1000104912-jpg.jpg",
+    "slug": "agustin-maturana",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": [
+      {
+        "title": "Sendero Luminoso: Cuando el Pueblo También es un Enemigo",
+        "titleEn": "Sendero Luminoso: Cuando el Pueblo También es un Enemigo",
+        "submissionId": "LEGACY-1771278765240-4E5POZ1OL",
+        "fecha": "2025-11-29",
+        "volumen": "1",
+        "numero": "1",
+        "area": "Historia del Terrorismo en Perú durante la Guerra Fría",
+        "numeroArticulo": "3",
+        "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-sendero-luminoso-cuando-el-pueblo-tambien-es-un-enemigo-3.pdf",
+        "slug": "sendero-luminoso-cuando-el-pueblo-tambien-es-un-enemigo-3",
+        "permalink": "sendero-luminoso-cuando-el-pueblo-tambien-es-un-enemigo-3"
+      }
+    ]
+  },
+  {
     "uid": "ofxyom4jFkbdSaNh6gTzEKy3DTK2",
     "displayName": "Francisco Correa",
     "firstName": "Francisco",
@@ -1509,7 +1627,7 @@
     ]
   },
   {
-    "uid": "anon-pascalcea08-mt7gw9yh",
+    "uid": "anon-pascalcea08-mtbsctya",
     "displayName": "pascalcea08",
     "firstName": "pascalcea08",
     "lastName": "",
@@ -1529,13 +1647,13 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "pascalcea081",
+    "slug": "pascalcea08",
     "isAnonymous": true,
     "claimHash": "f1c37cfcf42c3f26",
     "articles": []
   },
   {
-    "uid": "anon-joseignaciocarterpalma-mt7gw9yh",
+    "uid": "anon-joseignaciocarterpalma-mtbsctya",
     "displayName": "joseignaciocarterpalma",
     "firstName": "joseignaciocarterpalma",
     "lastName": "",
@@ -1555,13 +1673,13 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "joseignaciocarterpalma1",
+    "slug": "joseignaciocarterpalma",
     "isAnonymous": true,
     "claimHash": "3613436c399d1452",
     "articles": []
   },
   {
-    "uid": "anon-jose-mt7gw9yh",
+    "uid": "anon-jose-mtbsctya",
     "displayName": "José",
     "firstName": "José",
     "lastName": "",
@@ -1581,13 +1699,13 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "jose1",
+    "slug": "jose",
     "isAnonymous": true,
     "claimHash": "3613436c399d1452",
     "articles": []
   },
   {
-    "uid": "anon-phie-bravo-mt7gw9yh",
+    "uid": "anon-phie-bravo-mtbsctya",
     "displayName": "phie.bravo",
     "firstName": "phie.bravo",
     "lastName": "",
@@ -1607,13 +1725,13 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "phie-bravo1",
+    "slug": "phie-bravo",
     "isAnonymous": true,
     "claimHash": "c4c22a467d7aa957",
     "articles": []
   },
   {
-    "uid": "anon-cristobal-rojas-m-mt7gw9yh",
+    "uid": "anon-cristobal-rojas-m-mtbsctya",
     "displayName": "cristobal.rojas.m",
     "firstName": "cristobal.rojas.m",
     "lastName": "",
@@ -1633,13 +1751,13 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "cristobal-rojas-m1",
+    "slug": "cristobal-rojas-m",
     "isAnonymous": true,
     "claimHash": "0dd09c1c0cf0eb8e",
     "articles": []
   },
   {
-    "uid": "anon-jun-ho-jeon-acevedo-mt7gw9yi",
+    "uid": "anon-jun-ho-jeon-acevedo-mtbsctya",
     "displayName": "jun.ho.jeon.acevedo",
     "firstName": "jun.ho.jeon.acevedo",
     "lastName": "",
@@ -1659,13 +1777,13 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "jun-ho-jeon-acevedo1",
+    "slug": "jun-ho-jeon-acevedo",
     "isAnonymous": true,
     "claimHash": "68cc5e7905ec4a04",
     "articles": []
   },
   {
-    "uid": "anon-javieritoalonso-vergara-mt7gw9yi",
+    "uid": "anon-javieritoalonso-vergara-mtbsctya",
     "displayName": "javieritoalonso.vergara",
     "firstName": "javieritoalonso.vergara",
     "lastName": "",
@@ -1685,13 +1803,13 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "javieritoalonso-vergara1",
+    "slug": "javieritoalonso-vergara",
     "isAnonymous": true,
     "claimHash": "b4c985b509f5a9f2",
     "articles": []
   },
   {
-    "uid": "anon-aster-maturana-mt7gw9yi",
+    "uid": "anon-aster-maturana-mtbsctya",
     "displayName": "aster.maturana",
     "firstName": "aster.maturana",
     "lastName": "",
@@ -1711,13 +1829,13 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "aster-maturana1",
+    "slug": "aster-maturana",
     "isAnonymous": true,
     "claimHash": "6450c6e5363169b6",
     "articles": []
   },
   {
-    "uid": "anon-magdalena-leal-ocares-mt7gw9yi",
+    "uid": "anon-magdalena-leal-ocares-mtbsctyb",
     "displayName": "magdalena.leal.ocares",
     "firstName": "magdalena.leal.ocares",
     "lastName": "",
@@ -1737,13 +1855,13 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "magdalena-leal-ocares1",
+    "slug": "magdalena-leal-ocares",
     "isAnonymous": true,
     "claimHash": "c2d63719b00f912a",
     "articles": []
   },
   {
-    "uid": "anon-santiago-vargas-mt7gw9yi",
+    "uid": "anon-santiago-vargas-mtbsctyb",
     "displayName": "Santiago Vargas",
     "firstName": "Santiago Vargas",
     "lastName": "",
@@ -1763,13 +1881,13 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "santiago-vargas2",
+    "slug": "santiago-vargas1",
     "isAnonymous": true,
     "claimHash": "4107c792f1a33f0b",
     "articles": []
   },
   {
-    "uid": "anon-diego-duran-t92-mt7gw9yi",
+    "uid": "anon-diego-duran-t92-mtbsctyb",
     "displayName": "diego.duran.t92",
     "firstName": "diego.duran.t92",
     "lastName": "",
@@ -1789,13 +1907,13 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "diego-duran-t921",
+    "slug": "diego-duran-t92",
     "isAnonymous": true,
     "claimHash": "7fe77163eda99130",
     "articles": []
   },
   {
-    "uid": "anon-amir-carbonell-mt7gw9yi",
+    "uid": "anon-amir-carbonell-mtbsctyb",
     "displayName": "Amir Carbonell",
     "firstName": "Amir",
     "lastName": "Carbonell",
@@ -1815,7 +1933,7 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "amir-carbonell2",
+    "slug": "amir-carbonell1",
     "isAnonymous": true,
     "claimHash": "4e556796f61b4b17",
     "articles": [
@@ -1835,7 +1953,7 @@
     ]
   },
   {
-    "uid": "anon-amelia-ribadeneira-mt7gw9yi",
+    "uid": "anon-amelia-ribadeneira-mtbsctyb",
     "displayName": "Amelia Ribadeneira",
     "firstName": "Amelia",
     "lastName": "Ribadeneira",
@@ -1855,13 +1973,13 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "amelia-ribadeneira1",
+    "slug": "amelia-ribadeneira2",
     "isAnonymous": true,
     "claimHash": "ed420b08a85cf384",
     "articles": []
   },
   {
-    "uid": "anon-josefina-perez-mt7gw9yi",
+    "uid": "anon-josefina-perez-mtbsctyb",
     "displayName": "Josefina Pérez",
     "firstName": "Josefina",
     "lastName": "Pérez",
@@ -1881,13 +1999,13 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "josefina-perez1",
+    "slug": "josefina-perez",
     "isAnonymous": true,
     "claimHash": "e5c6631b0da25a6c",
     "articles": []
   },
   {
-    "uid": "anon-marina-soto-mt7gw9yi",
+    "uid": "anon-marina-soto-mtbsctyb",
     "displayName": "Marina Soto",
     "firstName": "Marina",
     "lastName": "Soto",
@@ -1907,13 +2025,13 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "marina-soto1",
+    "slug": "marina-soto2",
     "isAnonymous": true,
     "claimHash": "9e323367eed7c982",
     "articles": []
   },
   {
-    "uid": "anon-jefferson-estimadisimo-mt7gw9yi",
+    "uid": "anon-jefferson-estimadisimo-mtbsctyb",
     "displayName": "Jefferson Estimadísimo",
     "firstName": "Jefferson",
     "lastName": "Estimadísimo",
@@ -1933,40 +2051,13 @@
     "publicEmail": null,
     "social": {},
     "imageUrl": "",
-    "slug": "jefferson-estimadisimo1",
+    "slug": "jefferson-estimadisimo",
     "isAnonymous": true,
     "claimHash": "1e19b23d4240427e",
     "articles": []
   },
   {
-    "uid": "NxA51whca6amZIFWqmS5wn3jzsz2",
-    "displayName": "Danilo Javier Carmona Rammsy",
-    "firstName": "Danilo Javier",
-    "lastName": "Carmona Rammsy",
-    "roles": [
-      "Autor",
-      "Asesor Académico"
-    ],
-    "description": {
-      "es": "Mi nombre es Danilo J. Carmona Rammsy, Bioquímico y Doctor en Ciencias con mención en Química por la Universidad de Concepción; Diploma en Docencia en Educación Superior por la Universidad de La Serena.\nMis líneas de investigación se enfocan en la química teórica y computacional (en particular, métodos DFT), la ciencia de datos y la bioinformática aplicada, las que he desarrollado a través de mis estudios de doctorado y experiencias postdoctorales. En el ámbito de la docencia, me he desempeñado como profesor e instructor en diversas áreas de la química; química general, orgánica, inorgánica, analítica y fisicoquímica, tanto en la Universidad Austral de Chile como en la Universidad de Concepción.\nAdemás, fui docente del programa Talentos UdeC (2018–2020), donde creé y dicté cursos y talleres como \"La máquina imposible\" y \"Construyendo un modelo molecular\". Actualmente me desempeño como docente en Penta UC a cargo del curso \"Visualizando el mundo cuántico\", donde analizamos el concepto de orbital a partir de primeros principios.",
-      "en": "Mi nombre es Danilo J. Carmona Rammsy, Bioquímico y Doctor en Ciencias con mención en Química por la Universidad de Concepción; Diploma en Docencia en Educación Superior por la Universidad de La Serena.\nMis líneas de investigación se enfocan en la química teórica y computacional (en particular, métodos DFT), la ciencia de datos y la bioinformática aplicada, las que he desarrollado a través de mis estudios de doctorado y experiencias postdoctorales. En el ámbito de la docencia, me he desempeñado como profesor e instructor en diversas áreas de la química; química general, orgánica, inorgánica, analítica y fisicoquímica, tanto en la Universidad Austral de Chile como en la Universidad de Concepción.\nAdemás, fui docente del programa Talentos UdeC (2018–2020), donde creé y dicté cursos y talleres como \"La máquina imposible\" y \"Construyendo un modelo molecular\". Actualmente me desempeño como docente en Penta UC a cargo del curso \"Visualizando el mundo cuántico\", donde analizamos el concepto de orbital a partir de primeros principios."
-    },
-    "interests": {
-      "es": [],
-      "en": []
-    },
-    "institution": "",
-    "orcid": "0009-0009-4700-079X",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "https://www.revistacienciasestudiantes.com/images/img-1787683925822-izme3m.webp",
-    "slug": "danilo-javier-carmona-rammsy",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
-    "uid": "EP2S7UL6KnRgT8UlaHpHTwxtA7g1",
+    "uid": "anon-trinidad-margonzzini-mtbsctyb",
     "displayName": "Trinidad Margonzzini",
     "firstName": "Trinidad",
     "lastName": "Margonzzini",
@@ -1974,72 +2065,21 @@
       "Autor"
     ],
     "description": {
-      "es": "",
-      "en": ""
+      "es": "Autor colaborador que ha publicado en nuestra revista.",
+      "en": "Contributing author who has published in our journal."
     },
     "interests": {
       "es": [],
       "en": []
     },
     "institution": "Colegio Curimón",
-    "orcid": "",
-    "publicEmail": "trini.margozzini@gmail.com",
-    "social": {},
-    "imageUrl": "",
-    "slug": "trinidad-margozzini",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
-    "uid": "mfDxTTdAd9SucyFfMveGOlHZcan2",
-    "displayName": "Agustín Maturana",
-    "firstName": "Agustín",
-    "lastName": "",
-    "roles": [
-      "Autor",
-      "Editor de Sección"
-    ],
-    "description": {
-      "es": "Agustín Maturana es estudiante de 4°Medio del Instituto Miguel León Prado. Participa en la Academia de Talentos de la UC. Es líder de la Academia de Filosofía Juan Bautista Chaminade. Presenta interés en diversas áreas, como la filosofía, historia, política, literatura, psicología, psiquiatría, música, etcétera.",
-      "en": "Agustín Maturana es estudiante de 4°Medio del Instituto Miguel León Prado. Participa en la Academia de Talentos de la UC. Es líder de la Academia de Filosofía Juan Bautista Chaminade. Presenta interés en diversas áreas, tales como la filosofía, historia, literatura, psicología, psiquiatría, música, etcétera."
-    },
-    "interests": {
-      "es": [
-        "Filosofía",
-        "Historia",
-        "Literatura",
-        "Psicología",
-        "Psiquiatría",
-        "Música",
-        "Psicoanálisis",
-        "Biología celular",
-        "Ciencias políticas"
-      ],
-      "en": []
-    },
-    "institution": "Instituto Miguel León Prado",
-    "orcid": "",
+    "orcid": "0009-0009-4016-1611",
     "publicEmail": null,
     "social": {},
-    "imageUrl": "https://i.ibb.co/CqjtYp6/1000104912-jpg.jpg",
-    "slug": "agustin-maturana",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": [
-      {
-        "title": "Sendero Luminoso: Cuando el Pueblo También es un Enemigo",
-        "titleEn": "Sendero Luminoso: Cuando el Pueblo También es un Enemigo",
-        "submissionId": "LEGACY-1771278765240-4E5POZ1OL",
-        "fecha": "2025-11-29",
-        "volumen": "1",
-        "numero": "1",
-        "area": "Historia del Terrorismo en Perú durante la Guerra Fría",
-        "numeroArticulo": "3",
-        "pdfUrl": "https://www.revistacienciasestudiantes.com/Articles/Article-sendero-luminoso-cuando-el-pueblo-tambien-es-un-enemigo-3.pdf",
-        "slug": "sendero-luminoso-cuando-el-pueblo-tambien-es-un-enemigo-3",
-        "permalink": "sendero-luminoso-cuando-el-pueblo-tambien-es-un-enemigo-3"
-      }
-    ]
+    "imageUrl": "",
+    "slug": "trinidad-margonzzini",
+    "isAnonymous": true,
+    "claimHash": "b943ce233c7ca950",
+    "articles": []
   }
 ]
