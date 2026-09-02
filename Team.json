@@ -2081,5 +2081,31 @@
         "permalink": "el-ajedrez-un-estudio-sobre-el-impacto-cultural-del-ajedrez-durante-la-guerra-fria-y-su-simbolismo-ideologico-en-chile-8"
       }
     ]
+  },
+  {
+    "uid": "pGM9yUsuCqP04970mqLwyqKIZCz2",
+    "displayName": "Tobias Andersen",
+    "firstName": "Tobias",
+    "lastName": "Andersen",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": "",
+      "en": ""
+    },
+    "institution": "",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "tobias-andersen",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
   }
 ]
