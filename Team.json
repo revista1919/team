@@ -851,7 +851,21 @@
     "slug": "marina-soto",
     "isAnonymous": false,
     "claimHash": null,
-    "articles": []
+    "articles": [
+      {
+        "title": "“Leviatán” de Thomas Hobbes: Sobre los Gentiles y el Estado",
+        "titleEn": "Leviathan by Thomas Hobbes: About the Gentile and the Common Whealth",
+        "submissionId": "SUB-1782524181781-VFJFN0Y5V",
+        "fecha": "2026-09-03",
+        "volumen": "2",
+        "numero": "2",
+        "area": "Ciencias Políticas y Relaciones Internacionales",
+        "numeroArticulo": 18,
+        "pdfUrl": "https://revista1919.github.io/articless/pdfs/Article-leviatan-de-thomas-hobbes-sobre-los-gentiles-y-el-estado-18.pdf",
+        "slug": "leviatan-de-thomas-hobbes-sobre-los-gentiles-y-el-estado-18",
+        "permalink": "leviatan-de-thomas-hobbes-sobre-los-gentiles-y-el-estado-18"
+      }
+    ]
   },
   {
     "uid": "SXT77f1iIXhPewA8Endank8YjuW2",
@@ -921,41 +935,6 @@
     "social": {},
     "imageUrl": "",
     "slug": "salvador-andres",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
-    "uid": "V0v60t9xDYXZlo3R8SUhddrIl7f2",
-    "displayName": "Carlos Gutiérrez",
-    "firstName": "Carlos",
-    "lastName": "Gutiérrez",
-    "roles": [
-      "Responsable de Desarrollo Web",
-      "Equipo Editorial"
-    ],
-    "description": {
-      "es": "Carlos Gutiérrez es estudiante de Tercero Medio en el colegio New Heinrich High School, con interés en matemática, biología, química y programación. Estudiante de la Academia de Talentos de la UC.",
-      "en": "Carlos Gutiérrez is a third-year high school student at New Heinrich High School, with an interest in mathematics, biology, chemistry, and programming. He is also a student of the UC Talent Academy."
-    },
-    "interests": {
-      "es": [
-        "Matemática",
-        "Bioquímica",
-        "Programación"
-      ],
-      "en": [
-        "Mathematics",
-        "Biochemistry",
-        "Programming"
-      ]
-    },
-    "institution": "New Heinrich School",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "https://i.postimg.cc/htC41hbm/unnamed.jpg",
-    "slug": "carlos-gutierrez",
     "isAnonymous": false,
     "claimHash": null,
     "articles": []
@@ -2107,5 +2086,40 @@
         "permalink": "el-ajedrez-un-estudio-sobre-el-impacto-cultural-del-ajedrez-durante-la-guerra-fria-y-su-simbolismo-ideologico-en-chile-8"
       }
     ]
+  },
+  {
+    "uid": "V0v60t9xDYXZlo3R8SUhddrIl7f2",
+    "displayName": "Carlos Gutiérrez",
+    "firstName": "Carlos",
+    "lastName": "Gutiérrez",
+    "roles": [
+      "Responsable de Desarrollo Web",
+      "Equipo Editorial"
+    ],
+    "description": {
+      "es": "Carlos Gutiérrez es estudiante de Tercero Medio en el colegio New Heinrich High School, con interés en matemática, biología, química y programación. Estudiante de la Academia de Talentos de la UC.",
+      "en": "Carlos Gutiérrez is a third-year high school student at New Heinrich High School, with an interest in mathematics, biology, chemistry, and programming. He is also a student of the UC Talent Academy."
+    },
+    "interests": {
+      "es": [
+        "Matemática",
+        "Bioquímica",
+        "Programación"
+      ],
+      "en": [
+        "Mathematics",
+        "Biochemistry",
+        "Programming"
+      ]
+    },
+    "institution": "New Heinrich School",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "https://i.postimg.cc/htC41hbm/unnamed.jpg",
+    "slug": "carlos-gutierrez",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
   }
 ]
