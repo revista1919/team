@@ -40,7 +40,7 @@
         "numero": "2",
         "area": "Filosofía",
         "numeroArticulo": 16,
-        "pdfUrl": "https://revista1919.github.io/articless/pdfs/Article-el-universo-las-matematicas-y-la-existencia-de-dios-16.pdf",
+        "pdfUrl": "https://www.revistacienciasestudiantes.com/articless/pdfs/Article-el-universo-las-matematicas-y-la-existencia-de-dios-16.pdf",
         "slug": "el-universo-las-matematicas-y-la-existencia-de-dios-16",
         "permalink": "el-universo-las-matematicas-y-la-existencia-de-dios-16"
       }
@@ -814,14 +814,14 @@
     "articles": [
       {
         "title": "“Leviatán” de Thomas Hobbes: Sobre los Gentiles y el Estado",
-        "titleEn": "Leviathan by Thomas Hobbes: About the Gentile and the Common Whealth",
+        "titleEn": "Leviathan by Thomas Hobbes: About the Gentile and the Commonwealth",
         "submissionId": "SUB-1782524181781-VFJFN0Y5V",
         "fecha": "2026-09-03",
         "volumen": "2",
         "numero": "2",
         "area": "Ciencias Políticas y Relaciones Internacionales",
         "numeroArticulo": 18,
-        "pdfUrl": "https://revista1919.github.io/articless/pdfs/Article-leviatan-de-thomas-hobbes-sobre-los-gentiles-y-el-estado-18.pdf",
+        "pdfUrl": "https://www.revistacienciasestudiantes.com/articless/pdfs/Article-leviatan-de-thomas-hobbes-sobre-los-gentiles-y-el-estado-18.pdf",
         "slug": "leviatan-de-thomas-hobbes-sobre-los-gentiles-y-el-estado-18",
         "permalink": "leviatan-de-thomas-hobbes-sobre-los-gentiles-y-el-estado-18"
       }
@@ -1060,7 +1060,7 @@
         "numero": "1",
         "area": "Teoría Política",
         "numeroArticulo": 15,
-        "pdfUrl": "https://revista1919.github.io/articless/pdfs/Article-fundamentos-generales-de-la-sociedad-estado-taxicr-15.pdf",
+        "pdfUrl": "https://www.revistacienciasestudiantes.com/articless/pdfs/Article-fundamentos-generales-de-la-sociedad-estado-taxicr-15.pdf",
         "slug": "fundamentos-generales-de-la-sociedad-estado-taxicraticos-15",
         "permalink": "fundamentos-generales-de-la-sociedad-estado-taxicraticos-15"
       }
@@ -1124,7 +1124,7 @@
         "numero": "1",
         "area": "Lengua y Literatura",
         "numeroArticulo": 13,
-        "pdfUrl": "https://revista1919.github.io/articless/pdfs/Article-las-medias-rojas-smbolo-de-libertad-femenina-frent-13.pdf",
+        "pdfUrl": "https://www.revistacienciasestudiantes.com/articless/pdfs/Article-las-medias-rojas-smbolo-de-libertad-femenina-frent-13.pdf",
         "slug": "las-medias-rojas-simbolo-de-libertad-femenina-frente-al-patriarcado-13",
         "permalink": "las-medias-rojas-simbolo-de-libertad-femenina-frente-al-patriarcado-13"
       }
@@ -1828,7 +1828,7 @@
         "numero": "1",
         "area": "Astrofísica Computacional",
         "numeroArticulo": 14,
-        "pdfUrl": "https://revista1919.github.io/articless/pdfs/Article-interacciones-gravitacionales-en-sistemas-galctico-14.pdf",
+        "pdfUrl": "https://www.revistacienciasestudiantes.com/articless/pdfs/Article-interacciones-gravitacionales-en-sistemas-galctico-14.pdf",
         "slug": "interacciones-gravitacionales-en-sistemas-galacticos-14",
         "permalink": "interacciones-gravitacionales-en-sistemas-galacticos-14"
       }
@@ -2116,10 +2116,36 @@
         "numero": "2",
         "area": "Historia",
         "numeroArticulo": 17,
-        "pdfUrl": "https://revista1919.github.io/articless/pdfs/Article-el-automovil-y-la-industria-automotriz-chilena-1925-1990-17.pdf",
+        "pdfUrl": "https://www.revistacienciasestudiantes.com/articless/pdfs/Article-el-automovil-y-la-industria-automotriz-chilena-1925-1990-17.pdf",
         "slug": "el-automovil-y-la-industria-automotriz-chilena-1925-1990-17",
         "permalink": "el-automovil-y-la-industria-automotriz-chilena-1925-1990-17"
       }
     ]
+  },
+  {
+    "uid": "T2ofzuu8I5YzXRSzOA6x1z4iCaC3",
+    "displayName": "Yerko Novoa",
+    "firstName": "Yerko",
+    "lastName": "Novoa",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "en": "",
+      "es": ""
+    },
+    "interests": {
+      "en": "",
+      "es": ""
+    },
+    "institution": "",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "yerko-novoa",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
   }
 ]
