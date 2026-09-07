@@ -390,46 +390,6 @@
     "articles": []
   },
   {
-    "uid": "EP2S7UL6KnRgT8UlaHpHTwxtA7g1",
-    "displayName": "Trinidad Margonzzini",
-    "firstName": "Trinidad",
-    "lastName": "Margonzzini",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "",
-      "en": ""
-    },
-    "interests": {
-      "es": [],
-      "en": []
-    },
-    "institution": "Colegio Curimón",
-    "orcid": "",
-    "publicEmail": "trini.margozzini@gmail.com",
-    "social": {},
-    "imageUrl": "",
-    "slug": "trinidad-margozzini",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": [
-      {
-        "title": "El automóvil y la industria automotriz chilena, 1925-1990",
-        "titleEn": "The Automobile and the Chilean Automotive Industry, 1925–1990",
-        "submissionId": "SUB-1787787589446-1I92Z9H2G",
-        "fecha": "2026-08-27",
-        "volumen": "2",
-        "numero": "2",
-        "area": "Historia",
-        "numeroArticulo": 17,
-        "pdfUrl": "https://revista1919.github.io/articless/pdfs/Article-el-automovil-y-la-industria-automotriz-chilena-1925-1990-17.pdf",
-        "slug": "el-automovil-y-la-industria-automotriz-chilena-1925-1990-17",
-        "permalink": "el-automovil-y-la-industria-automotriz-chilena-1925-1990-17"
-      }
-    ]
-  },
-  {
     "uid": "FDRMEnz5agcQnhWSHlu4Lth2mHJ3",
     "displayName": "Tomás Ramírez",
     "firstName": "Tomás",
@@ -2121,5 +2081,45 @@
     "isAnonymous": false,
     "claimHash": null,
     "articles": []
+  },
+  {
+    "uid": "EP2S7UL6KnRgT8UlaHpHTwxtA7g1",
+    "displayName": "Trinidad Margonzzini",
+    "firstName": "Trinidad",
+    "lastName": "Margonzzini",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "Colegio Curimón",
+    "orcid": "",
+    "publicEmail": "trini.margozzini@gmail.com",
+    "social": {},
+    "imageUrl": "",
+    "slug": "trinidad-margozzini",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": [
+      {
+        "title": "El automóvil y la industria automotriz chilena, 1925-1990",
+        "titleEn": "The Automobile and the Chilean Automotive Industry, 1925–1990",
+        "submissionId": "SUB-1787787589446-1I92Z9H2G",
+        "fecha": "2026-08-27",
+        "volumen": "2",
+        "numero": "2",
+        "area": "Historia",
+        "numeroArticulo": 17,
+        "pdfUrl": "https://revista1919.github.io/articless/pdfs/Article-el-automovil-y-la-industria-automotriz-chilena-1925-1990-17.pdf",
+        "slug": "el-automovil-y-la-industria-automotriz-chilena-1925-1990-17",
+        "permalink": "el-automovil-y-la-industria-automotriz-chilena-1925-1990-17"
+      }
+    ]
   }
 ]
