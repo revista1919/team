@@ -2131,18 +2131,20 @@
       "Autor"
     ],
     "description": {
-      "en": "",
-      "es": ""
+      "en": "Yerko Novoa es físico teórico y filósofo de la ciencia. Su trabajo explora los fundamentos conceptuales de la física, la relación entre los modelos científicos y la realidad, y las formas en que el conocimiento científico permite comprender fenómenos complejos.\n\nEn el ámbito profesional, se desempeña en trading cuantitativo dentro de Global Markets de la banca corporativa y de inversión, articulando ciencia, tecnología y mercados. Es también Editor Asociado de la revista de metafilosofía Revista Homónima y Secretario del Directorio de la Sociedad Chilena de Filosofía de las Ciencias.\n\nSus intereses de investigación abarcan la física teórica, la filosofía de la ciencia, la educación científica y las finanzas cuantitativas. Ha desarrollado trabajos sobre la enseñanza de la física desde una perspectiva filosófico-didáctica. Se interesa especialmente por la relación entre los modelos científicos y la realidad, así como por la aplicación de herramientas matemáticas al estudio de los mercados financieros.",
+      "es": "Yerko Novoa es físico teórico y filósofo de la ciencia. Su trabajo explora los fundamentos conceptuales de la física, la relación entre los modelos científicos y la realidad, y las formas en que el conocimiento científico permite comprender fenómenos complejos.\n\nEn el ámbito profesional, se desempeña en trading cuantitativo dentro de Global Markets de la banca corporativa y de inversión, articulando ciencia, tecnología y mercados. Es también Editor Asociado de la revista de metafilosofía Revista Homónima y Secretario del Directorio de la Sociedad Chilena de Filosofía de las Ciencias.\n\nSus intereses de investigación abarcan la física teórica, la filosofía de la ciencia, la educación científica y las finanzas cuantitativas. Ha desarrollado trabajos sobre la enseñanza de la física desde una perspectiva filosófico-didáctica. Se interesa especialmente por la relación entre los modelos científicos y la realidad, así como por la aplicación de herramientas matemáticas al estudio de los mercados financieros."
     },
     "interests": {
-      "en": "",
-      "es": ""
+      "en": [],
+      "es": []
     },
     "institution": "",
     "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
+    "publicEmail": "yerko.noj@gmail.com",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/y-novoa/"
+    },
+    "imageUrl": "https://i.ibb.co/4nqBSJ2n/yerko-foto-jpeg.jpg",
     "slug": "yerko-novoa",
     "isAnonymous": false,
     "claimHash": null,
