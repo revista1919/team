@@ -2123,6 +2123,32 @@
     ]
   },
   {
+    "uid": "aGRWhxF3h0QGNwpZRyjSfSUVUHf2",
+    "displayName": "john salas",
+    "firstName": "john",
+    "lastName": "salas",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "en": "",
+      "es": ""
+    },
+    "interests": {
+      "en": "",
+      "es": ""
+    },
+    "institution": "",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "john-salas",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
+  },
+  {
     "uid": "T2ofzuu8I5YzXRSzOA6x1z4iCaC3",
     "displayName": "Yerko Novoa",
     "firstName": "Yerko",
@@ -2145,34 +2171,8 @@
     "social": {
       "linkedin": "https://www.linkedin.com/in/y-novoa/"
     },
-    "imageUrl": "https://i.ibb.co/4nqBSJ2n/yerko-foto-jpeg.jpg",
+    "imageUrl": "https://www.revistacienciasestudiantes.com/images/img-1788820978116-b2wrmv.webp",
     "slug": "yerko-novoa",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
-    "uid": "aGRWhxF3h0QGNwpZRyjSfSUVUHf2",
-    "displayName": "john salas",
-    "firstName": "john",
-    "lastName": "salas",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "en": "",
-      "es": ""
-    },
-    "interests": {
-      "en": "",
-      "es": ""
-    },
-    "institution": "",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "john-salas",
     "isAnonymous": false,
     "claimHash": null,
     "articles": []
