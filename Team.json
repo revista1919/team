@@ -2202,5 +2202,31 @@
     "isAnonymous": false,
     "claimHash": null,
     "articles": []
+  },
+  {
+    "uid": "mjH7uPobnqh7zcW53lZCqOe7rsm2",
+    "displayName": "Diego Brando",
+    "firstName": "Diego",
+    "lastName": "Brando",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": "",
+      "en": ""
+    },
+    "institution": "",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "diego-brando",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
   }
 ]
