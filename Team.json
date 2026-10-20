@@ -2178,32 +2178,6 @@
     "articles": []
   },
   {
-    "uid": "aO13c76FeBXIJKKWcHlQlpw7qJ23",
-    "displayName": "Martina Paz Araneda Neira",
-    "firstName": "Martina Paz",
-    "lastName": "Araneda Neira",
-    "roles": [
-      "Autor"
-    ],
-    "description": {
-      "es": "",
-      "en": ""
-    },
-    "interests": {
-      "es": "",
-      "en": ""
-    },
-    "institution": "",
-    "orcid": "",
-    "publicEmail": null,
-    "social": {},
-    "imageUrl": "",
-    "slug": "martina-paz-araneda-neira",
-    "isAnonymous": false,
-    "claimHash": null,
-    "articles": []
-  },
-  {
     "uid": "mjH7uPobnqh7zcW53lZCqOe7rsm2",
     "displayName": "Diego Brando",
     "firstName": "Diego",
@@ -2225,6 +2199,32 @@
     "social": {},
     "imageUrl": "",
     "slug": "diego-brando",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
+  },
+  {
+    "uid": "aO13c76FeBXIJKKWcHlQlpw7qJ23",
+    "displayName": "Martina Paz Araneda Neira",
+    "firstName": "Martina Paz",
+    "lastName": "Araneda Neira",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": "",
+      "en": ""
+    },
+    "institution": "",
+    "orcid": "",
+    "publicEmail": null,
+    "social": {},
+    "imageUrl": "",
+    "slug": "martina-paz-araneda-neira",
     "isAnonymous": false,
     "claimHash": null,
     "articles": []
