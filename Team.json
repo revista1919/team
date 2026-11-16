@@ -2228,5 +2228,31 @@
     "isAnonymous": false,
     "claimHash": null,
     "articles": []
+  },
+  {
+    "uid": "KDHZMRoHcsQCmdzXk9X1uwfRtpA3",
+    "displayName": "Luis Valero",
+    "firstName": "Luis",
+    "lastName": "Valero",
+    "roles": [
+      "Autor"
+    ],
+    "description": {
+      "es": "",
+      "en": ""
+    },
+    "interests": {
+      "es": [],
+      "en": []
+    },
+    "institution": "",
+    "orcid": "",
+    "publicEmail": "luis.valero@ubeda.salesianos.edu",
+    "social": {},
+    "imageUrl": "",
+    "slug": "luis-valero",
+    "isAnonymous": false,
+    "claimHash": null,
+    "articles": []
   }
 ]
